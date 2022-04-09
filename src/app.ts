@@ -1,11 +1,11 @@
 import { create, Whatsapp } from 'venom-bot';
+import { callApi } from './api';
 import { loadLanguage, log } from './load';
 const { NlpManager } = require('node-nlp');
 var manager = new NlpManager({ languages: ['pt'], forceNER: true });
 
 manager = loadLanguage(manager);
 
-// Train and save the model.
 (async() => {
     await manager.train();
     manager.save();
