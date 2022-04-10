@@ -7,7 +7,7 @@ const urlBaseTuite = "http://tuitefeature.tce.govrn/api/v1/"
 var memory = new Map<string, Memo>();
 
 var config = { headers: { 
-  'Authorization': 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjAxMzU2NjgzNDQ0Iiwicm9sZSI6Ik1Ua3lMakUyT0M0eE1UTXVNdyIsInRpcG9Db250YSI6IkQiLCJvcGVyYXRvciI6IjIiLCJpZFNlc3NhbyI6IjcyMjAzOSIsImlkVGlwb09wZXJhZG9yRXh0ZXJubyI6IjIiLCJQcmltZWlyb0FjZXNzbyI6InRydWUiLCJpZE9wZXJhZG9yIjoiMjM0MDIiLCJpc3MiOiJodHRwOi8vdGNlb2F1dGgudGNlLnJuLmdvdi5iciIsImF1ZCI6IjExYzYzOWZjNjg4NjRjODc5ZTE0YzM0MDJiNzRhMDRlIiwiZXhwIjoxNjQ5NTYxMjIyLCJuYmYiOjE2NDk1NTQwMjJ9.TOqeeOnk5RdRjXXRVx-eaHSvSXMK0LbtBu-p-QrJ-QA',
+  'Authorization': 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjAxMzU2NjgzNDQ0Iiwicm9sZSI6Ik1Ua3lMakUyT0M0eE1UTXVNdyIsInRpcG9Db250YSI6IkQiLCJvcGVyYXRvciI6IjIiLCJpZFNlc3NhbyI6IjcyMjA0MCIsImlkVGlwb09wZXJhZG9yRXh0ZXJubyI6IjIiLCJQcmltZWlyb0FjZXNzbyI6InRydWUiLCJpZE9wZXJhZG9yIjoiMjM0MDIiLCJpc3MiOiJodHRwOi8vdGNlb2F1dGgudGNlLnJuLmdvdi5iciIsImF1ZCI6IjExYzYzOWZjNjg4NjRjODc5ZTE0YzM0MDJiNzRhMDRlIiwiZXhwIjoxNjQ5NTY4NjM3LCJuYmYiOjE2NDk1NjE0Mzd9.JChVerMXIbzsQv7mQvrkROxK0-1jU875HQRx9y0Yw_s',
   'Content-Type': 'application/x-www-form-urlencoded'
 }};
 
@@ -69,7 +69,7 @@ export function callApi(msgRecebida: string, msgEnviada: string, numeroCelular: 
   if(memory.has(numeroCelular)){
     let idMensagemPai = memory.get(numeroCelular)?.idMensagemPai!;
     let idOperador: number = memory.get(numeroCelular)?.idOperador!;
-    sendMessage(idOperador, numeroCelular, msgRecebida, msgEnviada, idMensagemPai);
+    sendMessage(idOperador, numeroCelular, msgEnviada, msgRecebida, idMensagemPai);
   } else {
     getIdOperador(numeroCelular, msgEnviada, msgRecebida);
   }
