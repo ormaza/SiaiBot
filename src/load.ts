@@ -1,3 +1,5 @@
+import { callApi } from "./api";
+
 export function loadLanguage(manager: any){
   manager.addDocument('pt', 'bom dia', 'saudacao');
   manager.addDocument('pt', 'olá', 'saudacao');
@@ -28,7 +30,14 @@ export function log(response: any, message: any){
   console.log("mensagem respondida: ", response.answer);
   console.log("número de telefone do usuário: ", message.from.substring(0,message.from.length-5));
   console.log("número de telefone do bot: ", message.to.substring(0,message.to.length-5));
-  console.log("data e hora: ", new Date());
+
+  let msgRecebida = response.utterance;
+  let msgEnviada = response.answer;
+  let telefone = message.from.substring(2,4) + '9' + message.from.substring(4,message.from.length-5);
+  console.log('teste telefone: ', telefone)
+  
+
+  callApi(msgRecebida, msgEnviada, telefone);
 }
 
 

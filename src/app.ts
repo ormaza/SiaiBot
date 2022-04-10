@@ -6,38 +6,36 @@ var manager = new NlpManager({ languages: ['pt'], forceNER: true });
 
 manager = loadLanguage(manager);
 
-// (async() => {
-//     await manager.train();
-//     manager.save();
+(async() => {
+    await manager.train();
+    manager.save();
 
-//     create('BOT2')
-//     .then((client) => {
+    create('BOT2')
+    .then((client) => {
 
-//       client.onMessage(async(message) => {
+      client.onMessage(async(message) => {
 
-//         if(message.isGroupMsg === false){
-//           const response = await manager.process('pt', message.body.toLowerCase());
-//           // console.log(response);
-//           // console.log(message);
+        if(message.isGroupMsg === false){
+          const response = await manager.process('pt', message.body.toLowerCase());
+          // console.log(response);
+          // console.log(message);
 
-//           log(response, message);
+          log(response, message);
 
-//           if(response.intent === "None"){
-//             client.sendText(message.from, "[Whatsapp Bot] Desculpa po. Não te entendi.");
-//           } else {
-//             client.sendText(message.from, "[Whatsapp Bot] " + response.answer);
-//           }
+          if(response.intent === "None"){
+            client.sendText(message.from, "[Whatsapp Bot] Desculpa po. Não te entendi.");
+          } else {
+            client.sendText(message.from, "[Whatsapp Bot] " + response.answer);
+          }
           
-//         }
+        }
 
-//       });
+      });
 
-//     })
-//     .catch((erro) => {
-//       console.log(erro);
-//     });
+    })
+    .catch((erro) => {
+      console.log(erro);
+    });
 
-// })();
-
-callApi();
+})();
 
