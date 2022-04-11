@@ -1,25 +1,41 @@
 import { callApi } from "./api";
 
+//https://docs.google.com/document/d/1eyDmMN8y23Nbj1iAoMKknIhnpxGShFmB/edit#
+
 export function loadLanguage(manager: any){
-  manager.addDocument('pt', 'bom dia', 'saudacao');
-  manager.addDocument('pt', 'olá', 'saudacao');
-  manager.addDocument('pt', 'olá tudo bem', 'saudacao');
-  manager.addDocument('pt', 'oi', 'saudacao');
-  manager.addDocument('pt', 'boa tarde', 'saudacao');
-  manager.addDocument('pt', 'boa noite', 'saudacao');
-  manager.addDocument('pt', 'e ae', 'saudacao');
-  
-  manager.addAnswer('pt', 'saudacao', 'Olá. Como posso ajudá-lo?');
-  manager.addAnswer('pt', 'saudacao', 'Olá. Em que posso ser útil?');
-  
-  manager.addDocument('pt', 'onde fica', 'localizacao');
-  manager.addDocument('pt', 'aonde fica', 'localizacao');
-  manager.addDocument('pt', 'qual o ponto de referência', 'localizacao');
-  manager.addDocument('pt', 'qual o endereço', 'localizacao');
-  manager.addDocument('pt', 'qual a localização', 'localizacao');
-  
-  manager.addAnswer('pt', 'localizacao', 'Fica lá em riba');
-  manager.addAnswer('pt', 'localizacao', 'Fica na pqp');
+  manager = loadEntities(manager);
+
+  manager.addDocument('pt', '%saudacoes%', 'saudacao');
+  manager.addAnswer('pt', 'saudacao', '{{saudacoes}}. Como posso ajudá-lo?');
+  manager.addAnswer('pt', 'saudacao', '{{saudacoes}}. Em que posso ser útil?');
+
+  manager.addDocument('pt', 'ajuda', 'sistema.obter');
+  manager.addAnswer('pt', 'sistema.obter', 'Entendido. Para qual sistema SIAI você necessita de ajuda?');
+
+  manager.addDocument('pt', 'ajuda sobre %siaiconcursos%', 'concursos.obter');
+  manager.addAnswer('pt', 'concursos.obter', 'Entendido. Qual a sua dúvida sobre o SIAI Concursos?');
+
+  manager.addDocument('pt', 'cadastro concurso', 'concursos.cadastro.concurso');
+  manager.addAnswer('pt', 'concursos.cadastro.concurso', 'Existe algumas formas de cadastrar um concurso: \n' +
+                    '1. Na tela inicial, clique no botão CADASTRAR UM NOVO CONCURSO \n' +
+                    '2. No menu lateral, selecione CONCURSOS e em seguida, CADASTRAR NOVO CONCURSO');
+  return manager;
+}
+
+function loadEntities(manager: any){
+  manager.addNamedEntityText(
+    'siaiconcursos',
+    'siai concursos',
+    ['pt'],
+    ['Siai Concursos', 'siaiconcursos', 'siai-concursos', 'siai concurso'],
+  );
+  manager.addNamedEntityText(
+    'saudacoes',
+    'oi',
+    ['pt'],
+    ['oi', 'bom dia', 'boa tarde', 'boa noite', 'e ae'],
+  );
+
   return manager;
 }
 
@@ -34,9 +50,7 @@ export function log(response: any, message: any){
   let msgRecebida = response.utterance;
   let msgEnviada = response.answer;
   let telefone = message.from.substring(2,4) + '9' + message.from.substring(4,message.from.length-5);
-  console.log('teste telefone: ', telefone)
   
-
   callApi(msgRecebida, msgEnviada, telefone);
 }
 

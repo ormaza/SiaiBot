@@ -1,3 +1,61 @@
-2022/04/10-00:31:12.660 236c Reusing MANIFEST C:\Users\ormaz\Desktop\PROJETOS TCC\SiaiBot\tokens\BOT2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/04/10-00:31:12.661 236c Recovering log #1272
-2022/04/10-00:31:12.681 236c Reusing old log C:\Users\ormaz\Desktop\PROJETOS TCC\SiaiBot\tokens\BOT2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001272.log 
+2022/04/10-10:46:50.899 3238 Reusing MANIFEST C:\Users\ormaz\Desktop\PROJETOS TCC\SiaiBot\tokens\BOT2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/10-10:46:50.900 3238 Recovering log #1329
+2022/04/10-10:46:50.904 3238 Reusing old log C:\Users\ormaz\Desktop\PROJETOS TCC\SiaiBot\tokens\BOT2\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001329.log 
+2022/04/10-10:46:52.279 b18 Compacting 1@0 + 1@1 files
+2022/04/10-10:46:52.325 b18 Generated table #1332@0: 18430 keys, 509466 bytes
+2022/04/10-10:46:52.335 b18 Generated table #1333@0: 1543 keys, 83365 bytes
+2022/04/10-10:46:52.340 b18 Generated table #1334@0: 216 keys, 4575 bytes
+2022/04/10-10:46:52.340 b18 Compacted 1@0 + 1@1 files => 597406 bytes
+2022/04/10-10:46:52.344 b18 compacted to: files[ 0 3 28 0 0 0 0 ]
+2022/04/10-10:46:52.344 b18 Delete type=2 #1305
+2022/04/10-10:46:52.344 b18 Delete type=2 #1330
+2022/04/10-10:47:02.086 238c Compacting 1@1 + 10@2 files
+2022/04/10-10:47:02.278 238c Generated table #1335@1: 19643 keys, 2195936 bytes
+2022/04/10-10:47:02.347 238c Generated table #1336@1: 4440 keys, 2123896 bytes
+2022/04/10-10:47:02.429 238c Generated table #1337@1: 6699 keys, 2127586 bytes
+2022/04/10-10:47:02.524 238c Generated table #1338@1: 38243 keys, 2167771 bytes
+2022/04/10-10:47:02.704 238c Generated table #1339@1: 105303 keys, 2257317 bytes
+2022/04/10-10:47:02.898 238c Generated table #1340@1: 102062 keys, 2254292 bytes
+2022/04/10-10:47:03.054 238c Generated table #1341@1: 101554 keys, 2252642 bytes
+2022/04/10-10:47:03.191 238c Generated table #1342@1: 104019 keys, 2255587 bytes
+2022/04/10-10:47:03.334 238c Generated table #1343@1: 101074 keys, 2251312 bytes
+2022/04/10-10:47:03.481 238c Generated table #1344@1: 101644 keys, 2253239 bytes
+2022/04/10-10:47:03.486 238c Generated table #1345@1: 389 keys, 8860 bytes
+2022/04/10-10:47:03.486 238c Compacted 1@1 + 10@2 files => 22148438 bytes
+2022/04/10-10:47:03.490 238c compacted to: files[ 0 2 29 0 0 0 0 ]
+2022/04/10-10:47:03.490 238c Delete type=2 #1317
+2022/04/10-10:47:03.491 238c Delete type=2 #1318
+2022/04/10-10:47:03.491 238c Delete type=2 #1319
+2022/04/10-10:47:03.491 238c Delete type=2 #1320
+2022/04/10-10:47:03.491 238c Delete type=2 #1321
+2022/04/10-10:47:03.491 238c Delete type=2 #1322
+2022/04/10-10:47:03.491 238c Delete type=2 #1323
+2022/04/10-10:47:03.491 238c Delete type=2 #1324
+2022/04/10-10:47:03.491 238c Delete type=2 #1325
+2022/04/10-10:47:03.491 238c Delete type=2 #1326
+2022/04/10-10:47:03.491 238c Delete type=2 #1333
+2022/04/10-10:47:04.052 238c Compacting 1@1 + 10@2 files
+2022/04/10-10:47:04.222 238c Generated table #1346@1: 31481 keys, 2264013 bytes
+2022/04/10-10:47:04.350 238c Generated table #1347@1: 59234 keys, 2280181 bytes
+2022/04/10-10:47:04.418 238c Generated table #1348@1: 11962 keys, 2159327 bytes
+2022/04/10-10:47:04.482 238c Generated table #1349@1: 3163 keys, 2153221 bytes
+2022/04/10-10:47:04.538 238c Generated table #1350@1: 3046 keys, 2151232 bytes
+2022/04/10-10:47:04.604 238c Generated table #1351@1: 2989 keys, 2152955 bytes
+2022/04/10-10:47:04.668 238c Generated table #1352@1: 2332 keys, 2149743 bytes
+2022/04/10-10:47:04.763 238c Generated table #1353@1: 4909 keys, 2160174 bytes
+2022/04/10-10:47:04.901 238c Generated table #1354@1: 31003 keys, 2230070 bytes
+2022/04/10-10:47:05.056 238c Generated table #1355@1: 26709 keys, 2275771 bytes
+2022/04/10-10:47:05.079 238c Generated table #1356@1: 3066 keys, 267113 bytes
+2022/04/10-10:47:05.079 238c Compacted 1@1 + 10@2 files => 22243800 bytes
+2022/04/10-10:47:05.083 238c compacted to: files[ 0 1 30 0 0 0 0 ]
+2022/04/10-10:47:05.084 238c Delete type=2 #1306
+2022/04/10-10:47:05.084 238c Delete type=2 #1307
+2022/04/10-10:47:05.084 238c Delete type=2 #1308
+2022/04/10-10:47:05.084 238c Delete type=2 #1309
+2022/04/10-10:47:05.084 238c Delete type=2 #1310
+2022/04/10-10:47:05.084 238c Delete type=2 #1311
+2022/04/10-10:47:05.084 238c Delete type=2 #1312
+2022/04/10-10:47:05.084 238c Delete type=2 #1313
+2022/04/10-10:47:05.084 238c Delete type=2 #1314
+2022/04/10-10:47:05.084 238c Delete type=2 #1315
+2022/04/10-10:47:05.084 238c Delete type=2 #1332
