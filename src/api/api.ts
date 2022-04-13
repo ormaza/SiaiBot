@@ -1,5 +1,8 @@
 const axios = require('axios');
-import { Memo } from './models/memo';
+import { Message, Whatsapp } from 'venom-bot';
+import { Memo } from '../models/memo';
+var client: Whatsapp;
+var message: Message;
 const idOperadorBot = 9332;
 const urlBaseTceAdmin = 'http://tceadmin2feature.tce.govrn/api/v2/';
 const urlBaseTuite = "http://tuitefeature.tce.govrn/api/v1/"
@@ -7,7 +10,7 @@ const urlBaseTuite = "http://tuitefeature.tce.govrn/api/v1/"
 var memory = new Map<string, Memo>();
 
 var config = { headers: { 
-  'Authorization': 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjAxMzU2NjgzNDQ0Iiwicm9sZSI6Ik1Ua3lMakUyT0M0eE1UTXVOZyIsInRpcG9Db250YSI6IkQiLCJvcGVyYXRvciI6IjIiLCJpZFNlc3NhbyI6IjcyMjQ0MiIsImlkVGlwb09wZXJhZG9yRXh0ZXJubyI6IjIiLCJQcmltZWlyb0FjZXNzbyI6InRydWUiLCJpZE9wZXJhZG9yIjoiMjM0MDIiLCJpc3MiOiJodHRwOi8vdGNlb2F1dGgudGNlLnJuLmdvdi5iciIsImF1ZCI6IjExYzYzOWZjNjg4NjRjODc5ZTE0YzM0MDJiNzRhMDRlIiwiZXhwIjoxNjQ5NjA1NDIyLCJuYmYiOjE2NDk1OTgyMjJ9.RXF_u-hOQ95yIOxDOC7tXN0x2esEUv8iUgBeFO7_aYo',
+  'Authorization': 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjAxMzU2NjgzNDQ0Iiwicm9sZSI6Ik1Ua3lMakUyT0M0eE1UTXVNZyIsInRpcG9Db250YSI6IkQiLCJvcGVyYXRvciI6IjIiLCJpZFNlc3NhbyI6IjcyMzU0NCIsImlkVGlwb09wZXJhZG9yRXh0ZXJubyI6IjIiLCJQcmltZWlyb0FjZXNzbyI6InRydWUiLCJpZE9wZXJhZG9yIjoiMjM0MDIiLCJpc3MiOiJodHRwOi8vdGNlb2F1dGgudGNlLnJuLmdvdi5iciIsImF1ZCI6IjExYzYzOWZjNjg4NjRjODc5ZTE0YzM0MDJiNzRhMDRlIiwiZXhwIjoxNjQ5ODI0MDEyLCJuYmYiOjE2NDk4MTY4MTJ9.JZLaF1nCgkhHIuAIzu2pfvbmql22T8Z-jMqT3V0LAEw',
   'Content-Type': 'application/x-www-form-urlencoded'
 }};
 
@@ -16,21 +19,29 @@ function getIdOperador(numeroCelular: string, msgEnviada: string, msgRecebida: s
 
     let cpf;
     for(let i = 0; i < res.data.length; i++){
-      if(res.data[i].telefoneCelularPessoaFisica == numeroCelular) cpf = res.data[i].cpf;
+      if(res.data[i].telefoneCelularPessoaFisica == numeroCelular){
+        cpf = res.data[i].cpf;
+        break;
+      } 
     }
 
     if(cpf != undefined){
       axios.get(urlBaseTceAdmin + 'OperadorExterno/GetByCPF?cpf=' + cpf, config).then((res: any) => {
         let idOperador = res.data[0].idOperador;
-        sendMessage(idOperador, numeroCelular, msgEnviada, msgRecebida, undefined);
+        postMessage(idOperador, numeroCelular, msgEnviada, msgRecebida, undefined);
       })
     } else {
-      console.log('ENVIO NÃO REALIZADO: não foi possível obter o cpf')
+      console.log('ERRO ao comunicar tuite: contato não cadastrado');
+      sendMessage(msgEnviada);
+      memory.set(numeroCelular, {
+        idOperador: undefined!,
+        idMensagemPai: undefined!,
+      });
     }
   });
 }
 
-function sendMessage(idOperador: number, numeroCelular: string, msgEnviada: string, msgRecebida: string, idMensagemPai?: number){
+function postMessage(idOperador: number, numeroCelular: string, msgEnviada: string, msgRecebida: string, idMensagemPai?: number){
 
   let body = requisicaoMensagemRecebida(idOperador, msgRecebida);
 
@@ -49,7 +60,8 @@ function sendMessage(idOperador: number, numeroCelular: string, msgEnviada: stri
                 ).then((response: any) => {
                   console.log("idMensagemCadastrada: ", response.data.idMensagem);
                   idMensagemPai = response.data.idMensagem;
-
+                  
+                  sendMessage(msgEnviada);
                   memory.set(numeroCelular, {
                     idOperador: idOperador,
                     idMensagemPai: idMensagemPai!,
@@ -65,16 +77,25 @@ function sendMessage(idOperador: number, numeroCelular: string, msgEnviada: stri
 
 }
 
-export function callApi(msgRecebida: string, msgEnviada: string, numeroCelular: string){
+export function callApi(msgRecebida: string, msgEnviada: string, numeroCelular: string, clientL: Whatsapp, messageL: Message){
+  client = clientL;
+  message = messageL;
+
   if(memory.has(numeroCelular)){
     let idMensagemPai = memory.get(numeroCelular)?.idMensagemPai!;
     let idOperador: number = memory.get(numeroCelular)?.idOperador!;
-    sendMessage(idOperador, numeroCelular, msgEnviada, msgRecebida, idMensagemPai);
+    if(idMensagemPai == undefined || idOperador == undefined){
+      sendMessage(msgEnviada);
+    } else {
+      postMessage(idOperador, numeroCelular, msgEnviada, msgRecebida, idMensagemPai);
+    }
   } else {
     getIdOperador(numeroCelular, msgEnviada, msgRecebida);
   }
 
-  memory.forEach((memo) => console.log(memo));
+  memory.forEach((memo, key) => {
+    console.log(memo);
+  });
 }
 
 function requisicaoMensagemRecebida(idOperador: number, msgRecebida: string): string {
@@ -94,4 +115,8 @@ function requisicaoMensagemEnviada(idOperador: number, msgEnviada: string, idMen
       body += "idMensagemPai=" + idMensagemPai + "&"
       body += "destinatarios[0].idOperador=" + idOperador;
   return body;
+}
+
+function sendMessage(msgEnviada: string){
+  client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
 }

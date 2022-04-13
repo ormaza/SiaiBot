@@ -1,5 +1,4 @@
 import { create, Whatsapp } from 'venom-bot';
-import { callApi } from './api';
 import { loadLanguage, log } from './load';
 const { NlpManager } = require('node-nlp');
 var manager = new NlpManager({ languages: ['pt'], forceNER: true });
@@ -18,16 +17,16 @@ manager = loadLanguage(manager);
 
         if(message.isGroupMsg === false){
           const response = await manager.process('pt', message.body.toLowerCase());
-          console.log(response);
-          console.log(message);
+          // console.log(response);
+          // console.log(message);
 
-          // log(response, message);
+          log(response, message, client);
 
-          if(response.intent === "None"){
-            client.sendText(message.from, "[Whatsapp Bot] Desculpa. Não consegui te entender.");
-          } else {
-            client.sendText(message.from, "[Whatsapp Bot] " + response.answer);
-          }
+          // if(response.intent === "None"){
+          //   client.sendText(message.from, "[Whatsapp Bot] Desculpa. Não consegui te entender.");
+          // } else {
+          //   client.sendText(message.from, "[Whatsapp Bot] " + response.answer);
+          // }
           
         }
 

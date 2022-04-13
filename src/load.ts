@@ -1,4 +1,5 @@
-import { callApi } from "./api";
+import { Message, Whatsapp } from "venom-bot";
+import { callApi } from "./api/api";
 
 //https://docs.google.com/document/d/1eyDmMN8y23Nbj1iAoMKknIhnpxGShFmB/edit#
 
@@ -33,13 +34,13 @@ function loadEntities(manager: any){
     'saudacoes',
     'oi',
     ['pt'],
-    ['oi', 'bom dia', 'boa tarde', 'boa noite', 'e ae'],
+    ['oi', 'bom dia', 'boa tarde', 'boa noite', 'e ae', 'olá'],
   );
 
   return manager;
 }
 
-export function log(response: any, message: any){
+export function log(response: any, message: Message, client: Whatsapp){
   console.log("intent: ", response.intent);
   console.log("score: ", response.score);
   console.log("mensagem recebida: ", response.utterance);
@@ -49,9 +50,15 @@ export function log(response: any, message: any){
 
   let msgRecebida = response.utterance;
   let msgEnviada = response.answer;
-  let telefone = message.from.substring(2,4) + '9' + message.from.substring(4,message.from.length-5);
+  let telefone = message.from.substring(0,message.from.length-5);
+  if(telefone.length == 12){
+    telefone = message.from.substring(2,4) + '9' + message.from.substring(4,message.from.length-5);
+  }
+  if(response.intent === "None"){
+      msgEnviada = "[Whatsapp Bot] Desculpa. Não consegui te entender."
+  }
   
-  callApi(msgRecebida, msgEnviada, telefone);
+  callApi(msgRecebida, msgEnviada, telefone, client, message);
 }
 
 
