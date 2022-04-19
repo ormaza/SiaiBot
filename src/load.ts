@@ -1,5 +1,5 @@
 import { Message, Whatsapp } from "venom-bot";
-import { callApi } from "./api/api";
+import { callApi, sendMessage } from "./api/api";
 
 //https://docs.google.com/document/d/1eyDmMN8y23Nbj1iAoMKknIhnpxGShFmB/edit#
 
@@ -11,7 +11,11 @@ export function loadLanguage(manager: any){
   manager.addAnswer('pt', 'saudacao', '{{saudacoes}}. Em que posso ser útil?');
 
   manager.addDocument('pt', 'ajuda', 'sistema.obter');
+  manager.addDocument('pt', 'siai', 'sistema.obter');
   manager.addAnswer('pt', 'sistema.obter', 'Entendido. Para qual sistema SIAI você necessita de ajuda?');
+
+  manager.addDocument('pt', 'não era isso', 'sistema.negativo');
+  manager.addAnswer('pt', 'sistema.negativo', 'Desculpe o mau entendido. Para qual sistema SIAI você necessita de ajuda?');
 
   manager.addDocument('pt', 'ajuda sobre %siaiconcursos%', 'concursos.obter');
   manager.addAnswer('pt', 'concursos.obter', 'Entendido. Qual a sua dúvida sobre o SIAI Concursos?');
@@ -20,6 +24,12 @@ export function loadLanguage(manager: any){
   manager.addAnswer('pt', 'concursos.cadastro.concurso', 'Existe algumas formas de cadastrar um concurso: \n' +
                     '1. Na tela inicial, clique no botão CADASTRAR UM NOVO CONCURSO \n' +
                     '2. No menu lateral, selecione CONCURSOS e em seguida, CADASTRAR NOVO CONCURSO');
+
+  manager.addDocument('pt', 'cadastro ato concurso', 'concursos.cadastro.ato');
+  manager.addAnswer('pt', 'concursos.cadastro.ato', 'Existe algumas formas de cadastrar um concurso: \n' +
+                    '1. Na tela inicial, clique no botão CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS \n' +
+                    '1.1 Escolha um dos concursos da lista, e clica no botão Ato do Concurso \n' +
+                    '2. No menu lateral, selecione CONCURSOS e em seguida, CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS e siga o passo 1.1 já descrito');
   return manager;
 }
 
@@ -28,7 +38,7 @@ function loadEntities(manager: any){
     'siaiconcursos',
     'siai concursos',
     ['pt'],
-    ['Siai Concursos', 'siaiconcursos', 'siai-concursos', 'siai concurso'],
+    ['Siai Concursos', 'siaiconcursos', 'siai-concursos', 'siai concurso', 'concursos'],
   );
   manager.addNamedEntityText(
     'saudacoes',
@@ -40,7 +50,10 @@ function loadEntities(manager: any){
   return manager;
 }
 
-export function log(response: any, message: Message, client: Whatsapp){
+export function log(response: any, message: Message, client: Whatsapp, callAPI: boolean){
+  // console.log(response);
+  // console.log(message);
+
   console.log("intent: ", response.intent);
   console.log("score: ", response.score);
   console.log("mensagem recebida: ", response.utterance);
@@ -58,7 +71,12 @@ export function log(response: any, message: Message, client: Whatsapp){
       msgEnviada = "[Whatsapp Bot] Desculpa. Não consegui te entender."
   }
   
-  callApi(msgRecebida, msgEnviada, telefone, client, message);
+  if(callAPI){
+    callApi(msgRecebida, msgEnviada, telefone, client, message);
+  } else {
+    client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
+  }
+
 }
 
 

@@ -4,6 +4,7 @@ import { Memo } from '../models/memo';
 var client: Whatsapp;
 var message: Message;
 const idOperadorBot = 9332;
+// const idOperadorBot = 66;
 const urlBaseTceAdmin = 'http://tceadmin2feature.tce.govrn/api/v2/';
 const urlBaseTuite = "http://tuitefeature.tce.govrn/api/v1/"
 
@@ -38,6 +39,10 @@ function getIdOperador(numeroCelular: string, msgEnviada: string, msgRecebida: s
         idMensagemPai: undefined!,
       });
     }
+  })
+  .catch((error: any) => {
+    console.log(error);
+    sendMessage(msgEnviada);
   });
 }
 
@@ -117,6 +122,6 @@ function requisicaoMensagemEnviada(idOperador: number, msgEnviada: string, idMen
   return body;
 }
 
-function sendMessage(msgEnviada: string){
+export function sendMessage(msgEnviada: string){
   client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
 }
