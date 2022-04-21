@@ -46,10 +46,6 @@
             "intent": "concursos.obter",
             "domain": "default"
           },
-          "era,isso,nao": {
-            "intent": "sistema.negativo",
-            "domain": "default"
-          },
           "cadastr,concurs": {
             "intent": "concursos.cadastro.concurso",
             "domain": "default"
@@ -57,15 +53,19 @@
           "ato,cadastr,concurs": {
             "intent": "concursos.cadastro.ato",
             "domain": "default"
+          },
+          "era,isso,nao": {
+            "intent": "sistema.negativo",
+            "domain": "default"
           }
         },
         "intentDict": {
           "saudacao": "default",
           "sistema.obter": "default",
           "concursos.obter": "default",
-          "sistema.negativo": "default",
           "concursos.cadastro.concurso": "default",
-          "concursos.cadastro.ato": "default"
+          "concursos.cadastro.ato": "default",
+          "sistema.negativo": "default"
         },
         "sentences": [
           {
@@ -85,11 +85,6 @@
           },
           {
             "domain": "default",
-            "utterance": "não era isso",
-            "intent": "sistema.negativo"
-          },
-          {
-            "domain": "default",
             "utterance": "cadastro concurso",
             "intent": "concursos.cadastro.concurso"
           },
@@ -97,6 +92,11 @@
             "domain": "default",
             "utterance": "cadastro ato concurso",
             "intent": "concursos.cadastro.ato"
+          },
+          {
+            "domain": "default",
+            "utterance": "não era isso",
+            "intent": "sistema.negativo"
           }
         ],
         "domains": {
@@ -119,19 +119,19 @@
               "ajud": 1,
               "sia": 1,
               "concurs": 1,
+              "cadastr": 1,
+              "ato": 1,
               "nao": 1,
               "era": 1,
-              "isso": 1,
-              "cadastr": 1,
-              "ato": 1
+              "isso": 1
             },
             "intents": {
               "saudacao": 1,
               "sistema.obter": 1,
               "concursos.obter": 1,
-              "sistema.negativo": 1,
               "concursos.cadastro.concurso": 1,
-              "concursos.cadastro.ato": 1
+              "concursos.cadastro.ato": 1,
+              "sistema.negativo": 1
             },
             "intentFeatures": {
               "saudacao": {
@@ -146,11 +146,6 @@
                 "sia": 1,
                 "concurs": 1
               },
-              "sistema.negativo": {
-                "nao": 1,
-                "era": 1,
-                "isso": 1
-              },
               "concursos.cadastro.concurso": {
                 "cadastr": 1,
                 "concurs": 1
@@ -159,6 +154,11 @@
                 "cadastr": 1,
                 "ato": 1,
                 "concurs": 1
+              },
+              "sistema.negativo": {
+                "nao": 1,
+                "era": 1,
+                "isso": 1
               }
             },
             "featuresToIntent": {
@@ -182,6 +182,13 @@
                 "concursos.cadastro.concurso",
                 "concursos.cadastro.ato"
               ],
+              "cadastr": [
+                "concursos.cadastro.concurso",
+                "concursos.cadastro.ato"
+              ],
+              "ato": [
+                "concursos.cadastro.ato"
+              ],
               "nao": [
                 "sistema.negativo"
               ],
@@ -190,13 +197,6 @@
               ],
               "isso": [
                 "sistema.negativo"
-              ],
-              "cadastr": [
-                "concursos.cadastro.concurso",
-                "concursos.cadastro.ato"
-              ],
-              "ato": [
-                "concursos.cadastro.ato"
               ]
             },
             "neuralNetwork": {
@@ -218,104 +218,104 @@
                 "ajud",
                 "sia",
                 "concurs",
+                "cadastr",
+                "ato",
                 "nao",
                 "era",
-                "isso",
-                "cadastr",
-                "ato"
+                "isso"
               ],
               "intents": [
                 "saudacao",
                 "sistema.obter",
                 "concursos.obter",
-                "sistema.negativo",
                 "concursos.cadastro.concurso",
-                "concursos.cadastro.ato"
+                "concursos.cadastro.ato",
+                "sistema.negativo"
               ],
               "perceptrons": [
                 [
-                  10.98867416381836,
-                  -1.0988621711730957,
-                  -1.0988621711730957,
-                  -1.0988621711730957,
-                  -1.098979115486145,
-                  -2.197749137878418,
-                  -1.0988610982894897,
-                  -1.0988610982894897,
-                  -1.0988610982894897,
-                  -1.0987683534622192,
-                  -0.27313634753227234,
-                  3.2966142009782633
+                  10.988666534423828,
+                  -1.0988649129867554,
+                  -1.0988649129867554,
+                  -1.0988649129867554,
+                  -1.0989129543304443,
+                  -2.1977250576019287,
+                  -1.098807692527771,
+                  -0.2754056453704834,
+                  -1.0988616943359375,
+                  -1.0988616943359375,
+                  -1.0988616943359375,
+                  3.2966232738033763
                 ],
                 [
-                  -1.0480233430862427,
-                  4.412557601928711,
-                  4.412557601928711,
-                  4.412557601928711,
-                  -0.38634777069091797,
-                  -0.8319460153579712,
-                  -0.41544055938720703,
-                  -0.41544055938720703,
-                  -0.41544055938720703,
-                  -0.43541139364242554,
-                  -0.15587499737739563,
-                  1.0480400491877813
+                  -1.0472170114517212,
+                  4.412826061248779,
+                  4.412826061248779,
+                  4.412826061248779,
+                  -0.3815881013870239,
+                  -0.8359387516975403,
+                  -0.44337737560272217,
+                  -0.16135627031326294,
+                  -0.41984596848487854,
+                  -0.41984596848487854,
+                  -0.41984596848487854,
+                  1.0472339335705263
                 ],
                 [
-                  -1.0832431316375732,
-                  -0.376828670501709,
-                  -0.376828670501709,
-                  -0.376828670501709,
-                  9.16126537322998,
-                  4.03959846496582,
-                  -0.40707170963287354,
-                  -0.40707170963287354,
-                  -0.40707170963287354,
-                  -5.12171745300293,
-                  -1.31179940700531,
-                  1.0833870221190596
+                  -1.0892471075057983,
+                  -0.37896260619163513,
+                  -0.37896260619163513,
+                  -0.37896260619163513,
+                  9.159268379211426,
+                  4.035595417022705,
+                  -5.123721122741699,
+                  -1.3128077983856201,
+                  -0.38564854860305786,
+                  -0.38564854860305786,
+                  -0.38564854860305786,
+                  1.089390349057654
                 ],
                 [
-                  -1.0502407550811768,
-                  -0.41166767477989197,
-                  -0.41166767477989197,
-                  -0.41166767477989197,
-                  -0.3296107351779938,
-                  -0.8364199995994568,
-                  4.411818981170654,
-                  4.411818981170654,
-                  4.411818981170654,
-                  -0.4989606440067291,
-                  -0.18378835916519165,
-                  1.0502564727358974
+                  -1.0606647729873657,
+                  -0.35760921239852905,
+                  -0.35760921239852905,
+                  -0.35760921239852905,
+                  -4.926413059234619,
+                  3.937350273132324,
+                  8.870617866516113,
+                  -13.638599395751953,
+                  -0.35820621252059937,
+                  -0.35820621252059937,
+                  -0.35820621252059937,
+                  1.0772341391089304
                 ],
                 [
-                  -1.061328411102295,
-                  -0.3577578663825989,
-                  -0.3577578663825989,
-                  -0.3577578663825989,
-                  -4.9266743659973145,
-                  3.9371140003204346,
-                  -0.3563849925994873,
-                  -0.3563849925994873,
-                  -0.3563849925994873,
-                  8.870635986328125,
-                  -13.63861083984375,
-                  1.0776026271893546
+                  -0.3664458394050598,
+                  -0.2107110321521759,
+                  -0.2107110321521759,
+                  -0.2107110321521759,
+                  -1.4290218353271484,
+                  -0.32451555132865906,
+                  1.1279982328414917,
+                  13.911248207092285,
+                  -0.22402089834213257,
+                  -0.22402089834213257,
+                  -0.22402089834213257,
+                  -0.5829305088597753
                 ],
                 [
-                  -0.37605559825897217,
-                  -0.2172442525625229,
-                  -0.2172442525625229,
-                  -0.2172442525625229,
-                  -1.4339839220046997,
-                  -0.33103275299072266,
-                  -0.18659384548664093,
-                  -0.18659384548664093,
-                  -0.18659384548664093,
-                  1.1261643171310425,
-                  13.911209106445312,
-                  -0.5745568520567929
+                  -1.0577787160873413,
+                  -0.4081307649612427,
+                  -0.4081307649612427,
+                  -0.4081307649612427,
+                  -0.37309977412223816,
+                  -0.8077298402786255,
+                  -0.42654943466186523,
+                  -0.15197724103927612,
+                  4.409306049346924,
+                  4.409306049346924,
+                  4.409306049346924,
+                  1.0577944650348758
                 ]
               ]
             }
@@ -339,15 +339,15 @@
       ],
       [
         "pt",
-        "não era isso"
-      ],
-      [
-        "pt",
         "cadastro concurso"
       ],
       [
         "pt",
         "cadastro ato concurso"
+      ],
+      [
+        "pt",
+        "não era isso"
       ]
     ]
   },
@@ -417,11 +417,6 @@
             "answer": "Entendido. Qual a sua dúvida sobre o SIAI Concursos?"
           }
         ],
-        "sistema.negativo": [
-          {
-            "answer": "Desculpe o mau entendido. Para qual sistema SIAI você necessita de ajuda?"
-          }
-        ],
         "concursos.cadastro.concurso": [
           {
             "answer": "Existe algumas formas de cadastrar um concurso: \n1. Na tela inicial, clique no botão CADASTRAR UM NOVO CONCURSO \n2. No menu lateral, selecione CONCURSOS e em seguida, CADASTRAR NOVO CONCURSO"
@@ -429,7 +424,12 @@
         ],
         "concursos.cadastro.ato": [
           {
-            "answer": "Existe algumas formas de cadastrar um concurso: \n1. Na tela inicial, clique no botão CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS \n1.1 Escolha um dos concursos da lista, e clica no botão Ato do Concurso \n2. No menu lateral, selecione CONCURSOS e em seguida, CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS e siga o passo 1.1 já descrito"
+            "answer": "Existe algumas formas de cadastrar um  ato concurso: \n1. Na tela inicial, clique no botão CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS \n1.1 Escolha um dos concursos da lista, e clica no botão Ato do Concurso \n2. No menu lateral, selecione CONCURSOS e em seguida, CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS e siga o passo 1.1 já descrito"
+          }
+        ],
+        "sistema.negativo": [
+          {
+            "answer": "Desculpe o mau entendido :-("
           }
         ]
       }

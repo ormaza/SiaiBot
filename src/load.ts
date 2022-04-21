@@ -1,5 +1,6 @@
 import { Message, Whatsapp } from "venom-bot";
-import { callApi, sendMessage } from "./api/api";
+import { callApi } from "./api/api";
+import { createMsgSaudacao } from "./api/extra";
 
 //https://docs.google.com/document/d/1eyDmMN8y23Nbj1iAoMKknIhnpxGShFmB/edit#
 
@@ -81,7 +82,12 @@ export function log(response: any, message: Message, client: Whatsapp, callAPI: 
   if(callAPI){
     callApi(msgRecebida, msgEnviada, telefone, client, message);
   } else {
-    client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
+    if(response.intent == 'saudacao'){
+      createMsgSaudacao(msgRecebida, msgEnviada, telefone, client, message);
+    } else {
+      client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
+    }
+    
   }
 
 }

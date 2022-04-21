@@ -4,7 +4,6 @@ import { Memo } from '../models/memo';
 var client: Whatsapp;
 var message: Message;
 const idOperadorBot = 9332;
-// const idOperadorBot = 66;
 const urlBaseTceAdmin = 'http://tceadmin2feature.tce.govrn/api/v2/';
 const urlBaseTuite = "http://tuitefeature.tce.govrn/api/v1/"
 
