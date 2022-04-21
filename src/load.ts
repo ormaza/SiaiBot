@@ -82,10 +82,18 @@ export function log(response: any, message: Message, client: Whatsapp, callAPI: 
   if(callAPI){
     callApi(msgRecebida, msgEnviada, telefone, client, message);
   } else {
-    if(response.intent == 'saudacao'){
-      createMsgSaudacao(msgRecebida, msgEnviada, telefone, client, message);
-    } else {
-      client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
+
+    switch(response.intent){
+      case 'saudacao':
+        createMsgSaudacao(msgRecebida, msgEnviada, telefone, client, message);
+        break;
+      case 'concursos.cadastro.concurso':
+        client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
+        client.sendImage(message.from, 'https://raw.githubusercontent.com/ormaza/ormaza.github.io/master/siai%20bot/images/concursos.cadastro.concurso.png','','');
+        break;
+      default:
+        client.sendText(message.from, "[Whatsapp Bot] " + msgEnviada);
+        break;
     }
     
   }
