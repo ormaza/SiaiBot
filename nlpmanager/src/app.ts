@@ -11,7 +11,7 @@ manager = loadLanguage(manager);
     await manager.train();
     manager.save();
 
-    create('SIAI BOT')
+    create('SIAI BOT2')
     .then((client) => {
 
       client.onMessage(async(message) => {

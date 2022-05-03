@@ -1,0 +1,462 @@
+{
+  "settings": {
+    "languages": [
+      "pt"
+    ],
+    "forceNER": true,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "pt"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "pt": {
+        "settings": {
+          "locale": "pt",
+          "trainByDomain": false,
+          "tag": "domain-manager-pt",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "%saudacoes%": {
+            "intent": "saudacao",
+            "domain": "default"
+          },
+          "%preciso%,ajud,obter": {
+            "intent": "sistema.obter",
+            "domain": "default"
+          },
+          "concurs,sia": {
+            "intent": "concursos.obter",
+            "domain": "default"
+          },
+          "cadastr,concurs": {
+            "intent": "concursos.cadastro.concurso",
+            "domain": "default"
+          },
+          "ato,cadastr,concurs": {
+            "intent": "concursos.cadastro.ato",
+            "domain": "default"
+          },
+          "era,isso,nao": {
+            "intent": "sistema.negativo",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "saudacao": "default",
+          "sistema.obter": "default",
+          "concursos.obter": "default",
+          "concursos.cadastro.concurso": "default",
+          "concursos.cadastro.ato": "default",
+          "sistema.negativo": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "%saudacoes%",
+            "intent": "saudacao"
+          },
+          {
+            "domain": "default",
+            "utterance": "%preciso% obter ajuda",
+            "intent": "sistema.obter"
+          },
+          {
+            "domain": "default",
+            "utterance": "siai concursos",
+            "intent": "concursos.obter"
+          },
+          {
+            "domain": "default",
+            "utterance": "cadastro concurso",
+            "intent": "concursos.cadastro.concurso"
+          },
+          {
+            "domain": "default",
+            "utterance": "cadastro ato concurso",
+            "intent": "concursos.cadastro.ato"
+          },
+          {
+            "domain": "default",
+            "utterance": "não era isso",
+            "intent": "sistema.negativo"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "pt",
+              "tag": "nlu-pt",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "%saudacoes%": 1,
+              "%preciso%": 1,
+              "obter": 1,
+              "ajud": 1,
+              "sia": 1,
+              "concurs": 1,
+              "cadastr": 1,
+              "ato": 1,
+              "nao": 1,
+              "era": 1,
+              "isso": 1
+            },
+            "intents": {
+              "saudacao": 1,
+              "sistema.obter": 1,
+              "concursos.obter": 1,
+              "concursos.cadastro.concurso": 1,
+              "concursos.cadastro.ato": 1,
+              "sistema.negativo": 1
+            },
+            "intentFeatures": {
+              "saudacao": {
+                "%saudacoes%": 1
+              },
+              "sistema.obter": {
+                "%preciso%": 1,
+                "obter": 1,
+                "ajud": 1
+              },
+              "concursos.obter": {
+                "sia": 1,
+                "concurs": 1
+              },
+              "concursos.cadastro.concurso": {
+                "cadastr": 1,
+                "concurs": 1
+              },
+              "concursos.cadastro.ato": {
+                "cadastr": 1,
+                "ato": 1,
+                "concurs": 1
+              },
+              "sistema.negativo": {
+                "nao": 1,
+                "era": 1,
+                "isso": 1
+              }
+            },
+            "featuresToIntent": {
+              "%saudacoes%": [
+                "saudacao"
+              ],
+              "%preciso%": [
+                "sistema.obter"
+              ],
+              "obter": [
+                "sistema.obter"
+              ],
+              "ajud": [
+                "sistema.obter"
+              ],
+              "sia": [
+                "concursos.obter"
+              ],
+              "concurs": [
+                "concursos.obter",
+                "concursos.cadastro.concurso",
+                "concursos.cadastro.ato"
+              ],
+              "cadastr": [
+                "concursos.cadastro.concurso",
+                "concursos.cadastro.ato"
+              ],
+              "ato": [
+                "concursos.cadastro.ato"
+              ],
+              "nao": [
+                "sistema.negativo"
+              ],
+              "era": [
+                "sistema.negativo"
+              ],
+              "isso": [
+                "sistema.negativo"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "pt",
+                "tag": "nlu-pt",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "%saudacoes%",
+                "%preciso%",
+                "obter",
+                "ajud",
+                "sia",
+                "concurs",
+                "cadastr",
+                "ato",
+                "nao",
+                "era",
+                "isso"
+              ],
+              "intents": [
+                "saudacao",
+                "sistema.obter",
+                "concursos.obter",
+                "concursos.cadastro.concurso",
+                "concursos.cadastro.ato",
+                "sistema.negativo"
+              ],
+              "perceptrons": [
+                [
+                  10.988666534423828,
+                  -1.0988649129867554,
+                  -1.0988649129867554,
+                  -1.0988649129867554,
+                  -1.0989129543304443,
+                  -2.1977250576019287,
+                  -1.098807692527771,
+                  -0.2754056453704834,
+                  -1.0988616943359375,
+                  -1.0988616943359375,
+                  -1.0988616943359375,
+                  3.2966232738033763
+                ],
+                [
+                  -1.0472170114517212,
+                  4.412826061248779,
+                  4.412826061248779,
+                  4.412826061248779,
+                  -0.3815881013870239,
+                  -0.8359387516975403,
+                  -0.44337737560272217,
+                  -0.16135627031326294,
+                  -0.41984596848487854,
+                  -0.41984596848487854,
+                  -0.41984596848487854,
+                  1.0472339335705263
+                ],
+                [
+                  -1.0892471075057983,
+                  -0.37896260619163513,
+                  -0.37896260619163513,
+                  -0.37896260619163513,
+                  9.159268379211426,
+                  4.035595417022705,
+                  -5.123721122741699,
+                  -1.3128077983856201,
+                  -0.38564854860305786,
+                  -0.38564854860305786,
+                  -0.38564854860305786,
+                  1.089390349057654
+                ],
+                [
+                  -1.0606647729873657,
+                  -0.35760921239852905,
+                  -0.35760921239852905,
+                  -0.35760921239852905,
+                  -4.926413059234619,
+                  3.937350273132324,
+                  8.870617866516113,
+                  -13.638599395751953,
+                  -0.35820621252059937,
+                  -0.35820621252059937,
+                  -0.35820621252059937,
+                  1.0772341391089304
+                ],
+                [
+                  -0.3664458394050598,
+                  -0.2107110321521759,
+                  -0.2107110321521759,
+                  -0.2107110321521759,
+                  -1.4290218353271484,
+                  -0.32451555132865906,
+                  1.1279982328414917,
+                  13.911248207092285,
+                  -0.22402089834213257,
+                  -0.22402089834213257,
+                  -0.22402089834213257,
+                  -0.5829305088597753
+                ],
+                [
+                  -1.0577787160873413,
+                  -0.4081307649612427,
+                  -0.4081307649612427,
+                  -0.4081307649612427,
+                  -0.37309977412223816,
+                  -0.8077298402786255,
+                  -0.42654943466186523,
+                  -0.15197724103927612,
+                  4.409306049346924,
+                  4.409306049346924,
+                  4.409306049346924,
+                  1.0577944650348758
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "pt",
+        "%saudacoes%"
+      ],
+      [
+        "pt",
+        "%preciso% obter ajuda"
+      ],
+      [
+        "pt",
+        "siai concursos"
+      ],
+      [
+        "pt",
+        "cadastro concurso"
+      ],
+      [
+        "pt",
+        "cadastro ato concurso"
+      ],
+      [
+        "pt",
+        "não era isso"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {
+      "pt": {
+        "saudacoes": {
+          "name": "saudacoes",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "oi",
+              "texts": [
+                "oi",
+                "bom dia",
+                "boa tarde",
+                "boa noite",
+                "e ae",
+                "olá"
+              ]
+            }
+          ]
+        },
+        "preciso": {
+          "name": "preciso",
+          "type": "enum",
+          "rules": [
+            {
+              "option": "quero",
+              "texts": [
+                "quero",
+                "preciso",
+                "necessito"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "pt": {
+        "saudacao": [
+          {
+            "answer": "{{saudacoes}}. Como posso ajudá-lo?"
+          },
+          {
+            "answer": "{{saudacoes}}. Em que posso ser útil?"
+          }
+        ],
+        "sistema.obter": [
+          {
+            "answer": "Entendido. Para qual sistema SIAI você necessita de ajuda?"
+          }
+        ],
+        "concursos.obter": [
+          {
+            "answer": "Entendido. Qual a sua dúvida sobre o SIAI Concursos?"
+          }
+        ],
+        "concursos.cadastro.concurso": [
+          {
+            "answer": "Existe algumas formas de cadastrar um concurso: \n1. Na tela inicial, clique no botão CADASTRAR UM NOVO CONCURSO \n2. No menu lateral, selecione CONCURSOS e em seguida, CADASTRAR NOVO CONCURSO"
+          }
+        ],
+        "concursos.cadastro.ato": [
+          {
+            "answer": "Existe algumas formas de cadastrar um  ato concurso: \n1. Na tela inicial, clique no botão CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS \n1.1 Escolha um dos concursos da lista, e clica no botão Ato do Concurso \n2. No menu lateral, selecione CONCURSOS e em seguida, CONSULTAR LISTAGEM DE CONCURSOS CADASTRADOS e siga o passo 1.1 já descrito"
+          }
+        ],
+        "sistema.negativo": [
+          {
+            "answer": "Desculpe o mau entendido :-("
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {
+    "saudacao": {
+      "saudacoes": {
+        "intent": "saudacao",
+        "entity": "saudacoes",
+        "mandatory": false,
+        "locales": {}
+      }
+    },
+    "sistema.obter": {
+      "preciso": {
+        "intent": "sistema.obter",
+        "entity": "preciso",
+        "mandatory": false,
+        "locales": {}
+      }
+    }
+  }
+}
