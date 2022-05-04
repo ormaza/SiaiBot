@@ -4,7 +4,7 @@ const dFlow = require('./dialogflow-rq');
 
 venom
   .create(
-    'sessionName',
+    'SIAIBOT',
     (base64Qr, asciiQR, attempts, urlCode) => {
       console.log(asciiQR); 
       var matches = base64Qr.match(/^data:([A-Za-z-+\/]+);base64,(.+)$/),
@@ -43,34 +43,65 @@ function start(client) {
   client.onMessage(async (message) => {
     if (message.isGroupMsg == false) {
       var machineLearningRequest = await dFlow.sendDialogFlow(message.body);
-      /*Mapeiamento por Intent: Evita ter que criar IF's
-      para situações como Oi, oi, OI, Oie e suas variações*/
 
-      console.log(machineLearningRequest.IntentName)
+      // console.log('machineLearningRequest:', machineLearningRequest);
 
-      await client.sendText(message.from, machineLearningRequest.Response).then((result) => {
-        console.log('Result: ', result); //return object success
-      });
-
-      // if (machineLearningRequest.IntentName == 'oi') {
-      //   console.log(message.from);
-      //   await client.sendText(message.from, machineLearningRequest.Response).then((result) => {
-      //     console.log('Result: ', result); //return object success
-      //   });
-      // }
-
-      // else if (machineLearningRequest.IntentName == 'Interação') {
-      //   console.log(message.from);
-      //   await client.sendText(message.from, machineLearningRequest.Response).then((result) => {
-      //     console.log('Result: ', result); //return object success
-      //   });
-      // }
-
-      // else { // não entendi - fallback
-      //   await client.sendText(message.from, machineLearningRequest.Response).then((result) => {
-      //     console.log('Result: ', result); //return object success
-      //   });
-      // }
+      switch(machineLearningRequest.IntentName)
+      {
+        case 'Saudação':
+          addNomeOperador(client, message, machineLearningRequest.Response);
+          break;
+        case 'concursos.cadastro.concurso':
+          enviarMensagem(client, message, machineLearningRequest.Response);
+          client.sendImage(message.from, 'https://raw.githubusercontent.com/ormaza/ormaza.github.io/master/siai%20bot/images/concursos.cadastro.concurso.png','','');
+          break;
+        default:
+          enviarMensagem(client, message, machineLearningRequest.Response);
+          break;
+      }
     }
+  });
+}
+
+async function enviarMensagem(client, message, response)
+{
+  await client.sendText(message.from, response).then((result) => {
+    console.log('Result: ', result);
+  });
+}
+
+async function addNomeOperador(client, message, msgEnviada)
+{
+  const urlBaseTceAdmin = 'http://tceadmin2feature.tce.govrn/api/v2/';
+  const axios = require('axios');
+  var config = { headers: { 
+    'Authorization': 'bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IlNJQUkgQk9UIiwicm9sZSI6Ik1UQXVNalF1TUM0eE13IiwidGlwb0NvbnRhIjoiUyIsIm9wZXJhdG9yIjoiMyIsImlkU2Vzc2FvIjoiMCIsImlkVGlwb09wZXJhZG9yRXh0ZXJubyI6IjAiLCJQcmltZWlyb0FjZXNzbyI6ImZhbHNlIiwiaWRPcGVyYWRvciI6IiIsImlzcyI6Imh0dHA6Ly90Y2VvYXV0aC50Y2Uucm4uZ292LmJyIiwiYXVkIjoiZTFhNWFkNjdiYWEyNDM1YzhlNWYyMzdhODhlZThmZTYiLCJleHAiOjI1MzQwMjMwMDgwMCwibmJmIjoxNjQ5NzMyNDkxfQ.8vaYbiswt-EoW6SMMyJl0kkBixOrDRI_XaZXUEWEUso',
+    'Content-Type': 'application/x-www-form-urlencoded'
+  }};
+  var numeroCelular = message.from.substring(0,message.from.length-5);
+  if(numeroCelular.length == 12){
+    numeroCelular = message.from.substring(2,4) + '9' + message.from.substring(4,message.from.length-5);
+  }
+  console.log('numero: ', numeroCelular)
+  var enviou = false;
+
+  axios.get(urlBaseTceAdmin + 'PessoaFisica/', config).then((res) => {
+    for(let i = 0; i < res.data.length; i++){
+      if(res.data[i].telefoneCelularPessoaFisica == numeroCelular){
+        let nomeOperador = res.data[i].nomePessoaFisica;
+        msgEnviada = msgEnviada.substring(0, msgEnviada.indexOf("!")) + ' ' + nomeOperador + msgEnviada.substring(msgEnviada.indexOf("!"), msgEnviada.length);
+        client.sendText(message.from, msgEnviada).then((result) => {
+          console.log('Result: ', result);
+        });
+        enviou = true;
+        break;
+      } 
+    }
+
+    if(!enviou) enviarMensagem(client, message, msgEnviada);
+  })
+  .catch((error) => {
+    console.log(error);
+    enviarMensagem(client, message, msgEnviada);
   });
 }
