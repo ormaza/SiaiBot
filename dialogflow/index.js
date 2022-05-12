@@ -48,7 +48,7 @@ function start(client) {
 
       switch(machineLearningRequest.IntentName)
       {
-        case 'Saudação':
+        case 'saudacao':
           addNomeOperador(client, message, machineLearningRequest.Response);
           break;
         case 'concursos.cadastro.concurso':
@@ -59,6 +59,11 @@ function start(client) {
           enviarMensagem(client, message, machineLearningRequest.Response);
           break;
       }
+
+      //HISTORICO
+      addHist(message.from.substring(0,message.from.length-5), message.body, false)
+      addHist(message.from.substring(0,message.from.length-5), machineLearningRequest.Response, true)
+      getHist(message.from.substring(0,message.from.length-5))
     }
   });
 }
@@ -66,7 +71,7 @@ function start(client) {
 async function enviarMensagem(client, message, response)
 {
   await client.sendText(message.from, response).then((result) => {
-    console.log('Result: ', result);
+    // console.log('Result: ', result);
   });
 }
 
@@ -82,7 +87,6 @@ async function addNomeOperador(client, message, msgEnviada)
   if(numeroCelular.length == 12){
     numeroCelular = message.from.substring(2,4) + '9' + message.from.substring(4,message.from.length-5);
   }
-  console.log('numero: ', numeroCelular)
   var enviou = false;
 
   axios.get(urlBaseTceAdmin + 'PessoaFisica/', config).then((res) => {
@@ -91,7 +95,7 @@ async function addNomeOperador(client, message, msgEnviada)
         let nomeOperador = res.data[i].nomePessoaFisica;
         msgEnviada = msgEnviada.substring(0, msgEnviada.indexOf("!")) + ' ' + nomeOperador + msgEnviada.substring(msgEnviada.indexOf("!"), msgEnviada.length);
         client.sendText(message.from, msgEnviada).then((result) => {
-          console.log('Result: ', result);
+          // console.log('Result: ', result);
         });
         enviou = true;
         break;
@@ -101,7 +105,32 @@ async function addNomeOperador(client, message, msgEnviada)
     if(!enviou) enviarMensagem(client, message, msgEnviada);
   })
   .catch((error) => {
-    console.log(error);
+    // console.log(error);
     enviarMensagem(client, message, msgEnviada);
   });
+}
+
+
+//HISTORICO
+
+var aMap = {};
+
+function addHist(key, value, isBot) {
+  var mensagem;
+  if(aMap[key] == undefined) aMap[key] = "";
+  if(isBot){
+    mensagem = " SIAI BOT" + ": " + value + "\n";
+  } else {
+    mensagem = " " + key + ": " + value + "\n";
+  }
+  aMap[key] += mensagem;
+}
+
+function getHist(key) {
+    console.log("HISTORICO")
+    console.log(aMap[key])
+}
+
+function clearHist(key) {
+  if(aMap[key] != undefined) aMap[key] = "";
 }
