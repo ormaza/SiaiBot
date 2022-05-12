@@ -1,6 +1,7 @@
 const venom = require('venom-bot');
 const fs = require('fs');
 const dFlow = require('./dialogflow-rq');
+var nodemailer = require('nodemailer');
 
 venom
   .create(
@@ -44,6 +45,10 @@ function start(client) {
     if (message.isGroupMsg == false) {
       var machineLearningRequest = await dFlow.sendDialogFlow(message.body);
 
+      var numTelefone = message.from.substring(0,message.from.length-5);
+
+      console.log("intent: ", machineLearningRequest.IntentName)
+
       // console.log('machineLearningRequest:', machineLearningRequest);
 
       switch(machineLearningRequest.IntentName)
@@ -55,15 +60,19 @@ function start(client) {
           enviarMensagem(client, message, machineLearningRequest.Response);
           client.sendImage(message.from, 'https://raw.githubusercontent.com/ormaza/ormaza.github.io/master/siai%20bot/images/concursos.cadastro.concurso.png','','');
           break;
+        case 'Default Fallback Intent - yes':
+          enviarMensagem(client, message, machineLearningRequest.Response);
+          enviarEmail(numTelefone);
+          break;
         default:
           enviarMensagem(client, message, machineLearningRequest.Response);
           break;
       }
 
       //HISTORICO
-      addHist(message.from.substring(0,message.from.length-5), message.body, false)
-      addHist(message.from.substring(0,message.from.length-5), machineLearningRequest.Response, true)
-      getHist(message.from.substring(0,message.from.length-5))
+      addHist(numTelefone, message.body, false)
+      addHist(numTelefone, machineLearningRequest.Response, true)
+      // getHist(numTelefone)
     }
   });
 }
@@ -133,4 +142,40 @@ function getHist(key) {
 
 function clearHist(key) {
   if(aMap[key] != undefined) aMap[key] = "";
+}
+
+
+//EMAIL
+
+function enviarEmail(numTelefone){
+  // Configurações do Email
+  var transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: 'ormazabalnascimento@gmail.com',
+      pass: 'uwqnewutycuuzxby'
+      // Para gerar uma senha no Gmail: 
+      // 1 - Entre na configuração de segurança da conta da Google (https://myaccount.google.com/security)
+      // 2 - Abra opção "App Passwords"
+      // 3 - Escolha o App "Mail"
+      // 4 - Escolha o Dispositivo "Other" e dê um nome desejado ("nodemailer", por exemplo)
+      // 5 - Copie a senha gerada e cole aqui no código
+    }
+  });
+  
+  var mailOptions = {
+    from: 'ormazabalnascimento@gmail.com',
+    to: 'ormazaball@yahoo.com.br',
+    subject: 'SIAI BOT HISTÓRICO',
+    text: aMap[numTelefone] 
+  };
+  
+  transporter.sendMail(mailOptions, function(error, info){
+    if (error) {
+      console.log(error);
+    } else {
+      console.log('Email sent: ' + info.response);
+      clearHist(numTelefone);
+    }
+  });
 }
