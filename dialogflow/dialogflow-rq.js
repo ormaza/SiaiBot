@@ -6,7 +6,7 @@ module.exports = {
     try {
       var projectId = 'siaiconcursos-twdq';
       const sessionClient = new dialogflow.SessionsClient();
-      console.log(sessionId);
+      // console.log(sessionId);
       const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
       const request = {
         session: sessionPath,

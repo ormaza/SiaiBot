@@ -47,9 +47,9 @@ function start(client) {
       var numTelefone = message.from.substring(0,message.from.length-5);
       var sessionId = getSession(numTelefone);
       var machineLearningRequest = await dFlow.sendDialogFlow(message.body, sessionId);
-      // console.log("intent: ", machineLearningRequest.IntentName)
 
-      console.log('machineLearningRequest:', machineLearningRequest);
+      // console.log("intent: ", machineLearningRequest.IntentName)
+      // console.log('machineLearningRequest:', machineLearningRequest);
 
       switch(machineLearningRequest.IntentName)
       {
@@ -125,12 +125,14 @@ async function addNomeOperador(client, message, msgEnviada)
 var aMap = {};
 
 function addHist(key, value, isBot) {
-  var mensagem;
+  let data = new Date();
+  let dataFormatada = ((data.getDate() )) + "/" + ((data.getMonth() + 1)) + "/" + data.getFullYear() + " " + data.getHours() + ":" + data.getMinutes() + ":" + data.getSeconds(); 
+  var mensagem = "(" + dataFormatada + ")";
   if(aMap[key] == undefined) aMap[key] = "";
   if(isBot){
-    mensagem = " SIAI BOT" + ": " + value + "\n";
+    mensagem += " SIAI BOT" + ": " + value + "\n";
   } else {
-    mensagem = " " + key + ": " + value + "\n";
+    mensagem += " " + key + ": " + value + "\n";
   }
   aMap[key] += mensagem;
 }
