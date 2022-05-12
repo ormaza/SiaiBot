@@ -2,11 +2,11 @@ const dialogflow = require('@google-cloud/dialogflow');
 const uuid = require('uuid');
 
 module.exports = {
-  async sendDialogFlow(messagem) {
+  async sendDialogFlow(messagem, sessionId) {
     try {
       var projectId = 'siaiconcursos-twdq';
-      const sessionId = uuid.v4();
       const sessionClient = new dialogflow.SessionsClient();
+      console.log(sessionId);
       const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
       const request = {
         session: sessionPath,

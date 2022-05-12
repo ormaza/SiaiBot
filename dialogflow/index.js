@@ -2,6 +2,7 @@ const venom = require('venom-bot');
 const fs = require('fs');
 const dFlow = require('./dialogflow-rq');
 var nodemailer = require('nodemailer');
+const uuid = require('uuid');
 
 venom
   .create(
@@ -43,13 +44,12 @@ venom
 function start(client) {
   client.onMessage(async (message) => {
     if (message.isGroupMsg == false) {
-      var machineLearningRequest = await dFlow.sendDialogFlow(message.body);
-
       var numTelefone = message.from.substring(0,message.from.length-5);
+      var sessionId = getSession(numTelefone);
+      var machineLearningRequest = await dFlow.sendDialogFlow(message.body, sessionId);
+      // console.log("intent: ", machineLearningRequest.IntentName)
 
-      console.log("intent: ", machineLearningRequest.IntentName)
-
-      // console.log('machineLearningRequest:', machineLearningRequest);
+      console.log('machineLearningRequest:', machineLearningRequest);
 
       switch(machineLearningRequest.IntentName)
       {
@@ -142,6 +142,17 @@ function getHist(key) {
 
 function clearHist(key) {
   if(aMap[key] != undefined) aMap[key] = "";
+}
+
+//GERENCIADOR DE SESSOES
+
+var aSession = {};
+
+function getSession(key) {
+  if(aSession[key] == undefined) {
+    aSession[key] = uuid.v4();
+  } 
+  return aSession[key];
 }
 
 
