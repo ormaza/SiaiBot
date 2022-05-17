@@ -49,7 +49,7 @@ function start(client) {
       var machineLearningRequest = await dFlow.sendDialogFlow(message.body, sessionId);
 
       // console.log("intent: ", machineLearningRequest.IntentName)
-      // console.log('machineLearningRequest:', machineLearningRequest);
+      console.log('machineLearningRequest:', machineLearningRequest);
 
       switch(machineLearningRequest.IntentName)
       {
@@ -60,7 +60,7 @@ function start(client) {
           enviarMensagem(client, message, machineLearningRequest.Response);
           client.sendImage(message.from, 'https://raw.githubusercontent.com/ormaza/ormaza.github.io/master/siai%20bot/images/concursos.cadastro.concurso.png','','');
           break;
-        case 'Default Fallback Intent - yes':
+        case 'Default Fallback Intent - fallback - yes':
           enviarMensagem(client, message, machineLearningRequest.Response);
           enviarEmail(numTelefone);
           break;

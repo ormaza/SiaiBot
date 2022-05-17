@@ -29,7 +29,9 @@ module.exports = {
         "Query": result.queryText,
         "Response": result.fulfillmentText,
         "Parameters": result.parameters,
-        "IntentName": intentName
+        "IntentName": intentName,
+        "intentDetectionConfidence": result.intentDetectionConfidence,
+        "sentimentAnalysisResult": result.sentimentAnalysisResult?.queryTextSentiment.score,
       }
 
       return ret;
