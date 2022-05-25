@@ -43,6 +43,7 @@ module.exports = {
     {
         var numeroCelular = message.from.substring(0,message.from.length-5);
         var cpf = aCPF[numeroCelular];
+        if(cpf == undefined) return;
         axios.get(urlBaseTceAdmin + 'Perfil/', config).then((res) => {
             for(let i = 0; i < res.data.length; i++){
                 if(res.data[i].nomePerfil == perfil){
