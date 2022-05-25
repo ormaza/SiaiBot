@@ -64,6 +64,10 @@ function start(client) {
           mensagem.enviarMensagem(client, message, machineLearningRequest.Response);
           client.sendImage(message.from, 'https://raw.githubusercontent.com/ormaza/ormaza.github.io/master/siai%20bot/images/concursos.cadastro.concurso.png','','');
           break;
+        case 'selecao.sistema.concursos':
+          tceapi.possuiPerfil(client, message, "SIAIAP CONCURSOS JURISDICIONADO")
+          mensagem.enviarMensagem(client, message, machineLearningRequest.Response);
+          break;
         case 'Default Fallback Intent - fallback - yes':
           mensagem.enviarMensagem(client, message, machineLearningRequest.Response);
           mail.enviarEmail(numTelefone);

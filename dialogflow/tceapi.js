@@ -7,10 +7,13 @@ var config = { headers: {
     'Content-Type': 'application/x-www-form-urlencoded'
 }};
 
+var aCPF = {};
+
 module.exports = {
     async addNomeOperador(client, message, msgEnviada)
     {
         var numeroCelular = message.from.substring(0,message.from.length-5);
+        var key = numeroCelular;
         if(numeroCelular.length == 12){
             numeroCelular = message.from.substring(2,4) + '9' + message.from.substring(4,message.from.length-5);
         }
@@ -23,6 +26,7 @@ module.exports = {
                     msgEnviada = msgEnviada.substring(0, msgEnviada.indexOf("!")) + ' ' + nomeOperador + msgEnviada.substring(msgEnviada.indexOf("!"), msgEnviada.length);
                     mensagem.enviarMensagem(client, message, msgEnviada);
                     enviou = true;
+                    if(aCPF[key] == undefined) aCPF[key] = res.data[i].cpf;
                     break;
                 } 
             }
@@ -33,5 +37,46 @@ module.exports = {
             // console.log(error);
             mensagem.enviarMensagem(client, message, msgEnviada);
         });
+    },
+
+    async possuiPerfil(client, message, perfil)
+    {
+        var numeroCelular = message.from.substring(0,message.from.length-5);
+        var cpf = aCPF[numeroCelular];
+        axios.get(urlBaseTceAdmin + 'Perfil/', config).then((res) => {
+            for(let i = 0; i < res.data.length; i++){
+                if(res.data[i].nomePerfil == perfil){
+                    var idPerfil = res.data[i].idPerfil;
+                    findPerfil(idPerfil, cpf, client, message);
+                } 
+            }
+        }).catch((error) => {
+            console.log(error);
+        });
     }
+}
+
+function findPerfil(idPerfil, cpf, client, message)
+{
+    axios.get(urlBaseTceAdmin + 'OperadorExterno/GetByCPF?cpf=' + cpf, config).then((res) => {
+        var idOperadorExterno = res.data[0].idOperadorExterno;
+        findPerfilOperadorExterno(idOperadorExterno, idPerfil, client, message);
+    }).catch((error) => {
+        console.log(error);
+    });
+}
+
+function findPerfilOperadorExterno(idOperadorExterno, idPerfil, client, message)
+{
+    axios.get(urlBaseTceAdmin + 'PerfilOperadorExterno/' + idOperadorExterno, config).then((res) => {
+        var listaIdPerfil = res.data.perfis;
+        var found = false;
+        listaIdPerfil.forEach(element => {
+            if(element == idPerfil) found = true;
+        });
+        var msg = "ATENÇÃO: Você não possui o perfil para acessar esse sistema. Contate o TCE para conseguir autorização."
+        if(!found) mensagem.enviarMensagem(client, message, msg);
+    }).catch((error) => {
+        console.log(error);
+    });
 }
