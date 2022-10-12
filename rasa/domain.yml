@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - siaidp_tabela_auxiliar
+  - contato_compras
+  - contato_tribunal
+  - julgamento_contas
+
+responses:
+  utter_greet:
+  - text: "Olá! em que posso ajudar?"
+
+  utter_goodbye:
+  - text: "O TCE Agradece o contato"
+
+  utter_siaidp_tabela_auxiliar:
+  - text: "Faça o logoff do sistema pra visualizar o link"
+
+  utter_contato_compras:
+  - text: "Ligue para a CCS: 3642-7368"
+
+  utter_julgamento_contas:
+  - text: "Verifique no Portal do Gestor"
+
+  utter_contato_tribunal:
+  - text: "Ligue para o tribunal: XXX"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

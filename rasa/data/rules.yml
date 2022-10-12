@@ -1,0 +1,33 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: visualizar tabelas auxiliares
+  steps:
+  - intent: siaidp_tabela_auxiliar
+  - action: utter_siaidp_tabela_auxiliar
+
+- rule: contato setor compras
+  steps:
+  - intent: contato_compras
+  - action: utter_contato_compras
+
+- rule: contato tribunal
+  steps:
+  - intent: contato_tribunal
+  - action: utter_contato_tribunal
+
+- rule: pendência de julgamento de contas
+  steps:
+  - intent: julgamento_contas
+  - action: utter_julgamento_contas

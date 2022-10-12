@@ -1,0 +1,43 @@
+version: "3.1"
+
+nlu:
+- synonym: TCE
+  examples: |
+    - TCE
+    - tribunal
+
+- intent: greet
+  examples: |
+    - ola
+    - oi
+    - e ae
+    - bom dia
+    - boa tarde
+    - boa noite
+
+- intent: goodbye
+  examples: |
+    - xau
+    - tchau
+    - bye
+    - obrigado
+
+- intent: siaidp_tabela_auxiliar
+  examples: |
+    - tabela auxiliar
+    - acesso tabela auxiliar
+
+- intent: contato_compras
+  examples: |
+    - setor de compras
+    - telefone do setor de compras
+
+- intent: contato_tribunal
+  examples: |
+    - telefone do [tribunal](TCE)
+    - telefone do [tce](TCE)
+
+- intent: julgamento_contas
+  examples: |
+    - julgamento contas anuais
+    
