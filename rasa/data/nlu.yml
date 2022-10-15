@@ -27,6 +27,12 @@ nlu:
     - tabela auxiliar
     - acesso tabela auxiliar
 
+- intent: legis_editar_arquivo
+  examples: |
+    - legis editar arquivo norma já cadastrada
+    - legis mudar arquivo norma já cadastrada
+    - legis trocar arquivo norma já cadastrada
+
 - intent: contato_compras
   examples: |
     - setor de compras
@@ -40,4 +46,12 @@ nlu:
 - intent: julgamento_contas
   examples: |
     - julgamento contas anuais
+
+- intent: envio_contas
+  examples: |
+    - contas anuais devem ser assinadas digitalmente pelo antigo ou pelo atual gestor?
+
+- intent: portalgestor_visualizar_processos
+  examples: |
+    - visualizar processo
     

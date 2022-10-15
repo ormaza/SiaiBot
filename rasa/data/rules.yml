@@ -31,3 +31,18 @@ rules:
   steps:
   - intent: julgamento_contas
   - action: utter_julgamento_contas
+
+- rule: contas anuais envio
+  steps:
+  - intent: envio_contas
+  - action: utter_envio_contas
+
+- rule: legis editar arquivo
+  steps:
+  - intent: legis_editar_arquivo
+  - action: utter_legis_editar_arquivo
+
+- rule: portal do gestor visualizar processo
+  steps:
+  - intent: portalgestor_visualizar_processos
+  - action: utter_portalgestor_visualizar_processos

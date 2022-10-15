@@ -7,7 +7,10 @@ intents:
   - contato_compras
   - contato_tribunal
   - julgamento_contas
-
+  - envio_contas
+  - legis_editar_arquivo
+  - portalgestor_visualizar_processos
+  
 responses:
   utter_greet:
   - text: "Olá! em que posso ajudar?"
@@ -24,8 +27,17 @@ responses:
   utter_julgamento_contas:
   - text: "Verifique no Portal do Gestor"
 
+  utter_envio_contas:
+  - text: " As contas anuais deverão ser assinadas e enviadas pelo gestor atual."
+
   utter_contato_tribunal:
-  - text: "Ligue para o tribunal: XXX"
+  - text: "Ligue para o tribunal: 3642-7275"
+
+  utter_legis_editar_arquivo:
+  - text: "Não é possível editar o arquivo já enviado"
+
+  utter_portalgestor_visualizar_processos:
+  - text: "No portal do gestor, clique no link Consultar Processos"
 
 session_config:
   session_expiration_time: 60
