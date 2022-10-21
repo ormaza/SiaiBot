@@ -13,3 +13,6 @@ pip3 --version
 ##### instalar
 pip3 install -U pip <br>
 pip3 install rasa[full]
+##### alguns comandos
+rasa train <br>
+rasa shell
