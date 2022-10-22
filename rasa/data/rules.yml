@@ -46,3 +46,8 @@ rules:
   steps:
   - intent: portalgestor_visualizar_processos
   - action: utter_portalgestor_visualizar_processos
+
+- rule: Nao entendi
+  steps:
+  - intent: nlu_fallback
+  - action: utter_nlu_fallback

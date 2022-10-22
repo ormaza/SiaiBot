@@ -16,3 +16,7 @@ pip3 install rasa[full]
 ##### alguns comandos
 rasa train <br>
 rasa shell
+
+### Implantação
+
+rasa run --enable-api
