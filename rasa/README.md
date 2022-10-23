@@ -19,4 +19,9 @@ rasa shell
 
 ### Implantação
 
+##### Terminal 1
 rasa run --enable-api
+
+##### Terminal 2
+cd client <br>
+npm start
