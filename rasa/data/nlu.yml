@@ -42,7 +42,7 @@ nlu:
 
 - intent: contato_compras
   examples: |
-    - setor compras
+    - número setor compras
     - telefone setor compras
     - contato setor compras
 
@@ -50,19 +50,23 @@ nlu:
   examples: |
     - contato tce
     - telefone tce
+    - número tce
 
 - intent: contato_caj
   examples: |
     - contato caj
     - telefone caj
+    - número caj
 
 - intent: contato_carlos_thompson
   examples: |
-    - contato conselheiro carlos thompson
-    - telefone conselheiro carlos thompson
+    - contato gabinete conselheiro carlos thompson
+    - telefone gabinete conselheiro carlos thompson
+    - número gabinete conselheiro carlos thompson
 
 - intent: contato_renato_costa
   examples: |
-    - contato conselheiro renato costa
-    - telefone conselheiro renato costa
+    - contato gabinete conselheiro renato costa
+    - telefone gabinete conselheiro renato costa
+    - número gabinete conselheiro renato costa
     
