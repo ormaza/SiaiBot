@@ -1,11 +1,6 @@
 version: "3.1"
 
 nlu:
-- synonym: TCE
-  examples: |
-    - TCE
-    - tribunal
-
 - intent: greet
   examples: |
     - ola
@@ -33,16 +28,6 @@ nlu:
     - legis mudar arquivo norma já cadastrada
     - legis trocar arquivo norma já cadastrada
 
-- intent: contato_compras
-  examples: |
-    - setor de compras
-    - telefone do setor de compras
-
-- intent: contato_tribunal
-  examples: |
-    - telefone do [tribunal](TCE)
-    - telefone do [tce](TCE)
-
 - intent: julgamento_contas
   examples: |
     - julgamento contas anuais
@@ -54,4 +39,30 @@ nlu:
 - intent: portalgestor_visualizar_processos
   examples: |
     - visualizar processo
+
+- intent: contato_compras
+  examples: |
+    - setor compras
+    - telefone setor compras
+    - contato setor compras
+
+- intent: contato_tribunal
+  examples: |
+    - contato tce
+    - telefone tce
+
+- intent: contato_caj
+  examples: |
+    - contato caj
+    - telefone caj
+
+- intent: contato_carlos_thompson
+  examples: |
+    - contato conselheiro carlos thompson
+    - telefone conselheiro carlos thompson
+
+- intent: contato_renato_costa
+  examples: |
+    - contato conselheiro renato costa
+    - telefone conselheiro renato costa
     

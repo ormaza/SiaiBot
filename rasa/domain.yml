@@ -4,12 +4,15 @@ intents:
   - greet
   - goodbye
   - siaidp_tabela_auxiliar
-  - contato_compras
-  - contato_tribunal
   - julgamento_contas
   - envio_contas
   - legis_editar_arquivo
   - portalgestor_visualizar_processos
+  - contato_compras
+  - contato_tribunal
+  - contato_caj
+  - contato_carlos_thompson
+  - contato_renato_costa
   
 responses:
   utter_greet:
@@ -21,17 +24,11 @@ responses:
   utter_siaidp_tabela_auxiliar:
   - text: "Faça o logoff do sistema pra visualizar o link"
 
-  utter_contato_compras:
-  - text: "Ligue para a CCS: 3642-7368"
-
   utter_julgamento_contas:
   - text: "Verifique no Portal do Gestor"
 
   utter_envio_contas:
   - text: " As contas anuais deverão ser assinadas e enviadas pelo gestor atual."
-
-  utter_contato_tribunal:
-  - text: "Ligue para o tribunal: 3642-7275"
 
   utter_legis_editar_arquivo:
   - text: "Não é possível editar o arquivo já enviado"
@@ -41,6 +38,21 @@ responses:
 
   utter_nlu_fallback:
   - text: "Desculpe. Não entendi!"
+
+  utter_contato_compras:
+  - text: "Certo. O número do CCS é 3642-7368"
+
+  utter_contato_tribunal:
+  - text: "Certo. O número do tribunal é o 3642-7275"
+
+  utter_contato_caj:
+  - text: "Certo. O número da CAJ é o (84) 3642-7275"
+
+  utter_contato_carlos_thompson:
+  - text: "Certo. O número do gabinete do Conselheiro Carlos Thompson Costa Fernandes é o (84) 3642-7262"
+
+  utter_contato_renato_costa:
+  - text: "Certo. O número do Gabinete do Conselheiro Renato Costa Dias é o (84) 3642-7269"
 
 session_config:
   session_expiration_time: 60

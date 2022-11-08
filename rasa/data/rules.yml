@@ -17,16 +17,6 @@ rules:
   - intent: siaidp_tabela_auxiliar
   - action: utter_siaidp_tabela_auxiliar
 
-- rule: contato setor compras
-  steps:
-  - intent: contato_compras
-  - action: utter_contato_compras
-
-- rule: contato tribunal
-  steps:
-  - intent: contato_tribunal
-  - action: utter_contato_tribunal
-
 - rule: pendência de julgamento de contas
   steps:
   - intent: julgamento_contas
@@ -51,3 +41,28 @@ rules:
   steps:
   - intent: nlu_fallback
   - action: utter_nlu_fallback
+
+- rule: contato setor compras
+  steps:
+  - intent: contato_compras
+  - action: utter_contato_compras
+
+- rule: contato tribunal
+  steps:
+  - intent: contato_tribunal
+  - action: utter_contato_tribunal
+
+- rule: contato caj
+  steps:
+  - intent: contato_caj
+  - action: utter_contato_caj
+
+- rule: contato carlos thompson
+  steps:
+  - intent: contato_carlos_thompson
+  - action: utter_contato_carlos_thompson
+
+- rule: contato renato costa
+  steps:
+  - intent: contato_renato_costa
+  - action: utter_contato_renato_costa
