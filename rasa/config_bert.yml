@@ -2,7 +2,7 @@ recipe: default.v1
 language: br
 # https://rasa.com/docs/rasa/model-configuration/
 
-DIET + BERTIMBAU
+# DIET + BERTIMBAU
 pipeline:
   - name: WhitespaceTokenizer
   - name: LanguageModelFeaturizer

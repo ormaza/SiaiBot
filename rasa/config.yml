@@ -47,12 +47,12 @@ pipeline:
 #     threshold: 0.7
 #     ambiguity_threshold: 0.1
 
-# DIET + BERT BASE UNCASED
+# DIET + BERT BASE MULTILINGUAL
 # pipeline:
 #   - name: WhitespaceTokenizer
 #   - name: LanguageModelFeaturizer
 #     model_name: "bert"
-#     model_weights: "bert-base-uncased"
+#     model_weights: "bert-base-multilingual-cased"
 #   - name: RegexFeaturizer
 #   - name: LexicalSyntacticFeaturizer
 #   - name: CountVectorsFeaturizer

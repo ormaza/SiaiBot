@@ -5,7 +5,6 @@ nlu:
   examples: |
     - ola
     - oi
-    - e ae
     - bom dia
     - boa tarde
     - boa noite
@@ -16,11 +15,15 @@ nlu:
     - tchau
     - bye
     - obrigado
+    - até mais
 
 - intent: siaidp_tabela_auxiliar
   examples: |
     - tabela auxiliar
     - acesso tabela auxiliar
+    - siaidp tabela auxiliar
+    - como acessar tabela auxiliar siaidp
+    - desejo acessar tabela auxiliar siaidp
 
 - intent: legis_editar_arquivo
   examples: |
@@ -31,14 +34,18 @@ nlu:
 - intent: julgamento_contas
   examples: |
     - julgamento contas anuais
+    - visualizar julgamento contas anuais
+    - acessar julgamento contas anuais
 
 - intent: envio_contas
   examples: |
     - contas anuais devem ser assinadas digitalmente pelo antigo ou pelo atual gestor?
+    - contas anuais quem deve assinar
 
 - intent: portalgestor_visualizar_processos
   examples: |
-    - visualizar processo
+    - visualizar processo portal gestor
+    - acessar processo portal gestor
 
 - intent: contato_compras
   examples: |
@@ -48,15 +55,15 @@ nlu:
 
 - intent: contato_tribunal
   examples: |
-    - contato tce
-    - telefone tce
-    - número tce
-
+    - número tce tribunal
+    - telefone tce tribunal
+    - contato tce tribunal
+    
 - intent: contato_caj
   examples: |
-    - contato caj
-    - telefone caj
-    - número caj
+    - contato caj Central Atendimento Jurisdicionado
+    - telefone caj Central Atendimento Jurisdicionado
+    - número caj Central Atendimento Jurisdicionado
 
 - intent: contato_carlos_thompson
   examples: |
