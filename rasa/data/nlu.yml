@@ -8,6 +8,7 @@ nlu:
     - bom dia
     - boa tarde
     - boa noite
+    - ei
 
 - intent: goodbye
   examples: |
@@ -16,28 +17,68 @@ nlu:
     - bye
     - obrigado
     - até mais
+    - ok
+
+- intent: algo_mais
+  examples: |
+    - entendi
+    - ok
+    - certo
+
+- intent: etce_cadastro_falta_senha
+  examples: |
+    - cadastrei não recebi senha
+    - cadastrei falta senha
+    - fiz cadastro falta senha
+    - conclui cadastro falta senha
+    - conclui cadastro quando terei senha
+    - terminei cadastro não tenho senha
+
+- intent: etce_cadastro_como_fazer
+  examples: |
+    - como cadastrar envio informações
+    - cadastro enviar informações
+    - desejo cadastrar enviar informações
+    - quero cadastrar enviar informações
+
+- intent: etce_enviar_oficio
+  examples: |
+    - desejo enviar oficio
+    - quero enviar oficio
+    - preciso enviar oficio
+    - necessito enviar oficio
 
 - intent: siaidp_tabela_auxiliar
   examples: |
-    - tabela auxiliar
-    - acesso tabela auxiliar
-    - siaidp tabela auxiliar
+    - visualizar tabela auxiliar siaidp
+    - acessar tabela auxiliar siaidp
+    - siaidp tabela auxiliar siaidp
     - como acessar tabela auxiliar siaidp
     - desejo acessar tabela auxiliar siaidp
+    - desejo visualizar tabela auxiliar siaidp
 
 - intent: legis_editar_arquivo
   examples: |
-    - legis editar arquivo norma já cadastrada
-    - legis mudar arquivo norma já cadastrada
-    - legis trocar arquivo norma já cadastrada
+    - legis editar arquivo norma cadastrada
+    - legis mudar arquivo norma cadastrada
+    - legis trocar arquivo norma cadastrada
+    - legis alterar arquivo norma cadastrada
 
-- intent: julgamento_contas
+- intent: legis_editar_norma
+  examples: |
+    - legis editar norma cadastrada
+    - legis mudar norma cadastrada
+    - legis alterar norma cadastrada
+    - legis modificar norma cadastrada
+
+- intent: portalgestor_julgamento_contas
   examples: |
     - julgamento contas anuais
     - visualizar julgamento contas anuais
     - acessar julgamento contas anuais
+    - ver julgamento contas anuais
 
-- intent: envio_contas
+- intent: portalgestor_envio_contas
   examples: |
     - contas anuais devem ser assinadas digitalmente pelo antigo ou pelo atual gestor?
     - contas anuais quem deve assinar
@@ -46,34 +87,64 @@ nlu:
   examples: |
     - visualizar processo portal gestor
     - acessar processo portal gestor
+    - ver processo portal gestor
+    - verificar processo portal gestor
+
+- intent: portalgestor_plano_acao
+  examples: |
+    - onde enviar plano ação
+    - como enviar plano ação
+    - aonde enviar plano ação
+    - de que maneira enviar plano ação
+    - de que forma enviar plano ação
+    - de que jeito enviar plano ação
+
+- intent: portalgestor_encaminhar_plano_acao
+  examples: |
+    - encaminhar plano ação quem
+    - para quem encaminhar plano de ação
+    - para quem enviar plano de ação
+    - para quem mandar plano de ação
 
 - intent: contato_compras
   examples: |
-    - número setor compras
-    - telefone setor compras
-    - contato setor compras
+    - número setor compras ccs
+    - telefone setor compras ccs
+    - contato setor compras ccs
+    - falar setor compras ccs
 
 - intent: contato_tribunal
   examples: |
     - número tce tribunal
     - telefone tce tribunal
     - contato tce tribunal
+    - falar tce tribunal
     
 - intent: contato_caj
   examples: |
     - contato caj Central Atendimento Jurisdicionado
     - telefone caj Central Atendimento Jurisdicionado
     - número caj Central Atendimento Jurisdicionado
+    - falar caj Central Atendimento Jurisdicionado
 
 - intent: contato_carlos_thompson
   examples: |
     - contato gabinete conselheiro carlos thompson
     - telefone gabinete conselheiro carlos thompson
     - número gabinete conselheiro carlos thompson
+    - falar gabinete conselheiro carlos thompson
 
 - intent: contato_renato_costa
   examples: |
     - contato gabinete conselheiro renato costa
     - telefone gabinete conselheiro renato costa
     - número gabinete conselheiro renato costa
+    - falar gabinete conselheiro renato costa
+
+- intent: contato_recepcao
+  examples: |
+    - contato recepção recepcionista
+    - telefone recepção recepcionista
+    - número recepção recepcionista
+    - falar recepção recepcionista
     

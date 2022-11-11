@@ -12,30 +12,65 @@ rules:
   - intent: greet
   - action: utter_greet
 
+- rule: algo mais
+  steps:
+  - intent: algo_mais
+  - action: utter_algo_mais
+
+- rule: etce cadastro aguardando senha
+  steps:
+  - intent: etce_cadastro_falta_senha
+  - action: utter_etce_cadastro_falta_senha
+
+- rule: etce cadastro como fazer
+  steps:
+  - intent: etce_cadastro_como_fazer
+  - action: utter_etce_cadastro_como_fazer
+
+- rule: etce enviar oficio
+  steps:
+  - intent: etce_enviar_oficio
+  - action: utter_etce_enviar_oficio
+
 - rule: visualizar tabelas auxiliares
   steps:
   - intent: siaidp_tabela_auxiliar
   - action: utter_siaidp_tabela_auxiliar
-
-- rule: pendência de julgamento de contas
-  steps:
-  - intent: julgamento_contas
-  - action: utter_julgamento_contas
-
-- rule: contas anuais envio
-  steps:
-  - intent: envio_contas
-  - action: utter_envio_contas
 
 - rule: legis editar arquivo
   steps:
   - intent: legis_editar_arquivo
   - action: utter_legis_editar_arquivo
 
+- rule: legis editar norma
+  steps:
+  - intent: legis_editar_norma
+  - action: utter_legis_editar_norma
+
+- rule: portal gestor pendência de julgamento de contas
+  steps:
+  - intent: portalgestor_julgamento_contas
+  - action: utter_portalgestor_julgamento_contas
+
+- rule: portal gestor contas anuais envio
+  steps:
+  - intent: portalgestor_envio_contas
+  - action: utter_portalgestor_envio_contas
+
 - rule: portal do gestor visualizar processo
   steps:
   - intent: portalgestor_visualizar_processos
   - action: utter_portalgestor_visualizar_processos
+
+- rule: portal do gestor plano acao
+  steps:
+  - intent: portalgestor_plano_acao
+  - action: utter_portalgestor_plano_acao
+
+- rule: portal do gestor encaminhar plano acao
+  steps:
+  - intent: portalgestor_encaminhar_plano_acao
+  - action: utter_portalgestor_encaminhar_plano_acao
 
 - rule: Nao entendi
   steps:
@@ -66,3 +101,8 @@ rules:
   steps:
   - intent: contato_renato_costa
   - action: utter_contato_renato_costa
+
+- rule: contato recepcao
+  steps:
+  - intent: contato_recepcao
+  - action: utter_contato_recepcao

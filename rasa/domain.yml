@@ -3,16 +3,24 @@ version: "3.1"
 intents:
   - greet
   - goodbye
+  - algo_mais
+  - etce_cadastro_falta_senha
+  - etce_cadastro_como_fazer
+  - etce_enviar_oficio
   - siaidp_tabela_auxiliar
-  - julgamento_contas
-  - envio_contas
   - legis_editar_arquivo
+  - legis_editar_norma
+  - portalgestor_julgamento_contas
+  - portalgestor_envio_contas
   - portalgestor_visualizar_processos
+  - portalgestor_plano_acao
+  - portalgestor_encaminhar_plano_acao
   - contato_compras
   - contato_tribunal
   - contato_caj
   - contato_carlos_thompson
   - contato_renato_costa
+  - contato_recepcao
   
 responses:
   utter_greet:
@@ -21,20 +29,41 @@ responses:
   utter_goodbye:
   - text: "O TCE Agradece o contato"
 
+  utter_algo_mais:
+  - text: "Algo mais?"
+
+  utter_etce_cadastro_falta_senha:
+  - text: "Aguarde até 1 dia útil para liberação do acesso."
+
+  utter_etce_cadastro_como_fazer:
+  - text: "Basta procurar a tela de serviços e preencher o item CADASTRO DE ADVOGADO."
+
+  utter_etce_enviar_oficio:
+  - text: "É necessário realizar cadastro no e-tce para ter acesso a tela de envio de oficio."
+
   utter_siaidp_tabela_auxiliar:
   - text: "Faça o logoff do sistema pra visualizar o link"
-
-  utter_julgamento_contas:
-  - text: "Verifique no Portal do Gestor"
-
-  utter_envio_contas:
-  - text: " As contas anuais deverão ser assinadas e enviadas pelo gestor atual."
 
   utter_legis_editar_arquivo:
   - text: "Não é possível editar o arquivo já enviado"
 
+  utter_legis_editar_norma:
+  - text: "Caso não consiga editar a norma, solicite a sua exclusão e posteriormente a recadastre."
+
+  utter_portalgestor_julgamento_contas:
+  - text: "Verifique no Portal do Gestor"
+
+  utter_portalgestor_envio_contas:
+  - text: " As contas anuais deverão ser assinadas e enviadas pelo gestor atual."
+
   utter_portalgestor_visualizar_processos:
   - text: "No portal do gestor, clique no link Consultar Processos"
+
+  utter_portalgestor_plano_acao:
+  - text: "O plano de ação deverá ser enviado pelo e-tce e junto a esse deverá estar anexado um oficio informando do que se trata."
+
+  utter_portalgestor_encaminhar_plano_acao:
+  - text: "O plano de ação deverá ser encaminhado para a presidência."
 
   utter_nlu_fallback:
   - text: "Desculpe. Não entendi!"
@@ -53,6 +82,9 @@ responses:
 
   utter_contato_renato_costa:
   - text: "Certo. O número do Gabinete do Conselheiro Renato Costa Dias é o (84) 3642-7269"
+
+  utter_contato_recepcao:
+  - text: "Certo. O número da recepção é o (84) 3642-7377"
 
 session_config:
   session_expiration_time: 60
