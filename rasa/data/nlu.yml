@@ -18,6 +18,8 @@ nlu:
     - obrigado
     - até mais
     - ok
+    - agradecido
+    - entendido obrigado
 
 - intent: algo_mais
   examples: |
