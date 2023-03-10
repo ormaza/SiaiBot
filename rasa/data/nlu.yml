@@ -14,10 +14,8 @@ nlu:
   examples: |
     - xau
     - tchau
-    - bye
     - obrigado
     - até mais
-    - ok
     - agradecido
     - entendido obrigado
 
@@ -26,6 +24,9 @@ nlu:
     - entendi
     - ok
     - certo
+    - anotado
+    - compreendo
+    - beleza
 
 - intent: etce_cadastro_falta_senha
   examples: |
@@ -42,6 +43,8 @@ nlu:
     - cadastro enviar informações
     - desejo cadastrar enviar informações
     - quero cadastrar enviar informações
+    - preciso cadastrar envio informações
+    - necessito cadastro envio informações
 
 - intent: etce_enviar_oficio
   examples: |
@@ -49,6 +52,8 @@ nlu:
     - quero enviar oficio
     - preciso enviar oficio
     - necessito enviar oficio
+    - envio oficio
+    - vou enviar oficio
 
 - intent: siaidp_tabela_auxiliar
   examples: |
@@ -65,6 +70,8 @@ nlu:
     - legis mudar arquivo norma cadastrada
     - legis trocar arquivo norma cadastrada
     - legis alterar arquivo norma cadastrada
+    - legis excluir arquivo norma cadastrada
+    - legis deletar arquivo norma cadastrada
 
 - intent: legis_editar_norma
   examples: |
@@ -72,6 +79,8 @@ nlu:
     - legis mudar norma cadastrada
     - legis alterar norma cadastrada
     - legis modificar norma cadastrada
+    - faltou informação em uma lei enviada
+    - legis editar norma enviada
 
 - intent: portalgestor_julgamento_contas
   examples: |
@@ -79,11 +88,14 @@ nlu:
     - visualizar julgamento contas anuais
     - acessar julgamento contas anuais
     - ver julgamento contas anuais
+    - enviar contas anuais
+    - submeter contas anuais
 
-- intent: portalgestor_envio_contas
-  examples: |
-    - contas anuais devem ser assinadas digitalmente pelo antigo ou pelo atual gestor?
-    - contas anuais quem deve assinar
+# - intent: portalgestor_envio_contas
+#   examples: |
+#     - contas anuais devem ser assinadas digitalmente pelo antigo ou pelo atual gestor?
+#     - contas anuais quem deve assinar
+#     - CPF do gestor diferente do CPF da assinatura digital
 
 - intent: portalgestor_visualizar_processos
   examples: |
@@ -91,6 +103,8 @@ nlu:
     - acessar processo portal gestor
     - ver processo portal gestor
     - verificar processo portal gestor
+    - entrar processo portal gestor
+    - processo portal gestor
 
 - intent: portalgestor_plano_acao
   examples: |
@@ -107,6 +121,8 @@ nlu:
     - para quem encaminhar plano de ação
     - para quem enviar plano de ação
     - para quem mandar plano de ação
+    - para quem submeter plano de ação
+    - para quem endereçar plano de ação
 
 - intent: contato_compras
   examples: |
@@ -114,6 +130,8 @@ nlu:
     - telefone setor compras ccs
     - contato setor compras ccs
     - falar setor compras ccs
+    - desejo contatar setor compras ccs
+    - preciso contatar setor compras ccs
 
 - intent: contato_tribunal
   examples: |
@@ -121,6 +139,8 @@ nlu:
     - telefone tce tribunal
     - contato tce tribunal
     - falar tce tribunal
+    - desejo contatar tce tribunal
+    - preciso contatar tce tribunal
     
 - intent: contato_caj
   examples: |
@@ -128,6 +148,8 @@ nlu:
     - telefone caj Central Atendimento Jurisdicionado
     - número caj Central Atendimento Jurisdicionado
     - falar caj Central Atendimento Jurisdicionado
+    - desejo contatar caj Central Atendimento Jurisdicionado
+    - preciso contatar caj Central Atendimento Jurisdicionado
 
 - intent: contato_carlos_thompson
   examples: |
@@ -135,6 +157,8 @@ nlu:
     - telefone gabinete conselheiro carlos thompson
     - número gabinete conselheiro carlos thompson
     - falar gabinete conselheiro carlos thompson
+    - desejo contatar gabinete conselheiro carlos thompson
+    - preciso contatar gabinete conselheiro carlos thompson
 
 - intent: contato_renato_costa
   examples: |
@@ -142,6 +166,8 @@ nlu:
     - telefone gabinete conselheiro renato costa
     - número gabinete conselheiro renato costa
     - falar gabinete conselheiro renato costa
+    - desejo contatar gabinete conselheiro renato costa
+    - preciso contatar gabinete conselheiro renato costa
 
 - intent: contato_recepcao
   examples: |
@@ -149,4 +175,6 @@ nlu:
     - telefone recepção recepcionista
     - número recepção recepcionista
     - falar recepção recepcionista
+    - desejo contatar recepção recepcionista
+    - preciso contatar recepção recepcionista
     

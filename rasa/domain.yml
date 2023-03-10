@@ -11,7 +11,7 @@ intents:
   - legis_editar_arquivo
   - legis_editar_norma
   - portalgestor_julgamento_contas
-  - portalgestor_envio_contas
+  # - portalgestor_envio_contas
   - portalgestor_visualizar_processos
   - portalgestor_plano_acao
   - portalgestor_encaminhar_plano_acao
@@ -53,8 +53,8 @@ responses:
   utter_portalgestor_julgamento_contas:
   - text: "Verifique no Portal do Gestor"
 
-  utter_portalgestor_envio_contas:
-  - text: " As contas anuais deverão ser assinadas e enviadas pelo gestor atual."
+  # utter_portalgestor_envio_contas:
+  # - text: " As contas anuais deverão ser assinadas e enviadas pelo gestor atual."
 
   utter_portalgestor_visualizar_processos:
   - text: "No portal do gestor, clique no link Consultar Processos"

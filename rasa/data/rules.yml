@@ -52,10 +52,10 @@ rules:
   - intent: portalgestor_julgamento_contas
   - action: utter_portalgestor_julgamento_contas
 
-- rule: portal gestor contas anuais envio
-  steps:
-  - intent: portalgestor_envio_contas
-  - action: utter_portalgestor_envio_contas
+# - rule: portal gestor contas anuais envio
+#   steps:
+#   - intent: portalgestor_envio_contas
+#   - action: utter_portalgestor_envio_contas
 
 - rule: portal do gestor visualizar processo
   steps:

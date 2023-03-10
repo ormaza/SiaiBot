@@ -1,105 +1,163 @@
 {
-  "julgamento_contas": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
-    "confused_with": {}
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "portalgestor_visualizar_processos": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
-    "confused_with": {}
-  },
-  "siaidp_tabela_auxiliar": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "contato_compras": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "contato_renato_costa": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "envio_contas": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
-    "confused_with": {}
-  },
-  "contato_caj": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "contato_carlos_thompson": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "greet": {
+  "etce_cadastro_falta_senha": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
     "confused_with": {}
   },
-  "legis_editar_arquivo": {
-    "precision": 1.0,
+  "portalgestor_julgamento_contas": {
+    "precision": 0.8571428571428571,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
+    "f1-score": 0.923076923076923,
+    "support": 6,
     "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4444444444444444,
+    "support": 6,
+    "confused_with": {
+      "greet": 3,
+      "portalgestor_julgamento_contas": 1
+    }
   },
   "contato_tribunal": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 3,
+    "support": 6,
     "confused_with": {}
   },
-  "accuracy": 1.0,
-  "macro avg": {
+  "algo_mais": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 6,
+    "confused_with": {
+      "greet": 3,
+      "contato_compras": 1
+    }
+  },
+  "contato_caj": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 33
+    "support": 6,
+    "confused_with": {}
+  },
+  "portalgestor_plano_acao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "portalgestor_encaminhar_plano_acao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "legis_editar_norma": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {
+      "etce_cadastro_como_fazer": 1,
+      "legis_editar_arquivo": 1
+    }
+  },
+  "legis_editar_arquivo": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "contato_carlos_thompson": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "siaidp_tabela_auxiliar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {}
+  },
+  "etce_cadastro_como_fazer": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "etce_enviar_oficio": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "portalgestor_visualizar_processos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "contato_recepcao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "contato_renato_costa": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "contato_compras": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "accuracy": 0.9035087719298246,
+  "macro avg": {
+    "precision": 0.9260651629072684,
+    "recall": 0.9035087719298246,
+    "f1-score": 0.8889017415333205,
+    "support": 114
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 33
+    "precision": 0.926065162907268,
+    "recall": 0.9035087719298246,
+    "f1-score": 0.8889017415333205,
+    "support": 114
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 33
+    "precision": 0.9035087719298246,
+    "recall": 0.9035087719298246,
+    "f1-score": 0.9035087719298246,
+    "support": 114
   }
 }
