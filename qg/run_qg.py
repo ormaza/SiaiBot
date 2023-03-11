@@ -66,7 +66,7 @@ if __name__ == "__main__":
                     answer_style=args.answer_style,
                     use_evaluator=args.use_qa_eval
                 )
-            # print_qa(qa_list, show_answers=args.show_answers)
+            print_qa(qa_list, show_answers=args.show_answers)
             list_qa.append(qa_list)
             i+=1
         write_cell(list_qa)
