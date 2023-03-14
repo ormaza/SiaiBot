@@ -2,6 +2,7 @@ import argparse
 import csv
 from questiongenerator import QuestionGenerator
 from questiongenerator import print_qa
+from deep_translator import GoogleTranslator
 
 
 def parse_args() -> argparse.Namespace:
@@ -48,6 +49,7 @@ if __name__ == "__main__":
         with open(args.in_file, 'r', encoding="utf8") as file:
             Lines = file.readlines()
         for line in Lines:
+            line = GoogleTranslator(source='pt', target='en').translate(line)
             qa_list = qg.generate(
                 line,
                 num_questions=int(args.num_questions),
@@ -59,9 +61,10 @@ if __name__ == "__main__":
         i = args.x
         list_qa = []
         while read_cell(args.y, i) != None:
-            print(read_cell(args.y, i))
+            line = GoogleTranslator(source='pt', target='en').translate(read_cell(args.y, i))
+            print(line)
             qa_list = qg.generate(
-                    read_cell(args.y, i),
+                    line,
                     num_questions=int(args.num_questions),
                     answer_style=args.answer_style,
                     use_evaluator=args.use_qa_eval
@@ -70,5 +73,23 @@ if __name__ == "__main__":
             list_qa.append(qa_list)
             i+=1
         write_cell(list_qa)
+
+
+# if __name__ == "__main__":
+#     args = parse_args()
+#     with open(args.in_file, 'r') as file:
+#         text_file = file.read()
+#     # print(text_file)
+#     text_file = GoogleTranslator(source='pt', target='en').translate(text_file)
+#     # print(text_file)
+#     qg = QuestionGenerator()
+#     qa_list = qg.generate(
+#         text_file,
+#         num_questions=int(args.num_questions),
+#         answer_style=args.answer_style,
+#         use_evaluator=args.use_qa_eval
+#     )
+#     # print(qa_list)
+#     print_qa(qa_list, show_answers=args.show_answers)
 
 

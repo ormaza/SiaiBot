@@ -1,10 +1,10 @@
 import en_core_web_sm
-import pt_core_news_sm
 import json
 import numpy as np
 import random
 import re
 import torch
+from deep_translator import GoogleTranslator
 from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
@@ -25,8 +25,7 @@ class QuestionGenerator:
 
     def __init__(self) -> None:
 
-        # QG_PRETRAINED = "iarfmoose/t5-base-question-generator"
-        QG_PRETRAINED = "pierreguillou/t5-base-qa-squad-v1.1-portuguese"
+        QG_PRETRAINED = "iarfmoose/t5-base-question-generator"
         self.ANSWER_TOKEN = "<answer>"
         self.CONTEXT_TOKEN = "<context>"
         self.SEQ_LENGTH = 512
@@ -65,7 +64,7 @@ class QuestionGenerator:
         assert len(generated_questions) == len(qg_answers), message
 
         if use_evaluator:
-            print("Filtrando QA pairs...\n")
+            print("Filtrando pares QA...\n")
             encoded_qa_pairs = self.qa_evaluator.encode_qa_pairs(
                 generated_questions, qg_answers
             )
@@ -199,7 +198,7 @@ class QuestionGenerator:
         questions. Sentences are used as context, and entities as answers. Returns a tuple of (model inputs, answers). 
         Model inputs are "answer_token <answer text> context_token <context text>"
         """
-        spacy_nlp = pt_core_news_sm.load()
+        spacy_nlp = en_core_web_sm.load()
         docs = list(spacy_nlp.pipe(sentences, disable=["parser"]))
         inputs_from_text = []
         answers_from_text = []
@@ -333,6 +332,7 @@ class QAEvaluator:
     def __init__(self) -> None:
 
         QAE_PRETRAINED = "iarfmoose/bert-base-cased-qa-evaluator"
+        # QAE_PRETRAINED = "neuralmind/bert-base-portuguese-cased"
         self.SEQ_LENGTH = 512
 
         self.device = torch.device(
@@ -399,6 +399,9 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
     for i in range(len(qa_list)):
         # wider space for 2 digit q nums
         space = " " * int(np.where(i < 9, 3, 4))
+
+        qa_list[i]['question'] = GoogleTranslator(source='en', target='pt').translate(qa_list[i]['question'])
+        qa_list[i]['answer'] = GoogleTranslator(source='en', target='pt').translate(qa_list[i]['answer'])
 
         print(f"{i + 1}) Q: {qa_list[i]['question']}")
 

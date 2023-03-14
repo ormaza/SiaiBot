@@ -5,7 +5,6 @@ import torch
 from transformers import AutoTokenizer
 from typing import Mapping, Tuple
 import en_core_web_sm
-import pt_core_news_sm
 
 
 class QGDataset(torch.utils.data.Dataset):
@@ -59,7 +58,7 @@ class QAEvalDataset(torch.utils.data.Dataset):
         self.max_length = max_length
         self.transforms = [self.shuffle, self.corrupt]
         self.hf_tokenizer = tokenizer
-        self.spacy_tokenizer = pt_core_news_sm.load()
+        self.spacy_tokenizer = en_core_web_sm.load()
 
     def __len__(self) -> int:
         return len(self.data)
