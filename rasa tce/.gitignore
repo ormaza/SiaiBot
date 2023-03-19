@@ -1,0 +1,4 @@
+.rasa
+models
+actions/__pycache__
+results

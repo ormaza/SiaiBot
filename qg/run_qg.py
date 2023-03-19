@@ -49,6 +49,7 @@ if __name__ == "__main__":
         with open(args.in_file, 'r', encoding="utf8") as file:
             Lines = file.readlines()
         for line in Lines:
+            print(line)
             line = GoogleTranslator(source='pt', target='en').translate(line)
             qa_list = qg.generate(
                 line,
@@ -62,7 +63,7 @@ if __name__ == "__main__":
         list_qa = []
         while read_cell(args.y, i) != None:
             line = GoogleTranslator(source='pt', target='en').translate(read_cell(args.y, i))
-            print(line)
+            print(read_cell(args.y, i))
             qa_list = qg.generate(
                     line,
                     num_questions=int(args.num_questions),

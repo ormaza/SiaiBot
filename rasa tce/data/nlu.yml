@@ -1,0 +1,193 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - ola
+    - oi
+    - bom dia
+    - boa tarde
+    - boa noite
+    - ei
+
+- intent: goodbye
+  examples: |
+    - xau
+    - tchau
+    - obrigado
+    - até mais
+    - agradecido
+    - entendido obrigado
+
+- intent: algo_mais
+  examples: |
+    - entendi
+    - ok
+    - certo
+    - anotado
+    - compreendo
+    - beleza
+
+- intent: geral_dados_servidor
+  examples: |
+    - Gostaria de solicitar os Dados dos Servidores efetivos temporário e suas Remunerações
+    - Gostaria de requerer os Dados dos Servidores e suas Remunerações
+    - Gostaria de acessar os Dados dos Servidores e suas Remunerações
+    - Desejo acessar os Dados dos Servidores e suas Remunerações
+
+- intent: atendente_humano
+  examples: |
+    - Gostaria de conversar com um atendente
+    - Gostaria de ser transferido para um atendente
+    - Desejo falar com um atendente
+
+- intent: etce_cadastro_falta_senha
+  examples: |
+    - cadastrei não recebi senha
+    - cadastrei falta senha
+    - fiz cadastro falta senha
+    - conclui cadastro falta senha
+    - conclui cadastro quando terei senha
+    - terminei cadastro não tenho senha
+
+- intent: etce_cadastro_como_fazer
+  examples: |
+    - como cadastrar envio informações
+    - cadastro enviar informações
+    - desejo cadastrar enviar informações
+    - quero cadastrar enviar informações
+    - preciso cadastrar envio informações
+    - necessito cadastro envio informações
+
+- intent: etce_enviar_oficio
+  examples: |
+    - desejo enviar oficio
+    - quero enviar oficio
+    - preciso enviar oficio
+    - necessito enviar oficio
+    - envio oficio
+    - vou enviar oficio
+
+- intent: siaidp_tabela_auxiliar
+  examples: |
+    - visualizar tabela auxiliar siaidp
+    - acessar tabela auxiliar siaidp
+    - siaidp tabela auxiliar siaidp
+    - como acessar tabela auxiliar siaidp
+    - desejo acessar tabela auxiliar siaidp
+    - desejo visualizar tabela auxiliar siaidp
+
+- intent: legis_editar_arquivo
+  examples: |
+    - legis editar arquivo norma cadastrada
+    - legis mudar arquivo norma cadastrada
+    - legis trocar arquivo norma cadastrada
+    - legis alterar arquivo norma cadastrada
+    - legis excluir arquivo norma cadastrada
+    - legis deletar arquivo norma cadastrada
+
+- intent: legis_editar_norma
+  examples: |
+    - legis editar norma cadastrada
+    - legis mudar norma cadastrada
+    - legis alterar norma cadastrada
+    - legis modificar norma cadastrada
+    - faltou informação em uma lei enviada
+    - legis editar norma enviada
+
+- intent: portalgestor_julgamento_contas
+  examples: |
+    - julgamento contas anuais
+    - visualizar julgamento contas anuais
+    - acessar julgamento contas anuais
+    - ver julgamento contas anuais
+    - enviar contas anuais
+    - submeter contas anuais
+
+# - intent: portalgestor_envio_contas
+#   examples: |
+#     - contas anuais devem ser assinadas digitalmente pelo antigo ou pelo atual gestor?
+#     - contas anuais quem deve assinar
+#     - CPF do gestor diferente do CPF da assinatura digital
+
+- intent: portalgestor_visualizar_processos
+  examples: |
+    - visualizar processo portal gestor
+    - acessar processo portal gestor
+    - ver processo portal gestor
+    - verificar processo portal gestor
+    - entrar processo portal gestor
+    - processo portal gestor
+
+- intent: portalgestor_plano_acao
+  examples: |
+    - onde enviar plano ação
+    - como enviar plano ação
+    - aonde enviar plano ação
+    - de que maneira enviar plano ação
+    - de que forma enviar plano ação
+    - de que jeito enviar plano ação
+
+- intent: portalgestor_encaminhar_plano_acao
+  examples: |
+    - encaminhar plano ação quem
+    - para quem encaminhar plano de ação
+    - para quem enviar plano de ação
+    - para quem mandar plano de ação
+    - para quem submeter plano de ação
+    - para quem endereçar plano de ação
+
+- intent: contato_compras
+  examples: |
+    - número setor compras ccs
+    - telefone setor compras ccs
+    - contato setor compras ccs
+    - falar setor compras ccs
+    - desejo contatar setor compras ccs
+    - preciso contatar setor compras ccs
+
+- intent: contato_tribunal
+  examples: |
+    - número tce tribunal
+    - telefone tce tribunal
+    - contato tce tribunal
+    - falar tce tribunal
+    - desejo contatar tce tribunal
+    - preciso contatar tce tribunal
+    
+- intent: contato_caj
+  examples: |
+    - contato caj Central Atendimento Jurisdicionado
+    - telefone caj Central Atendimento Jurisdicionado
+    - número caj Central Atendimento Jurisdicionado
+    - falar caj Central Atendimento Jurisdicionado
+    - desejo contatar caj Central Atendimento Jurisdicionado
+    - preciso contatar caj Central Atendimento Jurisdicionado
+
+- intent: contato_carlos_thompson
+  examples: |
+    - contato gabinete conselheiro carlos thompson
+    - telefone gabinete conselheiro carlos thompson
+    - número gabinete conselheiro carlos thompson
+    - falar gabinete conselheiro carlos thompson
+    - desejo contatar gabinete conselheiro carlos thompson
+    - preciso contatar gabinete conselheiro carlos thompson
+
+- intent: contato_renato_costa
+  examples: |
+    - contato gabinete conselheiro renato costa
+    - telefone gabinete conselheiro renato costa
+    - número gabinete conselheiro renato costa
+    - falar gabinete conselheiro renato costa
+    - desejo contatar gabinete conselheiro renato costa
+    - preciso contatar gabinete conselheiro renato costa
+
+- intent: contato_recepcao
+  examples: |
+    - contato recepção recepcionista
+    - telefone recepção recepcionista
+    - número recepção recepcionista
+    - falar recepção recepcionista
+    - desejo contatar recepção recepcionista
+    - preciso contatar recepção recepcionista
+    

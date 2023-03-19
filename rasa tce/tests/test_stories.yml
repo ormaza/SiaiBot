@@ -1,0 +1,22 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: quero o numero de telefone
+  steps:
+  - user: |
+      bom dia
+    intent: greet
+  - action: utter_greet
+  - user: |
+      gostaria de saber o telefone do gabinete do senhor Thompson
+    intent: contato_carlos_thompson
+  - action: utter_contato_carlos_thompson
+  - user: |
+      também preciso do número da CAJ
+    intent: contato_caj
+  - action: utter_contato_caj
+  - user: |
+      obrigado
+    intent: goodbye
+  - action: utter_goodbye
