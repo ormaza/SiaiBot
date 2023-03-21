@@ -1,10 +1,10 @@
 {
-  "name": "venon-dialogflow",
+  "name": "tce-chatbot",
   "description": "",
   "version": "0.0.1",
   "private": true,
   "license": "Apache Version 2.0",
-  "author": "Niedson",
+  "author": "Ormazabal",
   "engines": {
     "node": "10"
   },
@@ -12,9 +12,8 @@
     "start": "node index"
   },
   "dependencies": {
-    "@google-cloud/dialogflow": "^3.3.0",
     "node-mailer": "^0.1.1",
     "uuid": "^8.3.2",
-    "venom-bot": "^4.3.0"
+    "venom-bot": "^4.3.7"
   }
 }

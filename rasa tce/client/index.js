@@ -1,6 +1,5 @@
 const venom = require('venom-bot');
 const fs = require('fs');
-const dFlow = require('./dialogflow-rq');
 const tceapi = require('./tceapi');
 const historico = require('./historico');
 const mensagem = require('./mensagem');

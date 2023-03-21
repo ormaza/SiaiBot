@@ -8,7 +8,7 @@ module.exports = {
             message: message.body,
             sender: sessionId
         }).then((res) => {
-            console.log(res.data[0].text);
+            // console.log(res.data[0].text);
             client.sendText(message.from, res.data[0].text).then((result) => {
                 // console.log('Result: ', result);
             });
