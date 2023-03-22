@@ -116,3 +116,13 @@ rules:
   steps:
   - intent: contato_recepcao
   - action: utter_contato_recepcao
+
+- rule: e-tce_envio_processos
+  steps:
+  - intent: e-tce_envio_processos
+  - action: utter_e-tce_envio_processos
+
+- rule: horario_protocolar_defesa
+  steps:
+  - intent: horario_protocolar_defesa
+  - action: utter_horario_protocolar_defesa

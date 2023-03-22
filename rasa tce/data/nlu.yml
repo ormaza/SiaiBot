@@ -190,4 +190,16 @@ nlu:
     - falar recepção recepcionista
     - desejo contatar recepção recepcionista
     - preciso contatar recepção recepcionista
+
+- intent: e-tce_envio_processos
+  examples: |
+    - problema enviar processo e-tce
+    - dificuldade enviar processo e-tce
+
+- intent: horario_protocolar_defesa
+  examples: |
+    - horario máximo protocolar defesa
+    - horario protocolar defesa
+    - existe horario protocolar defesa
+    - qual horario protocolar defesa
     
