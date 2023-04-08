@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -8,173 +7,91 @@ nlu:
     - bom dia
     - boa tarde
     - boa noite
-    - ei
 
 - intent: goodbye
   examples: |
-    - xau
-    - tchau
     - obrigado
     - até mais
     - agradecido
-    - entendido obrigado
 
 - intent: algo_mais
   examples: |
     - entendi
-    - ok
-    - certo
-    - anotado
     - compreendo
-    - beleza
+    - certo
 
-- intent: etce_cadastro_falta_senha
+- intent: int0
   examples: |
-    - cadastrei não recebi senha
-    - cadastrei falta senha
-    - fiz cadastro falta senha
-    - conclui cadastro falta senha
-    - conclui cadastro quando terei senha
-    - terminei cadastro não tenho senha
+    - Raisa- solicitação de nada consta , quanto tempo ?
+    - Raisa- rogo de nada consta , quanto tempo ?
+    - Raisa- instância de nada consta , quanto tempo ?
+    - Raisa- súplica de nada consta , quanto tempo ?
 
-- intent: etce_cadastro_como_fazer
+- intent: int1
   examples: |
-    - como cadastrar envio informações
-    - cadastro enviar informações
-    - desejo cadastrar enviar informações
-    - quero cadastrar enviar informações
-    - preciso cadastrar envio informações
-    - necessito cadastro envio informações
+    - Carine – pm natal- alimentar – como cadastrar usuário comum?
+    - Carine – pm natal- alimentar – como fichar usuário comum?
+    - Carine – pm natal- alimentar – como inventariar usuário comum?
+    - Carine – pm natal- alimentar – como arquivar usuário comum?
 
-- intent: etce_enviar_oficio
+- intent: int2
   examples: |
-    - desejo enviar oficio
-    - quero enviar oficio
-    - preciso enviar oficio
-    - necessito enviar oficio
-    - envio oficio
-    - vou enviar oficio
+    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita Comprovante de envio de rreo – contas anuais, do 3º ao 6º de 2014.
+    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita concludente de envio de rreo – contas anuais, do 3º ao 6º de 2014.
+    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita certificado de envio de rreo – contas anuais, do 3º ao 6º de 2014.
+    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita convincente de envio de rreo – contas anuais, do 3º ao 6º de 2014.
 
-- intent: siaidp_tabela_auxiliar
+- intent: int3
   examples: |
-    - visualizar tabela auxiliar siaidp
-    - acessar tabela auxiliar siaidp
-    - siaidp tabela auxiliar siaidp
-    - como acessar tabela auxiliar siaidp
-    - desejo acessar tabela auxiliar siaidp
-    - desejo visualizar tabela auxiliar siaidp
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do intervalo 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do intercadência 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do ciclo 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do lacuna 
 
-- intent: legis_editar_arquivo
+- intent: int4
   examples: |
-    - legis editar arquivo norma cadastrada
-    - legis mudar arquivo norma cadastrada
-    - legis trocar arquivo norma cadastrada
-    - legis alterar arquivo norma cadastrada
-    - legis excluir arquivo norma cadastrada
-    - legis deletar arquivo norma cadastrada
+    - Pm serrinha dos pintos – como preencher o questionario do Prevenção a corrupção?
+    - Pm serrinha dos pintos – como preencher o inquirição do Prevenção a corrupção?
+    - Pm serrinha dos pintos – como preencher o inquérito do Prevenção a corrupção?
+    - Pm serrinha dos pintos – como preencher o indagação do Prevenção a corrupção?
 
-- intent: legis_editar_norma
+- intent: int6
   examples: |
-    - legis editar norma cadastrada
-    - legis mudar norma cadastrada
-    - legis alterar norma cadastrada
-    - legis modificar norma cadastrada
-    - faltou informação em uma lei enviada
-    - legis editar norma enviada
+    - Saae sg amarante – jacksilene - valor da obra esta errado,
 
-- intent: portalgestor_julgamento_contas
+- intent: int7
   examples: |
-    - julgamento contas anuais
-    - visualizar julgamento contas anuais
-    - acessar julgamento contas anuais
-    - ver julgamento contas anuais
-    - enviar contas anuais
-    - submeter contas anuais
+    - Pm lajes – romario – foi realizada a soliciação de cadastro de gerenciador  para a prefeitura e nao aos fundos e usuáio gostaria de saber como proceder.
 
-# - intent: portalgestor_envio_contas
-#   examples: |
-#     - contas anuais devem ser assinadas digitalmente pelo antigo ou pelo atual gestor?
-#     - contas anuais quem deve assinar
-#     - CPF do gestor diferente do CPF da assinatura digital
+- intent: int8
+  examples: |
+    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi atualizado.
+    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi cientificado
+    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi esclarecido
+    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi trocado
 
-- intent: portalgestor_visualizar_processos
+- intent: int9
   examples: |
-    - visualizar processo portal gestor
-    - acessar processo portal gestor
-    - ver processo portal gestor
-    - verificar processo portal gestor
-    - entrar processo portal gestor
-    - processo portal gestor
+    - Michele- pm tibau – afonso – dificuldade em cadastrar 2 obras – rec a13 115311.... venceu dia 30/06/21.... rec a13 115515 obra n 39/2020.......... usuária relatou divergências entre as informações do recibo do anexo 13 dentro do siai obras e aquela informada no anexo 13.
 
-- intent: portalgestor_plano_acao
+- intent: int10
   examples: |
-    - onde enviar plano ação
-    - como enviar plano ação
-    - aonde enviar plano ação
-    - de que maneira enviar plano ação
-    - de que forma enviar plano ação
-    - de que jeito enviar plano ação
+    - jorge - pm viçosa - alteracao de email de usuário comum, como fazer?
+    - jorge - pm viçosa - fraude de email de usuário comum, como fazer?
+    - jorge - pm viçosa - amotinação de email de usuário comum, como fazer?
+    - jorge - pm viçosa - agitação de email de usuário comum, como fazer?
 
-- intent: portalgestor_encaminhar_plano_acao
+- intent: int11
   examples: |
-    - encaminhar plano ação quem
-    - para quem encaminhar plano de ação
-    - para quem enviar plano de ação
-    - para quem mandar plano de ação
-    - para quem submeter plano de ação
-    - para quem endereçar plano de ação
+    - pm porto do mangue -uzemberg - questionario no portal do gestor - concurso publico. é necessário responder?
+    - pm porto do mangue -uzemberg - perquirição no portal do gestor - concurso publico. é necessário responder?
+    - pm porto do mangue -uzemberg - indagação no portal do gestor - concurso publico. é necessário responder?
+    - pm porto do mangue -uzemberg - inquisição no portal do gestor - concurso publico. é necessário responder?
 
-- intent: contato_compras
+- intent: int12
   examples: |
-    - número setor compras ccs
-    - telefone setor compras ccs
-    - contato setor compras ccs
-    - falar setor compras ccs
-    - desejo contatar setor compras ccs
-    - preciso contatar setor compras ccs
+    - Antonio moreira – adv – notificação sobre aposentadoria – usuário gostaria de entender a situação.
+    - Antonio moreira – adv – notificação sobre inatividade – usuário gostaria de entender a situação.
+    - Antonio moreira – adv – notificação sobre inatividade – usuário gostaria de entender a situação.
+    - Antonio moreira – adv – notificação sobre hospedagem – usuário gostaria de entender a situação.
 
-- intent: contato_tribunal
-  examples: |
-    - número tce tribunal
-    - telefone tce tribunal
-    - contato tce tribunal
-    - falar tce tribunal
-    - desejo contatar tce tribunal
-    - preciso contatar tce tribunal
-    
-- intent: contato_caj
-  examples: |
-    - contato caj Central Atendimento Jurisdicionado
-    - telefone caj Central Atendimento Jurisdicionado
-    - número caj Central Atendimento Jurisdicionado
-    - falar caj Central Atendimento Jurisdicionado
-    - desejo contatar caj Central Atendimento Jurisdicionado
-    - preciso contatar caj Central Atendimento Jurisdicionado
-
-- intent: contato_carlos_thompson
-  examples: |
-    - contato gabinete conselheiro carlos thompson
-    - telefone gabinete conselheiro carlos thompson
-    - número gabinete conselheiro carlos thompson
-    - falar gabinete conselheiro carlos thompson
-    - desejo contatar gabinete conselheiro carlos thompson
-    - preciso contatar gabinete conselheiro carlos thompson
-
-- intent: contato_renato_costa
-  examples: |
-    - contato gabinete conselheiro renato costa
-    - telefone gabinete conselheiro renato costa
-    - número gabinete conselheiro renato costa
-    - falar gabinete conselheiro renato costa
-    - desejo contatar gabinete conselheiro renato costa
-    - preciso contatar gabinete conselheiro renato costa
-
-- intent: contato_recepcao
-  examples: |
-    - contato recepção recepcionista
-    - telefone recepção recepcionista
-    - número recepção recepcionista
-    - falar recepção recepcionista
-    - desejo contatar recepção recepcionista
-    - preciso contatar recepção recepcionista
-    

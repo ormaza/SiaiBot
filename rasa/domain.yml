@@ -4,25 +4,20 @@ intents:
   - greet
   - goodbye
   - algo_mais
-  - etce_cadastro_falta_senha
-  - etce_cadastro_como_fazer
-  - etce_enviar_oficio
-  - siaidp_tabela_auxiliar
-  - legis_editar_arquivo
-  - legis_editar_norma
-  - portalgestor_julgamento_contas
-  # - portalgestor_envio_contas
-  - portalgestor_visualizar_processos
-  - portalgestor_plano_acao
-  - portalgestor_encaminhar_plano_acao
-  - contato_compras
-  - contato_tribunal
-  - contato_caj
-  - contato_carlos_thompson
-  - contato_renato_costa
-  - contato_recepcao
-  
-responses:
+  - int0
+  - int1
+  - int2
+  - int3
+  - int4
+  - int6
+  - int7
+  - int8
+  - int9
+  - int10
+  - int11
+  - int12
+
+responses: 
   utter_greet:
   - text: "Olá! em que posso ajudar?"
 
@@ -32,60 +27,44 @@ responses:
   utter_algo_mais:
   - text: "Algo mais?"
 
-  utter_etce_cadastro_falta_senha:
-  - text: "Aguarde até 1 dia útil para liberação do acesso."
-
-  utter_etce_cadastro_como_fazer:
-  - text: "Basta procurar a tela de serviços e preencher o item CADASTRO DE ADVOGADO."
-
-  utter_etce_enviar_oficio:
-  - text: "É necessário realizar cadastro no e-tce para ter acesso a tela de envio de oficio."
-
-  utter_siaidp_tabela_auxiliar:
-  - text: "Faça o logoff do sistema pra visualizar o link"
-
-  utter_legis_editar_arquivo:
-  - text: "Não é possível editar o arquivo já enviado"
-
-  utter_legis_editar_norma:
-  - text: "Caso não consiga editar a norma, solicite a sua exclusão e posteriormente a recadastre."
-
-  utter_portalgestor_julgamento_contas:
-  - text: "Verifique no Portal do Gestor"
-
-  # utter_portalgestor_envio_contas:
-  # - text: " As contas anuais deverão ser assinadas e enviadas pelo gestor atual."
-
-  utter_portalgestor_visualizar_processos:
-  - text: "No portal do gestor, clique no link Consultar Processos"
-
-  utter_portalgestor_plano_acao:
-  - text: "O plano de ação deverá ser enviado pelo e-tce e junto a esse deverá estar anexado um oficio informando do que se trata."
-
-  utter_portalgestor_encaminhar_plano_acao:
-  - text: "O plano de ação deverá ser encaminhado para a presidência."
-
   utter_nlu_fallback:
-  - text: "Desculpe. Não entendi!"
+  - text: "Desculpe. Não entendi. Poderia ser mais especifico"
+  - text: "Desculpe. Não entendi. Caso deseje falar diretamente com um atendente, entre em contato com a CAJ através do telefone (84) 3642-7275"
+  - text: "Desculpe. Não entendi. Caso deseje falar diretamente com um atendente, entre em contato com a CAJ através do email caj@tce.rn.gov.br"
 
-  utter_contato_compras:
-  - text: "Certo. O número do CCS é 3642-7368"
+  utter_int0:
+  - text: "  demora em torno de 24 horas."
 
-  utter_contato_tribunal:
-  - text: "Certo. O número do tribunal é o 3642-7275"
+  utter_int1:
+  - text: "      Para cadastrar basta q o usuário gerenciador acessa a parte de administração, cadastre as informações solicitadas e na sequencia atribua as permissões ao usuário cadastrado.– "
 
-  utter_contato_caj:
-  - text: "Certo. O número da CAJ é o (84) 3642-7275"
+  utter_int2:
+  - text: " Foi confirmado a usuária que temos o recibo e enviamos via email."
 
-  utter_contato_carlos_thompson:
-  - text: "Certo. O número do gabinete do Conselheiro Carlos Thompson Costa Fernandes é o (84) 3642-7262"
+  utter_int3:
+  - text: "- foi passado ao usuário que este erro é relativo a informações excessivas dentro do campo de DESCRIÇÃO ou NOME DO PARTICIPANTE  .  "
 
-  utter_contato_renato_costa:
-  - text: "Certo. O número do Gabinete do Conselheiro Renato Costa Dias é o (84) 3642-7269"
+  utter_int4:
+  - text: "   Basta acessar o terceiro link do comunicado, caso nao tenha a senha entre em contato através do email pnpcrn@tce.gov.br"
 
-  utter_contato_recepcao:
-  - text: "Certo. O número da recepção é o (84) 3642-7377"
+  utter_int6:
+  - text: "      foi identificado que a usuária inseriu um aditivo fazendo uma supressão de valor mas ela não inseriu o valor a ser suprimido, desta forma foi pedido para que ela verifique se de fato o valor foi inserido."
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  utter_int7:
+  - text: "    Foi informado ao mesmo q é necessário envio de nova solicitação de cadastro para obter acesso aos outros cadastros."
+
+  utter_int8:
+  - text: "Foi identificado um erro no lançamento das informações do anexo 38 no portal do gestor e foi pedido ao usuário que fosse corrigido para que o problema seja sanado."
+
+  utter_int9:
+  - text: "     após conversa identificamos q foi erro de usuário e divergência entre as informações lançadas por eles."
+
+  utter_int10:
+  - text: "  basta solicitar ao usuário gerenciador para trocar a informação."
+
+  utter_int11:
+  - text: "   sim , atendendo as datas contidas nooficio."
+
+  utter_int12:
+  - text: "     entrar em contato com a Diretoria de Atos e Execuções (DAE) no telefone (84) 3642-7346. Ou 7350."
+

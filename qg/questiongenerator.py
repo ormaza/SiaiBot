@@ -25,7 +25,9 @@ class QuestionGenerator:
 
     def __init__(self) -> None:
 
-        QG_PRETRAINED = "iarfmoose/t5-base-question-generator"
+        # QG_PRETRAINED = "iarfmoose/t5-base-question-generator"
+        # QG_PRETRAINED = "pierreguillou/t5-base-qa-squad-v1.1-portuguese"
+        QG_PRETRAINED = "unicamp-dl/ptt5-base-portuguese-vocab"
         self.ANSWER_TOKEN = "<answer>"
         self.CONTEXT_TOKEN = "<context>"
         self.SEQ_LENGTH = 512
@@ -331,8 +333,8 @@ class QAEvaluator:
 
     def __init__(self) -> None:
 
-        QAE_PRETRAINED = "iarfmoose/bert-base-cased-qa-evaluator"
-        # QAE_PRETRAINED = "neuralmind/bert-base-portuguese-cased"
+        # QAE_PRETRAINED = "iarfmoose/bert-base-cased-qa-evaluator"
+        QAE_PRETRAINED = "neuralmind/bert-base-portuguese-cased"
         self.SEQ_LENGTH = 512
 
         self.device = torch.device(
@@ -400,8 +402,8 @@ def print_qa(qa_list: List[Mapping[str, str]], show_answers: bool = True) -> Non
         # wider space for 2 digit q nums
         space = " " * int(np.where(i < 9, 3, 4))
 
-        qa_list[i]['question'] = GoogleTranslator(source='en', target='pt').translate(qa_list[i]['question'])
-        qa_list[i]['answer'] = GoogleTranslator(source='en', target='pt').translate(qa_list[i]['answer'])
+        # qa_list[i]['question'] = GoogleTranslator(source='en', target='pt').translate(qa_list[i]['question'])
+        # qa_list[i]['answer'] = GoogleTranslator(source='en', target='pt').translate(qa_list[i]['answer'])
 
         print(f"{i + 1}) Q: {qa_list[i]['question']}")
 

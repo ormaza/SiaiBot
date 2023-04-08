@@ -1,163 +1,110 @@
 {
-  "etce_cadastro_falta_senha": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "portalgestor_julgamento_contas": {
-    "precision": 0.8571428571428571,
-    "recall": 1.0,
-    "f1-score": 0.923076923076923,
-    "support": 6,
-    "confused_with": {}
-  },
   "goodbye": {
-    "precision": 0.6666666666666666,
+    "precision": 1.0,
     "recall": 0.3333333333333333,
-    "f1-score": 0.4444444444444444,
-    "support": 6,
+    "f1-score": 0.5,
+    "support": 3,
     "confused_with": {
-      "greet": 3,
-      "portalgestor_julgamento_contas": 1
+      "greet": 2
     }
   },
-  "contato_tribunal": {
+  "int2": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 4,
+    "confused_with": {}
+  },
+  "int10": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "int3": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "int11": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "int4": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 4,
+    "confused_with": {}
+  },
+  "int1": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
     "confused_with": {}
   },
   "algo_mais": {
     "precision": 1.0,
-    "recall": 0.16666666666666666,
-    "f1-score": 0.2857142857142857,
-    "support": 6,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3,
     "confused_with": {
-      "greet": 3,
-      "contato_compras": 1
+      "int4": 1,
+      "greet": 1
     }
-  },
-  "contato_caj": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "portalgestor_plano_acao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "portalgestor_encaminhar_plano_acao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "legis_editar_norma": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 6,
-    "confused_with": {
-      "etce_cadastro_como_fazer": 1,
-      "legis_editar_arquivo": 1
-    }
-  },
-  "legis_editar_arquivo": {
-    "precision": 0.8571428571428571,
-    "recall": 1.0,
-    "f1-score": 0.923076923076923,
-    "support": 6,
-    "confused_with": {}
-  },
-  "contato_carlos_thompson": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "siaidp_tabela_auxiliar": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
   },
   "greet": {
-    "precision": 0.5,
+    "precision": 0.625,
     "recall": 1.0,
-    "f1-score": 0.6666666666666666,
-    "support": 6,
+    "f1-score": 0.7692307692307693,
+    "support": 5,
     "confused_with": {}
   },
-  "etce_cadastro_como_fazer": {
-    "precision": 0.8571428571428571,
-    "recall": 1.0,
-    "f1-score": 0.923076923076923,
-    "support": 6,
-    "confused_with": {}
-  },
-  "etce_enviar_oficio": {
+  "int8": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 4,
     "confused_with": {}
   },
-  "portalgestor_visualizar_processos": {
+  "int12": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 3,
     "confused_with": {}
   },
-  "contato_recepcao": {
+  "int0": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
+    "support": 4,
     "confused_with": {}
   },
-  "contato_renato_costa": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "contato_compras": {
-    "precision": 0.8571428571428571,
-    "recall": 1.0,
-    "f1-score": 0.923076923076923,
-    "support": 6,
-    "confused_with": {}
-  },
-  "accuracy": 0.9035087719298246,
+  "accuracy": 0.9130434782608695,
   "macro avg": {
-    "precision": 0.9260651629072684,
-    "recall": 0.9035087719298246,
-    "f1-score": 0.8889017415333205,
-    "support": 114
+    "precision": 0.9520833333333334,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8881766381766383,
+    "support": 46
   },
   "weighted avg": {
-    "precision": 0.926065162907268,
-    "recall": 0.9035087719298246,
-    "f1-score": 0.8889017415333205,
-    "support": 114
+    "precision": 0.9418478260869566,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.9000371609067261,
+    "support": 46
   },
   "micro avg": {
-    "precision": 0.9035087719298246,
-    "recall": 0.9035087719298246,
-    "f1-score": 0.9035087719298246,
-    "support": 114
+    "precision": 0.9130434782608695,
+    "recall": 0.9130434782608695,
+    "f1-score": 0.9130434782608695,
+    "support": 46
   }
 }

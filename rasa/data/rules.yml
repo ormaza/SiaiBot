@@ -2,6 +2,11 @@ version: "3.1"
 
 rules:
 
+- rule: fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_nlu_fallback
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
@@ -17,92 +22,63 @@ rules:
   - intent: algo_mais
   - action: utter_algo_mais
 
-- rule: etce cadastro aguardando senha
+- rule: int0
   steps:
-  - intent: etce_cadastro_falta_senha
-  - action: utter_etce_cadastro_falta_senha
+  - intent: int0
+  - action: utter_int0
 
-- rule: etce cadastro como fazer
+- rule: int1
   steps:
-  - intent: etce_cadastro_como_fazer
-  - action: utter_etce_cadastro_como_fazer
+  - intent: int1
+  - action: utter_int1
 
-- rule: etce enviar oficio
+- rule: int2
   steps:
-  - intent: etce_enviar_oficio
-  - action: utter_etce_enviar_oficio
+  - intent: int2
+  - action: utter_int2
 
-- rule: visualizar tabelas auxiliares
+- rule: int3
   steps:
-  - intent: siaidp_tabela_auxiliar
-  - action: utter_siaidp_tabela_auxiliar
+  - intent: int3
+  - action: utter_int3
 
-- rule: legis editar arquivo
+- rule: int4
   steps:
-  - intent: legis_editar_arquivo
-  - action: utter_legis_editar_arquivo
+  - intent: int4
+  - action: utter_int4
 
-- rule: legis editar norma
+- rule: int6
   steps:
-  - intent: legis_editar_norma
-  - action: utter_legis_editar_norma
+  - intent: int6
+  - action: utter_int6
 
-- rule: portal gestor pendência de julgamento de contas
+- rule: int7
   steps:
-  - intent: portalgestor_julgamento_contas
-  - action: utter_portalgestor_julgamento_contas
+  - intent: int7
+  - action: utter_int7
 
-# - rule: portal gestor contas anuais envio
-#   steps:
-#   - intent: portalgestor_envio_contas
-#   - action: utter_portalgestor_envio_contas
-
-- rule: portal do gestor visualizar processo
+- rule: int8
   steps:
-  - intent: portalgestor_visualizar_processos
-  - action: utter_portalgestor_visualizar_processos
+  - intent: int8
+  - action: utter_int8
 
-- rule: portal do gestor plano acao
+- rule: int9
   steps:
-  - intent: portalgestor_plano_acao
-  - action: utter_portalgestor_plano_acao
+  - intent: int9
+  - action: utter_int9
 
-- rule: portal do gestor encaminhar plano acao
+- rule: int10
   steps:
-  - intent: portalgestor_encaminhar_plano_acao
-  - action: utter_portalgestor_encaminhar_plano_acao
+  - intent: int10
+  - action: utter_int10
 
-- rule: Nao entendi
+- rule: int11
   steps:
-  - intent: nlu_fallback
-  - action: utter_nlu_fallback
+  - intent: int11
+  - action: utter_int11
 
-- rule: contato setor compras
+- rule: int12
   steps:
-  - intent: contato_compras
-  - action: utter_contato_compras
+  - intent: int12
+  - action: utter_int12
 
-- rule: contato tribunal
-  steps:
-  - intent: contato_tribunal
-  - action: utter_contato_tribunal
-
-- rule: contato caj
-  steps:
-  - intent: contato_caj
-  - action: utter_contato_caj
-
-- rule: contato carlos thompson
-  steps:
-  - intent: contato_carlos_thompson
-  - action: utter_contato_carlos_thompson
-
-- rule: contato renato costa
-  steps:
-  - intent: contato_renato_costa
-  - action: utter_contato_renato_costa
-
-- rule: contato recepcao
-  steps:
-  - intent: contato_recepcao
-  - action: utter_contato_recepcao

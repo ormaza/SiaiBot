@@ -17,7 +17,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--num_questions", type=int, default=10)
     parser.add_argument("--show_answers", dest="show_answers", action="store_true", default=True)
     parser.add_argument("--in_file", type=str, required=True)
-    parser.add_argument("--use_qa_eval", dest="use_qa_eval", action="store_true", default=True)
+    parser.add_argument("--use_qa_eval", dest="use_qa_eval", action="store_true", default=False)
     parser.add_argument("--x", type=int, default=0)
     parser.add_argument("--y", type=int, default=0)
     parser.add_argument("--out_csv", type=str, required=False)
@@ -50,7 +50,7 @@ if __name__ == "__main__":
             Lines = file.readlines()
         for line in Lines:
             print(line)
-            line = GoogleTranslator(source='pt', target='en').translate(line)
+            # line = GoogleTranslator(source='pt', target='en').translate(line)
             qa_list = qg.generate(
                 line,
                 num_questions=int(args.num_questions),

@@ -3,24 +3,24 @@ language: br
 # https://rasa.com/docs/rasa/model-configuration/
 
 # DIET PURO
-# pipeline:
-#   - name: WhitespaceTokenizer
-#   - name: RegexFeaturizer
-#   - name: CountVectorsFeaturizer
-#   - name: CountVectorsFeaturizer
-#     analyzer: char_wb
-#     min_ngram: 1
-#     max_ngram: 4
-#   - name: DIETClassifier
-#     epochs: 100
-#     constrain_similarities: true
-#   - name: EntitySynonymMapper
-#   - name: ResponseSelector
-#     epochs: 100
-#     constrain_similarities: true
-#   - name: FallbackClassifier
-#     threshold: 0.7
-#     ambiguity_threshold: 0.1
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 100
+    constrain_similarities: true
+  - name: EntitySynonymMapper
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
+  - name: FallbackClassifier
+    threshold: 0.7
+    ambiguity_threshold: 0.1
 
 # DIET + BERTIMBAU
 # pipeline:
@@ -58,33 +58,33 @@ language: br
 #   - name: DIETClassifier
 
 # DIET + pre train models
-pipeline:
-  - name: WhitespaceTokenizer
-  - name: LanguageModelFeaturizer
-    # model_name: "gpt2"
-    # model_name: "bert"
-    # model_name: "xlnet"
-    model_name: "distilbert"
-    # model_name: "roberta"
-    # model_name: "gpt"
-    # KeyError: "'camembert' not a valid model name. Choose from ['bert', 'gpt', 'gpt2', 'xlnet', 'distilbert', 'roberta'] or createa new class inheriting from this class to support your model."
-  - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer
-  - name: CountVectorsFeaturizer
-    analyzer: char_wb
-    min_ngram: 1
-    max_ngram: 4
-  - name: DIETClassifier
-    epochs: 100
-    constrain_similarities: true
-  - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
-    constrain_similarities: true
-  - name: FallbackClassifier
-    threshold: 0.7
-    ambiguity_threshold: 0.1
+# pipeline:
+#   - name: WhitespaceTokenizer
+#   - name: LanguageModelFeaturizer
+#     # model_name: "gpt2"
+#     # model_name: "bert"
+#     # model_name: "xlnet"
+#     model_name: "distilbert"
+#     # model_name: "roberta"
+#     # model_name: "gpt"
+#     # KeyError: "'camembert' not a valid model name. Choose from ['bert', 'gpt', 'gpt2', 'xlnet', 'distilbert', 'roberta'] or createa new class inheriting from this class to support your model."
+#   - name: RegexFeaturizer
+#   - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#   - name: CountVectorsFeaturizer
+#     analyzer: char_wb
+#     min_ngram: 1
+#     max_ngram: 4
+#   - name: DIETClassifier
+#     epochs: 100
+#     constrain_similarities: true
+#   - name: EntitySynonymMapper
+#   - name: ResponseSelector
+#     epochs: 100
+#     constrain_similarities: true
+#   - name: FallbackClassifier
+#     threshold: 0.7
+#     ambiguity_threshold: 0.1
 
 
 

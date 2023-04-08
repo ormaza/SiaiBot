@@ -1,5 +1,3 @@
-Xavier - e-sic - - 27764435000169 , ususário está tentando acessa e não consegue.             Aparentemente a senha está errada e indicamos ao usuário para recuperar a senha. 
-Cadastro como adv  - jurídico.adv.10828- usuário relatou problemas ao enviar solicitação de cadastro e pediu ajuda.                Ao realizarmos testes com os dados enviados por ele, não encontramos dificuldade em solicitar o cadastro e informamos ao mesmo que estará recebendo a senha até a terça feira.
-Gilcelio – 05342239400 Fiz o cadastro e nao consigo entrar no sistema de protocolo,segue print da mensagem.,agradeço pela atenção,aproveitando segue consulta que gostaria de realizar        favor fazer nova tentativa de acesso pois ontem o sistema apresentou instabilidade. Caso o erro persista, favor enviar email informando da tentativa e erro.
-usuária se cadastrou no e-tce e gostaria de saber quando poderá peticionar informações           foi informado a ela que o cadastro é liberado em 1 dia util aproximadamente, após isso ela poderá realizar peticões basta ter um certificado digital.
-Natalia –pm touros – e-tce – fez o cadastro e ainda não recebeu a senha ?           foi informado a mesma que demora 1 dia útil e q ela deverá receber até o final do dia.
+Qual o horário máximo para protocolar defesa? No protocolo do tce, até as 18:00 no protocolo on line, até meia noite do dia do prazo.
+como encaminhar oficio? o envio do oficio deverá ser realizado pelo sistema e-tce.
+problemas ao enviar processo pelo e-tce. Verifiquem se o ICP Bravo Acess extensão para o chrome e aplicativo para o Windows foram instalados e tentem realizar novo envio.
