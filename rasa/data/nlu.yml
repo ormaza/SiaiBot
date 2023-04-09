@@ -1,97 +1,597 @@
 version: "3.1"
 nlu:
-- intent: greet
-  examples: |
-    - ola
-    - oi
-    - bom dia
-    - boa tarde
-    - boa noite
-
-- intent: goodbye
-  examples: |
-    - obrigado
-    - até mais
-    - agradecido
-
-- intent: algo_mais
-  examples: |
-    - entendi
-    - compreendo
-    - certo
-
 - intent: int0
   examples: |
     - Raisa- solicitação de nada consta , quanto tempo ?
-    - Raisa- rogo de nada consta , quanto tempo ?
-    - Raisa- instância de nada consta , quanto tempo ?
-    - Raisa- súplica de nada consta , quanto tempo ?
+    - Raisa- encanto de nada consta , quanto tempo ?
+    - Raisa- recurso de nada consta , quanto tempo ?
+    - Raisa- requerimento de nada consta , quanto tempo ?
 
 - intent: int1
   examples: |
     - Carine – pm natal- alimentar – como cadastrar usuário comum?
-    - Carine – pm natal- alimentar – como fichar usuário comum?
-    - Carine – pm natal- alimentar – como inventariar usuário comum?
-    - Carine – pm natal- alimentar – como arquivar usuário comum?
+    - Carine – pm natal- alimentar – como averbar usuário comum?
+    - Carine – pm natal- alimentar – como registrar usuário comum?
+    - Carine – pm natal- alimentar – como recensear usuário comum?
 
 - intent: int2
   examples: |
     - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita Comprovante de envio de rreo – contas anuais, do 3º ao 6º de 2014.
-    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita concludente de envio de rreo – contas anuais, do 3º ao 6º de 2014.
-    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita certificado de envio de rreo – contas anuais, do 3º ao 6º de 2014.
-    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita convincente de envio de rreo – contas anuais, do 3º ao 6º de 2014.
+    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita talão de envio de rreo – contas anuais, do 3º ao 6º de 2014.
+    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita provante de envio de rreo – contas anuais, do 3º ao 6º de 2014.
+    - Pm parnamirim – mara – apresentar confirmacao ao promotor. Usuária solicita conteste de envio de rreo – contas anuais, do 3º ao 6º de 2014.
 
 - intent: int3
   examples: |
     - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do intervalo 
-    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do intercadência 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do janela 
     - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do ciclo 
-    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do lacuna 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do periodicidade 
 
 - intent: int4
   examples: |
     - Pm serrinha dos pintos – como preencher o questionario do Prevenção a corrupção?
+    - Pm serrinha dos pintos – como preencher o inquisição do Prevenção a corrupção?
     - Pm serrinha dos pintos – como preencher o inquirição do Prevenção a corrupção?
     - Pm serrinha dos pintos – como preencher o inquérito do Prevenção a corrupção?
-    - Pm serrinha dos pintos – como preencher o indagação do Prevenção a corrupção?
-
-- intent: int6
-  examples: |
-    - Saae sg amarante – jacksilene - valor da obra esta errado,
-
-- intent: int7
-  examples: |
-    - Pm lajes – romario – foi realizada a soliciação de cadastro de gerenciador  para a prefeitura e nao aos fundos e usuáio gostaria de saber como proceder.
 
 - intent: int8
   examples: |
     - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi atualizado.
-    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi cientificado
-    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi esclarecido
-    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi trocado
-
-- intent: int9
-  examples: |
-    - Michele- pm tibau – afonso – dificuldade em cadastrar 2 obras – rec a13 115311.... venceu dia 30/06/21.... rec a13 115515 obra n 39/2020.......... usuária relatou divergências entre as informações do recibo do anexo 13 dentro do siai obras e aquela informada no anexo 13.
+    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi adiantado
+    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi avançado
+    - Saae sg amarante – jacksilene - migracao do siai 23 para o obra – valor da obra esta errado . teve uma supressao e o valor nao foi moderno
 
 - intent: int10
   examples: |
     - jorge - pm viçosa - alteracao de email de usuário comum, como fazer?
-    - jorge - pm viçosa - fraude de email de usuário comum, como fazer?
-    - jorge - pm viçosa - amotinação de email de usuário comum, como fazer?
-    - jorge - pm viçosa - agitação de email de usuário comum, como fazer?
+    - jorge - pm viçosa - troca de email de usuário comum, como fazer?
+    - jorge - pm viçosa - conflito de email de usuário comum, como fazer?
+    - jorge - pm viçosa - desordem de email de usuário comum, como fazer?
 
 - intent: int11
   examples: |
     - pm porto do mangue -uzemberg - questionario no portal do gestor - concurso publico. é necessário responder?
-    - pm porto do mangue -uzemberg - perquirição no portal do gestor - concurso publico. é necessário responder?
-    - pm porto do mangue -uzemberg - indagação no portal do gestor - concurso publico. é necessário responder?
-    - pm porto do mangue -uzemberg - inquisição no portal do gestor - concurso publico. é necessário responder?
+    - pm porto do mangue -uzemberg - inquirição no portal do gestor - concurso publico. é necessário responder?
+    - pm porto do mangue -uzemberg - arguição no portal do gestor - concurso publico. é necessário responder?
+    - pm porto do mangue -uzemberg - inquérito no portal do gestor - concurso publico. é necessário responder?
 
 - intent: int12
   examples: |
     - Antonio moreira – adv – notificação sobre aposentadoria – usuário gostaria de entender a situação.
-    - Antonio moreira – adv – notificação sobre inatividade – usuário gostaria de entender a situação.
-    - Antonio moreira – adv – notificação sobre inatividade – usuário gostaria de entender a situação.
-    - Antonio moreira – adv – notificação sobre hospedagem – usuário gostaria de entender a situação.
+    - Antonio moreira – adv – notificação sobre alojamento – usuário gostaria de entender a situação.
+    - Antonio moreira – adv – notificação sobre albergaria – usuário gostaria de entender a situação.
+    - Antonio moreira – adv – notificação sobre jubilação – usuário gostaria de entender a situação.
+
+- intent: int13
+  examples: |
+    - irene - TRT- OFICIO EM 12 DE MAIO - sobre pendencia de veiculo do tribunal . processo com francisco potiguar - contato do gab do conselheiro.
+    - irene - TRT- OFICIO EM 12 DE MAIO - sobre pendencia de veiculo do tribunal . processo com francisco potiguar - contato do gab do tutor
+    - irene - TRT- OFICIO EM 12 DE MAIO - sobre pendencia de veiculo do tribunal . processo com francisco potiguar - contato do gab do mentor
+    - irene - TRT- OFICIO EM 12 DE MAIO - sobre pendencia de veiculo do tribunal . processo com francisco potiguar - contato do gab do assessor
+
+- intent: int15
+  examples: |
+    - Usuário gostaria de confirmar email do e-sic. Cláudio Gomes de Medeiros Filho CPF 011 978 904 32.
+    - Usuário gostaria de constatar email do e-sic. Cláudio Gomes de Medeiros Filho CPF 011 978 904 32.
+    - Usuário gostaria de demonstrar email do e-sic. Cláudio Gomes de Medeiros Filho CPF 011 978 904 32.
+    - Usuário gostaria de permanecer email do e-sic. Cláudio Gomes de Medeiros Filho CPF 011 978 904 32.
+
+- intent: int17
+  examples: |
+    - Gostaria de solicitar os Dados dos Servidores (efetivos e contratos temporário) e suas Remunerações no primeiro semestre de 2021.
+    - Gostaria de solicitar os Dados dos Servidores (efetivos e contratos temporário) e suas proventos no primeiro semestre de 2021.
+    - Gostaria de solicitar os Dados dos Servidores (efetivos e contratos temporário) e suas honorários no primeiro semestre de 2021.
+    - Gostaria de solicitar os Dados dos Servidores (efetivos e contratos temporário) e suas subsídios no primeiro semestre de 2021.
+
+- intent: int22
+  examples: |
+    - usuária se cadastrou no e-tce e gostaria de saber quando poderá peticionar informações
+    - usuária se cadastrou no e-tce e gostaria de saber quando poderá peticionar juízos
+    - usuária se cadastrou no e-tce e gostaria de saber quando poderá peticionar indicações
+    - usuária se cadastrou no e-tce e gostaria de saber quando poderá peticionar comunicações
+
+- intent: int23
+  examples: |
+    - Natalia –pm touros – e-tce – fez o cadastro e ainda não recebeu a senha ?
+    - Natalia –pm touros – e-tce – fez o fichário e ainda não recebeu a senha ?
+    - Natalia –pm touros – e-tce – fez o catálogo e ainda não recebeu a senha ?
+    - Natalia –pm touros – e-tce – fez o recensão e ainda não recebeu a senha ?
+
+- intent: int27
+  examples: |
+    - mikael - adv - como se cadastrar para envio de informações?
+    - mikael - adv - como se cadastrar para envio de juízos
+    - mikael - adv - como se cadastrar para envio de ideias
+    - mikael - adv - como se cadastrar para envio de pesquisas
+
+- intent: int32
+  examples: |
+    - Fund pref Felipe guerra – usuário relata problemas ao enviar processo pelo e-tce e pede ajuda.
+    - Fund pref Felipe guerra – usuário relata mas ao enviar processo pelo e-tce e pede ajuda.
+    - Fund pref Felipe guerra – usuário relata dificuldades ao enviar processo pelo e-tce e pede ajuda.
+    - Fund pref Felipe guerra – usuário relata complicações ao enviar processo pelo e-tce e pede ajuda.
+
+- intent: int38
+  examples: |
+    - Cadastro e-tce –adv – recebeu login e senha e não sabe onde fazer login ?
+    - relação e-tce –adv – recebeu login e senha e não sabe onde fazer login ?
+    - recensão e-tce –adv – recebeu login e senha e não sabe onde fazer login ?
+    - fichário e-tce –adv – recebeu login e senha e não sabe onde fazer login ?
+
+- intent: int43
+  examples: |
+    - Joana – sindlimp - Para encaminhar oficio ?
+    - Joana – sindlimp - Para influenciar oficio ?
+    - Joana – sindlimp - Para enviar oficio ?
+    - Joana – sindlimp - Para impelir oficio ?
+
+- intent: int44
+  examples: |
+    - Como protocolar uma defesa ? de forma on line .
+    - Como lançar uma defesa ? de forma on line .
+    - Como normatizado uma defesa ? de forma on line .
+    - Como registrar uma defesa ? de forma on line .
+
+- intent: int45
+  examples: |
+    - Kely – cm extremoz – usuária quer de enviar oficio ao tce e gostaria de saber como fazer?
+    - Kely – cm extremoz – usuária quer de enviar oficio ao tce e prezaria de saber como fazer?
+    - Kely – cm extremoz – usuária quer de enviar oficio ao tce e estimaria de saber como fazer?
+    - Kely – cm extremoz – usuária quer de enviar oficio ao tce e casaria de saber como fazer?
+
+- intent: int46
+  examples: |
+    - Ravena - Boa tarde,Fiz o cadastro no site do e-sic. Ao tentar fazer o login, o site apresenta erro, voltando a tela de login em branco.Em anexo está o vídeo com o problema apresentado.
+    - Ravena - Boa tarde,Fiz o cadastro no site do e-sic. Ao tentar fazer o login, o site apresenta erro, voltando a tela de login em branco.Em anexo está o vídeo com o problema dedicado
+    - Ravena - Boa tarde,Fiz o cadastro no site do e-sic. Ao tentar fazer o login, o site apresenta erro, voltando a tela de login em branco.Em anexo está o vídeo com o problema emitido
+    - Ravena - Boa tarde,Fiz o cadastro no site do e-sic. Ao tentar fazer o login, o site apresenta erro, voltando a tela de login em branco.Em anexo está o vídeo com o problema comunicado
+
+- intent: int52
+  examples: |
+    - Adv parnamirim – enio – precisando saber o numero de uma consulta formulada pelo secan
+    - Adv parnamirim – enio – estabelecendo saber o numero de uma consulta formulada pelo secan
+    - Adv parnamirim – enio – devendo saber o numero de uma consulta formulada pelo secan
+    - Adv parnamirim – enio – indicando saber o numero de uma consulta formulada pelo secan
+
+- intent: int54
+  examples: |
+    - Antonio – pm afonso bezerra – recebeu citação pra apresentar defesa sobre envio do siai dp e gostaria de saber como proceder.
+    - Antonio – pm afonso bezerra – recebeu citação pra esclarecer defesa sobre envio do siai dp e gostaria de saber como proceder.
+    - Antonio – pm afonso bezerra – recebeu citação pra restituir defesa sobre envio do siai dp e gostaria de saber como proceder.
+    - Antonio – pm afonso bezerra – recebeu citação pra recomendar defesa sobre envio do siai dp e gostaria de saber como proceder.
+
+- intent: int58
+  examples: |
+    - Qual o horário máximo para protocolar defesa?
+    - Qual o horário máximo para frio defesa?
+    - Qual o horário máximo para inscrever defesa?
+    - Qual o horário máximo para lançar defesa?
+
+- intent: int60
+  examples: |
+    - Soraia - Tentando protocolar petição. Recebe senha com 6 dígitos mas o sistema informa que tem de ser .
+    - Soraia - Tentando estandardizado petição. Recebe senha com 6 dígitos mas o sistema informa que tem de ser .
+    - Soraia - Tentando oficial petição. Recebe senha com 6 dígitos mas o sistema informa que tem de ser .
+    - Soraia - Tentando normalizado petição. Recebe senha com 6 dígitos mas o sistema informa que tem de ser .
+
+- intent: int61
+  examples: |
+    - Soraia - Deu entrada em processo e gostaria de saber se deu tudo certo ou se falta documentação.
+    - Soraia - Deu entrada em processo e gostaria de saber se deu tudo certo ou se falta papel
+    - Soraia - Deu entrada em processo e gostaria de saber se deu tudo certo ou se falta argumentação
+    - Soraia - Deu entrada em processo e gostaria de saber se deu tudo certo ou se falta bibliografia
+
+- intent: int68
+  examples: |
+    - 16/11 - Desde sexta tentando enviar uma resposta a documentação – problemas na hora de assinar . tipo certificado (A1 arquivo - ) já utilizaram o sistema do tribunal ? sim  .tentou mudar de máquina? Ainda não. Navegador?
+    - 16/11 - Desde sexta tentando enviar uma resposta a papelada – problemas na hora de assinar . tipo certificado (A1 arquivo - ) já utilizaram o sistema do tribunal ? sim  .tentou mudar de máquina? Ainda não. Navegador?
+    - 16/11 - Desde sexta tentando enviar uma resposta a argumentação – problemas na hora de assinar . tipo certificado (A1 arquivo - ) já utilizaram o sistema do tribunal ? sim  .tentou mudar de máquina? Ainda não. Navegador?
+    - 16/11 - Desde sexta tentando enviar uma resposta a papel – problemas na hora de assinar . tipo certificado (A1 arquivo - ) já utilizaram o sistema do tribunal ? sim  .tentou mudar de máquina? Ainda não. Navegador?
+
+- intent: int70
+  examples: |
+    - Cm floranea - Não estou conseguindo inserir decisão proferida pelo plenário da Câmara no Portal do Gestor, pois está aparecendo erro.
+    - Cm floranea - Não estou buscando inserir decisão proferida pelo plenário da Câmara no Portal do Gestor, pois está aparecendo erro.
+    - Cm floranea - Não estou sabendo inserir decisão proferida pelo plenário da Câmara no Portal do Gestor, pois está aparecendo erro.
+    - Cm floranea - Não estou realizando inserir decisão proferida pelo plenário da Câmara no Portal do Gestor, pois está aparecendo erro.
+
+- intent: int73
+  examples: |
+    - Adv – pablo pinto – e-tce – usuário estava com duvidas sobre o processo e pediu informações
+    - Adv – pablo pinto – e-tce – usuário estava com duvidas sobre o processo e pediu comunicações
+    - Adv – pablo pinto – e-tce – usuário estava com duvidas sobre o processo e pediu opiniões
+    - Adv – pablo pinto – e-tce – usuário estava com duvidas sobre o processo e pediu anúncios
+
+- intent: int74
+  examples: |
+    -  PM extremoz – Vinicius – e-tce – usuário relata não conseguir peticionar informação no e-tce -
+    -  PM extremoz – Vinicius – e-tce – usuário relata não conseguir peticionar comunicação no e-tce -
+    -  PM extremoz – Vinicius – e-tce – usuário relata não conseguir peticionar participação no e-tce -
+    -  PM extremoz – Vinicius – e-tce – usuário relata não conseguir peticionar feedback no e-tce -
+
+- intent: int76
+  examples: |
+    - Processo físico – consultar teor de decisões
+    - Processo físico – perguntar teor de decisões
+    - Processo físico – estudar teor de decisões
+    - Processo físico – percorrer teor de decisões
+
+- intent: int77
+  examples: |
+    - 04/03 - Protocolo eletrônico para o TCE. Não consegue ver o processo e pergunta se precisa de alguma aprovação.
+    - 04/03 - Protocolo eletrônico para o TCE. Não consegue ver o processo e pergunta se precisa de alguma classificação
+    - 04/03 - Protocolo eletrônico para o TCE. Não consegue ver o processo e pergunta se precisa de alguma validação
+    - 04/03 - Protocolo eletrônico para o TCE. Não consegue ver o processo e pergunta se precisa de alguma concordância
+
+- intent: int78
+  examples: |
+    - Usuário está com problemas de acesso ao e-tce e gostaria de resolver.  hildazio de Freitas protocolo
+    - Usuário está com problemas de acesso ao e-tce e gostaria de resolver.  hildazio de Freitas código
+    - Usuário está com problemas de acesso ao e-tce e gostaria de resolver.  hildazio de Freitas escritura
+    - Usuário está com problemas de acesso ao e-tce e gostaria de resolver.  hildazio de Freitas convenção
+
+- intent: int79
+  examples: |
+    - ILDAZIO – usuário relata que portal não identifica o certificado digital -
+    - ILDAZIO – usuário relata que portal não identifica o garantido digital -
+    - ILDAZIO – usuário relata que portal não identifica o adaptado digital -
+    - ILDAZIO – usuário relata que portal não identifica o verificado digital -
+
+- intent: int83
+  examples: |
+    - Andre – adv – processo de aposentadoria – não consegue visualizar os autos – gostaria de receber por email.   08381923433  Oab16156 4305/2012
+    - Andre – adv – processo de inatividade – não consegue visualizar os autos – gostaria de receber por email.   08381923433  Oab16156 4305/2012
+    - Andre – adv – processo de hospedaria – não consegue visualizar os autos – gostaria de receber por email.   08381923433  Oab16156 4305/2012
+    - Andre – adv – processo de benefício – não consegue visualizar os autos – gostaria de receber por email.   08381923433  Oab16156 4305/2012
+
+- intent: int84
+  examples: |
+    - Junior – cm equador – e-tce –  usuário não consegue encontrar um processo.
+    - Junior – cm equador – e-tce –  usuário não consegue encontrar um decurso
+    - Junior – cm equador – e-tce –  usuário não consegue encontrar um litígio
+    - Junior – cm equador – e-tce –  usuário não consegue encontrar um processamento
+
+- intent: int85
+  examples: |
+    - Boa tarde Segue em anexo Comprovante de Recusa do Processo e o Processo para Apreciação da Aposentadoria Concedida a Servidora TEREZINHA ADELINO ALVES DE SOUZA, que ocorreu erro no processamento. Situação do processamento Processado com erro(s)Motivo da recusa NÃO FOI IDENTIFICADO ENCAMINHAMENTO AO TCE/RN
+    - Boa tarde Segue em anexo Comprovante de Recusa do Processo e o Processo para Apreciação da Aposentadoria Concedida a Servidora TEREZINHA ADELINO ALVES DE SOUZA, que ocorreu erro no processamento. Situação do processamento Processado com erro(s)Motivo da recusa NÃO FOI IDENTIFICADO direcionamento AO TCE/RN
+    - Boa tarde Segue em anexo Comprovante de Recusa do Processo e o Processo para Apreciação da Aposentadoria Concedida a Servidora TEREZINHA ADELINO ALVES DE SOUZA, que ocorreu erro no processamento. Situação do processamento Processado com erro(s)Motivo da recusa NÃO FOI IDENTIFICADO ensinamento AO TCE/RN
+    - Boa tarde Segue em anexo Comprovante de Recusa do Processo e o Processo para Apreciação da Aposentadoria Concedida a Servidora TEREZINHA ADELINO ALVES DE SOUZA, que ocorreu erro no processamento. Situação do processamento Processado com erro(s)Motivo da recusa NÃO FOI IDENTIFICADO influência AO TCE/RN
+
+- intent: int91
+  examples: |
+    - Silmara - Preciso preencher o anexo 13 de processos que não estão no Portal do Gestor, conforme mencionou na resposta de email, pois para preenchimento deste anexo se depende de informações enviadas do anexo 38, então como faço esse preenchimento? Preciso do anexo 13 preenchido para poder cadastrar as obras no SIAI Obras, dessa forma uma informação depende da outra.Qual a orientação?
+    - Silmara - Preciso preencher o anexo 13 de processos que não estão no Portal do Gestor, conforme mencionou na resposta de email, pois para preenchimento deste anexo se depende de informações enviadas do anexo 38, então como faço esse acatamento Preciso do anexo 13 preenchido para poder cadastrar as obras no SIAI Obras, dessa forma uma informação depende da outra.Qual a orientação?
+    - Silmara - Preciso preencher o anexo 13 de processos que não estão no Portal do Gestor, conforme mencionou na resposta de email, pois para preenchimento deste anexo se depende de informações enviadas do anexo 38, então como faço esse adimplência Preciso do anexo 13 preenchido para poder cadastrar as obras no SIAI Obras, dessa forma uma informação depende da outra.Qual a orientação?
+    - Silmara - Preciso preencher o anexo 13 de processos que não estão no Portal do Gestor, conforme mencionou na resposta de email, pois para preenchimento deste anexo se depende de informações enviadas do anexo 38, então como faço esse cumprimento Preciso do anexo 13 preenchido para poder cadastrar as obras no SIAI Obras, dessa forma uma informação depende da outra.Qual a orientação?
+
+- intent: int92
+  examples: |
+    - Silmara pereira – anexo 13 - Olá, gostaria de saber se no anexo 13 é possível anexar mais de um aditivo, visto que existem contratos com vários aditivos de prazo e valores. Então fiquei na dúvida se só anexo o último aditivo vigente ou todos conforme são feitos. Pois só observo um campo para aditivos.
+    - Silmara pereira – anexo 13 - Olá, gostaria de saber se no anexo 13 é possível anexar mais de um aditivo, visto que existem contratos com vários aditivos de prazo e valores. Então fiquei na dúvida se só anexo o último aditivo vigente ou todos conforme são feitos. Pois só observo um campo para segundos
+    - Silmara pereira – anexo 13 - Olá, gostaria de saber se no anexo 13 é possível anexar mais de um aditivo, visto que existem contratos com vários aditivos de prazo e valores. Então fiquei na dúvida se só anexo o último aditivo vigente ou todos conforme são feitos. Pois só observo um campo para outros
+    - Silmara pereira – anexo 13 - Olá, gostaria de saber se no anexo 13 é possível anexar mais de um aditivo, visto que existem contratos com vários aditivos de prazo e valores. Então fiquei na dúvida se só anexo o último aditivo vigente ou todos conforme são feitos. Pois só observo um campo para novos
+
+- intent: int93
+  examples: |
+    - PM santa cruz- Mateus – erro na prestação de contas – foi cadastrado no a13 2x  e pergutna o q fazer
+    - PM santa cruz- Mateus – erro na prestação de contas – foi especificado no a13 2x  e pergutna o q fazer
+    - PM santa cruz- Mateus – erro na prestação de contas – foi inventariado no a13 2x  e pergutna o q fazer
+    - PM santa cruz- Mateus – erro na prestação de contas – foi listado no a13 2x  e pergutna o q fazer
+
+- intent: int94
+  examples: |
+    - 21/05 Ana glicia – erro ao lançar obra no anexo 13.
+    - 21/05 Ana glicia – erro ao concentrar-se obra no anexo 13.
+    - 21/05 Ana glicia – erro ao fazer obra no anexo 13.
+    - 21/05 Ana glicia – erro ao propelir obra no anexo 13.
+
+- intent: int95
+  examples: |
+    - 21/05 Ins prev sg Amarante – usuário informou que surgiu um lançamento de um contrato referente a telefonia no anexo de obras e pergunta o q faze.
+    - 21/05 Ins prev sg Amarante – usuário informou que surgiu um lance de um contrato referente a telefonia no anexo de obras e pergunta o q faze.
+    - 21/05 Ins prev sg Amarante – usuário informou que surgiu um broto de um contrato referente a telefonia no anexo de obras e pergunta o q faze.
+    - 21/05 Ins prev sg Amarante – usuário informou que surgiu um emissão de um contrato referente a telefonia no anexo de obras e pergunta o q faze.
+
+- intent: int99
+  examples: |
+    - Gab civil – usuária informa que fizeram uma dispensa de licitação da Cosern e posteriormente foi feito um reforço no valor de 90.000,00 e pergunta como proceder pra incluir essa informação no anexo 38.
+    - Gab civil – usuária informa que fizeram uma dispensa de licitação da Cosern e seguidamente foi feito um reforço no valor de 90.000,00 e pergunta como proceder pra incluir essa informação no anexo 38.
+    - Gab civil – usuária informa que fizeram uma dispensa de licitação da Cosern e mais adiante foi feito um reforço no valor de 90.000,00 e pergunta como proceder pra incluir essa informação no anexo 38.
+    - Gab civil – usuária informa que fizeram uma dispensa de licitação da Cosern e subsequentemente foi feito um reforço no valor de 90.000,00 e pergunta como proceder pra incluir essa informação no anexo 38.
+
+- intent: int101
+  examples: |
+    - Afonso bezerra - Qual o preenchimento correto no campo Prazo máximo para liquidação no Anexo 13?
+    - Afonso bezerra - Qual o adimplemento correto no campo Prazo máximo para liquidação no Anexo 13?
+    - Afonso bezerra - Qual o recheio correto no campo Prazo máximo para liquidação no Anexo 13?
+    - Afonso bezerra - Qual o colocação correto no campo Prazo máximo para liquidação no Anexo 13?
+
+- intent: int102
+  examples: |
+    - PM triunfo –Anexo 13 recibo 114652 sobre aditivo de processo licitatório – fez dispensa de 3 meses e lançou 2 aditivos de valor e prazo. ao lançar informações no anexo 14 o sistema não permite por exceder o valor contratado.
+    - PM triunfo –Anexo 13 recibo 114652 sobre aditivo de processo licitatório – fez dispensa de 3 meses e lançou 2 aditivos de valor e prazo. ao lançar informações no anexo 14 o sistema não permite por exceder o valor designado
+    - PM triunfo –Anexo 13 recibo 114652 sobre aditivo de processo licitatório – fez dispensa de 3 meses e lançou 2 aditivos de valor e prazo. ao lançar informações no anexo 14 o sistema não permite por exceder o valor tratado
+    - PM triunfo –Anexo 13 recibo 114652 sobre aditivo de processo licitatório – fez dispensa de 3 meses e lançou 2 aditivos de valor e prazo. ao lançar informações no anexo 14 o sistema não permite por exceder o valor mercado
+
+- intent: int103
+  examples: |
+    - 01/10 Sg herlon – duvida portal do gestor. Registro da despesa – lança no anexo 13 – licitação com vários itens , várias empresas .
+    - 01/10 Sg herlon – duvida portal do gestor. Registro da despesa – lança no anexo 13 – concurso com vários itens , várias empresas .
+    - 01/10 Sg herlon – duvida portal do gestor. Registro da despesa – lança no anexo 13 – monta com vários itens , várias empresas .
+    - 01/10 Sg herlon – duvida portal do gestor. Registro da despesa – lança no anexo 13 – disputa com vários itens , várias empresas .
+
+- intent: int104
+  examples: |
+    - pm parnamirim –problema  anexo 13 – contrato foi atualizado com o primeiro aditivo, e , ao inserir o segundo aditivo ele notou que o primeiro não estava no sistema . e pergunta o q fazer.  Recibo a13 105372
+    - pm parnamirim –problema  anexo 13 – contrato foi avançado com o primeiro aditivo, e , ao inserir o segundo aditivo ele notou que o primeiro não estava no sistema . e pergunta o q fazer.  Recibo a13 105372
+    - pm parnamirim –problema  anexo 13 – contrato foi retificado com o primeiro aditivo, e , ao inserir o segundo aditivo ele notou que o primeiro não estava no sistema . e pergunta o q fazer.  Recibo a13 105372
+    - pm parnamirim –problema  anexo 13 – contrato foi alterado com o primeiro aditivo, e , ao inserir o segundo aditivo ele notou que o primeiro não estava no sistema . e pergunta o q fazer.  Recibo a13 105372
+
+- intent: int106
+  examples: |
+    - Pm tangara – a38 – o primeiro fornecedor desistiu e o segundo foi chamado , já foi lançadas as informações no anexo 38 e anexo 13 e usuário pergunta o q fazer
+    - Pm tangara – a38 – o primeiro fornecedor desistiu e o segundo foi chamado , já foi lançadas as indicações no anexo 38 e anexo 13 e usuário pergunta o q fazer
+    - Pm tangara – a38 – o primeiro fornecedor desistiu e o segundo foi chamado , já foi lançadas as elementos no anexo 38 e anexo 13 e usuário pergunta o q fazer
+    - Pm tangara – a38 – o primeiro fornecedor desistiu e o segundo foi chamado , já foi lançadas as anúncios no anexo 38 e anexo 13 e usuário pergunta o q fazer
+
+- intent: int108
+  examples: |
+    - 25/10 - Ipem – Marília – anexo 13 -aditivo , o campo objetivo , o q seria ?
+    - 25/10 - Ipem – Marília – anexo 13 -aditivo , o campo destino , o q seria ?
+    - 25/10 - Ipem – Marília – anexo 13 -aditivo , o campo fito , o q seria ?
+    - 25/10 - Ipem – Marília – anexo 13 -aditivo , o campo exterior , o q seria ?
+
+- intent: int111
+  examples: |
+    - Funcart - Simone -Anexo 13 85184– ao inserir o aditivo número 7 ele informa que o numero de recibo informado não existe.
+    - Funcart - Simone -Anexo 13 85184– ao inserir o aditivo número 7 ele informa que o numero de recibo advertido não existe.
+    - Funcart - Simone -Anexo 13 85184– ao inserir o aditivo número 7 ele informa que o numero de recibo anunciado não existe.
+    - Funcart - Simone -Anexo 13 85184– ao inserir o aditivo número 7 ele informa que o numero de recibo conhecedor não existe.
+
+- intent: int112
+  examples: |
+    - Funcart - Simone – Rec. A38 242844 – Anexo 13 – usuária relata que , ao tentar atualizar o recibo do anexo 38 no anexo 13 está apresentando uma mensagem de erro.
+    - Funcart - Simone – Rec. A38 242844 – Anexo 13 – usuária relata que , ao tentar atualizar o recibo do anexo 38 no anexo 13 está passando uma mensagem de erro.
+    - Funcart - Simone – Rec. A38 242844 – Anexo 13 – usuária relata que , ao tentar atualizar o recibo do anexo 38 no anexo 13 está desenvolvendo uma mensagem de erro.
+    - Funcart - Simone – Rec. A38 242844 – Anexo 13 – usuária relata que , ao tentar atualizar o recibo do anexo 38 no anexo 13 está tendo uma mensagem de erro.
+
+- intent: int113
+  examples: |
+    - Conforme conversando por telefone seguem em anexo fotos do anexo 13 ao qual não consigo encontrar no sistema .Até mesmo a foto 03 que fiz o cadastramento pelo meu login não está aparecendo para mim sempre dá nem um dado encontrado. Gostaria de saber o que está acontecendo, até sexta-feira passada o sistema estava normal .
+    - Conforme conversando por telefone seguem em anexo fotos do anexo 13 ao qual não consigo encontrar no sistema .Até mesmo a foto 03 que fiz o inventariação pelo meu login não está aparecendo para mim sempre dá nem um dado encontrado. Gostaria de saber o que está acontecendo, até sexta-feira passada o sistema estava normal .
+    - Conforme conversando por telefone seguem em anexo fotos do anexo 13 ao qual não consigo encontrar no sistema .Até mesmo a foto 03 que fiz o cadastro pelo meu login não está aparecendo para mim sempre dá nem um dado encontrado. Gostaria de saber o que está acontecendo, até sexta-feira passada o sistema estava normal .
+    - Conforme conversando por telefone seguem em anexo fotos do anexo 13 ao qual não consigo encontrar no sistema .Até mesmo a foto 03 que fiz o catalogação pelo meu login não está aparecendo para mim sempre dá nem um dado encontrado. Gostaria de saber o que está acontecendo, até sexta-feira passada o sistema estava normal .
+
+- intent: int114
+  examples: |
+    - CONFORME  ORIENTAÇÃO  POR TELEFONE SEGUE RECIBO TCE ANEXO 38  Nº 119018 QUE ESTAR  COM ACUSANDO UMA MENSAGEM QUE  O PROCESSO LICITATORIO DESTE RECIBO NAO FOI ENCONTRADO.  ESTAMOS PRECISANDO  ANEXAR O 7º ADITIVO NAO ESTAMOS CONSEGUINDO.
+    - CONFORME  ORIENTAÇÃO  POR TELEFONE SEGUE RECIBO TCE ANEXO 38  Nº 119018 QUE ESTAR  COM ACUSANDO UMA MENSAGEM QUE  O PROCESSO LICITATORIO DESTE RECIBO NAO FOI ENCONTRADO.  ESTAMOS PRECISANDO  ANEXAR O 7º ADITIVO NAO ESTAMOS tomando
+    - CONFORME  ORIENTAÇÃO  POR TELEFONE SEGUE RECIBO TCE ANEXO 38  Nº 119018 QUE ESTAR  COM ACUSANDO UMA MENSAGEM QUE  O PROCESSO LICITATORIO DESTE RECIBO NAO FOI ENCONTRADO.  ESTAMOS PRECISANDO  ANEXAR O 7º ADITIVO NAO ESTAMOS sabendo
+    - CONFORME  ORIENTAÇÃO  POR TELEFONE SEGUE RECIBO TCE ANEXO 38  Nº 119018 QUE ESTAR  COM ACUSANDO UMA MENSAGEM QUE  O PROCESSO LICITATORIO DESTE RECIBO NAO FOI ENCONTRADO.  ESTAMOS PRECISANDO  ANEXAR O 7º ADITIVO NAO ESTAMOS tendo
+
+- intent: int115
+  examples: |
+    - 08/12 - Semthas – maria das graças – anexo 13 – contrato – fundamentação legal – decreto fed. 7892/2013
+    - 08/12 - Semthas – maria das graças – anexo 13 – contrato – comprovação legal – decreto fed. 7892/2013
+    - 08/12 - Semthas – maria das graças – anexo 13 – contrato – base legal – decreto fed. 7892/2013
+    - 08/12 - Semthas – maria das graças – anexo 13 – contrato – documentação legal – decreto fed. 7892/2013
+
+- intent: int118
+  examples: |
+    - Américo – hosp Nelson inacio – rec 38 191633 terceiro aditivo em um contrato e está apresentando erro.
+    - Américo – hosp Nelson inacio – rec 38 191633 terceiro aditivo em um contrato e está mostrando erro.
+    - Américo – hosp Nelson inacio – rec 38 191633 terceiro aditivo em um contrato e está passando erro.
+    - Américo – hosp Nelson inacio – rec 38 191633 terceiro aditivo em um contrato e está alegando erro.
+
+- intent: int119
+  examples: |
+    - Silmara – anexo 13 – 2 contratos em um único processo
+    - Silmara – anexo 13 – 2 empresas em um único processo
+    - Silmara – anexo 13 – 2 parcerias em um único processo
+    - Silmara – anexo 13 – 2 operações em um único processo
+
+- intent: int120
+  examples: |
+    - 25/03 Silmara – anexo 13 – 2 contratos em um único processo
+    - 25/03 Silmara – anexo 13 – 2 notas em um único processo
+    - 25/03 Silmara – anexo 13 – 2 operações em um único processo
+    - 25/03 Silmara – anexo 13 – 2 empresas em um único processo
+
+- intent: int122
+  examples: |
+    - PM RN – problema de recibo  -  como lançar um aditivo  de um contrato?
+    - PM RN – problema de recibo  -  como lançar um aditivo  de um convênio
+    - PM RN – problema de recibo  -  como lançar um aditivo  de um contraído
+    - PM RN – problema de recibo  -  como lançar um aditivo  de um ajuste
+
+- intent: int125
+  examples: |
+    - Defensoria – fernanda – portal do gestor – como designar o fiscal? É necessário portaria ?
+    - Defensoria – fernanda – portal do gestor – como designar o fiscal? É inevitável portaria ?
+    - Defensoria – fernanda – portal do gestor – como designar o fiscal? É compulsório portaria ?
+    - Defensoria – fernanda – portal do gestor – como designar o fiscal? É imperioso portaria ?
+
+- intent: int135
+  examples: |
+    - PM encanto - Boa noite Ao enviar o anexo 14 do município de Encanto apresenta esse erro impedindo o envio com as seguintes informações anexo. Já conferimos e o a informação no anexo 42, e lá consta tudo.  Como faremos para sanar a situação?
+    - PM encanto - Boa noite Ao enviar o anexo 14 do município de Encanto apresenta esse erro impedindo o envio com as seguintes relatos anexo. Já conferimos e o a informação no anexo 42, e lá consta tudo.  Como faremos para sanar a situação?
+    - PM encanto - Boa noite Ao enviar o anexo 14 do município de Encanto apresenta esse erro impedindo o envio com as seguintes informes anexo. Já conferimos e o a informação no anexo 42, e lá consta tudo.  Como faremos para sanar a situação?
+    - PM encanto - Boa noite Ao enviar o anexo 14 do município de Encanto apresenta esse erro impedindo o envio com as seguintes conhecimentos anexo. Já conferimos e o a informação no anexo 42, e lá consta tudo.  Como faremos para sanar a situação?
+
+- intent: int137
+  examples: |
+    - 25/06 Sec mun trab e assist soc Nat – Simone Diniz, -anexo 14 – erro processamento. Boa tarde, Após orientação do suporte do sistema e-cidade referente a critica apontada no envio do anexo 14 SIAI do mês de maio/2021 da SEMTAS, solicitamos providências de ajuste no pagamento de restos a pagar de uma despesa liquidada em 2018, mas por problemas bancários do credor só creditada pelo banco em 28/05/2021. SEGUE ARQUIVO DO ANEXO 14 DE 2018, Nota de liquidação da despesa e relação de pagamento efetivada.
+    - 25/06 Sec mun trab e assist soc Nat – Simone Diniz, -anexo 14 – erro preparação Boa tarde, Após orientação do suporte do sistema e-cidade referente a critica apontada no envio do anexo 14 SIAI do mês de maio/2021 da SEMTAS, solicitamos providências de ajuste no pagamento de restos a pagar de uma despesa liquidada em 2018, mas por problemas bancários do credor só creditada pelo banco em 28/05/2021. SEGUE ARQUIVO DO ANEXO 14 DE 2018, Nota de liquidação da despesa e relação de pagamento efetivada.
+    - 25/06 Sec mun trab e assist soc Nat – Simone Diniz, -anexo 14 – erro processo Boa tarde, Após orientação do suporte do sistema e-cidade referente a critica apontada no envio do anexo 14 SIAI do mês de maio/2021 da SEMTAS, solicitamos providências de ajuste no pagamento de restos a pagar de uma despesa liquidada em 2018, mas por problemas bancários do credor só creditada pelo banco em 28/05/2021. SEGUE ARQUIVO DO ANEXO 14 DE 2018, Nota de liquidação da despesa e relação de pagamento efetivada.
+    - 25/06 Sec mun trab e assist soc Nat – Simone Diniz, -anexo 14 – erro tratamento Boa tarde, Após orientação do suporte do sistema e-cidade referente a critica apontada no envio do anexo 14 SIAI do mês de maio/2021 da SEMTAS, solicitamos providências de ajuste no pagamento de restos a pagar de uma despesa liquidada em 2018, mas por problemas bancários do credor só creditada pelo banco em 28/05/2021. SEGUE ARQUIVO DO ANEXO 14 DE 2018, Nota de liquidação da despesa e relação de pagamento efetivada.
+
+- intent: int138
+  examples: |
+    - 27/05 Fa tangará – Francisco – anexo 14 - BOA TARDE! ESTOU TENTANDO ENVIAR O ANEXO 14 DO FUNDO DA ASSISTÊNCIA SOCIAL DO MUNICÍPIO DE TANGARÁ, E NÃO APARECE A OPÇÃO , NEM DE VISUALIZAR O ANEXO.
+    - 27/05 Fa tangará – Francisco – anexo 14 - BOA TARDE! ESTOU TENTANDO ENVIAR O ANEXO 14 DO FUNDO DA plateia SOCIAL DO MUNICÍPIO DE TANGARÁ, E NÃO APARECE A OPÇÃO , NEM DE VISUALIZAR O ANEXO.
+    - 27/05 Fa tangará – Francisco – anexo 14 - BOA TARDE! ESTOU TENTANDO ENVIAR O ANEXO 14 DO FUNDO DA assessoria SOCIAL DO MUNICÍPIO DE TANGARÁ, E NÃO APARECE A OPÇÃO , NEM DE VISUALIZAR O ANEXO.
+    - 27/05 Fa tangará – Francisco – anexo 14 - BOA TARDE! ESTOU TENTANDO ENVIAR O ANEXO 14 DO FUNDO DA comparência SOCIAL DO MUNICÍPIO DE TANGARÁ, E NÃO APARECE A OPÇÃO , NEM DE VISUALIZAR O ANEXO.
+
+- intent: int142
+  examples: |
+    - 28/09 Breno – PM goianinha - Ao enviar o anexo 14 – o anexo 14 está apresentando crítica de informação de uma obra – usuário relata que o procedimento informado por eles não é licitação embora o sistema peça um numero de recibo.
+    - 28/09 Breno – PM goianinha - Ao enviar o anexo 14 – o anexo 14 está apresentando crítica de informação de uma obra – usuário relata que o intervenção informado por eles não é licitação embora o sistema peça um numero de recibo.
+    - 28/09 Breno – PM goianinha - Ao enviar o anexo 14 – o anexo 14 está apresentando crítica de informação de uma obra – usuário relata que o metodologia informado por eles não é licitação embora o sistema peça um numero de recibo.
+    - 28/09 Breno – PM goianinha - Ao enviar o anexo 14 – o anexo 14 está apresentando crítica de informação de uma obra – usuário relata que o meio informado por eles não é licitação embora o sistema peça um numero de recibo.
+
+- intent: int144
+  examples: |
+    - Criticas anexo 38- ele impede de enviar o anexo 14?  A crítica pede que seja  enviado o resultado da licitação. Usuário gostaria de saber se isso impede o envio do anexo 14.
+    - Criticas anexo 38- ele impede de enviar o anexo 14?  A crítica pede que seja  enviado o resultado da concurso Usuário gostaria de saber se isso impede o envio do anexo 14.
+    - Criticas anexo 38- ele impede de enviar o anexo 14?  A crítica pede que seja  enviado o resultado da pregão Usuário gostaria de saber se isso impede o envio do anexo 14.
+    - Criticas anexo 38- ele impede de enviar o anexo 14?  A crítica pede que seja  enviado o resultado da arrematação Usuário gostaria de saber se isso impede o envio do anexo 14.
+
+- intent: int145
+  examples: |
+    - Funcart - Simone – problemas no anexo 14 – após processamento o sistema informa que o numero do recibo é inexistente  .
+    - Funcart - Simone – problemas no anexo 14 – após preparo o sistema informa que o numero do recibo é inexistente  .
+    - Funcart - Simone – problemas no anexo 14 – após sequência o sistema informa que o numero do recibo é inexistente  .
+    - Funcart - Simone – problemas no anexo 14 – após continuação o sistema informa que o numero do recibo é inexistente  .
+
+- intent: int148
+  examples: |
+    -  06/12-Vinicius – Int prev sao gonçalo – anexo 14- usuário trouxe caso onde informa ter retificado o envio do primeiro bimestre de forma equivocada, ficando a retificação e prazo de envio constando como em atraso, usuário pede q seja desconsiderado o envio do arquivo e pergunta o q fazer.
+    -  06/12-Vinicius – Int prev sao gonçalo – anexo 14- usuário trouxe caso onde informa ter retificado o envio do primeiro bimestre de forma equivocada, ficando a retificação e prazo de envio constando como em atraso, usuário pede q seja injustiçado o envio do arquivo e pergunta o q fazer.
+    -  06/12-Vinicius – Int prev sao gonçalo – anexo 14- usuário trouxe caso onde informa ter retificado o envio do primeiro bimestre de forma equivocada, ficando a retificação e prazo de envio constando como em atraso, usuário pede q seja rejeitado o envio do arquivo e pergunta o q fazer.
+    -  06/12-Vinicius – Int prev sao gonçalo – anexo 14- usuário trouxe caso onde informa ter retificado o envio do primeiro bimestre de forma equivocada, ficando a retificação e prazo de envio constando como em atraso, usuário pede q seja incompreendido o envio do arquivo e pergunta o q fazer.
+
+- intent: int149
+  examples: |
+    - Pm antonio martins – anexo 14 – o anexo 14 informa que o recibo de uma dada obra é inexistente .
+    - Pm antonio martins – anexo 14 – o anexo 14 informa que o recibo de uma dada obra é inválido .
+    - Pm antonio martins – anexo 14 – o anexo 14 informa que o recibo de uma dada obra é vão .
+    - Pm antonio martins – anexo 14 – o anexo 14 informa que o recibo de uma dada obra é nulo .
+
+- intent: int150
+  examples: |
+    - PM Antonio Martins - Erro processamento anexo 14 -
+    - PM Antonio Martins - Erro feitura anexo 14 -
+    - PM Antonio Martins - Erro preparamento anexo 14 -
+    - PM Antonio Martins - Erro organização anexo 14 -
+
+- intent: int152
+  examples: |
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é inexistente .
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é inútil .
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é nulo .
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é nenhum .
+
+- intent: int153
+  examples: |
+    - Semtas – anexo 14 - Bom dia, segue criticas do envio do mês de fevereiro 2022 do anexo 14. Solicitamos orientação do suporte para correção das notas de empenhos apontadas. (Ex Nota de empenho n°656 ) em anexo.
+    - Semtas – anexo 14 - Bom dia, segue criticas do envio do mês de fevereiro 2022 do anexo 14. rogamos orientação do suporte para correção das notas de empenhos apontadas. (Ex Nota de empenho n°656 ) em anexo.
+    - Semtas – anexo 14 - Bom dia, segue criticas do envio do mês de fevereiro 2022 do anexo 14. clamamos orientação do suporte para correção das notas de empenhos apontadas. (Ex Nota de empenho n°656 ) em anexo.
+    - Semtas – anexo 14 - Bom dia, segue criticas do envio do mês de fevereiro 2022 do anexo 14. pedinchamos orientação do suporte para correção das notas de empenhos apontadas. (Ex Nota de empenho n°656 ) em anexo.
+
+- intent: int162
+  examples: |
+    - PM carnaúba dos Dantas – Maria – anexo 23 obras – enviou 2 obras e não estão aparecendo. Processo 4553/2020 perdeu as informações de forma parcial (aditivo e medição) e outro processo sumiu 5261/2019.
+    - PM carnaúba dos Dantas – Maria – anexo 23 obras – enviou 2 obras e não estão aparecendo. Processo 4553/2020 perdeu as referências de forma parcial (aditivo e medição) e outro processo sumiu 5261/2019.
+    - PM carnaúba dos Dantas – Maria – anexo 23 obras – enviou 2 obras e não estão aparecendo. Processo 4553/2020 perdeu as esclarecimentos de forma parcial (aditivo e medição) e outro processo sumiu 5261/2019.
+    - PM carnaúba dos Dantas – Maria – anexo 23 obras – enviou 2 obras e não estão aparecendo. Processo 4553/2020 perdeu as noções de forma parcial (aditivo e medição) e outro processo sumiu 5261/2019.
+
+- intent: int163
+  examples: |
+    -  Karla – PM Mossoró – usuária relata que existem diversas obras constando como pendentes no anexo 23, já foram recebidas mas a documentação de recebimento da mesma não foi feita. Ela gostaria de saber como proceder.
+    -  Karla – PM Mossoró – usuária relata que existem diversas obras constando como pendentes no anexo 23, já foram recebidas mas a papelada de recebimento da mesma não foi feita. Ela gostaria de saber como proceder.
+    -  Karla – PM Mossoró – usuária relata que existem diversas obras constando como pendentes no anexo 23, já foram recebidas mas a argumentação de recebimento da mesma não foi feita. Ela gostaria de saber como proceder.
+    -  Karla – PM Mossoró – usuária relata que existem diversas obras constando como pendentes no anexo 23, já foram recebidas mas a bibliografia de recebimento da mesma não foi feita. Ela gostaria de saber como proceder.
+
+- intent: int164
+  examples: |
+    - 27/01-Venho por meio deste pedir uma análise e possível correção de uma situação que está acontecendo em um contrato que estava cadastrado no Anexo 23 e agora ao exportar o mesmo para o SIAI Obras não é possível vincular o contrato pois o mesmo não aparece.Dados do ContratoObjeto Elaboração de projetos de arquitetura e complementares, estudos, avaliação, testes, topografia, instalações prediais, orçamento, e acompanhamento de obras para manutenção em diversos empreendimentos públicos do Município de Mossoró/RN Número do Contrato 177/2020Recibo Anexo 23 Em anexo.Favor esclarecer o que está acontecendo para que esse contrato seja vinculado de forma correta.
+    - 27/01-Venho por meio deste pedir uma análise e possível correção de uma situação que está acontecendo em um contrato que estava cadastrado no Anexo 23 e agora ao exportar o mesmo para o SIAI Obras não é possível vincular o contrato pois o mesmo não aparece.Dados do ContratoObjeto Elaboração de projetos de arquitetura e complementares, estudos, avaliação, testes, topografia, instalações prediais, orçamento, e acompanhamento de obras para manutenção em diversos ações públicos do Município de Mossoró/RN Número do Contrato 177/2020Recibo Anexo 23 Em anexo.Favor esclarecer o que está acontecendo para que esse contrato seja vinculado de forma correta.
+    - 27/01-Venho por meio deste pedir uma análise e possível correção de uma situação que está acontecendo em um contrato que estava cadastrado no Anexo 23 e agora ao exportar o mesmo para o SIAI Obras não é possível vincular o contrato pois o mesmo não aparece.Dados do ContratoObjeto Elaboração de projetos de arquitetura e complementares, estudos, avaliação, testes, topografia, instalações prediais, orçamento, e acompanhamento de obras para manutenção em diversos intervenções públicos do Município de Mossoró/RN Número do Contrato 177/2020Recibo Anexo 23 Em anexo.Favor esclarecer o que está acontecendo para que esse contrato seja vinculado de forma correta.
+    - 27/01-Venho por meio deste pedir uma análise e possível correção de uma situação que está acontecendo em um contrato que estava cadastrado no Anexo 23 e agora ao exportar o mesmo para o SIAI Obras não é possível vincular o contrato pois o mesmo não aparece.Dados do ContratoObjeto Elaboração de projetos de arquitetura e complementares, estudos, avaliação, testes, topografia, instalações prediais, orçamento, e acompanhamento de obras para manutenção em diversos coisas públicos do Município de Mossoró/RN Número do Contrato 177/2020Recibo Anexo 23 Em anexo.Favor esclarecer o que está acontecendo para que esse contrato seja vinculado de forma correta.
+
+- intent: int166
+  examples: |
+    - Boa tarde, O erro persistiu mais precisamente na conta nº 34.817-1 não consigo editar, quando clico na canetinha para editar e colocar a data de encerramento aparece esse erro Att Andressa Gardênia ?
+    - Boa tarde, O erro persistiu mais precisamente na conta nº 34.817-1 não consigo editar, quando clico na canetinha para editar e colocar a data de enclausuramento aparece esse erro Att Andressa Gardênia ?
+    - Boa tarde, O erro persistiu mais precisamente na conta nº 34.817-1 não consigo editar, quando clico na canetinha para editar e colocar a data de terminação aparece esse erro Att Andressa Gardênia ?
+    - Boa tarde, O erro persistiu mais precisamente na conta nº 34.817-1 não consigo editar, quando clico na canetinha para editar e colocar a data de conclusão aparece esse erro Att Andressa Gardênia ?
+
+- intent: int167
+  examples: |
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é inexistente .
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é ilusório .
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é vão .
+    - PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é nenhum .
+
+- intent: int168
+  examples: |
+    - Cm j serido - Na data de 10 de março de 2021, esta Câmara Municipal assinou um termo de sessão de uso com o Poder Executivo do nosso município referente a um veículo inutilizado pela Câmara , contudo não houve informação por parte de nenhum dos dois poderes no Anexo 28 previsto no artigo primeiro, inciso III, da resolução 023/2020-TCE/RN. Tendo percebido a ausência de informações, este Poder indaga-se a necessidade dos dois poderes informarem o referido anexo no portal ou é apenas responsabilidade do Executivo (que teve alteração da sua frota) uma vez que no cadastramento do anexo, nos dados da frota, há solicitação do tipo de aquisição, o que induz a entender que o órgão cessionário (Prefeitura) é quem tem obrigação de informar.
+    - Cm j serido - Na data de 10 de março de 2021, esta Câmara Municipal assinou um termo de sessão de uso com o Poder Executivo do nosso município referente a um veículo inutilizado pela Câmara , contudo não houve informação por parte de nenhum dos dois poderes no Anexo 28 previsto no artigo primeiro, inciso III, da resolução 023/2020-TCE/RN. Tendo percebido a ausência de informações, este Poder indaga-se a necessidade dos dois poderes informarem o referido anexo no portal ou é apenas consciência do Executivo (que teve alteração da sua frota) uma vez que no cadastramento do anexo, nos dados da frota, há solicitação do tipo de aquisição, o que induz a entender que o órgão cessionário (Prefeitura) é quem tem obrigação de informar.
+    - Cm j serido - Na data de 10 de março de 2021, esta Câmara Municipal assinou um termo de sessão de uso com o Poder Executivo do nosso município referente a um veículo inutilizado pela Câmara , contudo não houve informação por parte de nenhum dos dois poderes no Anexo 28 previsto no artigo primeiro, inciso III, da resolução 023/2020-TCE/RN. Tendo percebido a ausência de informações, este Poder indaga-se a necessidade dos dois poderes informarem o referido anexo no portal ou é apenas discernimento do Executivo (que teve alteração da sua frota) uma vez que no cadastramento do anexo, nos dados da frota, há solicitação do tipo de aquisição, o que induz a entender que o órgão cessionário (Prefeitura) é quem tem obrigação de informar.
+    - Cm j serido - Na data de 10 de março de 2021, esta Câmara Municipal assinou um termo de sessão de uso com o Poder Executivo do nosso município referente a um veículo inutilizado pela Câmara , contudo não houve informação por parte de nenhum dos dois poderes no Anexo 28 previsto no artigo primeiro, inciso III, da resolução 023/2020-TCE/RN. Tendo percebido a ausência de informações, este Poder indaga-se a necessidade dos dois poderes informarem o referido anexo no portal ou é apenas tarefa do Executivo (que teve alteração da sua frota) uma vez que no cadastramento do anexo, nos dados da frota, há solicitação do tipo de aquisição, o que induz a entender que o órgão cessionário (Prefeitura) é quem tem obrigação de informar.
+
+- intent: int169
+  examples: |
+    - Fundação Jose augusto - Joseli – anexo 28 – locação – ao tentar cadastrar o anexo 28 informa que estão faltando algumas informações a13-121621
+    - Fundação Jose augusto - Joseli – anexo 28 – locação – ao tentar cadastrar o anexo 28 informa que estão faltando algumas indicações a13-121621
+    - Fundação Jose augusto - Joseli – anexo 28 – locação – ao tentar cadastrar o anexo 28 informa que estão faltando algumas notícias a13-121621
+    - Fundação Jose augusto - Joseli – anexo 28 – locação – ao tentar cadastrar o anexo 28 informa que estão faltando algumas dados a13-121621
+
+- intent: int170
+  examples: |
+    - 16/11- Duvida anexo 28 – ao cadastrar os veículos, a usuária informou não possuírem todas informações sobre o veículos e pergunta o q fazer.
+    - 16/11- Duvida anexo 28 – ao cadastrar os veículos, a usuária informou não possuírem todas participações sobre o veículos e pergunta o q fazer.
+    - 16/11- Duvida anexo 28 – ao cadastrar os veículos, a usuária informou não possuírem todas informes sobre o veículos e pergunta o q fazer.
+    - 16/11- Duvida anexo 28 – ao cadastrar os veículos, a usuária informou não possuírem todas opiniões sobre o veículos e pergunta o q fazer.
+
+- intent: int172
+  examples: |
+    - Hosp Maria Alice – Sandra, usuária informa que não está conseguindo lançar o resultado de uma licitação e pede ajuda.
+    - Hosp Maria Alice – Sandra, usuária informa que não está sabendo lançar o resultado de uma licitação e pede ajuda.
+    - Hosp Maria Alice – Sandra, usuária informa que não está apresentando lançar o resultado de uma licitação e pede ajuda.
+    - Hosp Maria Alice – Sandra, usuária informa que não está tendo lançar o resultado de uma licitação e pede ajuda.
+
+- intent: int176
+  examples: |
+    - Sec de est de adm penitenciaria      Sugerimos no Portal do Gestor do TCE-RN duas mudanças 1) Que se possa gravar informações, tipo nome da empresa e CNPJ por já facilitaria muito a inclusão das empresas nos itens licitados e 2) Que se tenha a possibilidade de salvar as informações inseridas porque hoje mesmo repeti todo processo umas 3 vezes por instabilidade na internet. Como não se tem a possibilidade de salvar, tem que sempre fazer um recomeço em todas as informações.
+    - Sec de est de adm penitenciaria      Sugerimos no Portal do Gestor do TCE-RN duas mudanças 1) Que se possa gravar informações, tipo nome da empresa e CNPJ por já facilitaria muito a inclusão das empresas nos itens licitados e 2) Que se tenha a capacidade de salvar as informações inseridas porque hoje mesmo repeti todo processo umas 3 vezes por instabilidade na internet. Como não se tem a capacidade de salvar, tem que sempre fazer um recomeço em todas as informações.
+    - Sec de est de adm penitenciaria      Sugerimos no Portal do Gestor do TCE-RN duas mudanças 1) Que se possa gravar informações, tipo nome da empresa e CNPJ por já facilitaria muito a inclusão das empresas nos itens licitados e 2) Que se tenha a contingência de salvar as informações inseridas porque hoje mesmo repeti todo processo umas 3 vezes por instabilidade na internet. Como não se tem a contingência de salvar, tem que sempre fazer um recomeço em todas as informações.
+    - Sec de est de adm penitenciaria      Sugerimos no Portal do Gestor do TCE-RN duas mudanças 1) Que se possa gravar informações, tipo nome da empresa e CNPJ por já facilitaria muito a inclusão das empresas nos itens licitados e 2) Que se tenha a chance de salvar as informações inseridas porque hoje mesmo repeti todo processo umas 3 vezes por instabilidade na internet. Como não se tem a chance de salvar, tem que sempre fazer um recomeço em todas as informações.
+
+- intent: int177
+  examples: |
+    - Silmara - Olá, gostaria de consultar alguns processos de licitação que foram informados ao TCE via Portal do Gestor anexo 38, inclusive se tem recibo de envio, porém no portal não estão aparecendo, dessa forma questiono se há alguma limitação de datas para que esses processos fiquem disponíveis no portal? O processo pesquisado é do ano de 2016 e foi informado em junho de 2016.
+    - Silmara - Olá, gostaria de consultar alguns processos de licitação que foram informados ao TCE via Portal do Gestor anexo 38, inclusive se tem recibo de envio, porém no portal não estão aparecendo, dessa forma questiono se há alguma limitação de datas para que esses processos fiquem ao dispor no portal? O processo pesquisado é do ano de 2016 e foi informado em junho de 2016.
+    - Silmara - Olá, gostaria de consultar alguns processos de licitação que foram informados ao TCE via Portal do Gestor anexo 38, inclusive se tem recibo de envio, porém no portal não estão aparecendo, dessa forma questiono se há alguma limitação de datas para que esses processos fiquem à disposição no portal? O processo pesquisado é do ano de 2016 e foi informado em junho de 2016.
+    - Silmara - Olá, gostaria de consultar alguns processos de licitação que foram informados ao TCE via Portal do Gestor anexo 38, inclusive se tem recibo de envio, porém no portal não estão aparecendo, dessa forma questiono se há alguma limitação de datas para que esses processos fiquem prontos no portal? O processo pesquisado é do ano de 2016 e foi informado em junho de 2016.
+
+- intent: int178
+  examples: |
+    - ATT. SRA. KEILANA SEÇÃO "DOCUMENTAÇÃO DIVULGAÇÃO", O PROGRAMA PEDE PARA INSERIR UMA DOCUMENTAÇÃO.ESCOLHI O CONTRATO COMO ARQUIVO PARA INSERIR CLIQUEI EM ADICIONAR, PORÉM O MESMO NÃO ESTÁ RECONHECENDO (VIDE A FOTO DO ARQUIVO INFRACEA EM ANEXO).VIDE A MENSAGEM DE ERRO  NO ARQUIVO ANEXO (MENSAGEM DE ERRO)FICO GRATO PELA ATENÇÃOFRANCISCO PASCHOALDER-RNCONTATO 3232.2302
+    - ATT. SRA. KEILANA SEÇÃO "DOCUMENTAÇÃO DIVULGAÇÃO", O PROGRAMA PEDE PARA INSERIR UMA argumentaçãoESCOLHI O CONTRATO COMO ARQUIVO PARA INSERIR CLIQUEI EM ADICIONAR, PORÉM O MESMO NÃO ESTÁ RECONHECENDO (VIDE A FOTO DO ARQUIVO INFRACEA EM ANEXO).VIDE A MENSAGEM DE ERRO  NO ARQUIVO ANEXO (MENSAGEM DE ERRO)FICO GRATO PELA ATENÇÃOFRANCISCO PASCHOALDER-RNCONTATO 3232.2302
+    - ATT. SRA. KEILANA SEÇÃO "DOCUMENTAÇÃO DIVULGAÇÃO", O PROGRAMA PEDE PARA INSERIR UMA fundamentaçãoESCOLHI O CONTRATO COMO ARQUIVO PARA INSERIR CLIQUEI EM ADICIONAR, PORÉM O MESMO NÃO ESTÁ RECONHECENDO (VIDE A FOTO DO ARQUIVO INFRACEA EM ANEXO).VIDE A MENSAGEM DE ERRO  NO ARQUIVO ANEXO (MENSAGEM DE ERRO)FICO GRATO PELA ATENÇÃOFRANCISCO PASCHOALDER-RNCONTATO 3232.2302
+    - ATT. SRA. KEILANA SEÇÃO "DOCUMENTAÇÃO DIVULGAÇÃO", O PROGRAMA PEDE PARA INSERIR UMA bibliografiaESCOLHI O CONTRATO COMO ARQUIVO PARA INSERIR CLIQUEI EM ADICIONAR, PORÉM O MESMO NÃO ESTÁ RECONHECENDO (VIDE A FOTO DO ARQUIVO INFRACEA EM ANEXO).VIDE A MENSAGEM DE ERRO  NO ARQUIVO ANEXO (MENSAGEM DE ERRO)FICO GRATO PELA ATENÇÃOFRANCISCO PASCHOALDER-RNCONTATO 3232.2302
+
+- intent: int179
+  examples: |
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do intervalo 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do entremeio 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do interstício 
+    - Pm goianinha – daniel – pregoeiro – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do interregno 
+
+- intent: int180
+  examples: |
+    - Problemas anexo 38- erro ao incluir resultado de licitação. Usuário relata q esta aparecendo a mensagem informando q o valor tem de ser não nulo .
+    - Problemas anexo 38- erro ao incluir resultado de licitação. Usuário relata q esta aparecendo a mensagem fazendo q o valor tem de ser não nulo .
+    - Problemas anexo 38- erro ao incluir resultado de licitação. Usuário relata q esta aparecendo a mensagem educando q o valor tem de ser não nulo .
+    - Problemas anexo 38- erro ao incluir resultado de licitação. Usuário relata q esta aparecendo a mensagem corroborando q o valor tem de ser não nulo .
+
+- intent: int184
+  examples: |
+    - Messias targino – recibo de licitação de 2016 –
+    - Messias targino – recibo de lance de 2016 –
+    - Messias targino – recibo de disputa de 2016 –
+    - Messias targino – recibo de competição de 2016 –
 

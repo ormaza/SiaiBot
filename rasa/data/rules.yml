@@ -2,26 +2,6 @@ version: "3.1"
 
 rules:
 
-- rule: fallback
-  steps:
-  - intent: nlu_fallback
-  - action: utter_nlu_fallback
-
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say greet
-  steps:
-  - intent: greet
-  - action: utter_greet
-
-- rule: algo mais
-  steps:
-  - intent: algo_mais
-  - action: utter_algo_mais
-
 - rule: int0
   steps:
   - intent: int0
@@ -47,25 +27,10 @@ rules:
   - intent: int4
   - action: utter_int4
 
-- rule: int6
-  steps:
-  - intent: int6
-  - action: utter_int6
-
-- rule: int7
-  steps:
-  - intent: int7
-  - action: utter_int7
-
 - rule: int8
   steps:
   - intent: int8
   - action: utter_int8
-
-- rule: int9
-  steps:
-  - intent: int9
-  - action: utter_int9
 
 - rule: int10
   steps:
@@ -81,4 +46,384 @@ rules:
   steps:
   - intent: int12
   - action: utter_int12
+
+- rule: int13
+  steps:
+  - intent: int13
+  - action: utter_int13
+
+- rule: int15
+  steps:
+  - intent: int15
+  - action: utter_int15
+
+- rule: int17
+  steps:
+  - intent: int17
+  - action: utter_int17
+
+- rule: int22
+  steps:
+  - intent: int22
+  - action: utter_int22
+
+- rule: int23
+  steps:
+  - intent: int23
+  - action: utter_int23
+
+- rule: int27
+  steps:
+  - intent: int27
+  - action: utter_int27
+
+- rule: int32
+  steps:
+  - intent: int32
+  - action: utter_int32
+
+- rule: int38
+  steps:
+  - intent: int38
+  - action: utter_int38
+
+- rule: int43
+  steps:
+  - intent: int43
+  - action: utter_int43
+
+- rule: int44
+  steps:
+  - intent: int44
+  - action: utter_int44
+
+- rule: int45
+  steps:
+  - intent: int45
+  - action: utter_int45
+
+- rule: int46
+  steps:
+  - intent: int46
+  - action: utter_int46
+
+- rule: int52
+  steps:
+  - intent: int52
+  - action: utter_int52
+
+- rule: int54
+  steps:
+  - intent: int54
+  - action: utter_int54
+
+- rule: int58
+  steps:
+  - intent: int58
+  - action: utter_int58
+
+- rule: int60
+  steps:
+  - intent: int60
+  - action: utter_int60
+
+- rule: int61
+  steps:
+  - intent: int61
+  - action: utter_int61
+
+- rule: int68
+  steps:
+  - intent: int68
+  - action: utter_int68
+
+- rule: int70
+  steps:
+  - intent: int70
+  - action: utter_int70
+
+- rule: int73
+  steps:
+  - intent: int73
+  - action: utter_int73
+
+- rule: int74
+  steps:
+  - intent: int74
+  - action: utter_int74
+
+- rule: int76
+  steps:
+  - intent: int76
+  - action: utter_int76
+
+- rule: int77
+  steps:
+  - intent: int77
+  - action: utter_int77
+
+- rule: int78
+  steps:
+  - intent: int78
+  - action: utter_int78
+
+- rule: int79
+  steps:
+  - intent: int79
+  - action: utter_int79
+
+- rule: int83
+  steps:
+  - intent: int83
+  - action: utter_int83
+
+- rule: int84
+  steps:
+  - intent: int84
+  - action: utter_int84
+
+- rule: int85
+  steps:
+  - intent: int85
+  - action: utter_int85
+
+- rule: int91
+  steps:
+  - intent: int91
+  - action: utter_int91
+
+- rule: int92
+  steps:
+  - intent: int92
+  - action: utter_int92
+
+- rule: int93
+  steps:
+  - intent: int93
+  - action: utter_int93
+
+- rule: int94
+  steps:
+  - intent: int94
+  - action: utter_int94
+
+- rule: int95
+  steps:
+  - intent: int95
+  - action: utter_int95
+
+- rule: int99
+  steps:
+  - intent: int99
+  - action: utter_int99
+
+- rule: int101
+  steps:
+  - intent: int101
+  - action: utter_int101
+
+- rule: int102
+  steps:
+  - intent: int102
+  - action: utter_int102
+
+- rule: int103
+  steps:
+  - intent: int103
+  - action: utter_int103
+
+- rule: int104
+  steps:
+  - intent: int104
+  - action: utter_int104
+
+- rule: int106
+  steps:
+  - intent: int106
+  - action: utter_int106
+
+- rule: int108
+  steps:
+  - intent: int108
+  - action: utter_int108
+
+- rule: int111
+  steps:
+  - intent: int111
+  - action: utter_int111
+
+- rule: int112
+  steps:
+  - intent: int112
+  - action: utter_int112
+
+- rule: int113
+  steps:
+  - intent: int113
+  - action: utter_int113
+
+- rule: int114
+  steps:
+  - intent: int114
+  - action: utter_int114
+
+- rule: int115
+  steps:
+  - intent: int115
+  - action: utter_int115
+
+- rule: int118
+  steps:
+  - intent: int118
+  - action: utter_int118
+
+- rule: int119
+  steps:
+  - intent: int119
+  - action: utter_int119
+
+- rule: int120
+  steps:
+  - intent: int120
+  - action: utter_int120
+
+- rule: int122
+  steps:
+  - intent: int122
+  - action: utter_int122
+
+- rule: int125
+  steps:
+  - intent: int125
+  - action: utter_int125
+
+- rule: int135
+  steps:
+  - intent: int135
+  - action: utter_int135
+
+- rule: int137
+  steps:
+  - intent: int137
+  - action: utter_int137
+
+- rule: int138
+  steps:
+  - intent: int138
+  - action: utter_int138
+
+- rule: int142
+  steps:
+  - intent: int142
+  - action: utter_int142
+
+- rule: int144
+  steps:
+  - intent: int144
+  - action: utter_int144
+
+- rule: int145
+  steps:
+  - intent: int145
+  - action: utter_int145
+
+- rule: int148
+  steps:
+  - intent: int148
+  - action: utter_int148
+
+- rule: int149
+  steps:
+  - intent: int149
+  - action: utter_int149
+
+- rule: int150
+  steps:
+  - intent: int150
+  - action: utter_int150
+
+- rule: int152
+  steps:
+  - intent: int152
+  - action: utter_int152
+
+- rule: int153
+  steps:
+  - intent: int153
+  - action: utter_int153
+
+- rule: int162
+  steps:
+  - intent: int162
+  - action: utter_int162
+
+- rule: int163
+  steps:
+  - intent: int163
+  - action: utter_int163
+
+- rule: int164
+  steps:
+  - intent: int164
+  - action: utter_int164
+
+- rule: int166
+  steps:
+  - intent: int166
+  - action: utter_int166
+
+- rule: int167
+  steps:
+  - intent: int167
+  - action: utter_int167
+
+- rule: int168
+  steps:
+  - intent: int168
+  - action: utter_int168
+
+- rule: int169
+  steps:
+  - intent: int169
+  - action: utter_int169
+
+- rule: int170
+  steps:
+  - intent: int170
+  - action: utter_int170
+
+- rule: int172
+  steps:
+  - intent: int172
+  - action: utter_int172
+
+- rule: int176
+  steps:
+  - intent: int176
+  - action: utter_int176
+
+- rule: int177
+  steps:
+  - intent: int177
+  - action: utter_int177
+
+- rule: int178
+  steps:
+  - intent: int178
+  - action: utter_int178
+
+- rule: int179
+  steps:
+  - intent: int179
+  - action: utter_int179
+
+- rule: int180
+  steps:
+  - intent: int180
+  - action: utter_int180
+
+- rule: int184
+  steps:
+  - intent: int184
+  - action: utter_int184
 

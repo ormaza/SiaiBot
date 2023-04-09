@@ -1,70 +1,345 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - algo_mais
   - int0
   - int1
   - int2
   - int3
   - int4
-  - int6
-  - int7
   - int8
-  - int9
   - int10
   - int11
   - int12
+  - int13
+  - int15
+  - int17
+  - int22
+  - int23
+  - int27
+  - int32
+  - int38
+  - int43
+  - int44
+  - int45
+  - int46
+  - int52
+  - int54
+  - int58
+  - int60
+  - int61
+  - int68
+  - int70
+  - int73
+  - int74
+  - int76
+  - int77
+  - int78
+  - int79
+  - int83
+  - int84
+  - int85
+  - int91
+  - int92
+  - int93
+  - int94
+  - int95
+  - int99
+  - int101
+  - int102
+  - int103
+  - int104
+  - int106
+  - int108
+  - int111
+  - int112
+  - int113
+  - int114
+  - int115
+  - int118
+  - int119
+  - int120
+  - int122
+  - int125
+  - int135
+  - int137
+  - int138
+  - int142
+  - int144
+  - int145
+  - int148
+  - int149
+  - int150
+  - int152
+  - int153
+  - int162
+  - int163
+  - int164
+  - int166
+  - int167
+  - int168
+  - int169
+  - int170
+  - int172
+  - int176
+  - int177
+  - int178
+  - int179
+  - int180
+  - int184
 
 responses: 
-  utter_greet:
-  - text: "Olá! em que posso ajudar?"
-
-  utter_goodbye:
-  - text: "O TCE Agradece o contato"
-
-  utter_algo_mais:
-  - text: "Algo mais?"
-
-  utter_nlu_fallback:
-  - text: "Desculpe. Não entendi. Poderia ser mais especifico"
-  - text: "Desculpe. Não entendi. Caso deseje falar diretamente com um atendente, entre em contato com a CAJ através do telefone (84) 3642-7275"
-  - text: "Desculpe. Não entendi. Caso deseje falar diretamente com um atendente, entre em contato com a CAJ através do email caj@tce.rn.gov.br"
-
   utter_int0:
-  - text: "  demora em torno de 24 horas."
+  - text: "demora em torno de 24 horas."
 
   utter_int1:
-  - text: "      Para cadastrar basta q o usuário gerenciador acessa a parte de administração, cadastre as informações solicitadas e na sequencia atribua as permissões ao usuário cadastrado.– "
+  - text: "Para cadastrar basta q o usuário gerenciador acessa a parte de administração, cadastre as informações solicitadas e na sequencia atribua as permissões ao usuário cadastrado.–"
 
   utter_int2:
-  - text: " Foi confirmado a usuária que temos o recibo e enviamos via email."
+  - text: "Foi confirmado a usuária que temos o recibo e enviamos via email."
 
   utter_int3:
-  - text: "- foi passado ao usuário que este erro é relativo a informações excessivas dentro do campo de DESCRIÇÃO ou NOME DO PARTICIPANTE  .  "
+  - text: "- foi passado ao usuário que este erro é relativo a informações excessivas dentro do campo de DESCRIÇÃO ou NOME DO PARTICIPANTE  ."
 
   utter_int4:
-  - text: "   Basta acessar o terceiro link do comunicado, caso nao tenha a senha entre em contato através do email pnpcrn@tce.gov.br"
-
-  utter_int6:
-  - text: "      foi identificado que a usuária inseriu um aditivo fazendo uma supressão de valor mas ela não inseriu o valor a ser suprimido, desta forma foi pedido para que ela verifique se de fato o valor foi inserido."
-
-  utter_int7:
-  - text: "    Foi informado ao mesmo q é necessário envio de nova solicitação de cadastro para obter acesso aos outros cadastros."
+  - text: "Basta acessar o terceiro link do comunicado, caso nao tenha a senha entre em contato através do email pnpcrn@tce.gov.br"
 
   utter_int8:
   - text: "Foi identificado um erro no lançamento das informações do anexo 38 no portal do gestor e foi pedido ao usuário que fosse corrigido para que o problema seja sanado."
 
-  utter_int9:
-  - text: "     após conversa identificamos q foi erro de usuário e divergência entre as informações lançadas por eles."
-
   utter_int10:
-  - text: "  basta solicitar ao usuário gerenciador para trocar a informação."
+  - text: "basta solicitar ao usuário gerenciador para trocar a informação."
 
   utter_int11:
-  - text: "   sim , atendendo as datas contidas nooficio."
+  - text: "sim , atendendo as datas contidas nooficio."
 
   utter_int12:
-  - text: "     entrar em contato com a Diretoria de Atos e Execuções (DAE) no telefone (84) 3642-7346. Ou 7350."
+  - text: "entrar em contato com a Diretoria de Atos e Execuções (DAE) no telefone (84) 3642-7346. Ou 7350."
+
+  utter_int13:
+  - text: "Gabinete do Conselheiro Poti Júnior    Telefone (84) 3642-7266"
+
+  utter_int15:
+  - text: "foi solicitado envio de email para abertura de chamado pois o s-sic nao possui interface para o suporte"
+
+  utter_int17:
+  - text: "Favor enviar solicitação via E-SIC através do link abaixo  http//tce.rn.gov.br/SIC/Index"
+
+  utter_int22:
+  - text: "foi informado a ela que o cadastro é liberado em 1 dia util aproximadamente, após isso ela poderá realizar peticões basta ter um certificado digital."
+
+  utter_int23:
+  - text: "foi informado a mesma que demora 1 dia útil e q ela deverá receber até o final do dia."
+
+  utter_int27:
+  - text: "basta procurar a tela de serviços e preencher o item CADASTRO DE ADVOGADO."
+
+  utter_int32:
+  - text: "Esse é o primeiro acesso para envio de informações ou vocês já utilizaram o sistema de envio de processos outras vezes? Verifiquem se o ICP Bravo Acess extensão para o chrome e aplicativo para o Windows foram instalados e tentem realizar novo envio."
+
+  utter_int38:
+  - text: "foi realizado o acesso remoto e realizada a instalação do icp bravo e extensões.  Alem disso foi solicitado orientações de como proceder com relação a habilitação a processo."
+
+  utter_int43:
+  - text: "o envio do oficio deverá ser realizado pelo sistema e-tce."
+
+  utter_int44:
+  - text: "pode ser feito de forma on line ou pessoalmente. Este ultimo no horário de 0800 as 1800"
+
+  utter_int45:
+  - text: "Foi informada a usuária que é necessário realizar cadastro no e-tce para ter acesso a tela de envio de oficio."
+
+  utter_int46:
+  - text: "o vídeo foi gravado sem mostrar toda a tela, desta forma não conseguimos identificar o navegador utilizado e nem se surgiu mensagem informando algum erro de senha ou coisa do tipo.favor refazer o procedimento utilizando o navegador Google chrome e certifique-se de estar digitando a senha corretamente."
+
+  utter_int52:
+  - text: "pode ser utilizado a busca avançada ."
+
+  utter_int54:
+  - text: "Foi informado ao usuário que ele poderia enviar pelo sistema online quanto efetuar a entrega fisicamente no tce."
+
+  utter_int58:
+  - text: "No protocolo do tce, até as 1800 no protocolo on line, até meia noite do dia do prazo."
+
+  utter_int60:
+  - text: "após analise identificou-se que a usuária estava enrolada pra acessar o sistema. Duvidas tiradas o acesso ocorreu normalmente."
+
+  utter_int61:
+  - text: "Foi passado o contato do protocolo que é o setor q analisa essa documentação. 3642-7371"
+
+  utter_int68:
+  - text: "foi solicitado a usuária para realizar teste em outra maquina."
+
+  utter_int70:
+  - text: "favor enviar imagem da tela inteira, para que possamos entender melhor o erro informado. Precisamos também que seja explicado melhor qual o sistema utilizado, quais passos foram feitos para que possamos orientá-la melhor."
+
+  utter_int73:
+  - text: "encaminhamos o mesmo para a DE para melhores informações  3642-7371"
+
+  utter_int74:
+  - text: "identificamos que ele utilizava o navegador errado. Após isso , foi realizada a recuperação de senha e o mesmo conseguiu acessar corretamente. 03443964443 hhwof0 Dama2003#"
+
+  utter_int76:
+  - text: "3642-7372 informações sobre processos."
+
+  utter_int77:
+  - text: "Foi informado a usuária que o processo precisa ser recebido para ser exibido. Foi pedido para que a mesma acesse no final do dia."
+
+  utter_int78:
+  - text: "após consulta consegui recuperar a senha e restabelecer o acesso."
+
+  utter_int79:
+  - text: "foi informado ao usuário que é necessário baixar o programa icp bravo Access"
+
+  utter_int83:
+  - text: "número do protocolo 36427297"
+
+  utter_int84:
+  - text: "Após conversa , foi identificado que o mesmo estava colocando informações d+ na busca ao processo e provavelmente estava colocando algo q divergia da realidade impedindo o sistema de trazer o resultado correto."
+
+  utter_int85:
+  - text: "esse arquivo de encaminhamento estava incluso junto a documentação do processo?Caso não tenha sido inserido, favor enviar novamente o processo juntamente com o encaminhamento."
+
+  utter_int91:
+  - text: "Primeiramente é necessário fornecer informações sobre o processo, pois desta forma poderemos consultar em nossos sistemas e fornecer o numero dos recibos."
+
+  utter_int92:
+  - text: "Sim, é possível anexar mais de um aditivo."
+
+  utter_int93:
+  - text: "Foi informado ao usuário q é possível excluir o item q foi lançado em duplicidade, basta acessar o referido anexo e clicar no ícone da lixeira no processo errado."
+
+  utter_int94:
+  - text: "Foi solicitado a usuária para refazer o procedimento pois o site passou por uma instabilidade mas já está funcionando normalmente."
+
+  utter_int95:
+  - text: "Foi informado ao usuário para que ele delete o item enviado de forma errada utilizando-se do ícone lixeira presente no final da linha onde ele se encontra."
+
+  utter_int99:
+  - text: "Foi informado a usuária q esta informação deverá ser incluída no anexo 13 na parte de aditivos."
+
+  utter_int101:
+  - text: "Prezada,Em regra, o prazo deverá ser estipulado no contrato, especificamente nos cronogramas, caso não seja no contrato entra a regra do prazo é relatado na Resolução 32/2016 Art. 04 § 4º. Art. 4º As cobranças devem ser realizadas a partir da data do adimplemento da obrigação contratual ou do transcurso de etapa ou de parcela, desde que previsto e autorizado o parcelamento da prestação, em conformidade com o cronograma de execução e o cronograma financeiro.§ 1º O instrumento convocatório da licitação e/ou o termo de contrato estabelecerão plano, metodologia, instrumentos, condições e prazos para o exercício da fiscalização e certificação da prestação contratada, notadamente com referência à estipulação de prazo para a liquidação da despesa e à indicação do responsável pelo atesto.(Redação dada pela Resolução nº 24/2017-TCE)§ 2º Nos casos em que houver necessidade de designar mais de um responsável pelo atesto, todos deverão ser indicados no instrumento convocatório da licitação e/ou no termo de contrato. (Redação dada pela Resolução nº 24/2017-TCE)§ 3º Quando a “ordem de compra” ou “ordem de execução de serviços” figurar no processo de despesa em substituição ao instrumento contratual, por força do disposto no caput do art. 62 da Lei nº 8.666, de 21 de junho de 1993, tais documentos deverão estabelecer o prazo para a liquidação da despesa e o responsável pelo atesto. (Incluído pela Resolução nº 24/2017-TCE)§ 4º Na ausência da estipulação de prazo para a liquidação da despesa, o prazo máximo será de 15 (quinze) dias a contar do protocolamento por parte do credor da solicitação de cobrança, sem prejuízo das sanções previstas na Lei Orgânica do TCE/RN. (Incluído pela Resolução nº 24/2017-TCE)"
+
+  utter_int102:
+  - text: "ao verificar a situação, foi identificado que eles tinham informado apenas o aditivo de prazo , faltando informar o valor aditivado."
+
+  utter_int103:
+  - text: "foi informado ao usuário q o anexo 13 permite lançamento, basta primeiramente acessar o contrato já lançado e clicar no botão adicionar adicionando em cada um deles o contrato com uma empresa."
+
+  utter_int104:
+  - text: "realmente foi identificado que o contrato adm citado não possui aditivos, como o usuário relatou ter enviado e informou q inclusive tem o recibo, foi solicitado o envio dessas informações via email para identificarmos se a exclusão do aditivo foi referente a erro no sistema ou alguma pessoa do órgão q apagou a informação."
+
+  utter_int106:
+  - text: "foi informaod ao usuário que ele poderá utilizar o campo justificativa para inserir informações de que o primeiro vencedor desistiu e gerar novo contrato para o segundo colocado."
+
+  utter_int108:
+  - text: "o objetivo seria o motivo pelo qual o aditivo foi criado, novo prazo, uma fase de obra não esperada, postergar o prazo do contrato devido ao encaminhamento de nova licitação e coisas do tipo"
+
+  utter_int111:
+  - text: "Após conversa foi identificado que a usuária estava utilizando um numero de recibo de outra unidade jurisdicionada, desta forma foi passado a ela q é necessário informar um número de recibo válido."
+
+  utter_int112:
+  - text: "Após analise foi identificado que o sistema pedia que fosse informado o objeto do contrado e outros campos. Foi informado a usuária que elea precisaria atualizar essas informações para conseguir dar continuidade ao lançamento do aditivo."
+
+  utter_int113:
+  - text: "não ficou claro a dúvida, mas, ao consultar os recibos acima no Anexo 13, foi possivel encontrá-los sem maiores problemas conforme imagem em anexo.Recomendamos que, ao consultar um recibo, seja realizado primeiro a busca sem a digitação de nenhum parâmetro (o que resultara no retorno de todos os contratos) e na sequência utilize o campo mostrado no item 2 para a digitação do número do recibo, desta forma a consulta será mais assertiva."
+
+  utter_int114:
+  - text: "conforme contato telefônico, o recibo apresentado pertence a outra unidade jurisdicionada, desta forma o sistema não identifica o mesmo, sendo assim a sra deverá informar um número de recibo da unidade jurisdicionada em questão para obter êxito no envio do aditivo."
+
+  utter_int115:
+  - text: "foi solicitado a mesma o envio de um email relatando melhor o caso pra enviarmos a comissão."
+
+  utter_int118:
+  - text: "para a edição da Situação na qual a obra está passando, é necessário acessar a parte de GERENCIAR OBRA >> SITUAÇÃO. Nessa tela, é possível observar todas as situações pelas quais a obra passou, no final da linha da situação , existe uma lixeira, que permite excluir aquela informação ."
+
+  utter_int119:
+  - text: "sim, é possível, foi passado o passo a passo para inserção das informações."
+
+  utter_int120:
+  - text: "sim, é possível, foi passado o passo a passo para inserção das informações."
+
+  utter_int122:
+  - text: "Foi informado ao usuário que informações de aditivos de contrato deverão ser enviados no Anexo 13."
+
+  utter_int125:
+  - text: "foi informado ao usuário que não existe nenhuma forma expecífica pra fazer isso, foi informado também que eles poderão encontrar algo na 8666/93."
+
+  utter_int135:
+  - text: "Prezado, o erro está no número de documento de empenho informado, buscamos em nossas bases e não existia nenhum documento de empenho de número 07010004/2019, mas sim o empenho de número 7010004, verifiquem se é o número desejado, corrija o arquivo xml e realize novo envio para processamento via Portal do Gestor."
+
+  utter_int137:
+  - text: "o problema está no número de documento de liquidação informado, anteriormente eles tinham preenchido com zeros a esquerda e agora esses zeros sumiram, desta forma o sistema não identifica que se trata do mesmo número de documento de liquidação, desta forma é necessário que o ajuste seja feito em seu arquivo do anexo 14, realize novo envio e aguarde processamento."
+
+  utter_int138:
+  - text: "Prezado,caso você não tenha acesso a funcionalidade é necessário que o sr entre em contato com o usuário Gerenciador, pois o mesmo é responsável por atribuir permissões ao usuário do órgão.  O atual usuário Gerenciador é o Sr Adriano Soares da costa."
+
+  utter_int142:
+  - text: "Foi pedido ao usuário que seja enviado um email mostrando todas as informações para que possamos entender melhor."
+
+  utter_int144:
+  - text: "Foi informado ao usuário q o anexo 14 pede números de recibo do anexo 38, caso o processo já tenha sido enviado e exista um numero do recibo isso já permite o processamento do anexo 14."
+
+  utter_int145:
+  - text: "após analise, foi identificado q a usuária estava utilizando um recibo de outra unidade jurisdicionada , apesar da usuária insistir q utilizou o recibo do anexo 38, acessamos o sistema e dados enviados no anexo 14 do mês anterior e informamos o numero de recibo utilizado, desta forma a mesma ficou de analisar e realizar a correção."
+
+  utter_int148:
+  - text: "Foi informado ao usuário que nao é possível desconsiderar o envio visto q o processamento é imediato. Restando a ele a opção de solicitar via oficio ao conselheiro relator q por sua vez irá julgar se deve ou não considerá-lo."
+
+  utter_int149:
+  - text: "ao consultar , nao foi identificado nenhum recibo de obra. Foi solicitado ao usuário o envio do recibo para analisarmos melhor o caso relatado."
+
+  utter_int150:
+  - text: "o processamento apresentou erro pois esses recibos são do Anexo 23 e não do Siai Obras, Desta forma, para que o arquivo do anexo 14 seja processado com sucesso, é necessário utilizar um código de obra do Siai Obras."
+
+  utter_int152:
+  - text: "após conversa foi identificado que faltava um zero na conta informada no anexo 26.."
+
+  utter_int153:
+  - text: "não foi identificado nenhum número de recibo no siai obras com a numeração informada."
+
+  utter_int162:
+  - text: "Foi solicitado ao usuário para enviar email contendo recibo com informações que ele informou terem sido deletadas para que o caso seja analisado ."
+
+  utter_int163:
+  - text: "Foi solicitado a mesma que envie a duvida por email."
+
+  utter_int164:
+  - text: "Prezado,não ficou claro se a obra foi ou não importada do Anexo 23 para o novo Siai Obras. Se o problema foi de vinculação do Contrato Administrativo referente ao mesmo, precisamos que seja enviado o recibo do Anexo 13 e informações do mesmo, visto que, após serem cadastradas as obras no novo Siai Obras, o mesmo exige número de recibo do Anexo 13 que esteja vigente."
+
+  utter_int166:
+  - text: "favor realizar a tarefa novamente pois a demanda foi resolvida."
+
+  utter_int167:
+  - text: "após conversa foi identificado que faltava um zero na conta informada no anexo 26.."
+
+  utter_int168:
+  - text: "ambos órgãos têm necessidade de informar , tanto o que cedeu quanto o que recebeu."
+
+  utter_int169:
+  - text: "usuário informou o numero do anexo 38 ao invés do anexo 13."
+
+  utter_int170:
+  - text: "Foi solicitado a usuária o envio dessas informações via email."
+
+  utter_int172:
+  - text: "Foi informado a usuária que ela enviasse a planilha para que pudéssemos analisa-la."
+
+  utter_int176:
+  - text: "É possível realizar o envio de forma parcial das informações, ou ainda, existe a possibilidade de preenchimento de uma planilha em excel onde é possível realizar o preenchimento e depois efetuar a importação para o Portal do Gestor."
+
+  utter_int177:
+  - text: "anteriormente os Processos do Anexo 38 eram enviados através de outro sistema e não puderam ser importados para o Portal do Gestor, mas isso não seria problemas tendo em vista que os recibos devem ser mantidos por vocês a fim de comprovar as respectivas entregas.O envio de Licitações/dispensas/inexibilidade via Portal do Gestor datam de julho/2016 em diante."
+
+  utter_int178:
+  - text: "o sistema está informando que é necessário inserir o tipo de arquivo ORÇAMENTO, do contrário não será possível enviar o processo."
+
+  utter_int179:
+  - text: "- foi passado ao usuário que este erro é relativo a informações excessivas dentro do campo de DESCRIÇÃO ou NOME DO PARTICIPANTE  ."
+
+  utter_int180:
+  - text: "foi solicitado email contendo informações e prints para analise."
+
+  utter_int184:
+  - text: "foi informado ao mesmo que o sistema atual não exige informações do antigo anexo 38."
 
