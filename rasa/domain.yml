@@ -44,7 +44,6 @@ intents:
   - int40
   - int41
   - int42
-  - int43
   - int44
   - int45
   - int46
@@ -128,7 +127,6 @@ intents:
   - int124
   - int125
   - int126
-  - int127
   - int128
   - int129
   - int130
@@ -201,7 +199,6 @@ intents:
   - int197
   - int198
   - int199
-  - int200
   - int201
   - int202
   - int203
@@ -464,7 +461,6 @@ intents:
   - int460
   - int461
   - int462
-  - int463
   - int464
   - int465
   - int466
@@ -730,7 +726,6 @@ intents:
   - int727
   - int728
   - int729
-  - int730
   - int731
   - int732
   - int733
@@ -767,7 +762,6 @@ intents:
   - int764
   - int765
   - int766
-  - int767
   - int768
   - int769
   - int770
@@ -808,7 +802,6 @@ intents:
   - int805
   - int806
   - int807
-  - int808
   - int809
   - int810
   - int811
@@ -816,7 +809,6 @@ intents:
   - int813
   - int814
   - int815
-  - int816
   - int817
   - int818
   - int819
@@ -870,7 +862,6 @@ intents:
   - int867
   - int868
   - int869
-  - int870
   - int871
   - int872
   - int873
@@ -1050,9 +1041,6 @@ responses:
 
   utter_int42:
   - text: "por meio da ferramenta E-tce."
-
-  utter_int43:
-  - text: "por meio do portal E-tce."
 
   utter_int44:
   - text: "por eio do portal e-tce."
@@ -1303,9 +1291,6 @@ responses:
   utter_int126:
   - text: "usuário estava procurando um processo de um órgão em outro órgão. Foi informado ao mesmo que o processo só está disponível no órgão no qual ele foi informado."
 
-  utter_int127:
-  - text: "para a edição da Situação na qual a obra está passando, é necessário acessar a parte de GERENCIAR OBRA >> SITUAÇÃO. Nessa tela, é possível observar todas as situações pelas quais a obra passou, no final da linha da situação , existe uma lixeira, que permite excluir aquela informação ."
-
   utter_int128:
   - text: "sim, é possível, foi passado o passo a passo para inserção das informações."
 
@@ -1521,9 +1506,6 @@ responses:
 
   utter_int199:
   - text: "foi solicitado o envio da mesma por email para analise."
-
-  utter_int200:
-  - text: "foi informado ao mesmo que ele deverá dividir o item em 2 e colocar a qtd na qual cada um terá de fornecer."
 
   utter_int201:
   - text: "No portal do gestor, não há procedimento para anular o recibo, basta manter a informação inalterada e desconsiderar este recibo."
@@ -2311,9 +2293,6 @@ responses:
   utter_int462:
   - text: "Ao analisar o arquivo encaminhado, verificamos que esse campo não consta no banco de dados. Para inclusão e correção do erro apresentado, solicitamos que acesse o SIAI Fiscal novamente, abra o Anexo 04, clique na opção gravar e em seguida gere o arquivo de prestação de contas novamente e realize, através do Portal do Gestor, o envio deste novo arquivo gerado. Caso o erro persista ou tenha alguma outra dúvida, entre em contato conosco."
 
-  utter_int463:
-  - text: "Conforme informado através de contato telefônico, para liberação desse envio, já que o mesmo já foi iniciado a análise, é necessário formalizar o pedido de liberação para envio da referida prestação de contas, esse envio é realizado através do Portal E-TCE ou entregue fisicamente no setor de protocolo desta Corte de Contas."
-
   utter_int464:
   - text: "RConforme descrito na Resolução nº 012/2021 é necessário realizar um novo envio com as adequações e alterações ocorridas seguindo a referida resolução."
 
@@ -2875,9 +2854,6 @@ responses:
   utter_int651:
   - text: "dúvida sobre o formato arquivo que deve ser anexado no sistema sispatri, foi informado que deve ser no formato .DEC."
 
-  utter_int652:
-  - text: "Informamos que o arquivo para ser anexado tem que ser em formato .DEC, não aceitando assim em qualquer outro formato."
-
   utter_int653:
   - text: "Caso ainda continue com dúvida ou o erro persista, informe o contato telefônico para que possamos ligar e esclarecer as dúvidas."
 
@@ -3109,9 +3085,6 @@ responses:
   utter_int729:
   - text: "no site do tce, em siais fiscal versões"
 
-  utter_int730:
-  - text: "foi informado 3642-7370."
-
   utter_int731:
   - text: "foi passado que as tabelas encontram-se disponíveis no sit do tce na parte de SIAI FISCAL 2022"
 
@@ -3220,9 +3193,6 @@ responses:
   utter_int766:
   - text: "Telefone (84) 3642-7347"
 
-  utter_int767:
-  - text: "- 36427269"
-
   utter_int768:
   - text: "foi passado para pessoa o contato presidencia@tce.rn.gov.br ."
 
@@ -3307,9 +3277,6 @@ responses:
   utter_int795:
   - text: "foi encaminhado para escola e contas – 3642-7331"
 
-  utter_int796:
-  - text: "dap  3642-7347"
-
   utter_int797:
   - text: "Foi passado o contato da escola de contas. 3642-7331."
 
@@ -3343,9 +3310,6 @@ responses:
   utter_int807:
   - text: "foi encaminhado a DAE 36427350"
 
-  utter_int808:
-  - text: "ddp 36427249"
-
   utter_int809:
   - text: "ouvidoria 36427220"
 
@@ -3366,9 +3330,6 @@ responses:
 
   utter_int815:
   - text: "foi encaminhado a demanda para a DAM 3642-7339"
-
-  utter_int816:
-  - text: "Gb conselheira Adélia 36427271"
 
   utter_int817:
   - text: "36427346 DaE"
@@ -3528,9 +3489,6 @@ responses:
 
   utter_int869:
   - text: "36427224 pedi para ir atrás de informação junto a DAM."
-
-  utter_int870:
-  - text: "3642-7272"
 
   utter_int871:
   - text: "Foi passado o contato da DAM para maiores informações 36427342."
