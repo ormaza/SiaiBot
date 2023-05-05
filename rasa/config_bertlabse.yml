@@ -2,7 +2,7 @@ recipe: default.v1
 language: br
 # https://rasa.com/docs/rasa/model-configuration/
 
-# pipeline:
+pipeline:
   - name: WhitespaceTokenizer
   - name: LanguageModelFeaturizer
     model_name: "bert"
