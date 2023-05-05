@@ -2,12 +2,10 @@ recipe: default.v1
 language: br
 # https://rasa.com/docs/rasa/model-configuration/
 
-# DIET + BERTIMBAU
-pipeline:
+# pipeline:
   - name: WhitespaceTokenizer
   - name: LanguageModelFeaturizer
-    model_name: "bert"
-    model_weights: "neuralmind/bert-base-portuguese-cased"
+    model_name: "gpt2"
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
