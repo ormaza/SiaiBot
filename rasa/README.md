@@ -26,4 +26,4 @@ rasa run --enable-api
 cd client <br>
 npm start
 
-rasa test nlu --nlu data/nlu.yml --config config_bertlabse.yml --cross-validation --folds 2 
+rasa test nlu --nlu data/nlu.yml --config config.yml --cross-validation --folds 3 

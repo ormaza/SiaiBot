@@ -1,0 +1,13 @@
+ip: 10.7.15.145
+usuário: ormazabal
+senha: orm123
+O acesso é por SSH e acredito que usa a porta padrão mesmo.
+
+abra o terminal do git bash e digite: ssh ormazabal@10.7.15.145
+
+.local/bin/rasa
+
+cd tcc/rasa 
+rasa train
+
+remove all files: rm *
