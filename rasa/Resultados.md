@@ -1,4 +1,13 @@
 rasa test nlu --nlu data/nlu.yml --config config_bert.yml --cross-validation --folds 3 
+rasa train --config config_bert.yml
+
+registros excluidos:
+-registros sem resposta
+-registros a cerca de processos/usuarios especificos
+-registros que descrevem o atendimento e não apresentam a resposta
+problemas:
+-BERT uses a subword tokenizer (WordPiece), so the maximum length corresponds to 512 subword tokens. (grandes cadeias de texto foram excluidas)
+
 
 ### DIET
 2023-05-05 17:21:04 start

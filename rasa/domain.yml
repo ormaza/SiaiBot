@@ -888,7 +888,6 @@ intents:
   - int894
   - int895
   - int896
-  - int897
   - int898
   - int899
   - int900
@@ -3567,9 +3566,6 @@ responses:
 
   utter_int896:
   - text: "conta da usuária não recebe email do tce e pediu para reenviarmos a resposta para outro email."
-
-  utter_int897:
-  - text: "Informamos que esse tipo de questionamento será necessário encaminhar/protocolar via formal através do protocolo eletrônico (Portal E-TCE) ou entregue fisicamente no setor de Protocolo desta Corte de Contas, para que assim a Consultoria Jurídica deste TCE analise e esclareça a referida dúvida."
 
   utter_int898:
   - text: "escola de contas 3642-7331."
