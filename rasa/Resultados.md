@@ -6,7 +6,7 @@ registros excluidos:
 -registros a cerca de processos/usuarios especificos
 -registros que descrevem o atendimento e não apresentam a resposta
 problemas:
--BERT uses a subword tokenizer (WordPiece), so the maximum length corresponds to 512 subword tokens. (grandes cadeias de texto foram excluidas)
+-bertimbau/distilbert/gpt/gpt2/roberta uses a subword tokenizer (WordPiece), so the maximum length corresponds to 512 subword tokens. (grandes cadeias de texto foram excluidas)
 
 
 ### DIET
