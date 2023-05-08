@@ -1,0 +1,1058 @@
+[
+  {
+    "text": "por onde solicitar notas ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.14043088257312775
+    }
+  },
+  {
+    "text": "como enviar cédulas para o tce",
+    "intent": "int19",
+    "intent_prediction": {
+      "name": "int41",
+      "confidence": 0.14290525019168854
+    }
+  },
+  {
+    "text": "como enviar notas para o tce",
+    "intent": "int19",
+    "intent_prediction": {
+      "name": "int41",
+      "confidence": 0.12184005975723267
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.1074080765247345
+    }
+  },
+  {
+    "text": "como enviar notas para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int41",
+      "confidence": 0.12184005975723267
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int28",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.1074080765247345
+    }
+  },
+  {
+    "text": "como enviar títulos para o tce",
+    "intent": "int28",
+    "intent_prediction": {
+      "name": "int82",
+      "confidence": 0.14201126992702484
+    }
+  },
+  {
+    "text": "para eniar solicitações para o tce",
+    "intent": "int33",
+    "intent_prediction": {
+      "name": "int25",
+      "confidence": 0.04225974529981613
+    }
+  },
+  {
+    "text": "como enviar oficio para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.06407587975263596
+    }
+  },
+  {
+    "text": "como enviar favores para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int28",
+      "confidence": 0.08476818352937698
+    }
+  },
+  {
+    "text": "PM CAICÓ - Encaminhou um ofício por e-mail.",
+    "intent": "int40",
+    "intent_prediction": {
+      "name": "int39",
+      "confidence": 0.13696321845054626
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int41",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.1074080765247345
+    }
+  },
+  {
+    "text": "como enviar papéis para o tce",
+    "intent": "int41",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.12339036166667938
+    }
+  },
+  {
+    "text": "como enviar contrato para o TCE",
+    "intent": "int53",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.09541207551956177
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int82",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.1074080765247345
+    }
+  },
+  {
+    "text": "como enviar papéis para o tce",
+    "intent": "int82",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.12339036166667938
+    }
+  },
+  {
+    "text": "Dúvidas sobre o preenchimento do anexo 13",
+    "intent": "int95",
+    "intent_prediction": {
+      "name": "int163",
+      "confidence": 0.030749747529625893
+    }
+  },
+  {
+    "text": "Silmara – anexo 13 – 2 contratos em um único processo",
+    "intent": "int128",
+    "intent_prediction": {
+      "name": "int130",
+      "confidence": 0.1367807239294052
+    }
+  },
+  {
+    "text": "Silmara – anexo 13 – 2 notas em um único processo",
+    "intent": "int128",
+    "intent_prediction": {
+      "name": "int130",
+      "confidence": 0.15982097387313843
+    }
+  },
+  {
+    "text": "ASSEMBLEIA LEGISLATIVA DO RN- DÚVIDA ANEXO 23",
+    "intent": "int164",
+    "intent_prediction": {
+      "name": "int852",
+      "confidence": 0.07374001294374466
+    }
+  },
+  {
+    "text": "congresso LEGISLATIVA DO RN- DÚVIDA ANEXO 23",
+    "intent": "int164",
+    "intent_prediction": {
+      "name": "int484",
+      "confidence": 0.03800850734114647
+    }
+  },
+  {
+    "text": "PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é irreal .",
+    "intent": "int169",
+    "intent_prediction": {
+      "name": "int157",
+      "confidence": 0.22301708161830902
+    }
+  },
+  {
+    "text": "PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é vão .",
+    "intent": "int169",
+    "intent_prediction": {
+      "name": "int157",
+      "confidence": 0.23969174921512604
+    }
+  },
+  {
+    "text": "é necessário informar diarias no anexo 38",
+    "intent": "int187",
+    "intent_prediction": {
+      "name": "int167",
+      "confidence": 0.046481166034936905
+    }
+  },
+  {
+    "text": "onde lanco os contratos",
+    "intent": "int195",
+    "intent_prediction": {
+      "name": "int250",
+      "confidence": 0.053388360887765884
+    }
+  },
+  {
+    "text": "SEC. EDUC. NATAL.     Somos da Secretaria Municipal de Educação de Natal, gostaríamos de solicitar suporte técnico deste TCE/RN, para a emissão do RECIBO SIAI - ANEXO 38, referente ao processo eletrônico nº -20210461615, contrato nº 47/2020, uma  vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria, fazendo a juntada do respectivo recibo.      Ocorre que há nos autos apenas o recibo SIAI - AENXO 13, segue em anexo, e  por este documento, é possível localizar o número do anexo 38, qual seja  245520. Ao realizar a consulta por este número, também não é possível localizar o recibo que desejamos.      Assim, pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado, ressaltando a urgência em tal solicitação.     Desde já, agraciamos.",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.21192701160907745
+    }
+  },
+  {
+    "text": "quanto tempo fica pronta a emissão de certidão.",
+    "intent": "int265",
+    "intent_prediction": {
+      "name": "int790",
+      "confidence": 0.09443105757236481
+    }
+  },
+  {
+    "text": "como dar uma concordância para um usuário",
+    "intent": "int296",
+    "intent_prediction": {
+      "name": "int632",
+      "confidence": 0.0691257119178772
+    }
+  },
+  {
+    "text": "PM extremoz – Paulo – contas de gestão – é possível fazer alterações após o sucessão do XML?",
+    "intent": "int304",
+    "intent_prediction": {
+      "name": "int286",
+      "confidence": 0.16731758415699005
+    }
+  },
+  {
+    "text": "PM extremoz – Paulo – contas de gestão – é possível fazer alterações após o preparação do XML?",
+    "intent": "int304",
+    "intent_prediction": {
+      "name": "int286",
+      "confidence": 0.18795523047447205
+    }
+  },
+  {
+    "text": "qual o numero do telefone da dae",
+    "intent": "int313",
+    "intent_prediction": {
+      "name": "int802",
+      "confidence": 0.1302502602338791
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int314",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.1074080765247345
+    }
+  },
+  {
+    "text": "como enviar notas para o tce",
+    "intent": "int314",
+    "intent_prediction": {
+      "name": "int41",
+      "confidence": 0.12184005975723267
+    }
+  },
+  {
+    "text": "Carine – pm natal- alimentar – como averbar usuário comum?",
+    "intent": "int321",
+    "intent_prediction": {
+      "name": "int340",
+      "confidence": 0.1506723314523697
+    }
+  },
+  {
+    "text": "como alterar a senha do usuário gerenciador",
+    "intent": "int327",
+    "intent_prediction": {
+      "name": "int759",
+      "confidence": 0.05402294546365738
+    }
+  },
+  {
+    "text": "como faz arquivo do usuário gerenciador",
+    "intent": "int331",
+    "intent_prediction": {
+      "name": "int832",
+      "confidence": 0.12568365037441254
+    }
+  },
+  {
+    "text": "PM SANTA CRUZ- AUTORIZAÇÃO USUÁRIOS COMUNS",
+    "intent": "int339",
+    "intent_prediction": {
+      "name": "int190",
+      "confidence": 0.048800576478242874
+    }
+  },
+  {
+    "text": "como proceder para dar consentimento ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int681",
+      "confidence": 0.05884217843413353
+    }
+  },
+  {
+    "text": "por onde acessar",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int195",
+      "confidence": 0.059244200587272644
+    }
+  },
+  {
+    "text": "por onde aproximar-se",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.04139028862118721
+    }
+  },
+  {
+    "text": "Adriano – siai dp – fonte de 2022 está dando erro na fonte – 1500",
+    "intent": "int440",
+    "intent_prediction": {
+      "name": "int736",
+      "confidence": 0.03760350123047829
+    }
+  },
+  {
+    "text": "Adriano – siai dp – manadeira de 2022 está dando erro na manadeira – 1500",
+    "intent": "int440",
+    "intent_prediction": {
+      "name": "int411",
+      "confidence": 0.03636112064123154
+    }
+  },
+  {
+    "text": "Sou servidor da Secretaria de Obras do Município de Parnamirim/RN.O pedido é atinente ao fato de não podermos inserir informações para emissão do recibo do anexo 13 no SIAI FISCAL.É importante destacar alguns pontos- A licitação foi foi realizada em 2008, conforme edital nº 01/2008 através da modalidade de concorrência;- Não existe anexo 38 da referida licitação (na época não havia a obrigatoriedade);- No momento do cadastro do anexo 13, as opções do SIAI FISCAL só é permitido o cadastro de contratos até 2011 (então mesmo que tivesse o anexo 38 eu não conseguiria começar o cadastro do anexo 13);- A partir de junho de 2020, foram realizados informativos referente às medições e ordens de serviços que ouvem ao longo da execução através do anexo 23 (consultar recibo nº 3098, processo de despesa);- Mesmo com o programa SIAI FISCAL 2008, não conseguimos o êxito.Com as informações supracitadas, devido a importância e a boa fé de sanar todas as pendências por parte de nossa administração, solicito a possibilidade do cadastro do anexo 13 pelo portal do gestor.Bruno Batista dos Santos",
+    "intent": "int518",
+    "intent_prediction": {
+      "name": "int115",
+      "confidence": 0.16201728582382202
+    }
+  },
+  {
+    "text": "Sou servidor da Secretaria de Obras do Município de Parnamirim/RN.O pedido é atinente ao fato de não podermos inserir informações para emissão do recibo do anexo 13 no SIAI FISCAL.É importante destacar alguns pontos- A licitação foi foi realizada em 2008, conforme edital nº 01/2008 através da modalidade de concorrência;- Não existe anexo 38 da referida licitação (na época não havia a necessidade);- No momento do cadastro do anexo 13, as opções do SIAI FISCAL só é permitido o cadastro de contratos até 2011 (então mesmo que tivesse o anexo 38 eu não conseguiria começar o cadastro do anexo 13);- A partir de junho de 2020, foram realizados informativos referente às medições e ordens de serviços que ouvem ao longo da execução através do anexo 23 (consultar recibo nº 3098, processo de despesa);- Mesmo com o programa SIAI FISCAL 2008, não conseguimos o êxito.Com as informações supracitadas, devido a importância e a boa fé de sanar todas as pendências por parte de nossa administração, solicito a possibilidade do cadastro do anexo 13 pelo portal do gestor.Bruno Batista dos Santos",
+    "intent": "int518",
+    "intent_prediction": {
+      "name": "int115",
+      "confidence": 0.1532168835401535
+    }
+  },
+  {
+    "text": "como lancar um adicional",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int904",
+      "confidence": 0.05170457437634468
+    }
+  },
+  {
+    "text": "Prezados (as), venho por meio deste solicitar a exclusão de obra cadastrada em duplicidade no SIAI Obras do Município de Lucrécia. Segue informações da duplicidade. Código da obra 4090272021",
+    "intent": "int563",
+    "intent_prediction": {
+      "name": "int562",
+      "confidence": 0.18107004463672638
+    }
+  },
+  {
+    "text": "Prezados (as), venho por meio deste solicitar a exclusão de obra cadastrada em dissimulação no SIAI Obras do Município de Lucrécia. Segue informações da dissimulação. Código da obra 4090272021",
+    "intent": "int563",
+    "intent_prediction": {
+      "name": "int562",
+      "confidence": 0.16867095232009888
+    }
+  },
+  {
+    "text": "Bom dia, Segue print ao tentar acessar o SIAI Obras, comunico que não estou conseguindo acessar a mais de 7 dias, em todas as tentativas abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int564",
+    "intent_prediction": {
+      "name": "int571",
+      "confidence": 0.17432288825511932
+    }
+  },
+  {
+    "text": "Bom dia, Segue print ao tentar acessar o SIAI Obras, comunico que não estou tendo acessar a mais de 7 dias, em todas as tentativas abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int564",
+    "intent_prediction": {
+      "name": "int571",
+      "confidence": 0.20113247632980347
+    }
+  },
+  {
+    "text": "24/03 Siai obras problemas em acessar. 07206556418 16101329",
+    "intent": "int566",
+    "intent_prediction": {
+      "name": "int568",
+      "confidence": 0.15299680829048157
+    }
+  },
+  {
+    "text": "24/03 Siai obras casos em acessar. 07206556418 16101329",
+    "intent": "int568",
+    "intent_prediction": {
+      "name": "int566",
+      "confidence": 0.13773520290851593
+    }
+  },
+  {
+    "text": "24/03 Siai obras falhas em acessar. 07206556418 16101329",
+    "intent": "int568",
+    "intent_prediction": {
+      "name": "int566",
+      "confidence": 0.14359112083911896
+    }
+  },
+  {
+    "text": "24/03 Sec meio ambiente estado – faixa de BDI aceita",
+    "intent": "int569",
+    "intent_prediction": {
+      "name": "int819",
+      "confidence": 0.14282438158988953
+    }
+  },
+  {
+    "text": "24/03 Sec meio superfície estado – faixa de BDI aceita",
+    "intent": "int569",
+    "intent_prediction": {
+      "name": "int819",
+      "confidence": 0.16780564188957214
+    }
+  },
+  {
+    "text": "25/03 A obra com código  437.010.2022 não está aparecendo o termo aditivo, aí quando vou acrescentar as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo.  também gostaria de ter um retorno referente a exclusão de algumas obras duplicadas no sistema (enviei um email falando sobre). Desde já obrigada.",
+    "intent": "int570",
+    "intent_prediction": {
+      "name": "int565",
+      "confidence": 0.20305579900741577
+    }
+  },
+  {
+    "text": "25/03 A obra com código  437.010.2022 não está aparecendo o termo aditivo, aí quando vou aumentar as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo.  também gostaria de ter um retorno referente a exclusão de algumas obras duplicadas no sistema (enviei um email falando sobre). Desde já obrigada.",
+    "intent": "int570",
+    "intent_prediction": {
+      "name": "int565",
+      "confidence": 0.19668050110340118
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - Demonst. dos Restos a Pagar, a importação é realizada com sucesso, no entanto, os valores da linha da despesa INTRA-ORÇAMENTÁRIA, não está de acordo com os valores constantes no arquivo utilizado para importação, (conforme cópia em anexo).Favor verificar o que há de errado, na importação do referido anexo, segue cópia do relatório impresso e do arquivo txt, para validação das informações.",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.23728813230991364
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - Demonst. dos Restos a Pagar, a importação é realizada com sucesso, no entanto, os valores da linha da despesa INTRA-ORÇAMENTÁRIA, não está de acordo com os valores constantes no arquivo utilizado para importação, (conforme cópia em anexo).Favor verificar o que há de errado, na importação do referido anexo, segue cópia do relatório impresso e do arquivo txt, para validação das comunicações.",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.24432608485221863
+    }
+  },
+  {
+    "text": "como restaurar a senha",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int17",
+      "confidence": 0.04985798895359039
+    }
+  },
+  {
+    "text": "TJ - Jetro – oficial de justiça. 88201388",
+    "intent": "int638",
+    "intent_prediction": {
+      "name": "int908",
+      "confidence": 0.07851891219615936
+    }
+  },
+  {
+    "text": "envio de informações",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.0734446570277214
+    }
+  },
+  {
+    "text": "envio de comunicações",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int830",
+      "confidence": 0.08126147091388702
+    }
+  },
+  {
+    "text": "PM SÃO BENTO- SISPATRI",
+    "intent": "int650",
+    "intent_prediction": {
+      "name": "int636",
+      "confidence": 0.037632156163454056
+    }
+  },
+  {
+    "text": "Boa tarde, no SISPATRI no campo de rendimentos todos os rendimentos devem ser informados",
+    "intent": "int660",
+    "intent_prediction": {
+      "name": "int679",
+      "confidence": 0.05926116183400154
+    }
+  },
+  {
+    "text": "como alterar email",
+    "intent": "int676",
+    "intent_prediction": {
+      "name": "int682",
+      "confidence": 0.15387356281280518
+    }
+  },
+  {
+    "text": "como amotinar email",
+    "intent": "int676",
+    "intent_prediction": {
+      "name": "int682",
+      "confidence": 0.0737965852022171
+    }
+  },
+  {
+    "text": "qual arquivo posso alcançar no sispatri",
+    "intent": "int684",
+    "intent_prediction": {
+      "name": "int673",
+      "confidence": 0.10825175046920776
+    }
+  },
+  {
+    "text": "intermediário dap ?",
+    "intent": "int766",
+    "intent_prediction": {
+      "name": "int823",
+      "confidence": 0.099061518907547
+    }
+  },
+  {
+    "text": "relatório sobre processo -",
+    "intent": "int774",
+    "intent_prediction": {
+      "name": "int744",
+      "confidence": 0.0762195885181427
+    }
+  },
+  {
+    "text": "24/03 Sec meio lugar estado – faixa de BDI aceita",
+    "intent": "int819",
+    "intent_prediction": {
+      "name": "int569",
+      "confidence": 0.2508223354816437
+    }
+  },
+  {
+    "text": "como destituir um usuário gerenciador",
+    "intent": "int832",
+    "intent_prediction": {
+      "name": "int331",
+      "confidence": 0.11628454178571701
+    }
+  },
+  {
+    "text": "como retirar um usuário gerenciador",
+    "intent": "int832",
+    "intent_prediction": {
+      "name": "int331",
+      "confidence": 0.14489400386810303
+    }
+  },
+  {
+    "text": "Cm sao miguel – gostaria de falar sobre um processo.",
+    "intent": "int863",
+    "intent_prediction": {
+      "name": "int740",
+      "confidence": 0.06642869114875793
+    }
+  },
+  {
+    "text": "Cm sao miguel – gostaria de falar sobre um sistema.",
+    "intent": "int863",
+    "intent_prediction": {
+      "name": "int855",
+      "confidence": 0.04281943663954735
+    }
+  },
+  {
+    "text": "com solicitar noção ao tce rn",
+    "intent": "int12",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.13343492150306702
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int19",
+    "intent_prediction": {
+      "name": "int82",
+      "confidence": 0.15431037545204163
+    }
+  },
+  {
+    "text": "como enviar papéis para o tce",
+    "intent": "int19",
+    "intent_prediction": {
+      "name": "int82",
+      "confidence": 0.16108500957489014
+    }
+  },
+  {
+    "text": "como enviar papéis para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int82",
+      "confidence": 0.16108500957489014
+    }
+  },
+  {
+    "text": "como enviar cartas para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.08687309920787811
+    }
+  },
+  {
+    "text": "como enviar papéis para o tce",
+    "intent": "int28",
+    "intent_prediction": {
+      "name": "int82",
+      "confidence": 0.16108500957489014
+    }
+  },
+  {
+    "text": "como enviar manifestações para o tce",
+    "intent": "int28",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.08467433601617813
+    }
+  },
+  {
+    "text": "como enviar cargo para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int82",
+      "confidence": 0.0920296236872673
+    }
+  },
+  {
+    "text": "como enviar carta para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.0786871537566185
+    }
+  },
+  {
+    "text": "como enviar notas para o tce",
+    "intent": "int41",
+    "intent_prediction": {
+      "name": "int314",
+      "confidence": 0.10137544572353363
+    }
+  },
+  {
+    "text": "como enviar cédulas para o tce",
+    "intent": "int41",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.11486420035362244
+    }
+  },
+  {
+    "text": "como enviar cédulas para o tribunal",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int45",
+      "confidence": 0.16358156502246857
+    }
+  },
+  {
+    "text": "como enviar escritura para o TCE",
+    "intent": "int53",
+    "intent_prediction": {
+      "name": "int19",
+      "confidence": 0.091750368475914
+    }
+  },
+  {
+    "text": "como enviar norma para o TCE",
+    "intent": "int53",
+    "intent_prediction": {
+      "name": "int82",
+      "confidence": 0.09445370733737946
+    }
+  },
+  {
+    "text": "como enviar evidências para o tce",
+    "intent": "int82",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.10160153359174728
+    }
+  },
+  {
+    "text": "como enviar títulos para o tce",
+    "intent": "int82",
+    "intent_prediction": {
+      "name": "int28",
+      "confidence": 0.09210691601037979
+    }
+  },
+  {
+    "text": "Dúvidas sobre o observância do anexo 13",
+    "intent": "int95",
+    "intent_prediction": {
+      "name": "int744",
+      "confidence": 0.13417090475559235
+    }
+  },
+  {
+    "text": "PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é inexistente .",
+    "intent": "int169",
+    "intent_prediction": {
+      "name": "int157",
+      "confidence": 0.31641843914985657
+    }
+  },
+  {
+    "text": "PM angicos – erro anexo 14 . mensagem de erro informa que conta bancária é nulo .",
+    "intent": "int169",
+    "intent_prediction": {
+      "name": "int157",
+      "confidence": 0.22082822024822235
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal, gostaríamos de solicitar suporte técnico deste TCE/RN, para a emissão do RECIBO SIAI - ANEXO 38, referente ao processo físico nº 005991/2016-02, contrato nº 56/2016, uma  vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria, fazendo a juntada do respectivo recibo.      Ocorre que há nos autos apenas o recibo SIAI - AENXO 13, segue em anexo, e  por este documento, é possível localizar o número do anexo 38, qual seja  81485. Ao realizar a consulta por este número, também não é possível localizar o recibo que desejamos.      Assim, pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado, ressaltando a urgência em tal solicitação.     Desde já, agradecemos.     obsequiosamente,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.2520819902420044
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal, gostaríamos de solicitar suporte técnico deste TCE/RN, para a emissão do RECIBO SIAI - ANEXO 38, referente ao processo físico nº 005991/2016-02, contrato nº 56/2016, uma  vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria, fazendo a juntada do respectivo recibo.      Ocorre que há nos autos apenas o recibo SIAI - AENXO 13, segue em anexo, e  por este documento, é possível localizar o número do anexo 38, qual seja  81485. Ao realizar a consulta por este número, também não é possível localizar o recibo que desejamos.      Assim, pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado, ressaltando a urgência em tal solicitação.     Desde já, agradecemos.     delicadamente,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.25638529658317566
+    }
+  },
+  {
+    "text": "Cm equador – Joana - certificado de envio de contas de gestão , usuário informa que La aparece uma mensagem informando que  o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.16503645479679108
+    }
+  },
+  {
+    "text": "Cm equador – Joana - corroborável de envio de contas de gestão , usuário informa que La aparece uma mensagem informando que  o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.16634154319763184
+    }
+  },
+  {
+    "text": "PM extremoz – Paulo – contas de gestão – é possível fazer alterações após o processamento do XML?",
+    "intent": "int304",
+    "intent_prediction": {
+      "name": "int286",
+      "confidence": 0.20584794878959656
+    }
+  },
+  {
+    "text": "PM extremoz – Paulo – contas de gestão – é possível fazer alterações após o preparo do XML?",
+    "intent": "int304",
+    "intent_prediction": {
+      "name": "int286",
+      "confidence": 0.20625467598438263
+    }
+  },
+  {
+    "text": "como enviar manifestações para o tce",
+    "intent": "int314",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.08467433601617813
+    }
+  },
+  {
+    "text": "como enviar títulos para o tce",
+    "intent": "int314",
+    "intent_prediction": {
+      "name": "int28",
+      "confidence": 0.09210691601037979
+    }
+  },
+  {
+    "text": "Dúvidas sobre remoção de usuário gerenciador",
+    "intent": "int317",
+    "intent_prediction": {
+      "name": "int555",
+      "confidence": 0.03117801435291767
+    }
+  },
+  {
+    "text": "25/06 PM monte alegre – acesso a uma unidade jurisdicionada.  Venho por meio deste solicitar adição da unidade gestora Fundo Municipal de Saúde e Fundo Municipal de Assistência Social junto ao acesso do servidor Ruan Pablo Medeiros Dantas no Portal do Gestor, para que seja possível adiante a prestação de informações relacionadas as unidades em questão.A solicitação parte do usuário gerenciador do órgão que vos fala, alocado na Prefeitura Municipal de Monte Alegre/RN.",
+    "intent": "int330",
+    "intent_prediction": {
+      "name": "int319",
+      "confidence": 0.33033517003059387
+    }
+  },
+  {
+    "text": "25/06 PM monte alegre – acesso a uma unidade jurisdicionada.  Venho por meio deste solicitar adição da unidade gestora Fundo Municipal de Saúde e Fundo Municipal de Assistência Social junto ao acesso do servidor Ruan Pablo Medeiros Dantas no Portal do Gestor, para que seja possível subsequentemente a prestação de informações relacionadas as unidades em questão.A solicitação parte do usuário gerenciador do órgão que vos fala, alocado na Prefeitura Municipal de Monte Alegre/RN.",
+    "intent": "int330",
+    "intent_prediction": {
+      "name": "int319",
+      "confidence": 0.3375414311885834
+    }
+  },
+  {
+    "text": "PM SANTA CRUZ- anuência USUÁRIOS COMUNS",
+    "intent": "int339",
+    "intent_prediction": {
+      "name": "int877",
+      "confidence": 0.04847487434744835
+    }
+  },
+  {
+    "text": "PM NATAL- cadastro usuário comum",
+    "intent": "int340",
+    "intent_prediction": {
+      "name": "int321",
+      "confidence": 0.11190247535705566
+    }
+  },
+  {
+    "text": "Qual o contato do gab da comando",
+    "intent": "int354",
+    "intent_prediction": {
+      "name": "int783",
+      "confidence": 0.06855998188257217
+    }
+  },
+  {
+    "text": "como excluir uma determinação",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.1115860641002655
+    }
+  },
+  {
+    "text": "como apartar uma obra",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int805",
+      "confidence": 0.045257892459630966
+    }
+  },
+  {
+    "text": "Prezados (as), venho por meio deste solicitar a exclusão de obra cadastrada em duplicidade no SIAI Obras do Município de Lucrécia. Segue informações da duplicidade. Código da obra 4090272021",
+    "intent": "int562",
+    "intent_prediction": {
+      "name": "int563",
+      "confidence": 0.2316388189792633
+    }
+  },
+  {
+    "text": "Prezados (as), venho por meio deste solicitar a exclusão de obra cadastrada em simulação no SIAI Obras do Município de Lucrécia. Segue informações da simulação. Código da obra 4090272021",
+    "intent": "int562",
+    "intent_prediction": {
+      "name": "int563",
+      "confidence": 0.2117205262184143
+    }
+  },
+  {
+    "text": "Prezados (as), venho por meio deste solicitar a exclusão de obra cadastrada em acumulação no SIAI Obras do Município de Lucrécia. Segue informações da acumulação. Código da obra 4090272021",
+    "intent": "int563",
+    "intent_prediction": {
+      "name": "int562",
+      "confidence": 0.19699816405773163
+    }
+  },
+  {
+    "text": "24/03 Siai obras complicações em acessar. 07206556418 16101329",
+    "intent": "int566",
+    "intent_prediction": {
+      "name": "int568",
+      "confidence": 0.15397128462791443
+    }
+  },
+  {
+    "text": "24/03 Siai obras doenças em acessar. 07206556418 16101329",
+    "intent": "int566",
+    "intent_prediction": {
+      "name": "int568",
+      "confidence": 0.1429797261953354
+    }
+  },
+  {
+    "text": "24/03 Siai obras problemas em acessar. 07206556418 16101329",
+    "intent": "int568",
+    "intent_prediction": {
+      "name": "int566",
+      "confidence": 0.18243905901908875
+    }
+  },
+  {
+    "text": "24/03 Siai obras dificuldades em acessar. 07206556418 16101329",
+    "intent": "int568",
+    "intent_prediction": {
+      "name": "int566",
+      "confidence": 0.15512657165527344
+    }
+  },
+  {
+    "text": "24/03 Sec meio lugar estado – faixa de BDI aceita",
+    "intent": "int569",
+    "intent_prediction": {
+      "name": "int819",
+      "confidence": 0.22363030910491943
+    }
+  },
+  {
+    "text": "24/03 Sec meio meio estado – faixa de BDI aceita",
+    "intent": "int569",
+    "intent_prediction": {
+      "name": "int819",
+      "confidence": 0.21326607465744019
+    }
+  },
+  {
+    "text": "25/03 Bom dia, Segue print ao tentar acessar o SIAI Obras, comunico que não estou fazendo acessar a mais de 7 dias, em todas as tentativas abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int571",
+    "intent_prediction": {
+      "name": "int564",
+      "confidence": 0.2337387204170227
+    }
+  },
+  {
+    "text": "25/03 Bom dia, Segue print ao tentar acessar o SIAI Obras, comunico que não estou apresentando acessar a mais de 7 dias, em todas as tentativas abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int571",
+    "intent_prediction": {
+      "name": "int564",
+      "confidence": 0.24310895800590515
+    }
+  },
+  {
+    "text": "25/03 Prezados (as), venho por meio deste solicitar a exclusão de obra cadastrada em duplicidade no SIAI Obras do Município de Lucrécia. Segue informações da duplicidade. Código da obra 4090272021",
+    "intent": "int572",
+    "intent_prediction": {
+      "name": "int563",
+      "confidence": 0.1927398294210434
+    }
+  },
+  {
+    "text": "25/03 Prezados (as), venho por meio deste solicitar a exclusão de obra cadastrada em acumulação no SIAI Obras do Município de Lucrécia. Segue informações da acumulação. Código da obra 4090272021",
+    "intent": "int572",
+    "intent_prediction": {
+      "name": "int562",
+      "confidence": 0.17571905255317688
+    }
+  },
+  {
+    "text": "PREFEITURA DE CEARÁ MIRIMTentamos importar o anexo 7 - Demonst. dos Restos a Pagar, a importação é realizada com sucesso, no entanto, os valores da linha da despesa INTRA-ORÇAMENTÁRIA, não está de acordo com os valores constantes no arquivo utilizado para importação, (conforme cópia em anexo).Favor verificar o que há de errado, na importação do referido anexo, segue cópia do relatório impresso e do arquivo txt, para validação das considerações.",
+    "intent": "int625",
+    "intent_prediction": {
+      "name": "int626",
+      "confidence": 0.3025297522544861
+    }
+  },
+  {
+    "text": "PREFEITURA DE CEARÁ MIRIMTentamos importar o anexo 7 - Demonst. dos Restos a Pagar, a importação é realizada com sucesso, no entanto, os valores da linha da despesa INTRA-ORÇAMENTÁRIA, não está de acordo com os valores constantes no arquivo utilizado para importação, (conforme cópia em anexo).Favor verificar o que há de errado, na importação do referido anexo, segue cópia do relatório impresso e do arquivo txt, para validação das explicações.",
+    "intent": "int625",
+    "intent_prediction": {
+      "name": "int626",
+      "confidence": 0.2962002158164978
+    }
+  },
+  {
+    "text": "como recuperar a senha",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int638",
+      "confidence": 0.03584212809801102
+    }
+  },
+  {
+    "text": "como reembolsar-se a senha",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int678",
+      "confidence": 0.0468938909471035
+    }
+  },
+  {
+    "text": "Sou servidora do TJRN, gostaria de saber se a testemunho de bens para o TCE é feita no mesmo link do TJ testemunho de bens.",
+    "intent": "int643",
+    "intent_prediction": {
+      "name": "int852",
+      "confidence": 0.06126600503921509
+    }
+  },
+  {
+    "text": "envio de anúncios",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int711",
+      "confidence": 0.028397707268595695
+    }
+  },
+  {
+    "text": "como proceder para alterar email",
+    "intent": "int682",
+    "intent_prediction": {
+      "name": "int676",
+      "confidence": 0.06313211470842361
+    }
+  },
+  {
+    "text": "como nascer para alterar email",
+    "intent": "int682",
+    "intent_prediction": {
+      "name": "int676",
+      "confidence": 0.12635602056980133
+    }
+  },
+  {
+    "text": "Numero setor de transportes",
+    "intent": "int782",
+    "intent_prediction": {
+      "name": "int89",
+      "confidence": 0.05550406500697136
+    }
+  },
+  {
+    "text": "intermédio da DAÍ .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int323",
+      "confidence": 0.06586625427007675
+    }
+  }
+]
