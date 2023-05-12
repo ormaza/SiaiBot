@@ -12,8 +12,9 @@ rasa train
 
 remove all files: rm *
 
-scp -r domain.yml ormazabal@10.7.15.145:~/tcc/rasa
+scp -r config.yml ormazabal@10.7.15.145:~/tcc/rasa
 scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
+
 
 [20:22, 07/05/2023] Matheus Antonio: É que /tcc fica na pasta do teu usuário
 [20:22, 07/05/2023] Matheus Antonio: Comando que a gente deu foi pwd
