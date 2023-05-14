@@ -1,4 +1,4 @@
-rasa test nlu --nlu data/nlu.yml --config config_bertlabse.yml --cross-validation --folds 2 
+rasa test nlu --nlu data/nlu.yml --config config_bert.yml --cross-validation --folds 2
 rasa train --config config_gpt.yml
 
 config atual: bertimbau
@@ -24,11 +24,11 @@ problemas:
 2023-05-07 19:37:09 INFO     rasa.nlu.test  - test Precision: 0.959 (0.005)
 
 "accuracy": 0.9636163175303197,
-"macro avg": {
-"precision": 0.9667716700792776,
-"recall": 0.9636163175303197,
-"f1-score": 0.9619146258617042,
-"support": 3628
+	"macro avg": {
+	"precision": 0.9667716700792776,
+	"recall": 0.9636163175303197,
+	"f1-score": 0.9619146258617042,
+	"support": 3628
 }
 
 2023-05-05 17:21:04 start
@@ -42,11 +42,11 @@ problemas:
 2023-05-05 22:35:30 INFO     rasa.nlu.test  - test Precision: 0.951 (0.005)
 
 "accuracy": 0.9562224669603524,
-"macro avg": {
-"precision": 0.9599774491294315,
-"recall": 0.9562224669603524,
-"f1-score": 0.9552718023533002,
-"support": 3632
+	"macro avg": {
+	"precision": 0.9599774491294315,
+	"recall": 0.9562224669603524,
+	"f1-score": 0.9552718023533002,
+	"support": 3632
 }
 
 ### BERTimbau
@@ -54,12 +54,21 @@ problemas:
 2023-05-11 11:03:45 start CV (n=2)
 2023-05-11 13:43:34
 
+2023-05-14 07:30:32 INFO     rasa.model_testing  - CV evaluation (n=2)
+2023-05-14 07:30:32 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-14 07:30:32 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.002)
+2023-05-14 07:30:32 INFO     rasa.nlu.test  - train F1-score: 0.979 (0.002)
+2023-05-14 07:30:32 INFO     rasa.nlu.test  - train Precision: 0.978 (0.002)
+2023-05-14 07:30:32 INFO     rasa.nlu.test  - test Accuracy: 0.966 (0.003)
+2023-05-14 07:30:32 INFO     rasa.nlu.test  - test F1-score: 0.962 (0.003)
+2023-05-14 07:30:32 INFO     rasa.nlu.test  - test Precision: 0.964 (0.002)
+
 "accuracy": 0.9666482910694597,
-"macro avg": {
-"precision": 0.9707788628130415,
-"recall": 0.9666482910694597,
-"f1-score": 0.9655151292417004,
-"support": 3628
+	"macro avg": {
+	"precision": 0.9707788628130415,
+	"recall": 0.9666482910694597,
+	"f1-score": 0.9655151292417004,
+	"support": 3628
 }
 
 2023-05-11 20:21:37 start CV (n=3)
@@ -86,6 +95,10 @@ problemas:
   }
 }
 
+2023-05-13 16:22:45 start CV (n=3)
+
+
+### DistilBERT
 
 
 

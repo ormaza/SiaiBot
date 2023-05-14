@@ -1,0 +1,16 @@
+All the layers of TFBertModel were initialized from the model checkpoint at rasa/LaBSE.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFBertModel for predictions without further training.
+2023-05-13 18:11:19 INFO     rasa.engine.training.hooks  - Starting to train component 'RegexFeaturizer'.
+2023-05-13 18:11:19 INFO     rasa.engine.training.hooks  - Finished training component 'RegexFeaturizer'.
+2023-05-13 18:11:19 INFO     rasa.engine.training.hooks  - Starting to train component 'LexicalSyntacticFeaturizer'.
+2023-05-13 18:11:20 INFO     rasa.engine.training.hooks  - Finished training component 'LexicalSyntacticFeaturizer'.
+2023-05-13 18:11:23 INFO     rasa.engine.training.hooks  - Starting to train component 'CountVectorsFeaturizer'.
+2023-05-13 18:11:23 INFO     rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer  - 4827 vocabulary items were created for text attribute.
+2023-05-13 18:11:23 INFO     rasa.engine.training.hooks  - Finished training component 'CountVectorsFeaturizer'.
+2023-05-13 18:11:25 INFO     rasa.engine.training.hooks  - Starting to train component 'CountVectorsFeaturizer'.
+2023-05-13 18:11:25 INFO     rasa.nlu.featurizers.sparse_featurizer.count_vectors_featurizer  - 16061 vocabulary items were created for text attribute.
+2023-05-13 18:11:25 INFO     rasa.engine.training.hooks  - Finished training component 'CountVectorsFeaturizer'.
+2023-05-13 18:11:32 INFO     rasa.engine.training.hooks  - Starting to train component 'DIETClassifier'.
+Epochs:  85%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                              | 85/100 [1:13:21<13:27, 53.85s/it, t_loss=2.62, i_acc=1]
+Connection to 10.7.15.145 closed by remote host.
+Connection to 10.7.15.145 closed.
