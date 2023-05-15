@@ -1,7 +1,5 @@
-rasa test nlu --nlu data/nlu.yml --config config_bert.yml --cross-validation --folds 2
+rasa test nlu --nlu data/nlu.yml --config config_bertlabse.yml --cross-validation --folds 3
 rasa train --config config_gpt.yml
-
-config atual: bertimbau
 
 registros excluidos:
 -registros sem resposta
@@ -9,6 +7,33 @@ registros excluidos:
 -registros que descrevem o atendimento e não apresentam a resposta
 problemas:
 -bertimbau/distilbert/gpt/gpt2/roberta uses a subword tokenizer (WordPiece), so the maximum length corresponds to 512 subword tokens. (grandes cadeias de texto foram excluidas)
+
+ip: 10.7.15.145
+usuário: ormazabal
+senha: orm123
+O acesso é por SSH e acredito que usa a porta padrão mesmo.
+
+abra o terminal do git bash e digite: ssh ormazabal@10.7.15.145
+
+.local/bin/rasa
+
+cd tcc/rasa 
+rasa train
+
+remove all files: rm *
+
+scp -r config.yml ormazabal@10.7.15.145:~/tcc/rasa
+scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
+
+
+[20:22, 07/05/2023] Matheus Antonio: É que /tcc fica na pasta do teu usuário
+[20:22, 07/05/2023] Matheus Antonio: Comando que a gente deu foi pwd
+[20:23, 07/05/2023] Matheus Antonio: Aí ~ é um wildcard pra pasta do teu usuário
+[20:23, 07/05/2023] Matheus Antonio: Sem ele seria algo do tipo :/home/ozama/tcc
+
+
+
+# RESULTADOS
 
 
 ### DIET
@@ -86,6 +111,15 @@ problemas:
 2023-05-12 09:19:14 start CV (n=2)
 2023-05-12 11:58:31
 
+2023-05-14 20:59:15 INFO     rasa.model_testing  - CV evaluation (n=2)      
+2023-05-14 20:59:15 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-14 20:59:16 INFO     rasa.nlu.test  - train Accuracy: 0.991 (0.001) 
+2023-05-14 20:59:16 INFO     rasa.nlu.test  - train F1-score: 0.989 (0.001) 
+2023-05-14 20:59:16 INFO     rasa.nlu.test  - train Precision: 0.990 (0.000)
+2023-05-14 20:59:16 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)  
+2023-05-14 20:59:16 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.000)  
+2023-05-14 20:59:16 INFO     rasa.nlu.test  - test Precision: 0.977 (0.001) 
+
 "accuracy": 0.9749173098125689,
   "macro avg": {
     "precision": 0.9754777655273797,
@@ -95,7 +129,8 @@ problemas:
   }
 }
 
-2023-05-13 16:22:45 start CV (n=3)
+2023-05-14 11:53:42 start CV (n=3)
+
 
 
 ### DistilBERT
