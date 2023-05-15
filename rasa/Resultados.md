@@ -1,4 +1,5 @@
 rasa test nlu --nlu data/nlu.yml --config config_bertlabse.yml --cross-validation --folds 3
+rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
 rasa train --config config_gpt.yml
 
 registros excluidos:
@@ -38,23 +39,26 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 
 ### DIET
 
-2023-05-07 17:19:18 start
-2023-05-07 19:37:09 INFO     rasa.model_testing  - CV evaluation (n=2)
-2023-05-07 19:37:09 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-07 19:37:09 INFO     rasa.nlu.test  - train Accuracy: 0.988 (0.001)
-2023-05-07 19:37:09 INFO     rasa.nlu.test  - train F1-score: 0.985 (0.001)
-2023-05-07 19:37:09 INFO     rasa.nlu.test  - train Precision: 0.984 (0.000)
-2023-05-07 19:37:09 INFO     rasa.nlu.test  - test Accuracy: 0.964 (0.004)
-2023-05-07 19:37:09 INFO     rasa.nlu.test  - test F1-score: 0.958 (0.005)
-2023-05-07 19:37:09 INFO     rasa.nlu.test  - test Precision: 0.959 (0.005)
+2023-05-15 10:59:15 start
+2023-05-15 17:27:40 INFO     rasa.model_testing  - CV evaluation (n=2)
+2023-05-15 17:27:40 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-15 17:27:40 INFO     rasa.nlu.test  - train Accuracy: 0.986 (0.002)
+2023-05-15 17:27:40 INFO     rasa.nlu.test  - train F1-score: 0.983 (0.002)
+2023-05-15 17:27:40 INFO     rasa.nlu.test  - train Precision: 0.982 (0.002)
+2023-05-15 17:27:40 INFO     rasa.nlu.test  - test Accuracy: 0.961 (0.000)
+2023-05-15 17:27:40 INFO     rasa.nlu.test  - test F1-score: 0.955 (0.000)
+2023-05-15 17:27:40 INFO     rasa.nlu.test  - test Precision: 0.957 (0.001)
 
-"accuracy": 0.9636163175303197,
-	"macro avg": {
-	"precision": 0.9667716700792776,
-	"recall": 0.9636163175303197,
-	"f1-score": 0.9619146258617042,
-	"support": 3628
-}
+
+
+
+
+
+
+
+
+
+
 
 2023-05-05 17:21:04 start
 2023-05-05 22:35:30 INFO     rasa.model_testing  - CV evaluation (n=3)
@@ -129,7 +133,7 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
   }
 }
 
-2023-05-14 11:53:42 start CV (n=3)
+2023-05-14 17:43:21 start CV (n=3)
 
 
 
