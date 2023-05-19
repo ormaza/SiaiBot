@@ -1,6 +1,6 @@
-rasa test nlu --nlu data/nlu.yml --config config_bert.yml --cross-validation --folds 3
+rasa test nlu --nlu data/nlu.yml --config config_bertlabse.yml --cross-validation --folds 3
 rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
-rasa train --config config_gpt.yml
+rasa train --config config_bertlabse.yml
 
 registros excluidos:
 -registros sem resposta
@@ -82,29 +82,17 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 
 ### BERTlabse
 
-2023-05-12 09:19:14 start CV (n=2)
-2023-05-12 11:58:31
+2023-05-18 20:38:29 start
+2023-05-19 05:21:29 INFO     rasa.model_testing  - CV evaluation (n=2)
+2023-05-19 05:21:29 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-19 05:21:29 INFO     rasa.nlu.test  - train Accuracy: 0.987 (0.002)
+2023-05-19 05:21:29 INFO     rasa.nlu.test  - train F1-score: 0.985 (0.004)
+2023-05-19 05:21:29 INFO     rasa.nlu.test  - train Precision: 0.985 (0.005)
+2023-05-19 05:21:29 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.002)
+2023-05-19 05:21:29 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.003)
+2023-05-19 05:21:29 INFO     rasa.nlu.test  - test Precision: 0.974 (0.004)
 
-2023-05-14 20:59:15 INFO     rasa.model_testing  - CV evaluation (n=2)      
-2023-05-14 20:59:15 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-14 20:59:16 INFO     rasa.nlu.test  - train Accuracy: 0.991 (0.001) 
-2023-05-14 20:59:16 INFO     rasa.nlu.test  - train F1-score: 0.989 (0.001) 
-2023-05-14 20:59:16 INFO     rasa.nlu.test  - train Precision: 0.990 (0.000)
-2023-05-14 20:59:16 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)  
-2023-05-14 20:59:16 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.000)  
-2023-05-14 20:59:16 INFO     rasa.nlu.test  - test Precision: 0.977 (0.001) 
-
-"accuracy": 0.9749173098125689,
-  "macro avg": {
-    "precision": 0.9754777655273797,
-    "recall": 0.9749173098125689,
-    "f1-score": 0.9736406433209079,
-    "support": 3628
-  }
-}
-
-2023-05-14 17:43:21 start CV (n=3)
-
+2023-05-19 06:12:15 start
 
 
 ### DistilBERT
