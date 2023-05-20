@@ -93,6 +93,20 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 2023-05-19 05:21:29 INFO     rasa.nlu.test  - test Precision: 0.974 (0.004)
 
 2023-05-19 06:12:15 start
+2023-05-20 08:16:13 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-05-20 08:16:13 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-20 08:16:13 INFO     rasa.nlu.test  - train Accuracy: 0.988 (0.001)
+2023-05-20 08:16:13 INFO     rasa.nlu.test  - train F1-score: 0.985 (0.001)
+2023-05-20 08:16:13 INFO     rasa.nlu.test  - train Precision: 0.985 (0.001)
+2023-05-20 08:16:13 INFO     rasa.nlu.test  - test Accuracy: 0.983 (0.001)
+2023-05-20 08:16:13 INFO     rasa.nlu.test  - test F1-score: 0.980 (0.001)
+2023-05-20 08:16:13 INFO     rasa.nlu.test  - test Precision: 0.980 (0.001)
+
+
+https://towardsdatascience.com/labse-language-agnostic-bert-sentence-embedding-by-google-ai-531f677d775f
+https://medium.com/@kmkaran212/language-agnostic-sentence-embeddings-57445eba02a#:~:text=What%20are%20Language%20agnostic%20sentence,the%20dissimilar%20ones%5B1%5D.
+https://arxiv.org/pdf/2007.01852.pdf
+https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 
 
 ### DistilBERT
