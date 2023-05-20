@@ -1,6 +1,6 @@
 rasa test nlu --nlu data/nlu.yml --config config_bertlabse.yml --cross-validation --folds 3
 rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
-rasa train --config config_bertlabse.yml
+rasa train --config config_bert.yml
 
 registros excluidos:
 -registros sem resposta
@@ -91,6 +91,9 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 2023-05-19 05:21:29 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.002)
 2023-05-19 05:21:29 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.003)
 2023-05-19 05:21:29 INFO     rasa.nlu.test  - test Precision: 0.974 (0.004)
+
+
+----------------------------- atualiou nlu a partir daqui. se puder, refaça testes anteriores
 
 2023-05-19 06:12:15 start
 2023-05-20 08:16:13 INFO     rasa.model_testing  - CV evaluation (n=3)
