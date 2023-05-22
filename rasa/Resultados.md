@@ -92,9 +92,6 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 2023-05-19 05:21:29 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.003)
 2023-05-19 05:21:29 INFO     rasa.nlu.test  - test Precision: 0.974 (0.004)
 
-
------------------------------ atualizou nlu a partir daqui. se puder, refaça testes anteriores
-
 2023-05-19 06:12:15 start
 2023-05-20 08:16:13 INFO     rasa.model_testing  - CV evaluation (n=3)
 2023-05-20 08:16:13 INFO     rasa.model_testing  - Intent evaluation results
@@ -124,10 +121,19 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 2023-05-22 04:10:39 INFO     rasa.nlu.test  - test F1-score: 0.975 (0.002)
 2023-05-22 04:10:39 INFO     rasa.nlu.test  - test Precision: 0.974 (0.002)
 
+----------------------------- atualizou nlu a partir daqui. se puder, refaça testes anteriores
 
+2023-05-22 08:54:36 start
+2023-05-22 19:25:06 INFO     rasa.model_testing  - CV evaluation (n=2)
+2023-05-22 19:25:06 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - train Accuracy: 0.988 (0.001)
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - train F1-score: 0.986 (0.002)
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - train Precision: 0.986 (0.001)
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.000)
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.001)
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - test Precision: 0.976 (0.001)
 
-
-
+### GPT
 
 
 a testar:
