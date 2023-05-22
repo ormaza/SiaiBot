@@ -387,15 +387,6 @@ nlu:
     - como enviar papéis para o tribunal
     - como enviar notas para o tribunal
 
-- intent: int43
-  examples: |
-    - com oenvir documntos para o tce
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
-
 - intent: int44
   examples: |
     - com oenviar informações para o tce
@@ -5859,15 +5850,6 @@ nlu:
     - tira ALMINO AFONSO- SISPATRI 
     - urbano ALMINO AFONSO- SISPATRI 
 
-- intent: int652
-  examples: |
-    - Bom dia, fui na opção importar a Declaração encaminhada à Receita Federal, por ser mais prático, mas apareceu a seguinte mensagem de erro extensão de arquivo inválida. Gostaria de saber como proceder. Atenciosamente, Marcelo Câmara.
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
-
 - intent: int653
   examples: |
     - jaiza Medeiros Figueiredo Rocha, CPF 107725884-49, servidora da Assembleia Legislativa do estado do Rio Grande do Norte.
@@ -6561,15 +6543,6 @@ nlu:
     - onde conhecer os laytout de contas de governo
     - onde passar os laytout de contas de governo
 
-- intent: int730
-  examples: |
-    - qual onumero do elefone da dag
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
-
 - intent: int731
   examples: |
     - 23/03 - Onde está a tabela de receitas e despesas para o siai 2022
@@ -6894,15 +6867,6 @@ nlu:
     - proximidade dap ?
     - familiaridade dap ?
 
-- intent: int767
-  examples: |
-    - Telefone do gab do cons dr Renato
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
-
 - intent: int768
   examples: |
     - Tc Tocantins – estão atualizando os contatos da presidência dos TCE
@@ -7155,15 +7119,6 @@ nlu:
     - Alana – processo seletivo de pós graduação, benefício .
     - Alana – processo seletivo de pós graduação, decisão .
 
-- intent: int796
-  examples: |
-    - Cm macaiba – roni – murilo ou vitor DAP
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
-
 - intent: int797
   examples: |
     - Aniole- Usuária gostaria de saber informações sobre a seleção para estagiário.
@@ -7263,15 +7218,6 @@ nlu:
     - Recebeu comunicação e gostaria de saber até quando poderá entregar defesa -
     - Recebeu intimação e gostaria de saber até quando poderá entregar defesa -
 
-- intent: int808
-  examples: |
-    - Telefone da ddp  -
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
-
 - intent: int809
   examples: |
     - Falar com ouvidoria
@@ -7334,15 +7280,6 @@ nlu:
     - Cm riacho da cruz – adv – criar a lei para pagar o décimo mediador
     - Cm riacho da cruz – adv – criar a lei para pagar o décimo alcoviteiro
     - Cm riacho da cruz – adv – criar a lei para pagar o décimo terço
-
-- intent: int816
-  examples: |
-    - Tce PB – gab cons Adélia -
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
 
 - intent: int817
   examples: |
@@ -7820,15 +7757,6 @@ nlu:
     - 09/03 - Luiz - - PM areia branca – coisas relativas a TAC desvio de função.
     - 09/03 - Luiz - - PM areia branca – pertences relativas a TAC desvio de função.
     - 09/03 - Luiz - - PM areia branca – bens relativas a TAC desvio de função.
-
-- intent: int870
-  examples: |
-    - Telefon do Gab cons Adélia
-    - nan
-    - nan
-    - nan
-    - nan
-    - nan
 
 - intent: int871
   examples: |

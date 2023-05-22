@@ -1,4 +1,4 @@
-rasa test nlu --nlu data/nlu.yml --config config_distilbert.yml --cross-validation --folds 3
+rasa test nlu --nlu data/nlu.yml --config config_distilbert.yml --cross-validation --folds 2
 rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
 rasa train --config config_distilbert.yml
 
