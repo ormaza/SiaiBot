@@ -1,6 +1,6 @@
-rasa test nlu --nlu data/nlu.yml --config config_distilbert.yml --cross-validation --folds 2
+rasa test nlu --nlu data/nlu.yml --config config_gpt.yml --cross-validation --folds 3
 rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
-rasa train --config config_distilbert.yml
+rasa train --config config_gpt.yml
 
 registros excluidos:
 -registros sem resposta
@@ -134,6 +134,16 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 2023-05-22 19:25:06 INFO     rasa.nlu.test  - test Precision: 0.976 (0.001)
 
 ### GPT
+
+2023-05-23 19:11:23 start
+2023-05-24 16:11:52 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-05-24 16:11:52 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.001)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - train F1-score: 0.979 (0.002)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - train Precision: 0.979 (0.003)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.001)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.001)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - test Precision: 0.972 (0.001)
 
 
 a testar:
