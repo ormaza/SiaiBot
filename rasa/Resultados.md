@@ -1,6 +1,6 @@
-rasa test nlu --nlu data/nlu.yml --config config_gpt2.yml --cross-validation --folds 2
+rasa test nlu --nlu data/nlu.yml --config config_roberta.yml --cross-validation --folds 3
 rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
-rasa train --config config_gpt2.yml
+rasa train --config config_roberta.yml
 
 registros excluidos:
 -registros sem resposta
@@ -176,6 +176,18 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 2023-05-27 22:17:41 INFO     rasa.nlu.test  - test Accuracy: 0.740 (0.043)
 2023-05-27 22:17:41 INFO     rasa.nlu.test  - test F1-score: 0.697 (0.051)
 2023-05-27 22:17:41 INFO     rasa.nlu.test  - test Precision: 0.711 (0.056)
+
+### RoBERTa
+
+2023-05-28 17:11:16 start
+2023-05-29 14:09:03 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-05-29 14:09:03 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-29 14:09:03 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.001)
+2023-05-29 14:09:03 INFO     rasa.nlu.test  - train F1-score: 0.979 (0.001)
+2023-05-29 14:09:03 INFO     rasa.nlu.test  - train Precision: 0.979 (0.002)
+2023-05-29 14:09:03 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.001)
+2023-05-29 14:09:03 INFO     rasa.nlu.test  - test F1-score: 0.972 (0.001)
+2023-05-29 14:09:03 INFO     rasa.nlu.test  - test Precision: 0.971 (0.000)
 
 a testar:
 rasa train --config config_bertlabse.yml
