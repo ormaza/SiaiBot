@@ -1,6 +1,6 @@
-rasa test nlu --nlu data/nlu.yml --config config_roberta.yml --cross-validation --folds 2
+rasa test nlu --nlu data/nlu.yml --config config_distilbert.yml --cross-validation --folds 3
 rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
-rasa train --config config_roberta.yml
+rasa train --config config_xlnet.yml
 
 registros excluidos:
 -registros sem resposta
@@ -108,20 +108,19 @@ https://medium.com/@kmkaran212/language-agnostic-sentence-embeddings-57445eba02a
 https://arxiv.org/pdf/2007.01852.pdf
 https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 
+----------------------------- atualizou nlu a partir daqui. se puder, refaça testes anteriores
 
 ### DistilBERT
 
-2023-05-21 09:25:16 start
-2023-05-22 04:10:39 INFO     rasa.model_testing  - CV evaluation (n=3)
-2023-05-22 04:10:39 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-22 04:10:39 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.001)
-2023-05-22 04:10:39 INFO     rasa.nlu.test  - train F1-score: 0.979 (0.002)
-2023-05-22 04:10:39 INFO     rasa.nlu.test  - train Precision: 0.979 (0.002)
-2023-05-22 04:10:39 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
-2023-05-22 04:10:39 INFO     rasa.nlu.test  - test F1-score: 0.975 (0.002)
-2023-05-22 04:10:39 INFO     rasa.nlu.test  - test Precision: 0.974 (0.002)
-
------------------------------ atualizou nlu a partir daqui. se puder, refaça testes anteriores
+2023-05-30 14:15:18 start
+2023-05-31 09:41:59 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-05-31 09:41:59 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - train Accuracy: 0.985 (0.001)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - train F1-score: 0.982 (0.002)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - train Precision: 0.981 (0.002)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.001)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - test Precision: 0.975 (0.001)
 
 2023-05-22 08:54:36 start
 2023-05-22 19:25:06 INFO     rasa.model_testing  - CV evaluation (n=2)
