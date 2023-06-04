@@ -58,19 +58,19 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 2023-05-16 04:51:27 INFO     rasa.nlu.test  - test F1-score: 0.951 (0.005)
 2023-05-16 04:51:27 INFO     rasa.nlu.test  - test Precision: 0.952 (0.006)
 
+----------------------------- atualizou nlu a partir daqui. se puder, refaça testes anteriores
+
 ### BERTimbau
 
-2023-05-16 23:45:41 start
-2023-05-17 08:21:00 INFO     rasa.model_testing  - CV evaluation (n=2)
-2023-05-17 08:21:00 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-17 08:21:00 INFO     rasa.nlu.test  - train Accuracy: 0.989 (0.001)
-2023-05-17 08:21:00 INFO     rasa.nlu.test  - train F1-score: 0.986 (0.001)
-2023-05-17 08:21:00 INFO     rasa.nlu.test  - train Precision: 0.986 (0.001)
-2023-05-17 08:21:00 INFO     rasa.nlu.test  - test Accuracy: 0.970 (0.000)
-2023-05-17 08:21:00 INFO     rasa.nlu.test  - test F1-score: 0.965 (0.000)
-2023-05-17 08:21:00 INFO     rasa.nlu.test  - test Precision: 0.967 (0.001)
-
------------------------------ atualizou nlu a partir daqui. se puder, refaça testes anteriores
+2023-06-03 21:25:55 start
+2023-06-04 09:06:20 INFO     rasa.model_testing  - CV evaluation (n=2)
+2023-06-04 09:06:20 INFO     rasa.model_testing  - Intent evaluation results
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - train Accuracy: 0.988 (0.001)
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - train F1-score: 0.985 (0.001)
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - train Precision: 0.985 (0.001)
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - test F1-score: 0.977 (0.001)
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - test Precision: 0.977 (0.001)
 
 2023-06-02 20:00:52 start
 2023-06-03 16:43:58 INFO     rasa.model_testing  - CV evaluation (n=3)
