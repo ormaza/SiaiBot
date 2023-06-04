@@ -1,4 +1,4 @@
-rasa test nlu --nlu data/nlu.yml --config config_bertlabse.yml --cross-validation --folds 3
+rasa test nlu --nlu data/nlu.yml --config config_bert.yml --cross-validation --folds 3
 rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
 rasa train --config config_xlnet.yml
 
@@ -70,17 +70,17 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 2023-05-17 08:21:00 INFO     rasa.nlu.test  - test F1-score: 0.965 (0.000)
 2023-05-17 08:21:00 INFO     rasa.nlu.test  - test Precision: 0.967 (0.001)
 
-2023-05-17 11:08:23 start
-2023-05-18 01:05:09 INFO     rasa.model_testing  - CV evaluation (n=3)
-2023-05-18 01:05:09 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-18 01:05:10 INFO     rasa.nlu.test  - train Accuracy: 0.982 (0.001)
-2023-05-18 01:05:10 INFO     rasa.nlu.test  - train F1-score: 0.978 (0.001)
-2023-05-18 01:05:10 INFO     rasa.nlu.test  - train Precision: 0.976 (0.001)
-2023-05-18 01:05:10 INFO     rasa.nlu.test  - test Accuracy: 0.962 (0.003)
-2023-05-18 01:05:10 INFO     rasa.nlu.test  - test F1-score: 0.955 (0.004)
-2023-05-18 01:05:10 INFO     rasa.nlu.test  - test Precision: 0.956 (0.005)
-
 ----------------------------- atualizou nlu a partir daqui. se puder, refaça testes anteriores
+
+2023-06-02 20:00:52 start
+2023-06-03 16:43:58 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-06-03 16:43:58 INFO     rasa.model_testing  - Intent evaluation results
+2023-06-03 16:43:58 INFO     rasa.nlu.test  - train Accuracy: 0.986 (0.001)
+2023-06-03 16:43:58 INFO     rasa.nlu.test  - train F1-score: 0.982 (0.002)
+2023-06-03 16:43:58 INFO     rasa.nlu.test  - train Precision: 0.982 (0.002)
+2023-06-03 16:43:58 INFO     rasa.nlu.test  - test Accuracy: 0.981 (0.002)
+2023-06-03 16:43:58 INFO     rasa.nlu.test  - test F1-score: 0.977 (0.003)
+2023-06-03 16:43:58 INFO     rasa.nlu.test  - test Precision: 0.976 (0.003)
 
 ### BERTlabse
 
