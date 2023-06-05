@@ -1,5 +1,5 @@
 rasa test nlu --nlu data/nlu.yml --config config_bert.yml --cross-validation --folds 3
-rasa test nlu --nlu data/nlu.yml --cross-validation --folds 3
+rasa test nlu --nlu data/nlu.yml --cross-validation --folds 2
 rasa train --config config_xlnet.yml
 
 registros excluidos:
@@ -38,17 +38,15 @@ scp -r ormazabal@10.7.15.145:~/tcc/rasa/results \resultados
 
 ### DIET
 
-2023-05-15 10:59:15 start
-2023-05-15 17:27:40 INFO     rasa.model_testing  - CV evaluation (n=2)
-2023-05-15 17:27:40 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-15 17:27:40 INFO     rasa.nlu.test  - train Accuracy: 0.986 (0.002)
-2023-05-15 17:27:40 INFO     rasa.nlu.test  - train F1-score: 0.983 (0.002)
-2023-05-15 17:27:40 INFO     rasa.nlu.test  - train Precision: 0.982 (0.002)
-2023-05-15 17:27:40 INFO     rasa.nlu.test  - test Accuracy: 0.961 (0.000)
-2023-05-15 17:27:40 INFO     rasa.nlu.test  - test F1-score: 0.955 (0.000)
-2023-05-15 17:27:40 INFO     rasa.nlu.test  - test Precision: 0.957 (0.001)
-
------------------------------ atualizou nlu a partir daqui. se puder, refaça testes anteriores
+2023-06-05 08:55:15 start
+2023-06-05 18:39:36 INFO     rasa.model_testing  - CV evaluation (n=2)
+2023-06-05 18:39:36 INFO     rasa.model_testing  - Intent evaluation results
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - train Accuracy: 0.988 (0.001)
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - train F1-score: 0.986 (0.001)
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - train Precision: 0.986 (0.001)
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.003)
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.004)
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - test Precision: 0.973 (0.004)
 
 2023-06-04 09:10:32 start
 2023-06-05 00:52:47 INFO     rasa.model_testing  - CV evaluation (n=3)
