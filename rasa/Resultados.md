@@ -110,16 +110,6 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 
 ### DistilBERT
 
-2023-05-30 14:15:18 start
-2023-05-31 09:41:59 INFO     rasa.model_testing  - CV evaluation (n=3)
-2023-05-31 09:41:59 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-31 09:41:59 INFO     rasa.nlu.test  - train Accuracy: 0.985 (0.001)
-2023-05-31 09:41:59 INFO     rasa.nlu.test  - train F1-score: 0.982 (0.002)
-2023-05-31 09:41:59 INFO     rasa.nlu.test  - train Precision: 0.981 (0.002)
-2023-05-31 09:41:59 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
-2023-05-31 09:41:59 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.001)
-2023-05-31 09:41:59 INFO     rasa.nlu.test  - test Precision: 0.975 (0.001)
-
 2023-05-22 08:54:36 start
 2023-05-22 19:25:06 INFO     rasa.model_testing  - CV evaluation (n=2)
 2023-05-22 19:25:06 INFO     rasa.model_testing  - Intent evaluation results
@@ -130,17 +120,17 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 2023-05-22 19:25:06 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.001)
 2023-05-22 19:25:06 INFO     rasa.nlu.test  - test Precision: 0.976 (0.001)
 
-### GPT
+2023-05-30 14:15:18 start
+2023-05-31 09:41:59 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-05-31 09:41:59 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - train Accuracy: 0.985 (0.001)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - train F1-score: 0.982 (0.002)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - train Precision: 0.981 (0.002)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.001)
+2023-05-31 09:41:59 INFO     rasa.nlu.test  - test Precision: 0.975 (0.001)
 
-2023-05-23 19:11:23 start
-2023-05-24 16:11:52 INFO     rasa.model_testing  - CV evaluation (n=3)
-2023-05-24 16:11:52 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-24 16:11:52 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.001)
-2023-05-24 16:11:52 INFO     rasa.nlu.test  - train F1-score: 0.979 (0.002)
-2023-05-24 16:11:52 INFO     rasa.nlu.test  - train Precision: 0.979 (0.003)
-2023-05-24 16:11:52 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.001)
-2023-05-24 16:11:52 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.001)
-2023-05-24 16:11:52 INFO     rasa.nlu.test  - test Precision: 0.972 (0.001)
+### GPT
 
 2023-05-24 17:38:03 start
 2023-05-25 05:20:40 INFO     rasa.model_testing  - CV evaluation (n=2)
@@ -152,17 +142,17 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 2023-05-25 05:20:40 INFO     rasa.nlu.test  - test F1-score: 0.969 (0.002)
 2023-05-25 05:20:40 INFO     rasa.nlu.test  - test Precision: 0.970 (0.001)
 
-### GPT 2
+2023-05-23 19:11:23 start
+2023-05-24 16:11:52 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-05-24 16:11:52 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - train Accuracy: 0.983 (0.001)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - train F1-score: 0.979 (0.002)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - train Precision: 0.979 (0.003)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.001)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.001)
+2023-05-24 16:11:52 INFO     rasa.nlu.test  - test Precision: 0.972 (0.001)
 
-2023-05-26 11:17:37 start
-2023-05-27 09:41:30 INFO     rasa.model_testing  - CV evaluation (n=3)
-2023-05-27 09:41:30 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-27 09:41:30 INFO     rasa.nlu.test  - train Accuracy: 0.959 (0.015)
-2023-05-27 09:41:30 INFO     rasa.nlu.test  - train F1-score: 0.951 (0.018)
-2023-05-27 09:41:30 INFO     rasa.nlu.test  - train Precision: 0.953 (0.016)
-2023-05-27 09:41:30 INFO     rasa.nlu.test  - test Accuracy: 0.937 (0.020)
-2023-05-27 09:41:30 INFO     rasa.nlu.test  - test F1-score: 0.925 (0.025)
-2023-05-27 09:41:30 INFO     rasa.nlu.test  - test Precision: 0.928 (0.026)
+### GPT 2
 
 2023-05-27 10:00:00 start
 2023-05-27 22:17:41 INFO     rasa.model_testing  - CV evaluation (n=2)
@@ -174,7 +164,27 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 2023-05-27 22:17:41 INFO     rasa.nlu.test  - test F1-score: 0.697 (0.051)
 2023-05-27 22:17:41 INFO     rasa.nlu.test  - test Precision: 0.711 (0.056)
 
+2023-05-26 11:17:37 start
+2023-05-27 09:41:30 INFO     rasa.model_testing  - CV evaluation (n=3)
+2023-05-27 09:41:30 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-27 09:41:30 INFO     rasa.nlu.test  - train Accuracy: 0.959 (0.015)
+2023-05-27 09:41:30 INFO     rasa.nlu.test  - train F1-score: 0.951 (0.018)
+2023-05-27 09:41:30 INFO     rasa.nlu.test  - train Precision: 0.953 (0.016)
+2023-05-27 09:41:30 INFO     rasa.nlu.test  - test Accuracy: 0.937 (0.020)
+2023-05-27 09:41:30 INFO     rasa.nlu.test  - test F1-score: 0.925 (0.025)
+2023-05-27 09:41:30 INFO     rasa.nlu.test  - test Precision: 0.928 (0.026)
+
 ### RoBERTa
+
+2023-05-29 17:23:14 start
+2023-05-30 05:19:38 INFO     rasa.model_testing  - CV evaluation (n=2)
+2023-05-30 05:19:38 INFO     rasa.model_testing  - Intent evaluation results
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - train Accuracy: 0.985 (0.000)
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - train F1-score: 0.982 (0.000)
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - train Precision: 0.981 (0.001)
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - test F1-score: 0.975 (0.002)
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - test Precision: 0.976 (0.003)
 
 2023-05-28 17:11:16 start
 2023-05-29 14:09:03 INFO     rasa.model_testing  - CV evaluation (n=3)
@@ -186,15 +196,15 @@ https://ai.googleblog.com/2020/08/language-agnostic-bert-sentence.html
 2023-05-29 14:09:03 INFO     rasa.nlu.test  - test F1-score: 0.972 (0.001)
 2023-05-29 14:09:03 INFO     rasa.nlu.test  - test Precision: 0.971 (0.000)
 
-2023-05-29 17:23:14 start
-2023-05-30 05:19:38 INFO     rasa.model_testing  - CV evaluation (n=2)
-2023-05-30 05:19:38 INFO     rasa.model_testing  - Intent evaluation results
-2023-05-30 05:19:38 INFO     rasa.nlu.test  - train Accuracy: 0.985 (0.000)
-2023-05-30 05:19:38 INFO     rasa.nlu.test  - train F1-score: 0.982 (0.000)
-2023-05-30 05:19:38 INFO     rasa.nlu.test  - train Precision: 0.981 (0.001)
-2023-05-30 05:19:38 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
-2023-05-30 05:19:38 INFO     rasa.nlu.test  - test F1-score: 0.975 (0.002)
-2023-05-30 05:19:38 INFO     rasa.nlu.test  - test Precision: 0.976 (0.003)
+
+
+https://sh-tsang.medium.com/review-roberta-a-robustly-optimized-bert-pretraining-approach-d1be4014e5ce
+
+
+
+
+
+
 
 a testar:
 rasa train --config config_bertlabse.yml

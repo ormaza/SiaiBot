@@ -1,0 +1,55 @@
+CV 2-folds
+
+BERTlabse
+
+2023-06-02 19:25:09 INFO     rasa.nlu.test  - test Accuracy: 0.982 (0.000)
+2023-06-02 19:25:09 INFO     rasa.nlu.test  - test F1-score: 0.979 (0.001)
+2023-06-02 19:25:09 INFO     rasa.nlu.test  - test Precision: 0.979 (0.001)
+
+BERTimbau
+
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - test F1-score: 0.977 (0.001)
+2023-06-04 09:06:20 INFO     rasa.nlu.test  - test Precision: 0.977 (0.001)
+
+DistilBERT
+
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.000)
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - test F1-score: 0.976 (0.001)
+2023-05-22 19:25:06 INFO     rasa.nlu.test  - test Precision: 0.976 (0.001)
+
+RoBERTa
+
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - test Accuracy: 0.979 (0.001)
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - test F1-score: 0.975 (0.002)
+2023-05-30 05:19:38 INFO     rasa.nlu.test  - test Precision: 0.976 (0.003)
+
+DIET
+
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - test Accuracy: 0.977 (0.003)
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - test F1-score: 0.973 (0.004)
+2023-06-05 18:39:36 INFO     rasa.nlu.test  - test Precision: 0.973 (0.004)
+
+GPT
+
+2023-05-25 05:20:40 INFO     rasa.nlu.test  - test Accuracy: 0.974 (0.003)
+2023-05-25 05:20:40 INFO     rasa.nlu.test  - test F1-score: 0.969 (0.002)
+2023-05-25 05:20:40 INFO     rasa.nlu.test  - test Precision: 0.970 (0.001)
+
+GPT-2
+
+2023-05-27 22:17:41 INFO     rasa.nlu.test  - test Accuracy: 0.740 (0.043)
+2023-05-27 22:17:41 INFO     rasa.nlu.test  - test F1-score: 0.697 (0.051)
+2023-05-27 22:17:41 INFO     rasa.nlu.test  - test Precision: 0.711 (0.056)
+
+Tempos
+
+DIET - 9h44m31s
+DistilBERT - 10h30m30s
+BERTimbau - 11h41m
+GPT - 11h42m
+RoBERTa - 11h56m
+BERTlabse - 12h1m3s
+GPT-2 - 12h17m41s
+
+
