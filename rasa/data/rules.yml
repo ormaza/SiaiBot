@@ -4427,11 +4427,6 @@ rules:
   - intent: int896
   - action: utter_int896
 
-- rule: int897
-  steps:
-  - intent: int897
-  - action: utter_int897
-
 - rule: int898
   steps:
   - intent: int898
