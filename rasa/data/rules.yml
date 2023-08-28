@@ -1887,11 +1887,6 @@ rules:
   - intent: int383
   - action: utter_int383
 
-- rule: int384
-  steps:
-  - intent: int384
-  - action: utter_int384
-
 - rule: int385
   steps:
   - intent: int385
@@ -3876,11 +3871,6 @@ rules:
   steps:
   - intent: int783
   - action: utter_int783
-
-- rule: int784
-  steps:
-  - intent: int784
-  - action: utter_int784
 
 - rule: int785
   steps:

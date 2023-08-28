@@ -378,7 +378,6 @@ intents:
   - int381
   - int382
   - int383
-  - int384
   - int385
   - int386
   - int387
@@ -776,7 +775,6 @@ intents:
   - int781
   - int782
   - int783
-  - int784
   - int785
   - int786
   - int787
@@ -2041,9 +2039,6 @@ responses:
   utter_int383:
   - text: "todas as leis devem ser enviadas"
 
-  utter_int384:
-  - text: "o sistema não permite a exclusão da Portaria informada , desta forma é possível que os srs informem nova Portaria com a numeração correta ."
-
   utter_int385:
   - text: "Deverá ser cadastrado apenas o que a lei disser . Se não existir diferenciação entre os diferentes níveis de professores na lei , também não poderá tê-lo no sistema.A diferença irá surgir lançamento das informações na folha de pagamento ."
 
@@ -3234,9 +3229,6 @@ responses:
 
   utter_int783:
   - text: "o numero de contato é 3542-7304"
-
-  utter_int784:
-  - text: "encaminhamos para a DAE 3642-7350"
 
   utter_int785:
   - text: "encaminhamos para a DAE 3642-7350"

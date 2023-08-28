@@ -3392,16 +3392,7 @@ nlu:
     -  confusão sobre o despacho das leis antigas
     -  imprecisão sobre o emissão das leis antigas
     -  ambiguidade sobre o encaminhamento das leis antigas
-
-- intent: int384
-  examples: |
-    -  bom dia , somos da prefeitura municipal de Jaçanã - RN , No sistema do Portal do Gestor na aba do LEGIS , fizemos o cadastro de duas portarias que foram publicadas na fémur , ao cadastrar no sistema LEGIS , Erramos a numeração no cadastro , cadastros a portaria 259 mais ela é a 260 e a 260 é a 261 , queria saber se tem como excluir pra gente colocar a numeração cert
-    -  bom dia , somos da municipalidade municipal de Jaçanã - RN , No sistema do Portal do Gestor na aba do LEGIS , fizemos o cadastro de duas portarias que foram publicadas na fémur , ao cadastrar no sistema LEGIS , Erramos a numeração no cadastro , relações a portaria 259 mais ela é a 260 e a 260 é a 261 , queria saber se tem como excluir pra gente colocar a numeração cert
-    -  bom dia , somos da município municipal de Jaçanã - RN , No sistema do Portal do Gestor na aba do LEGIS , fizemos o cadastro de duas portarias que foram publicadas na fémur , ao cadastrar no sistema LEGIS , Erramos a numeração no cadastro , relações a portaria 259 mais ela é a 260 e a 260 é a 261 , queria saber se tem como excluir pra gente colocar a numeração cert
-    -  bom dia , somos da município municipal de Jaçanã - RN , No sistema do Portal do Gestor na aba do LEGIS , fizemos o cadastro de duas portarias que foram publicadas na fémur , ao cadastrar no sistema LEGIS , Erramos a numeração no cadastro , relações a portaria 259 mais ela é a 260 e a 260 é a 261 , queria saber se tem como excluir pra gente colocar a numeração cert
-    -  bom dia , somos da município municipal de Jaçanã - RN , No sistema do Portal do Gestor na aba do LEGIS , fizemos o cadastro de duas portarias que foram publicadas na fémur , ao cadastrar no sistema LEGIS , Erramos a numeração no cadastro , relações a portaria 259 mais ela é a 260 e a 260 é a 261 , queria saber se tem como excluir pra gente colocar a numeração cert
-    -  bom dia , somos da município municipal de Jaçanã - RN , No sistema do Portal do Gestor na aba do LEGIS , fizemos o cadastro de duas portarias que foram publicadas na fémur , ao cadastrar no sistema LEGIS , Erramos a numeração no cadastro , relações a portaria 259 mais ela é a 260 e a 260 é a 261 , queria saber se tem como excluir pra gente colocar a numeração cert
-
+    
 - intent: int385
   examples: |
     -  12/11- segue resposta as dúvidas,1° Os cargos de Prefeito , Vice-Prefeito e Conselho Tutelar , qual seria o preenchimento correto para natureza do vínculo e o regime jurídico ? natureza do vínculo pode ser MEMBRO DO PODER regime jurídico ESPECIAL 2° No preenchimento para os cargos dos professores , nos vários níveis existentes e cadastrados , ex .  nele , PNE-II E , PNM-II B , etc . Visto que a lei municipal não dispõe para cada nível específico , mas sim , no geral . Pode ser realizada a exclusão desses cargos
@@ -6974,15 +6965,6 @@ nlu:
     -  de que modo o total do Gab Dra Luciana
     -  de que tipo o conta do Gab Dra Luciana
     -  quejando o soma do Gab Dra Luciana
-
-- intent: int784
-  examples: |
-    -  Cm serra do mel – processo administrativo – pagando parcelado - Quitou uma duvida de uma pessoa dia 22/set/21- DAE
-    -  Cm serra do mel – processo oficial – pagando dividido - Quitou uma duvida de uma pessoa dia 22/set/21- DAE
-    -  Cm serra do mel – processo oficial – pagando segmentado - Quitou uma duvida de uma pessoa dia 22/set/21- DAE
-    -  Cm serra do mel – processo oficial – pagando segmentado - Quitou uma duvida de uma pessoa dia 22/set/21- DAE
-    -  Cm serra do mel – processo oficial – pagando segmentado - Quitou uma duvida de uma pessoa dia 22/set/21- DAE
-    -  Cm serra do mel – processo oficial – pagando segmentado - Quitou uma duvida de uma pessoa dia 22/set/21- DAE
 
 - intent: int785
   examples: |
