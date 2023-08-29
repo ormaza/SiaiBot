@@ -1487,11 +1487,6 @@ rules:
   - intent: int301
   - action: utter_int301
 
-- rule: int302
-  steps:
-  - intent: int302
-  - action: utter_int302
-
 - rule: int303
   steps:
   - intent: int303

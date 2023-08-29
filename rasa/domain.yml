@@ -298,7 +298,6 @@ intents:
   - int299
   - int300
   - int301
-  - int302
   - int303
   - int305
   - int306
@@ -1798,9 +1797,6 @@ responses:
 
   utter_int301:
   - text: "as Contas de Governo ainda não estão disponíveis para envio ."
-
-  utter_int302:
-  - text: "identificamos que o arquivo possui medalha , acentos e outros caracteres especiais , favor renomeá-los excluindo ou substituindo esse tipo de informação ."
 
   utter_int303:
   - text: "Foi informado ao usuário que é possível observar a lista de críticas do ml na tela de consulta"

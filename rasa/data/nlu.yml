@@ -2673,15 +2673,6 @@ nlu:
     -  21/03 PM riacho da cruz Bom dia , ao tentar enviar o arquivo de contas de governo , ocorrendo uma mensagem de erro ( anexo ) favor aferir .
     -  21/03 PM riacho da cruz Bom dia , ao tentar enviar o arquivo de contas de governo , vindo uma mensagem de erro ( anexo ) favor pesquisar .
 
-- intent: int302
-  examples: |
-    -  PREFEITURA MUNICIPAL DE JARDIM DE ANGICOS CONFORME CONTATO , SEGUE ANEXOS QUE ESTAMOS TENTANDO ANEXAR NA CONTA DE GESTÃO E QUANDO TENTAMOS BAIXAR , DIZ QUE NÃO EXISTE .
-    -  municipalidade MUNICIPAL DE JARDIM DE ANGICOS CONFORME CONTATO , SEGUE ANEXOS QUE ESTAMOS TENTANDO ANEXAR NA CONTA DE GESTÃO E QUANDO vemos BAIXAR , DIZ QUE NÃO EXISTE .
-    -  município MUNICIPAL DE JARDIM DE ANGICOS CONFORME CONTATO , SEGUE ANEXOS QUE ESTAMOS TENTANDO ANEXAR NA CONTA DE GESTÃO E QUANDO vemos BAIXAR , DIZ QUE NÃO EXISTE .
-    -  município MUNICIPAL DE JARDIM DE ANGICOS CONFORME CONTATO , SEGUE ANEXOS QUE ESTAMOS TENTANDO ANEXAR NA CONTA DE GESTÃO E QUANDO vemos BAIXAR , DIZ QUE NÃO EXISTE .
-    -  município MUNICIPAL DE JARDIM DE ANGICOS CONFORME CONTATO , SEGUE ANEXOS QUE ESTAMOS TENTANDO ANEXAR NA CONTA DE GESTÃO E QUANDO vemos BAIXAR , DIZ QUE NÃO EXISTE .
-    -  município MUNICIPAL DE JARDIM DE ANGICOS CONFORME CONTATO , SEGUE ANEXOS QUE ESTAMOS TENTANDO ANEXAR NA CONTA DE GESTÃO E QUANDO vemos BAIXAR , DIZ QUE NÃO EXISTE .
-
 - intent: int303
   examples: |
     -  PM rapazinho – contas de governo – usuário relata que seu arquivo foi processado com erro e gostaria de saber como resolver .
