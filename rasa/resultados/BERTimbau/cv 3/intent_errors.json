@@ -1,0 +1,778 @@
+[
+  {
+    "text": "7513/2016 - cuida sore processo aposentadoria",
+    "intent": "int5",
+    "intent_prediction": {
+      "name": "int735",
+      "confidence": 0.04544258490204811
+    }
+  },
+  {
+    "text": "como rogar pesquisas para o tribunal",
+    "intent": "int9",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.12643977999687195
+    }
+  },
+  {
+    "text": "por onde suplicar noção ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.1836194545030594
+    }
+  },
+  {
+    "text": "por onde instar ideia ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.16063962876796722
+    }
+  },
+  {
+    "text": "como remeter emprego para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.11471681296825409
+    }
+  },
+  {
+    "text": "como endereçar ocupação para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.11235509812831879
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal rogo . Desde já , agraciamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.1920207142829895
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal imploração . Desde já , penhoramos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.1878654807806015
+    }
+  },
+  {
+    "text": "PM SANTA CRUZ - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int339",
+      "confidence": 0.14071246981620789
+    }
+  },
+  {
+    "text": "PM nobre tormento - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int650",
+      "confidence": 0.09212794899940491
+    }
+  },
+  {
+    "text": "como isolar uma estimação",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.111873559653759
+    }
+  },
+  {
+    "text": "como dar consentimento no cápsula obras",
+    "intent": "int507",
+    "intent_prediction": {
+      "name": "int359",
+      "confidence": 0.06488127261400223
+    }
+  },
+  {
+    "text": "como dar anuência no entonação obras",
+    "intent": "int507",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.09882500767707825
+    }
+  },
+  {
+    "text": "como segregar uma feito",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.13218052685260773
+    }
+  },
+  {
+    "text": "Bom dia , Segue print ao tentar acessar o sai Obras , comunico que não estou sabendo acessar a mais de 7 dias , em todas as trabalhos abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int564",
+    "intent_prediction": {
+      "name": "int571",
+      "confidence": 0.16533862054347992
+    }
+  },
+  {
+    "text": "A obra com código 437.010.2022 não está aparecendo o termo aditivo , aí quando vou acrescentar as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo . também gostaria de ter um retorno referente a exclusão de algumas obras duplicados no sistema ( enviei um email falando sobre ) . Desde já obrigada .",
+    "intent": "int565",
+    "intent_prediction": {
+      "name": "int570",
+      "confidence": 0.22792217135429382
+    }
+  },
+  {
+    "text": "A obra com código 437.010.2022 não está aparecendo o termo aditivo , aí quando vou adicionar as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo . também gostaria de ter um retorno referente a exclusão de algumas obras duplos no sistema ( enviei um email falando sobre ) . Desde já obrigada .",
+    "intent": "int565",
+    "intent_prediction": {
+      "name": "int570",
+      "confidence": 0.236534982919693
+    }
+  },
+  {
+    "text": "como dar autorização na funcionalidade",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.13833850622177124
+    }
+  },
+  {
+    "text": "como dar assentimento na função",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.1666633039712906
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das referências .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.30887287855148315
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das noções .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.3086513578891754
+    }
+  },
+  {
+    "text": "estabelecimento djalma marítimo prazo sispatri",
+    "intent": "int637",
+    "intent_prediction": {
+      "name": "int636",
+      "confidence": 0.12724848091602325
+    }
+  },
+  {
+    "text": "Contato dap ?",
+    "intent": "int766",
+    "intent_prediction": {
+      "name": "int820",
+      "confidence": 0.11900005489587784
+    }
+  },
+  {
+    "text": "tocamento dap ?",
+    "intent": "int766",
+    "intent_prediction": {
+      "name": "int820",
+      "confidence": 0.15060751140117645
+    }
+  },
+  {
+    "text": "Pm afonso almalha – sessão . numero do formalidade",
+    "intent": "int776",
+    "intent_prediction": {
+      "name": "int775",
+      "confidence": 0.16044467687606812
+    }
+  },
+  {
+    "text": "contacto da dd -",
+    "intent": "int808",
+    "intent_prediction": {
+      "name": "int820",
+      "confidence": 0.0812428891658783
+    }
+  },
+  {
+    "text": "toque da por isso .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int662",
+      "confidence": 0.03995008021593094
+    }
+  },
+  {
+    "text": "tato da então .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int766",
+      "confidence": 0.1452634185552597
+    }
+  },
+  {
+    "text": "05/10 Contato do setor de licitação .",
+    "intent": "int824",
+    "intent_prediction": {
+      "name": "int213",
+      "confidence": 0.09097175300121307
+    }
+  },
+  {
+    "text": "Usuário gostaria de enviar o uma defesa ?",
+    "intent": "int849",
+    "intent_prediction": {
+      "name": "int420",
+      "confidence": 0.12997834384441376
+    }
+  },
+  {
+    "text": "por onde implorar referências ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.2043961137533188
+    }
+  },
+  {
+    "text": "por onde suplicar noções ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.22387322783470154
+    }
+  },
+  {
+    "text": "como despachar papéis para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.14485594630241394
+    }
+  },
+  {
+    "text": "como enviar oficio para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.1045413613319397
+    }
+  },
+  {
+    "text": "com atentar cédulas para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int44",
+      "confidence": 0.11088347434997559
+    }
+  },
+  {
+    "text": "com endereçar ideias para o tce",
+    "intent": "int44",
+    "intent_prediction": {
+      "name": "int43",
+      "confidence": 0.11265578120946884
+    }
+  },
+  {
+    "text": "Como protocolar uma defesa ? de forma on line .",
+    "intent": "int57",
+    "intent_prediction": {
+      "name": "int711",
+      "confidence": 0.0709826648235321
+    }
+  },
+  {
+    "text": "Processo físico – informar-se teor de providências",
+    "intent": "int85",
+    "intent_prediction": {
+      "name": "int648",
+      "confidence": 0.09996099770069122
+    }
+  },
+  {
+    "text": "melindres sobre o atestamento do anexo 13",
+    "intent": "int95",
+    "intent_prediction": {
+      "name": "int744",
+      "confidence": 0.12895794212818146
+    }
+  },
+  {
+    "text": "Boa tarde , Sou servidora da Secretaria de Obras do município de Parnamirim/RN e não estou conseguindo inserir as informações para emissão do recibo do anexo 13 no sistema do sai FISCAL.Considere os seguintes fatos abaixo , gostaria de notícias de como posso resolver essa situação atípica  - A licitação foi realizada em 2008 , conforme edital nº 01/2008 através da modalidade de concorrência . - Não existe anexo 38 da referida licitação ( porque naquela época não havia a compulsoriedade ) .- No momento do cadastro do anexo 13 , na tela do sai FISCAL só é permitido o cadastro de contratos até 2011 ( então mesmo que tivesse o anexo 38 eu não conseguiria começar o cadastro do anexo 13 ) .- Em Junho de 2020 , foram realizados informativos referente às medições e ordens de serviços que ouvem ao longo da execução para o anexo 23 ( consultar recibo nº 3098 , processo de despesa 76042 ) .A partir das informações apresentadas acima , gostaria de um direcionamento de como posso emitir o anexo 13 devido tantas limitações que foram encontradas no sistema do sai FISCAL . Tendo em vista , que hoje o processo encontra-se no sétimo aditivo e nada foi informado ao TCE , gostaria de solicitar maior brevidade para solucionar essa questão .",
+    "intent": "int115",
+    "intent_prediction": {
+      "name": "int518",
+      "confidence": 0.1397487223148346
+    }
+  },
+  {
+    "text": "onde assento os documentos",
+    "intent": "int195",
+    "intent_prediction": {
+      "name": "int460",
+      "confidence": 0.04630245640873909
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , agradecemos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.21676643192768097
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal insistência . Desde já , regraciamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.21372781693935394
+    }
+  },
+  {
+    "text": "Cm equador – Joana - nota fiscal de envio de contas de gestão , usuário informa que La aparece uma mensagem indicando que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.20008288323879242
+    }
+  },
+  {
+    "text": "Cm equador – Joana - talão de envio de contas de gestão , usuário informa que La aparece uma mensagem educando que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.1965683549642563
+    }
+  },
+  {
+    "text": "qual o numero do telefone da dae",
+    "intent": "int313",
+    "intent_prediction": {
+      "name": "int730",
+      "confidence": 0.1259339302778244
+    }
+  },
+  {
+    "text": "qual o algarismo do contato da dae",
+    "intent": "int313",
+    "intent_prediction": {
+      "name": "int730",
+      "confidence": 0.14717358350753784
+    }
+  },
+  {
+    "text": "como segregar uma aferição",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.16084779798984528
+    }
+  },
+  {
+    "text": "como marginalizar uma apreciação",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.16978535056114197
+    }
+  },
+  {
+    "text": "como lançar um aditivo",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.07856839150190353
+    }
+  },
+  {
+    "text": "Prezados ( as ) , venho por meio deste solicitar a exclusão de obra cadastrada em dualidade no sai Obras do Município de Lucrécia . Segue conhecimentos da dualidade . Código da obra  4090272021",
+    "intent": "int562",
+    "intent_prediction": {
+      "name": "int572",
+      "confidence": 0.19792968034744263
+    }
+  },
+  {
+    "text": "como dar visto na finalidade",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.1497899442911148
+    }
+  },
+  {
+    "text": "como dar aquiescência na aplicação",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.10554642975330353
+    }
+  },
+  {
+    "text": "como recuperar a senha",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int682",
+      "confidence": 0.08767293393611908
+    }
+  },
+  {
+    "text": "PM SÃO tentou SISPATRI",
+    "intent": "int650",
+    "intent_prediction": {
+      "name": "int372",
+      "confidence": 0.146246999502182
+    }
+  },
+  {
+    "text": "polícia sarará AFONSO- SISPATRI",
+    "intent": "int651",
+    "intent_prediction": {
+      "name": "int372",
+      "confidence": 0.09825514256954193
+    }
+  },
+  {
+    "text": "qual vinculo coloco na declaração do sispatri",
+    "intent": "int662",
+    "intent_prediction": {
+      "name": "int684",
+      "confidence": 0.09842008352279663
+    }
+  },
+  {
+    "text": "qual registro adquirir para o sispatri",
+    "intent": "int673",
+    "intent_prediction": {
+      "name": "int684",
+      "confidence": 0.17312170565128326
+    }
+  },
+  {
+    "text": "Pm afonso bezerra – sessão . numero da DAM .",
+    "intent": "int775",
+    "intent_prediction": {
+      "name": "int776",
+      "confidence": 0.19977425038814545
+    }
+  },
+  {
+    "text": "cifra setor de movimentos",
+    "intent": "int782",
+    "intent_prediction": {
+      "name": "int363",
+      "confidence": 0.09545779973268509
+    }
+  },
+  {
+    "text": "total setor de comunicação",
+    "intent": "int782",
+    "intent_prediction": {
+      "name": "int865",
+      "confidence": 0.0357239805161953
+    }
+  },
+  {
+    "text": "Qual o ramal da presidência -",
+    "intent": "int787",
+    "intent_prediction": {
+      "name": "int354",
+      "confidence": 0.1079271137714386
+    }
+  },
+  {
+    "text": "Qual o telefone de Ronald Assessoria jurídica .",
+    "intent": "int814",
+    "intent_prediction": {
+      "name": "int806",
+      "confidence": 0.10147862881422043
+    }
+  },
+  {
+    "text": "contacto da por esse motivo .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int839",
+      "confidence": 0.07222948223352432
+    }
+  },
+  {
+    "text": "por onde solicitar informação ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.1661192923784256
+    }
+  },
+  {
+    "text": "para remeter instâncias para o tce",
+    "intent": "int33",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.06999124586582184
+    }
+  },
+  {
+    "text": "como expedir trabalho para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.14206472039222717
+    }
+  },
+  {
+    "text": "como despachar profissão para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.14778701961040497
+    }
+  },
+  {
+    "text": "como enviar documentos para o tribunal",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int53",
+      "confidence": 0.11774825304746628
+    }
+  },
+  {
+    "text": "como enviar cédulas para o judicatura",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.1569627970457077
+    }
+  },
+  {
+    "text": "Qual o horário máximo para protocolar defesa ?",
+    "intent": "int68",
+    "intent_prediction": {
+      "name": "int839",
+      "confidence": 0.09245647490024567
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal pedido . Desde já , gratificamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.34013548493385315
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal súplica . Desde já , gratulamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.33667656779289246
+    }
+  },
+  {
+    "text": "raiva solicitação de nada consta , quanto tempo ?",
+    "intent": "int255",
+    "intent_prediction": {
+      "name": "int861",
+      "confidence": 0.06744341552257538
+    }
+  },
+  {
+    "text": "insistência certidão escusa quanto tempo",
+    "intent": "int260",
+    "intent_prediction": {
+      "name": "int859",
+      "confidence": 0.08942321687936783
+    }
+  },
+  {
+    "text": "como funcionar para dar aquiescência ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.14186634123325348
+    }
+  },
+  {
+    "text": "como obrar para dar assentimento ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.09219738841056824
+    }
+  },
+  {
+    "text": "Qual o contato do gab da presidencia",
+    "intent": "int354",
+    "intent_prediction": {
+      "name": "int730",
+      "confidence": 0.06938789784908295
+    }
+  },
+  {
+    "text": "Qual o contacto do gab da governo",
+    "intent": "int354",
+    "intent_prediction": {
+      "name": "int730",
+      "confidence": 0.08787967264652252
+    }
+  },
+  {
+    "text": "por no qual aceder",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.08726296573877335
+    }
+  },
+  {
+    "text": "PM tirar - ambiguidade sobre negócios",
+    "intent": "int477",
+    "intent_prediction": {
+      "name": "int799",
+      "confidence": 0.09344569593667984
+    }
+  },
+  {
+    "text": "como excluir uma medição",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.1653953641653061
+    }
+  },
+  {
+    "text": "como separar uma mensuração",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.17028595507144928
+    }
+  },
+  {
+    "text": "como dar autorização no medida obras",
+    "intent": "int507",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.08269640058279037
+    }
+  },
+  {
+    "text": "Prezados ( as ) , venho por meio deste solicitar a exclusão de obra cadastrada em duplicidade no sai Obras do Município de Lucrécia . Segue informações da duplicidade . Código da obra  4090272021",
+    "intent": "int562",
+    "intent_prediction": {
+      "name": "int572",
+      "confidence": 0.26603415608406067
+    }
+  },
+  {
+    "text": "Prezados ( as ) , venho por meio deste solicitar a exclusão de obra cadastrada em dissimulação no sai Obras do Município de Lucrécia . Segue referências da dissimulação . Código da obra  4090272021",
+    "intent": "int562",
+    "intent_prediction": {
+      "name": "int572",
+      "confidence": 0.23459771275520325
+    }
+  },
+  {
+    "text": "Bom dia , Segue print ao tentar acessar o sai Obras , comunico que não estou conseguindo acessar a mais de 7 dias , em todas as tentativas abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int564",
+    "intent_prediction": {
+      "name": "int571",
+      "confidence": 0.22772276401519775
+    }
+  },
+  {
+    "text": "Bom dia , Segue print ao tentar acessar o sai Obras , comunico que não estou podendo acessar a mais de 7 dias , em todas as empresas abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int564",
+    "intent_prediction": {
+      "name": "int571",
+      "confidence": 0.27211761474609375
+    }
+  },
+  {
+    "text": "PREFEITURA DE CEARÁ MIRIMTentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das noções .",
+    "intent": "int625",
+    "intent_prediction": {
+      "name": "int626",
+      "confidence": 0.3464413583278656
+    }
+  },
+  {
+    "text": "PREFEITURA DE CEARÁ MIRIMTentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das pesquisas .",
+    "intent": "int625",
+    "intent_prediction": {
+      "name": "int626",
+      "confidence": 0.33945146203041077
+    }
+  },
+  {
+    "text": "criação djalma oceânico prazo sispatri",
+    "intent": "int637",
+    "intent_prediction": {
+      "name": "int636",
+      "confidence": 0.15748444199562073
+    }
+  },
+  {
+    "text": "formação djalma pelágico prazo sispatri",
+    "intent": "int637",
+    "intent_prediction": {
+      "name": "int636",
+      "confidence": 0.20139582455158234
+    }
+  },
+  {
+    "text": "como proceder para alterar email",
+    "intent": "int682",
+    "intent_prediction": {
+      "name": "int676",
+      "confidence": 0.16346429288387299
+    }
+  },
+  {
+    "text": "como ver ideias do sai intendente -",
+    "intent": "int741",
+    "intent_prediction": {
+      "name": "int17",
+      "confidence": 0.05137547850608826
+    }
+  },
+  {
+    "text": "tocadela dap ?",
+    "intent": "int766",
+    "intent_prediction": {
+      "name": "int808",
+      "confidence": 0.0671728178858757
+    }
+  },
+  {
+    "text": "Contato da DAÍ .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int782",
+      "confidence": 0.07480395585298538
+    }
+  },
+  {
+    "text": "tocadela da a seguir .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int456",
+      "confidence": 0.0649423748254776
+    }
+  }
+]
