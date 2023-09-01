@@ -1,0 +1,362 @@
+[
+  {
+    "text": "com adereçar pesquisas para o tce",
+    "intent": "int44",
+    "intent_prediction": {
+      "name": "int43",
+      "confidence": 0.1300896555185318
+    }
+  },
+  {
+    "text": "Silmara – anexo 13 – 2 negócios em um único metodologia",
+    "intent": "int128",
+    "intent_prediction": {
+      "name": "int130",
+      "confidence": 0.19243812561035156
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , agradecemos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.23986640572547913
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal súplica . Desde já , gratulamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.2348819524049759
+    }
+  },
+  {
+    "text": "como agir para dar anuência ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int374",
+      "confidence": 0.09523991495370865
+    }
+  },
+  {
+    "text": "como marginalizar uma apreciação",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.09169548004865646
+    }
+  },
+  {
+    "text": "como recuperar a senha",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int327",
+      "confidence": 0.06054350733757019
+    }
+  },
+  {
+    "text": "toque dap ?",
+    "intent": "int766",
+    "intent_prediction": {
+      "name": "int820",
+      "confidence": 0.2197837382555008
+    }
+  },
+  {
+    "text": "Protocolar recurso como fazer",
+    "intent": "int779",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.10627201944589615
+    }
+  },
+  {
+    "text": "Qual o enfiada da possibilidade -",
+    "intent": "int787",
+    "intent_prediction": {
+      "name": "int456",
+      "confidence": 0.06442470103502274
+    }
+  },
+  {
+    "text": "Qual o fiada da alçada -",
+    "intent": "int787",
+    "intent_prediction": {
+      "name": "int354",
+      "confidence": 0.08027629554271698
+    }
+  },
+  {
+    "text": "ideias sobre o prova",
+    "intent": "int799",
+    "intent_prediction": {
+      "name": "int774",
+      "confidence": 0.09065638482570648
+    }
+  },
+  {
+    "text": "quejando o contacto da procuradoria ?",
+    "intent": "int802",
+    "intent_prediction": {
+      "name": "int899",
+      "confidence": 0.05402285233139992
+    }
+  },
+  {
+    "text": "Contato da DAÍ .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int813",
+      "confidence": 0.08656194806098938
+    }
+  },
+  {
+    "text": "contacto da por esse motivo .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int814",
+      "confidence": 0.056048255413770676
+    }
+  },
+  {
+    "text": "Qual a hora da seção do pleno -",
+    "intent": "int853",
+    "intent_prediction": {
+      "name": "int899",
+      "confidence": 0.13161912560462952
+    }
+  },
+  {
+    "text": "por onde solicitar informação ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.1823716014623642
+    }
+  },
+  {
+    "text": "por onde pedir conhecimento ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.17657962441444397
+    }
+  },
+  {
+    "text": "25/03 Silmara – anexo 13 – 2 contratos em um único processo",
+    "intent": "int130",
+    "intent_prediction": {
+      "name": "int128",
+      "confidence": 0.21990491449832916
+    }
+  },
+  {
+    "text": "25/03 Silmara – anexo 13 – 2 parcerias em um único técnica",
+    "intent": "int130",
+    "intent_prediction": {
+      "name": "int128",
+      "confidence": 0.2254713624715805
+    }
+  },
+  {
+    "text": "qual o total do contacto da dae",
+    "intent": "int313",
+    "intent_prediction": {
+      "name": "int730",
+      "confidence": 0.19387783110141754
+    }
+  },
+  {
+    "text": "por onde acessar",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.0708514079451561
+    }
+  },
+  {
+    "text": "A obra com código 437.010.2022 não está aparecendo o termo aditivo , aí quando vou incluir as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo . também gostaria de ter um retorno referente a exclusão de algumas obras dúplices no sistema ( enviei um email falando sobre ) . Desde já obrigada .",
+    "intent": "int565",
+    "intent_prediction": {
+      "name": "int570",
+      "confidence": 0.22666378319263458
+    }
+  },
+  {
+    "text": "PM albino AFONSO- SISPATRI",
+    "intent": "int651",
+    "intent_prediction": {
+      "name": "int775",
+      "confidence": 0.0654233768582344
+    }
+  },
+  {
+    "text": "como trocar email",
+    "intent": "int676",
+    "intent_prediction": {
+      "name": "int682",
+      "confidence": 0.18953832983970642
+    }
+  },
+  {
+    "text": "24/03 Comprovante de rendimentos -",
+    "intent": "int755",
+    "intent_prediction": {
+      "name": "int405",
+      "confidence": 0.04040087014436722
+    }
+  },
+  {
+    "text": "por onde suplicar noção ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.1688554584980011
+    }
+  },
+  {
+    "text": "por onde solicitar informações ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.18469423055648804
+    }
+  },
+  {
+    "text": "com entender papéis para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.09442838281393051
+    }
+  },
+  {
+    "text": "quanto tempo fica pronta a projeção de atestado .",
+    "intent": "int265",
+    "intent_prediction": {
+      "name": "int476",
+      "confidence": 0.0842488631606102
+    }
+  },
+  {
+    "text": "inauguração comando das artes usuário comum",
+    "intent": "int328",
+    "intent_prediction": {
+      "name": "int342",
+      "confidence": 0.15884758532047272
+    }
+  },
+  {
+    "text": "PM Pedro velho- Troca de prefeito municipal – troca do portal do gestor -",
+    "intent": "int350",
+    "intent_prediction": {
+      "name": "int308",
+      "confidence": 0.06796752661466599
+    }
+  },
+  {
+    "text": "como pedir se tem moda no em",
+    "intent": "int359",
+    "intent_prediction": {
+      "name": "int255",
+      "confidence": 0.0647810772061348
+    }
+  },
+  {
+    "text": "como fazer para cessar um direito",
+    "intent": "int374",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.0945177972316742
+    }
+  },
+  {
+    "text": "como isolar uma estimação",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.13157232105731964
+    }
+  },
+  {
+    "text": "por onde despachar o sai luzes",
+    "intent": "int579",
+    "intent_prediction": {
+      "name": "int195",
+      "confidence": 0.13828273117542267
+    }
+  },
+  {
+    "text": "por onde endereçar o sai perspectivas",
+    "intent": "int579",
+    "intent_prediction": {
+      "name": "int195",
+      "confidence": 0.12340328842401505
+    }
+  },
+  {
+    "text": "como reaver a aceno",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.09673815965652466
+    }
+  },
+  {
+    "text": "PM forte propôs SISPATRI",
+    "intent": "int650",
+    "intent_prediction": {
+      "name": "int372",
+      "confidence": 0.14556914567947388
+    }
+  },
+  {
+    "text": "qual associação coloco na asserção do sispatri",
+    "intent": "int662",
+    "intent_prediction": {
+      "name": "int673",
+      "confidence": 0.1632298082113266
+    }
+  },
+  {
+    "text": "como proceder para alterar email",
+    "intent": "int682",
+    "intent_prediction": {
+      "name": "int676",
+      "confidence": 0.23564136028289795
+    }
+  },
+  {
+    "text": "qual cifra do aparelho da dag",
+    "intent": "int730",
+    "intent_prediction": {
+      "name": "int313",
+      "confidence": 0.17875950038433075
+    }
+  },
+  {
+    "text": "qual total do contacto da dag",
+    "intent": "int730",
+    "intent_prediction": {
+      "name": "int313",
+      "confidence": 0.17014990746974945
+    }
+  },
+  {
+    "text": "Pm afonso almalha – sessão . numero do formalidade",
+    "intent": "int776",
+    "intent_prediction": {
+      "name": "int775",
+      "confidence": 0.1889454424381256
+    }
+  },
+  {
+    "text": "Número do recursos humanos",
+    "intent": "int789",
+    "intent_prediction": {
+      "name": "int782",
+      "confidence": 0.06994929164648056
+    }
+  }
+]
