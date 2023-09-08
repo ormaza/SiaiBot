@@ -18,7 +18,7 @@ pipeline:
   constrain_similarities: true
 - name: EntitySynonymMapper
 - name: FallbackClassifier
-  threshold: 0.7
+  threshold: 0.1
   ambiguity_threshold: 0.1
 policies: null
 # # No configuration for policies was provided. The following default policies were used to train your model.
