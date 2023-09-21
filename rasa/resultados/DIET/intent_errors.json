@@ -1,0 +1,826 @@
+[
+  {
+    "text": "como expedir notas para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int53",
+      "confidence": 0.11749321967363358
+    }
+  },
+  {
+    "text": "como remeter emprego para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.12178698927164078
+    }
+  },
+  {
+    "text": "como endereçar ocupação para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int53",
+      "confidence": 0.10101477801799774
+    }
+  },
+  {
+    "text": "como enviar papéis para o conselho",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.13473162055015564
+    }
+  },
+  {
+    "text": "com ouvir documentos para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.09452776610851288
+    }
+  },
+  {
+    "text": "com atentar cédulas para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.12319543957710266
+    }
+  },
+  {
+    "text": "Boa tarde , Sou servidora da Secretaria de Obras do município de Parnamirim/RN e não estou conseguindo inserir as informações para emissão do recibo do anexo 13 no sistema do sai FISCAL.Considere os seguintes fatos abaixo , gostaria de contas de como posso resolver essa situação atípica  - A licitação foi realizada em 2008 , conforme edital nº 01/2008 através da modalidade de concorrência . - Não existe anexo 38 da referida licitação ( porque naquela época não havia a exigência ) .- No momento do cadastro do anexo 13 , na tela do sai FISCAL só é permitido o cadastro de contratos até 2011 ( então mesmo que tivesse o anexo 38 eu não conseguiria começar o cadastro do anexo 13 ) .- Em Junho de 2020 , foram realizados informativos referente às medições e ordens de serviços que ouvem ao longo da execução para o anexo 23 ( consultar recibo nº 3098 , processo de despesa 76042 ) .A partir das informações apresentadas acima , gostaria de um direcionamento de como posso emitir o anexo 13 devido tantas limitações que foram encontradas no sistema do sai FISCAL . Tendo em vista , que hoje o processo encontra-se no sétimo aditivo e nada foi informado ao TCE , gostaria de solicitar maior brevidade para solucionar essa questão .",
+    "intent": "int115",
+    "intent_prediction": {
+      "name": "int518",
+      "confidence": 0.3866685926914215
+    }
+  },
+  {
+    "text": "Boa tarde , Sou servidora da Secretaria de Obras do município de Parnamirim/RN e não estou conseguindo inserir as informações para emissão do recibo do anexo 13 no sistema do sai FISCAL.Considere os seguintes fatos abaixo , gostaria de informes de como posso resolver essa situação atípica  - A licitação foi realizada em 2008 , conforme edital nº 01/2008 através da modalidade de concorrência . - Não existe anexo 38 da referida licitação ( porque naquela época não havia a determinação ) .- No momento do cadastro do anexo 13 , na tela do sai FISCAL só é permitido o cadastro de contratos até 2011 ( então mesmo que tivesse o anexo 38 eu não conseguiria começar o cadastro do anexo 13 ) .- Em Junho de 2020 , foram realizados informativos referente às medições e ordens de serviços que ouvem ao longo da execução para o anexo 23 ( consultar recibo nº 3098 , processo de despesa 76042 ) .A partir das informações apresentadas acima , gostaria de um direcionamento de como posso emitir o anexo 13 devido tantas limitações que foram encontradas no sistema do sai FISCAL . Tendo em vista , que hoje o processo encontra-se no sétimo aditivo e nada foi informado ao TCE , gostaria de solicitar maior brevidade para solucionar essa questão .",
+    "intent": "int115",
+    "intent_prediction": {
+      "name": "int518",
+      "confidence": 0.3883073925971985
+    }
+  },
+  {
+    "text": "onde banco os contratos",
+    "intent": "int195",
+    "intent_prediction": {
+      "name": "int766",
+      "confidence": 0.04396064206957817
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo físico nº 005991/2016-02 , contrato nº 56/2016 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  81485 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , gratulamos . delicadamente ,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.24461238086223602
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo físico nº 005991/2016-02 , contrato nº 56/2016 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  81485 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , agraciamos . cortesmente ,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.24648220837116241
+    }
+  },
+  {
+    "text": "como mudar a senha do utente gerenciador",
+    "intent": "int327",
+    "intent_prediction": {
+      "name": "int832",
+      "confidence": 0.1271858662366867
+    }
+  },
+  {
+    "text": "25/06 PM monte alegre – acesso a uma unidade jurisdicionada . Venho por meio deste solicitar adição da unidade gestora Fundo Municipal de Saúde e Fundo Municipal de Assistência Social junto ao acesso do servidor Ruan Pablo Medeiros Dantas no Portal do Gestor , para que seja possível posteriormente a prestação de informações relacionadas as unidades em questão.A solicitação parte do usuário gerenciador do órgão que vos fala , alocado na Prefeitura Municipal de Monte Alegre/RN .",
+    "intent": "int330",
+    "intent_prediction": {
+      "name": "int319",
+      "confidence": 0.23525658249855042
+    }
+  },
+  {
+    "text": "25/06 PM monte alegre – acesso a uma unidade jurisdicionada . Venho por meio deste solicitar adição da unidade gestora Fundo Municipal de Saúde e Fundo Municipal de Assistência Social junto ao acesso do servidor Ruan Pablo Medeiros Dantas no Portal do Gestor , para que seja possível de seguida a prestação de informações pertinentes as unidades em questão.A solicitação parte do usuário gerenciador do órgão que vos fala , alocado na Prefeitura Municipal de Monte Alegre/RN .",
+    "intent": "int330",
+    "intent_prediction": {
+      "name": "int319",
+      "confidence": 0.21915632486343384
+    }
+  },
+  {
+    "text": "como consultar se tem tendências no em",
+    "intent": "int359",
+    "intent_prediction": {
+      "name": "int365",
+      "confidence": 0.08076661825180054
+    }
+  },
+  {
+    "text": "PM SANTA CRUZ - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int904",
+      "confidence": 0.06676554679870605
+    }
+  },
+  {
+    "text": "PM bonita oh - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int904",
+      "confidence": 0.14431266486644745
+    }
+  },
+  {
+    "text": "PM UPANEMA - Dúvida para localizar o recibo do Anexo 13",
+    "intent": "int517",
+    "intent_prediction": {
+      "name": "int154",
+      "confidence": 0.11090143769979477
+    }
+  },
+  {
+    "text": "como atirar um adicional",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.0959121435880661
+    }
+  },
+  {
+    "text": "como marginalizar uma atividade",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.14577394723892212
+    }
+  },
+  {
+    "text": "Prezados ( as ) , venho por meio deste solicitar a exclusão de obra cadastrada em fingimento no sai Obras do Município de Lucrécia . Segue ideias da fingimento . Código da obra  4090272021",
+    "intent": "int562",
+    "intent_prediction": {
+      "name": "int572",
+      "confidence": 0.23188453912734985
+    }
+  },
+  {
+    "text": "Prezados ( as ) , venho por meio deste solicitar a exclusão de obra cadastrada em hipocrisia no sai Obras do Município de Lucrécia . Segue pesquisas da hipocrisia . Código da obra  4090272021",
+    "intent": "int562",
+    "intent_prediction": {
+      "name": "int572",
+      "confidence": 0.23887911438941956
+    }
+  },
+  {
+    "text": "como dar aquiescência na aplicação",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.12825220823287964
+    }
+  },
+  {
+    "text": "PREFEITURA DE CEARÁ MIRIMTentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fiéis no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das conhecimentos .",
+    "intent": "int625",
+    "intent_prediction": {
+      "name": "int626",
+      "confidence": 0.24803921580314636
+    }
+  },
+  {
+    "text": "PREFEITURA DE CEARÁ MIRIMTentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das pesquisas .",
+    "intent": "int625",
+    "intent_prediction": {
+      "name": "int626",
+      "confidence": 0.2538492977619171
+    }
+  },
+  {
+    "text": "como reassumir a gesto",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.1372680366039276
+    }
+  },
+  {
+    "text": "como retomar a indício",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.11997206509113312
+    }
+  },
+  {
+    "text": "remessa de conhecimentos",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.07857250422239304
+    }
+  },
+  {
+    "text": "24/03 recibo de possibilidade -",
+    "intent": "int755",
+    "intent_prediction": {
+      "name": "int824",
+      "confidence": 0.0950852632522583
+    }
+  },
+  {
+    "text": "Informação sobre processo -",
+    "intent": "int774",
+    "intent_prediction": {
+      "name": "int799",
+      "confidence": 0.08006784319877625
+    }
+  },
+  {
+    "text": "Pm afonso novilha – sessão . numero do etiqueta",
+    "intent": "int776",
+    "intent_prediction": {
+      "name": "int775",
+      "confidence": 0.22151106595993042
+    }
+  },
+  {
+    "text": "Pm afonso vitela – sessão . numero do cerimônia",
+    "intent": "int776",
+    "intent_prediction": {
+      "name": "int775",
+      "confidence": 0.20848095417022705
+    }
+  },
+  {
+    "text": "Qual o ramo da comando -",
+    "intent": "int787",
+    "intent_prediction": {
+      "name": "int354",
+      "confidence": 0.10803045332431793
+    }
+  },
+  {
+    "text": "Número do recursos humanos",
+    "intent": "int789",
+    "intent_prediction": {
+      "name": "int782",
+      "confidence": 0.07458563148975372
+    }
+  },
+  {
+    "text": "por onde pedir conhecimentos ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.1950802206993103
+    }
+  },
+  {
+    "text": "por onde suplicar noções ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.19381707906723022
+    }
+  },
+  {
+    "text": "como enviar oficio para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.0793902575969696
+    }
+  },
+  {
+    "text": "como despachar profissão para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.1326284557580948
+    }
+  },
+  {
+    "text": "com escutar títulos para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.1188962385058403
+    }
+  },
+  {
+    "text": "com perceber notas para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int53",
+      "confidence": 0.09028808027505875
+    }
+  },
+  {
+    "text": "como enviar protocolo para o TCE",
+    "intent": "int53",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.10044318437576294
+    }
+  },
+  {
+    "text": "Qual o horário máximo para protocolar defesa ?",
+    "intent": "int68",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.07640057057142258
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo físico nº 005991/2016-02 , contrato nº 56/2016 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  81485 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , gratificamos . gentilmente ,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.23775500059127808
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo físico nº 005991/2016-02 , contrato nº 56/2016 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  81485 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , regraciamos . polidamente ,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.23713581264019012
+    }
+  },
+  {
+    "text": "Cm equador – Joana - Comprovante de envio de contas de gestão , usuário informa que La aparece uma mensagem informando que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.22816479206085205
+    }
+  },
+  {
+    "text": "Cm equador – Joana - talão de envio de contas de gestão , usuário informa que La aparece uma mensagem educando que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.23029346764087677
+    }
+  },
+  {
+    "text": "Venho por meio deste solicitar adição da unidade gestora Fundo Municipal de Saúde e Fundo Municipal de Assistência Social junto ao meu acesso no Portal do Gestor , para que seja possível de seguida a prestação de informações pertinentes as unidades em questão . A solicitação parte do Assessor contábil que vos fala , alocado na Prefeitura Municipal de Monte Alegre/RN .",
+    "intent": "int319",
+    "intent_prediction": {
+      "name": "int330",
+      "confidence": 0.3006203770637512
+    }
+  },
+  {
+    "text": "PM altruísta madeiro - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int370",
+      "confidence": 0.08271118253469467
+    }
+  },
+  {
+    "text": "por onde acessar",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.046610038727521896
+    }
+  },
+  {
+    "text": "como disparar um extraordinário",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.07873111963272095
+    }
+  },
+  {
+    "text": "como separar uma ação",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.10795366019010544
+    }
+  },
+  {
+    "text": "como segregar uma feito",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.1368711292743683
+    }
+  },
+  {
+    "text": "25/03 A obra com código 437.010.2022 não está aparecendo o termo aditivo , aí quando vou adicionar as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo . também gostaria de ter um retorno referente a exclusão de algumas obras duplos no sistema ( enviei um email falando sobre ) . Desde já obrigada .",
+    "intent": "int570",
+    "intent_prediction": {
+      "name": "int565",
+      "confidence": 0.2539043426513672
+    }
+  },
+  {
+    "text": "25/03 A obra com código 437.010.2022 não está aparecendo o termo aditivo , aí quando vou incluir as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo . também gostaria de ter um retorno referente a exclusão de algumas obras dúplices no sistema ( enviei um email falando sobre ) . Desde já obrigada .",
+    "intent": "int570",
+    "intent_prediction": {
+      "name": "int565",
+      "confidence": 0.25157442688941956
+    }
+  },
+  {
+    "text": "25/03 Bom dia , Segue print ao tentar acessar o sai Obras , comunico que não estou conseguindo acessar a mais de 7 dias , em todas as tentativas abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int571",
+    "intent_prediction": {
+      "name": "int564",
+      "confidence": 0.23401568830013275
+    }
+  },
+  {
+    "text": "25/03 Bom dia , Segue print ao tentar acessar o sai Obras , comunico que não estou realizando acessar a mais de 7 dias , em todas as feitos abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int571",
+    "intent_prediction": {
+      "name": "int564",
+      "confidence": 0.2442854791879654
+    }
+  },
+  {
+    "text": "domínio – PM enxurradas – curso no sai obras ?",
+    "intent": "int574",
+    "intent_prediction": {
+      "name": "int478",
+      "confidence": 0.08054397255182266
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores constantes no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das informações .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.24226251244544983
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das ideias .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.25109854340553284
+    }
+  },
+  {
+    "text": "como recuperar a senha",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.06164702773094177
+    }
+  },
+  {
+    "text": "PM SÃO tentou SISPATRI",
+    "intent": "int650",
+    "intent_prediction": {
+      "name": "int673",
+      "confidence": 0.08548390120267868
+    }
+  },
+  {
+    "text": "qual arquivo importar para o sispatri",
+    "intent": "int673",
+    "intent_prediction": {
+      "name": "int684",
+      "confidence": 0.16149663925170898
+    }
+  },
+  {
+    "text": "24/03 nota fiscal de capacidade -",
+    "intent": "int755",
+    "intent_prediction": {
+      "name": "int123",
+      "confidence": 0.06643098592758179
+    }
+  },
+  {
+    "text": "15/09 Maria da paz - Numero da instituto do comando -",
+    "intent": "int771",
+    "intent_prediction": {
+      "name": "int123",
+      "confidence": 0.05620647221803665
+    }
+  },
+  {
+    "text": "Qual o telefone da procuradoria ?",
+    "intent": "int802",
+    "intent_prediction": {
+      "name": "int313",
+      "confidence": 0.08539623767137527
+    }
+  },
+  {
+    "text": "toque da por isso .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int393",
+      "confidence": 0.11924131959676743
+    }
+  },
+  {
+    "text": "por onde solicitar informações ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.17159031331539154
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int44",
+      "confidence": 0.09545185416936874
+    }
+  },
+  {
+    "text": "como adereçar cédulas para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int43",
+      "confidence": 0.10957133769989014
+    }
+  },
+  {
+    "text": "como expedir trabalho para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int53",
+      "confidence": 0.16755516827106476
+    }
+  },
+  {
+    "text": "PM queira - levou registro de consulta por e-mail",
+    "intent": "int39",
+    "intent_prediction": {
+      "name": "int40",
+      "confidence": 0.16500000655651093
+    }
+  },
+  {
+    "text": "como enviar documentos para o tribunal",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int45",
+      "confidence": 0.09862364083528519
+    }
+  },
+  {
+    "text": "04/10 Ipem Marília – como gera pra pôr uma inexigibilidade ?",
+    "intent": "int206",
+    "intent_prediction": {
+      "name": "int545",
+      "confidence": 0.16381731629371643
+    }
+  },
+  {
+    "text": "Cm equador – Joana - nota fiscal de envio de contas de gestão , usuário informa que La aparece uma mensagem indicando que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.26841631531715393
+    }
+  },
+  {
+    "text": "Cm equador – Joana - comprovação de envio de contas de gestão , usuário informa que La aparece uma mensagem abordando que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.2875992953777313
+    }
+  },
+  {
+    "text": "inauguração comando das artes usuário comum",
+    "intent": "int328",
+    "intent_prediction": {
+      "name": "int321",
+      "confidence": 0.09113314747810364
+    }
+  },
+  {
+    "text": "25/06 PM monte alegre – acesso a uma unidade jurisdicionada . Venho por meio deste solicitar adição da unidade gestora Fundo Municipal de Saúde e Fundo Municipal de Assistência Social junto ao acesso do servidor Ruan Pablo Medeiros Dantas no Portal do Gestor , para que seja possível em seguida a prestação de informações familiares as unidades em questão.A solicitação parte do usuário gerenciador do órgão que vos fala , alocado na Prefeitura Municipal de Monte Alegre/RN .",
+    "intent": "int330",
+    "intent_prediction": {
+      "name": "int319",
+      "confidence": 0.20218007266521454
+    }
+  },
+  {
+    "text": "25/06 PM monte alegre – acesso a uma unidade jurisdicionada . Venho por meio deste solicitar adição da unidade gestora Fundo Municipal de Saúde e Fundo Municipal de Assistência Social junto ao acesso do servidor Ruan Pablo Medeiros Dantas no Portal do Gestor , para que seja possível futuramente a prestação de informações familiares as unidades em questão.A solicitação parte do usuário gerenciador do órgão que vos fala , alocado na Prefeitura Municipal de Monte Alegre/RN .",
+    "intent": "int330",
+    "intent_prediction": {
+      "name": "int319",
+      "confidence": 0.20228135585784912
+    }
+  },
+  {
+    "text": "como solicitar o codigo de acesso do em",
+    "intent": "int358",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.13493533432483673
+    }
+  },
+  {
+    "text": "ericlenio 996653005 sai obras - Para variar o prazo de vigência de uma obra , como funcionar",
+    "intent": "int497",
+    "intent_prediction": {
+      "name": "int103",
+      "confidence": 0.21091246604919434
+    }
+  },
+  {
+    "text": "como isolar uma estimação",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.11759863793849945
+    }
+  },
+  {
+    "text": "como jogar um complementar",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.07328639179468155
+    }
+  },
+  {
+    "text": "como apartar uma ato",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.16352210938930511
+    }
+  },
+  {
+    "text": "Bom dia , Segue print ao tentar acessar o sai Obras , comunico que não estou sabendo acessar a mais de 7 dias , em todas as trabalhos abre essa página em branco.Júlio César de Brito FerreiraControlador",
+    "intent": "int564",
+    "intent_prediction": {
+      "name": "int571",
+      "confidence": 0.19405554234981537
+    }
+  },
+  {
+    "text": "25/03 A obra com código 437.010.2022 não está aparecendo o termo aditivo , aí quando vou juntar as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo . também gostaria de ter um retorno referente a exclusão de algumas obras dobrados no sistema ( enviei um email falando sobre ) . Desde já obrigada .",
+    "intent": "int570",
+    "intent_prediction": {
+      "name": "int565",
+      "confidence": 0.26856517791748047
+    }
+  },
+  {
+    "text": "25/03 A obra com código 437.010.2022 não está aparecendo o termo aditivo , aí quando vou somar as medições o valor não bate.segue em anexo o recibo 13 do termo aditivo . também gostaria de ter um retorno referente a exclusão de algumas obras repetidos no sistema ( enviei um email falando sobre ) . Desde já obrigada .",
+    "intent": "int570",
+    "intent_prediction": {
+      "name": "int565",
+      "confidence": 0.26284563541412354
+    }
+  },
+  {
+    "text": "25/03 Prezados ( as ) , venho por meio deste solicitar a exclusão de obra cadastrada em fingimento no sai Obras do Município de Lucrécia . Segue ideias da fingimento . Código da obra  4090272021",
+    "intent": "int572",
+    "intent_prediction": {
+      "name": "int562",
+      "confidence": 0.17085887491703033
+    }
+  },
+  {
+    "text": "por onde enviar o sai quadros",
+    "intent": "int579",
+    "intent_prediction": {
+      "name": "int729",
+      "confidence": 0.0479157455265522
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das referências .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.24273963272571564
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das pesquisas .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.24157263338565826
+    }
+  },
+  {
+    "text": "TJ - metro – oficial de justiça . 88201388",
+    "intent": "int638",
+    "intent_prediction": {
+      "name": "int469",
+      "confidence": 0.048450276255607605
+    }
+  },
+  {
+    "text": "15/09 Maria da paz - Numero da escola do governo -",
+    "intent": "int771",
+    "intent_prediction": {
+      "name": "int725",
+      "confidence": 0.11109191179275513
+    }
+  },
+  {
+    "text": "Pm afonso novilha – sessão . algarismo da DAM .",
+    "intent": "int775",
+    "intent_prediction": {
+      "name": "int776",
+      "confidence": 0.16236981749534607
+    }
+  },
+  {
+    "text": "Pm afonso vitela – sessão . soma da DAM .",
+    "intent": "int775",
+    "intent_prediction": {
+      "name": "int776",
+      "confidence": 0.2115207016468048
+    }
+  },
+  {
+    "text": "Número do respostas seres",
+    "intent": "int789",
+    "intent_prediction": {
+      "name": "int17",
+      "confidence": 0.050802040845155716
+    }
+  },
+  {
+    "text": "prezaria de exprimir com Davi .",
+    "intent": "int791",
+    "intent_prediction": {
+      "name": "int888",
+      "confidence": 0.0965716540813446
+    }
+  },
+  {
+    "text": "conhecimentos sobre o competição",
+    "intent": "int799",
+    "intent_prediction": {
+      "name": "int774",
+      "confidence": 0.15344977378845215
+    }
+  },
+  {
+    "text": "Qual o telefone de Ronald Assessoria jurídica .",
+    "intent": "int814",
+    "intent_prediction": {
+      "name": "int823",
+      "confidence": 0.03986312076449394
+    }
+  },
+  {
+    "text": "Contato da DAÍ .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int766",
+      "confidence": 0.07634551078081131
+    }
+  },
+  {
+    "text": "tocadela da a seguir .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int766",
+      "confidence": 0.07321376353502274
+    }
+  },
+  {
+    "text": "Qual a hora da segmentação do todo -",
+    "intent": "int853",
+    "intent_prediction": {
+      "name": "int313",
+      "confidence": 0.05239522457122803
+    }
+  },
+  {
+    "text": "hop dr cleodon - ar de 2017 com problema e pergunta se precisa reenviar -",
+    "intent": "int905",
+    "intent_prediction": {
+      "name": "int51",
+      "confidence": 0.14398714900016785
+    }
+  },
+  {
+    "text": "Senha de em combate a pré-datado do tce .",
+    "intent": "int912",
+    "intent_prediction": {
+      "name": "int48",
+      "confidence": 0.053164344280958176
+    }
+  }
+]
