@@ -1,0 +1,3666 @@
+[
+  {
+    "text": "como tive informe de bens",
+    "intent": "int0",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.060233376920223236
+    }
+  },
+  {
+    "text": "7513/2016 - cuida sore metodologia albergaria",
+    "intent": "int5",
+    "intent_prediction": {
+      "name": "int792",
+      "confidence": 0.10311262309551239
+    }
+  },
+  {
+    "text": "qual a ferramenta para solicitação informação",
+    "intent": "int6",
+    "intent_prediction": {
+      "name": "int265",
+      "confidence": 0.02976240962743759
+    }
+  },
+  {
+    "text": "como rogar pesquisas para o tribunal",
+    "intent": "int9",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.07754217833280563
+    }
+  },
+  {
+    "text": "com implorar referência ao tce rn",
+    "intent": "int12",
+    "intent_prediction": {
+      "name": "int0",
+      "confidence": 0.03996859863400459
+    }
+  },
+  {
+    "text": "com suplicar noção ao tce rn",
+    "intent": "int12",
+    "intent_prediction": {
+      "name": "int711",
+      "confidence": 0.06344962865114212
+    }
+  },
+  {
+    "text": "com rogar base ao tce rn",
+    "intent": "int12",
+    "intent_prediction": {
+      "name": "int635",
+      "confidence": 0.0886760726571083
+    }
+  },
+  {
+    "text": "Gostaria de solicitar os Dados dos Servidores ( efetivos e contratos efêmero ) e suas rendimentos no primeiro semestre de 2021 .",
+    "intent": "int13",
+    "intent_prediction": {
+      "name": "int291",
+      "confidence": 0.04857579618692398
+    }
+  },
+  {
+    "text": "por onde solicitar informação ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int711",
+      "confidence": 0.051197659224271774
+    }
+  },
+  {
+    "text": "por onde implorar referência ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.10504192858934402
+    }
+  },
+  {
+    "text": "por onde solicitar informações ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int17",
+      "confidence": 0.0524512380361557
+    }
+  },
+  {
+    "text": "por onde instar ideias ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.15539051592350006
+    }
+  },
+  {
+    "text": "como adquirir ideias do tce",
+    "intent": "int17",
+    "intent_prediction": {
+      "name": "int711",
+      "confidence": 0.08286690711975098
+    }
+  },
+  {
+    "text": "po onde enviar cédulas de forma científica para o tce",
+    "intent": "int21",
+    "intent_prediction": {
+      "name": "int33",
+      "confidence": 0.0886707678437233
+    }
+  },
+  {
+    "text": "como remeter títulos para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.1274060606956482
+    }
+  },
+  {
+    "text": "como expedir notas para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int44",
+      "confidence": 0.09668780863285065
+    }
+  },
+  {
+    "text": "como adereçar cédulas para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.06762703508138657
+    }
+  },
+  {
+    "text": "Estamos tentando efetuar o censo de pessoa física para peticionamento e acusa o erro seguido no print anexo .",
+    "intent": "int29",
+    "intent_prediction": {
+      "name": "int583",
+      "confidence": 0.10536038130521774
+    }
+  },
+  {
+    "text": "mikael - adv - como se inscrever para envio de referências ?",
+    "intent": "int30",
+    "intent_prediction": {
+      "name": "int886",
+      "confidence": 0.0398944728076458
+    }
+  },
+  {
+    "text": "mikael - adv - como se fichar para envio de pesquisas ?",
+    "intent": "int30",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.044437475502491
+    }
+  },
+  {
+    "text": "para endereçar demandas para o tce",
+    "intent": "int33",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.11370455473661423
+    }
+  },
+  {
+    "text": "como despachar profissão para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.07751330733299255
+    }
+  },
+  {
+    "text": "PM queira - trouxe identidade de consulta por e-mail",
+    "intent": "int39",
+    "intent_prediction": {
+      "name": "int716",
+      "confidence": 0.03450114652514458
+    }
+  },
+  {
+    "text": "como enviar títulos para o foro",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int9",
+      "confidence": 0.054037656635046005
+    }
+  },
+  {
+    "text": "como enviar cédulas para o judicatura",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.07101162523031235
+    }
+  },
+  {
+    "text": "com escutar títulos para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int44",
+      "confidence": 0.09480661153793335
+    }
+  },
+  {
+    "text": "com perceber notas para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.06417151540517807
+    }
+  },
+  {
+    "text": "com entender papéis para o tce",
+    "intent": "int43",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.09286224842071533
+    }
+  },
+  {
+    "text": "com remeter conhecimentos para o tce",
+    "intent": "int44",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.09467088431119919
+    }
+  },
+  {
+    "text": "com expedir referências para o tce",
+    "intent": "int44",
+    "intent_prediction": {
+      "name": "int33",
+      "confidence": 0.06554299592971802
+    }
+  },
+  {
+    "text": "com adereçar pesquisas para o tce",
+    "intent": "int44",
+    "intent_prediction": {
+      "name": "int33",
+      "confidence": 0.09589402377605438
+    }
+  },
+  {
+    "text": "Como protocolar uma defesa ? de forma on line .",
+    "intent": "int57",
+    "intent_prediction": {
+      "name": "int790",
+      "confidence": 0.08668756484985352
+    }
+  },
+  {
+    "text": "Qual o pontual máximo para convencional defesa ?",
+    "intent": "int68",
+    "intent_prediction": {
+      "name": "int853",
+      "confidence": 0.13297101855278015
+    }
+  },
+  {
+    "text": "Qual o agenda máximo para cerimonioso defesa ?",
+    "intent": "int68",
+    "intent_prediction": {
+      "name": "int853",
+      "confidence": 0.13689830899238586
+    }
+  },
+  {
+    "text": "Soraia - procurando estandardizado petição . Recebe senha com 6 dígitos mas o sistema informa que tem de ser .",
+    "intent": "int69",
+    "intent_prediction": {
+      "name": "int357",
+      "confidence": 0.05796918645501137
+    }
+  },
+  {
+    "text": "PM extremo – Vinicius – e-tce – usuário relata não chegar peticionar ideia no e-tce -",
+    "intent": "int81",
+    "intent_prediction": {
+      "name": "int600",
+      "confidence": 0.07649467885494232
+    }
+  },
+  {
+    "text": "Processo físico – instruir-se teor de medidas",
+    "intent": "int85",
+    "intent_prediction": {
+      "name": "int761",
+      "confidence": 0.0767008364200592
+    }
+  },
+  {
+    "text": "Dúvidas sobre o preenchimento do anexo 13",
+    "intent": "int95",
+    "intent_prediction": {
+      "name": "int157",
+      "confidence": 0.05120238661766052
+    }
+  },
+  {
+    "text": "PM RN – problema de recibo - como lançar um aditivo de um contrato ?",
+    "intent": "int132",
+    "intent_prediction": {
+      "name": "int323",
+      "confidence": 0.07315021753311157
+    }
+  },
+  {
+    "text": "Defensoria – fernanda – portal do gestor – como designar o fiscal ? É imprescindível vestíbulo ?",
+    "intent": "int135",
+    "intent_prediction": {
+      "name": "int813",
+      "confidence": 0.04820927232503891
+    }
+  },
+  {
+    "text": "termo de ajuda onde o orgão pode jogar",
+    "intent": "int137",
+    "intent_prediction": {
+      "name": "int57",
+      "confidence": 0.05991506949067116
+    }
+  },
+  {
+    "text": "termo de apoio onde o orgão pode arremessar",
+    "intent": "int137",
+    "intent_prediction": {
+      "name": "int0",
+      "confidence": 0.03675580397248268
+    }
+  },
+  {
+    "text": "PM Antonio Martins - Erro continuação aditamento 14 -",
+    "intent": "int155",
+    "intent_prediction": {
+      "name": "int163",
+      "confidence": 0.07716520130634308
+    }
+  },
+  {
+    "text": "Dúvida sobre o envio da planilha dos participantes",
+    "intent": "int193",
+    "intent_prediction": {
+      "name": "int264",
+      "confidence": 0.05935101583600044
+    }
+  },
+  {
+    "text": "Pm afonso bezerra valeria – anexo 38 – duvida – ao preencher a que de membros ela informou 3 , mas ao colocar os conhecidos , ela informou um e o sistema nao permitiu continuar pedindo informação de outros 2 membros .",
+    "intent": "int202",
+    "intent_prediction": {
+      "name": "int109",
+      "confidence": 0.07613220065832138
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal súplica . Desde já , gratulamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.13262297213077545
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal rogo . Desde já , agraciamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.13592906296253204
+    }
+  },
+  {
+    "text": "SEC . EDUC . NATAL . Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo eletrônico nº -20210461615 , contrato nº 47/2020 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  245520 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal insistência . Desde já , regraciamos .",
+    "intent": "int208",
+    "intent_prediction": {
+      "name": "int209",
+      "confidence": 0.139038547873497
+    }
+  },
+  {
+    "text": "Pm natal – termo de dispensa – usuária precisa alterar uma informação no anexo 38 mas não está encontrando o recibo . . alteração do anexo 38 301141 .",
+    "intent": "int211",
+    "intent_prediction": {
+      "name": "int107",
+      "confidence": 0.09252198040485382
+    }
+  },
+  {
+    "text": "Cm cruzada – Israel – pendenga sobre Unidade de Controle Interno como estabelecer ?",
+    "intent": "int236",
+    "intent_prediction": {
+      "name": "int862",
+      "confidence": 0.027781637385487556
+    }
+  },
+  {
+    "text": "solicitação certidão negativa quanto tempo",
+    "intent": "int260",
+    "intent_prediction": {
+      "name": "int476",
+      "confidence": 0.09461242705583572
+    }
+  },
+  {
+    "text": "imploração certidão rejeição quanto tempo",
+    "intent": "int260",
+    "intent_prediction": {
+      "name": "int12",
+      "confidence": 0.061884328722953796
+    }
+  },
+  {
+    "text": "insistência certidão escusa quanto tempo",
+    "intent": "int260",
+    "intent_prediction": {
+      "name": "int730",
+      "confidence": 0.08049651235342026
+    }
+  },
+  {
+    "text": "PM Martins – oficio – querendo certidão de execução",
+    "intent": "int264",
+    "intent_prediction": {
+      "name": "int286",
+      "confidence": 0.08167710155248642
+    }
+  },
+  {
+    "text": "Cm equador – Joana - recibo de envio de contas de gestão , usuário informa que La aparece uma mensagem dizendo que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.1244858130812645
+    }
+  },
+  {
+    "text": "Cm equador – Joana - talão de envio de contas de gestão , usuário informa que La aparece uma mensagem educando que o recibo não comprova quitação do órgão junto ao tce e pergunta o q fazer",
+    "intent": "int273",
+    "intent_prediction": {
+      "name": "int272",
+      "confidence": 0.1363924890756607
+    }
+  },
+  {
+    "text": "como dar uma autorização para um utilizador",
+    "intent": "int296",
+    "intent_prediction": {
+      "name": "int456",
+      "confidence": 0.04127221927046776
+    }
+  },
+  {
+    "text": "como dar uma assentimento para um usador",
+    "intent": "int296",
+    "intent_prediction": {
+      "name": "int0",
+      "confidence": 0.04044044017791748
+    }
+  },
+  {
+    "text": "qual o algarismo do contato da dae",
+    "intent": "int313",
+    "intent_prediction": {
+      "name": "int839",
+      "confidence": 0.08871844410896301
+    }
+  },
+  {
+    "text": "carne – pm natal- alentar – como arquivar usuário comum ?",
+    "intent": "int321",
+    "intent_prediction": {
+      "name": "int456",
+      "confidence": 0.0863281711935997
+    }
+  },
+  {
+    "text": "como transformar a senha do cliente gerenciador",
+    "intent": "int327",
+    "intent_prediction": {
+      "name": "int0",
+      "confidence": 0.08052390068769455
+    }
+  },
+  {
+    "text": "como trocar a senha do usador gerenciador",
+    "intent": "int327",
+    "intent_prediction": {
+      "name": "int741",
+      "confidence": 0.05967734009027481
+    }
+  },
+  {
+    "text": "inauguração comando das artes usuário comum",
+    "intent": "int328",
+    "intent_prediction": {
+      "name": "int331",
+      "confidence": 0.034040629863739014
+    }
+  },
+  {
+    "text": "como faz registro do consumidor gerenciador",
+    "intent": "int331",
+    "intent_prediction": {
+      "name": "int327",
+      "confidence": 0.11341383308172226
+    }
+  },
+  {
+    "text": "Governo – liberar funções para utilizador comum -",
+    "intent": "int342",
+    "intent_prediction": {
+      "name": "int341",
+      "confidence": 0.08111096918582916
+    }
+  },
+  {
+    "text": "Governo – liberar utilidades para utente comum -",
+    "intent": "int342",
+    "intent_prediction": {
+      "name": "int341",
+      "confidence": 0.10568898171186447
+    }
+  },
+  {
+    "text": "Governo – liberar serventias para cliente comum -",
+    "intent": "int342",
+    "intent_prediction": {
+      "name": "int849",
+      "confidence": 0.08047934621572495
+    }
+  },
+  {
+    "text": "PM Pedro velho- Troca de alcaide – permuta do portal do gestor -",
+    "intent": "int350",
+    "intent_prediction": {
+      "name": "int337",
+      "confidence": 0.17293907701969147
+    }
+  },
+  {
+    "text": "PM Pedro velho- Troca de alcaide – permutação do portal do gestor -",
+    "intent": "int350",
+    "intent_prediction": {
+      "name": "int337",
+      "confidence": 0.1562204658985138
+    }
+  },
+  {
+    "text": "como proceder para dar autorização ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int17",
+      "confidence": 0.08472157269716263
+    }
+  },
+  {
+    "text": "como funcionar para dar aquiescência ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int17",
+      "confidence": 0.065488800406456
+    }
+  },
+  {
+    "text": "como obrar para dar assentimento ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int682",
+      "confidence": 0.06552967429161072
+    }
+  },
+  {
+    "text": "PM Mossoró - jansen – portaria de degradação – quem é a pessoa q assina a requerimento ?",
+    "intent": "int356",
+    "intent_prediction": {
+      "name": "int620",
+      "confidence": 0.08952782303094864
+    }
+  },
+  {
+    "text": "como pedir o codigo de entrada do em",
+    "intent": "int358",
+    "intent_prediction": {
+      "name": "int741",
+      "confidence": 0.08074609935283661
+    }
+  },
+  {
+    "text": "como instar o codigo de introdução do em",
+    "intent": "int358",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.07445719093084335
+    }
+  },
+  {
+    "text": "como instruir-se se tem orientações no em",
+    "intent": "int359",
+    "intent_prediction": {
+      "name": "int9",
+      "confidence": 0.07310251891613007
+    }
+  },
+  {
+    "text": "como pedir se tem moda no em",
+    "intent": "int359",
+    "intent_prediction": {
+      "name": "int741",
+      "confidence": 0.05372762307524681
+    }
+  },
+  {
+    "text": "aptidões no legis , cmo arredar",
+    "intent": "int370",
+    "intent_prediction": {
+      "name": "int832",
+      "confidence": 0.07655295729637146
+    }
+  },
+  {
+    "text": "moda no legis , cmo apartar",
+    "intent": "int370",
+    "intent_prediction": {
+      "name": "int713",
+      "confidence": 0.04628956317901611
+    }
+  },
+  {
+    "text": "PM bonita oh - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int320",
+      "confidence": 0.09059585630893707
+    }
+  },
+  {
+    "text": "PM benevolente sofrimento - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int651",
+      "confidence": 0.06576277315616608
+    }
+  },
+  {
+    "text": "PM nobre tormento - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int320",
+      "confidence": 0.04839601740241051
+    }
+  },
+  {
+    "text": "como fazer para cessar um direito",
+    "intent": "int374",
+    "intent_prediction": {
+      "name": "int741",
+      "confidence": 0.08369124680757523
+    }
+  },
+  {
+    "text": "PM serra do mel – Andre – legis – quais leis enviar ?",
+    "intent": "int376",
+    "intent_prediction": {
+      "name": "int681",
+      "confidence": 0.032177992165088654
+    }
+  },
+  {
+    "text": "Dúvida sobre o envio das leis antigas",
+    "intent": "int383",
+    "intent_prediction": {
+      "name": "int761",
+      "confidence": 0.07125364989042282
+    }
+  },
+  {
+    "text": "por onde acessar",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.02570846676826477
+    }
+  },
+  {
+    "text": "por em que parte entrar",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int370",
+      "confidence": 0.06407643854618073
+    }
+  },
+  {
+    "text": "por em que comunicar",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int648",
+      "confidence": 0.04951908811926842
+    }
+  },
+  {
+    "text": "pm vila flor - thais – para quem encaminhar ?",
+    "intent": "int456",
+    "intent_prediction": {
+      "name": "int761",
+      "confidence": 0.026711100712418556
+    }
+  },
+  {
+    "text": "pm vila graça - thais – para quem nortear ?",
+    "intent": "int456",
+    "intent_prediction": {
+      "name": "int477",
+      "confidence": 0.06500770896673203
+    }
+  },
+  {
+    "text": "onde fica disponibilizado o questionário",
+    "intent": "int460",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.06010421738028526
+    }
+  },
+  {
+    "text": "onde fica facultado o inquirição",
+    "intent": "int460",
+    "intent_prediction": {
+      "name": "int792",
+      "confidence": 0.038359127938747406
+    }
+  },
+  {
+    "text": "onde fica providenciado o questionamento",
+    "intent": "int460",
+    "intent_prediction": {
+      "name": "int325",
+      "confidence": 0.04491359740495682
+    }
+  },
+  {
+    "text": "apareceu pendências com obras na PREFEITURA DE SÃO GONÇALO E NOS FUNDOS .",
+    "intent": "int475",
+    "intent_prediction": {
+      "name": "int688",
+      "confidence": 0.055114712566137314
+    }
+  },
+  {
+    "text": "apareceu conflitos com obras na municipalidade DE SÃO GONÇALO E NOS FUNDOS .",
+    "intent": "int475",
+    "intent_prediction": {
+      "name": "int633",
+      "confidence": 0.10910936444997787
+    }
+  },
+  {
+    "text": "que documento é a demoraria de calculo",
+    "intent": "int476",
+    "intent_prediction": {
+      "name": "int265",
+      "confidence": 0.07599063962697983
+    }
+  },
+  {
+    "text": "que documentação é a temporizaria de calculo",
+    "intent": "int476",
+    "intent_prediction": {
+      "name": "int260",
+      "confidence": 0.12743349373340607
+    }
+  },
+  {
+    "text": "PM tirar - confusão sobre demandas",
+    "intent": "int477",
+    "intent_prediction": {
+      "name": "int383",
+      "confidence": 0.07549738138914108
+    }
+  },
+  {
+    "text": "PM tirar - ambiguidade sobre negócios",
+    "intent": "int477",
+    "intent_prediction": {
+      "name": "int286",
+      "confidence": 0.04621344059705734
+    }
+  },
+  {
+    "text": "Obra de 2016 – é obrigado a cadastrar no sai obras ?",
+    "intent": "int495",
+    "intent_prediction": {
+      "name": "int325",
+      "confidence": 0.07829345762729645
+    }
+  },
+  {
+    "text": "PM cruzada - Dúvida sobre interrogar o numero do recibo que não brota .",
+    "intent": "int503",
+    "intent_prediction": {
+      "name": "int862",
+      "confidence": 0.06354658305644989
+    }
+  },
+  {
+    "text": "como excluir uma medição",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.06964240968227386
+    }
+  },
+  {
+    "text": "como dar autorização no medida obras",
+    "intent": "int507",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.057098135352134705
+    }
+  },
+  {
+    "text": "como dar licença no padrão obras",
+    "intent": "int507",
+    "intent_prediction": {
+      "name": "int359",
+      "confidence": 0.0378483384847641
+    }
+  },
+  {
+    "text": "como dar assentimento no inflexão obras",
+    "intent": "int507",
+    "intent_prediction": {
+      "name": "int370",
+      "confidence": 0.04017287492752075
+    }
+  },
+  {
+    "text": "Flavia pm sao jose mipibu – o sai obras está está com problemas ?",
+    "intent": "int516",
+    "intent_prediction": {
+      "name": "int449",
+      "confidence": 0.05251055210828781
+    }
+  },
+  {
+    "text": "como jogar um complementar",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.06736667454242706
+    }
+  },
+  {
+    "text": "como arremessar um suplementar",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int507",
+      "confidence": 0.04110192880034447
+    }
+  },
+  {
+    "text": "como disparar um extraordinário",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int832",
+      "confidence": 0.07339595258235931
+    }
+  },
+  {
+    "text": "como apartar uma ato",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.0863351970911026
+    }
+  },
+  {
+    "text": "como segregar uma feito",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int676",
+      "confidence": 0.05472438782453537
+    }
+  },
+  {
+    "text": "como isolar uma trabalho",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int648",
+      "confidence": 0.05169227346777916
+    }
+  },
+  {
+    "text": "Olá , achei que estava dependente porque quando adentramos nas obras ficam algumas abas com cor laranja ( dependente ) então eu posso ignorar ?",
+    "intent": "int549",
+    "intent_prediction": {
+      "name": "int410",
+      "confidence": 0.02780514396727085
+    }
+  },
+  {
+    "text": "04/03 - PM PASSAGEM - washington duvida sai obras – USUÁRIO RELATA QUE UMA OBRA FOI CADASTRADA E A SITUAÇÃO COLOCADA COMO INICIADA EMBORA A MESMA DEPENDA DE RECURSOS DE BANCO E O MESMO AINDA NÃO FOI LIBERADO .",
+    "intent": "int553",
+    "intent_prediction": {
+      "name": "int688",
+      "confidence": 0.07632654905319214
+    }
+  },
+  {
+    "text": "Sec plan pau dos ferros – Valéria - - número obra - 437.001.2021 - estimaçãos de obra – medição de dezembro com 2 estimaçãos ,",
+    "intent": "int567",
+    "intent_prediction": {
+      "name": "int550",
+      "confidence": 0.12251468747854233
+    }
+  },
+  {
+    "text": "24/03 Sec meio ecossistema estado – faixa de BDI toma",
+    "intent": "int569",
+    "intent_prediction": {
+      "name": "int492",
+      "confidence": 0.07310611754655838
+    }
+  },
+  {
+    "text": "predomínio – PM bateladas – curso no sai obras ?",
+    "intent": "int574",
+    "intent_prediction": {
+      "name": "int167",
+      "confidence": 0.060112446546554565
+    }
+  },
+  {
+    "text": "por onde enviar o sai quadros",
+    "intent": "int579",
+    "intent_prediction": {
+      "name": "int676",
+      "confidence": 0.052397310733795166
+    }
+  },
+  {
+    "text": "como dar aprovação na aplicabilidade",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int0",
+      "confidence": 0.04214630648493767
+    }
+  },
+  {
+    "text": "como dar assentimento na função",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int331",
+      "confidence": 0.07649854570627213
+    }
+  },
+  {
+    "text": "Cm são Gonçalo – Cristiane – sai quadro – dados gerais de carga guarda um cifra",
+    "intent": "int586",
+    "intent_prediction": {
+      "name": "int368",
+      "confidence": 0.18983052670955658
+    }
+  },
+  {
+    "text": "Raquel - PM natal – sai quadro – existe um leiaute para importação de cargo do sai aspectos ?",
+    "intent": "int588",
+    "intent_prediction": {
+      "name": "int390",
+      "confidence": 0.0603998526930809
+    }
+  },
+  {
+    "text": "USUÁRIA INFORMOU QUE NÃO CONSEGUE ATUALIZAR O sai FISCAL E NEM INCLUIR NENHUM ÓRGÃO NO SEU ACESSO QUE SURGE O ERRO CONFORME IMAGEM REJANECONTABILIDADE @ HOTMAIL.COM",
+    "intent": "int614",
+    "intent_prediction": {
+      "name": "int688",
+      "confidence": 0.11827690899372101
+    }
+  },
+  {
+    "text": "mas NOVA CRUZ . juízos na geração do registro .",
+    "intent": "int620",
+    "intent_prediction": {
+      "name": "int356",
+      "confidence": 0.05556013435125351
+    }
+  },
+  {
+    "text": "mas NOVA CRUZ . boa na geração do tombo .",
+    "intent": "int620",
+    "intent_prediction": {
+      "name": "int429",
+      "confidence": 0.045003607869148254
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das referências .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.1462412029504776
+    }
+  },
+  {
+    "text": "25/03 PREFEITURA DE CEARÁ MIRIM Tentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das ideias .",
+    "intent": "int626",
+    "intent_prediction": {
+      "name": "int625",
+      "confidence": 0.1561843305826187
+    }
+  },
+  {
+    "text": "assistente que entrou esse ano precisa enviar as conhecimentos ?",
+    "intent": "int630",
+    "intent_prediction": {
+      "name": "int430",
+      "confidence": 0.040513552725315094
+    }
+  },
+  {
+    "text": "ajudante que entrou esse ano precisa enviar as noções ?",
+    "intent": "int630",
+    "intent_prediction": {
+      "name": "int193",
+      "confidence": 0.03344382718205452
+    }
+  },
+  {
+    "text": "auxiliar que entrou esse ano precisa enviar as ideias ?",
+    "intent": "int630",
+    "intent_prediction": {
+      "name": "int863",
+      "confidence": 0.041331272572278976
+    }
+  },
+  {
+    "text": "Solicitado alteração de e-mail cadastrado no SISPATRI .",
+    "intent": "int633",
+    "intent_prediction": {
+      "name": "int593",
+      "confidence": 0.052074458450078964
+    }
+  },
+  {
+    "text": "como reaver a aceno",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.10056804120540619
+    }
+  },
+  {
+    "text": "como retomar a indício",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.031859640032052994
+    }
+  },
+  {
+    "text": "Fundação djalma marinho prazo sispatri",
+    "intent": "int637",
+    "intent_prediction": {
+      "name": "int761",
+      "confidence": 0.06189781799912453
+    }
+  },
+  {
+    "text": "formação djalma pelágico prazo sispatri",
+    "intent": "int637",
+    "intent_prediction": {
+      "name": "int761",
+      "confidence": 0.057234764099121094
+    }
+  },
+  {
+    "text": "inauguração djalma pelágico prazo sispatri",
+    "intent": "int637",
+    "intent_prediction": {
+      "name": "int841",
+      "confidence": 0.034592822194099426
+    }
+  },
+  {
+    "text": "encaminhamento de pesquisas",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int383",
+      "confidence": 0.1112508550286293
+    }
+  },
+  {
+    "text": "PM sadio buscou SISPATRI",
+    "intent": "int650",
+    "intent_prediction": {
+      "name": "int320",
+      "confidence": 0.06696199625730515
+    }
+  },
+  {
+    "text": "PM albino AFONSO- SISPATRI",
+    "intent": "int651",
+    "intent_prediction": {
+      "name": "int650",
+      "confidence": 0.0780985951423645
+    }
+  },
+  {
+    "text": "qual elo coloco na afirmativa do sispatri",
+    "intent": "int662",
+    "intent_prediction": {
+      "name": "int830",
+      "confidence": 0.0677337720990181
+    }
+  },
+  {
+    "text": "qual associação coloco na asserção do sispatri",
+    "intent": "int662",
+    "intent_prediction": {
+      "name": "int712",
+      "confidence": 0.04615289345383644
+    }
+  },
+  {
+    "text": "TJ - SARA - Duvida para baixar o inventário .DEC do site da indicações .",
+    "intent": "int667",
+    "intent_prediction": {
+      "name": "int797",
+      "confidence": 0.07680905610322952
+    }
+  },
+  {
+    "text": "qual registro adquirir para o sispatri",
+    "intent": "int673",
+    "intent_prediction": {
+      "name": "int713",
+      "confidence": 0.10618263483047485
+    }
+  },
+  {
+    "text": "qual cadastro trazer para o sispatri",
+    "intent": "int673",
+    "intent_prediction": {
+      "name": "int713",
+      "confidence": 0.06530163437128067
+    }
+  },
+  {
+    "text": "Fundo de apoio social recipiente grande- primeiro acesso ao sistema",
+    "intent": "int674",
+    "intent_prediction": {
+      "name": "int103",
+      "confidence": 0.040205441415309906
+    }
+  },
+  {
+    "text": "como faz para reaver aceno no sispatri",
+    "intent": "int678",
+    "intent_prediction": {
+      "name": "int9",
+      "confidence": 0.07844938337802887
+    }
+  },
+  {
+    "text": "como operar para transformar email",
+    "intent": "int682",
+    "intent_prediction": {
+      "name": "int9",
+      "confidence": 0.07215342670679092
+    }
+  },
+  {
+    "text": "25/06 Pgj – Simone – sispatri , complicações ao acessar o composto .",
+    "intent": "int698",
+    "intent_prediction": {
+      "name": "int644",
+      "confidence": 0.07168344408273697
+    }
+  },
+  {
+    "text": "como cumprir-se assertiva de saida",
+    "intent": "int711",
+    "intent_prediction": {
+      "name": "int779",
+      "confidence": 0.05684942379593849
+    }
+  },
+  {
+    "text": "alterar email do sispatri",
+    "intent": "int713",
+    "intent_prediction": {
+      "name": "int675",
+      "confidence": 0.13015452027320862
+    }
+  },
+  {
+    "text": "onde dar com os layout de contas de governança",
+    "intent": "int729",
+    "intent_prediction": {
+      "name": "int45",
+      "confidence": 0.09372197091579437
+    }
+  },
+  {
+    "text": "onde esbarrar os layout de contas de chefia",
+    "intent": "int729",
+    "intent_prediction": {
+      "name": "int371",
+      "confidence": 0.037576399743556976
+    }
+  },
+  {
+    "text": "qual total do contacto da dag",
+    "intent": "int730",
+    "intent_prediction": {
+      "name": "int782",
+      "confidence": 0.0437326654791832
+    }
+  },
+  {
+    "text": "qual conta do contacto da dag",
+    "intent": "int730",
+    "intent_prediction": {
+      "name": "int775",
+      "confidence": 0.036632973700761795
+    }
+  },
+  {
+    "text": "usador obteve o reparcelamento da dívida .",
+    "intent": "int732",
+    "intent_prediction": {
+      "name": "int574",
+      "confidence": 0.0524212084710598
+    }
+  },
+  {
+    "text": "como ver informações do sai fiscal -",
+    "intent": "int741",
+    "intent_prediction": {
+      "name": "int9",
+      "confidence": 0.05291132628917694
+    }
+  },
+  {
+    "text": "como ver conhecimentos do sai tributário -",
+    "intent": "int741",
+    "intent_prediction": {
+      "name": "int0",
+      "confidence": 0.05742833763360977
+    }
+  },
+  {
+    "text": "Dúvida sobre o preenchimento do anexo",
+    "intent": "int744",
+    "intent_prediction": {
+      "name": "int57",
+      "confidence": 0.04856160283088684
+    }
+  },
+  {
+    "text": "Marli – educação estado - recebeu Carta do TCE e não sabe como agir inatividade",
+    "intent": "int752",
+    "intent_prediction": {
+      "name": "int872",
+      "confidence": 0.055774036794900894
+    }
+  },
+  {
+    "text": "24/03 recibo de possibilidade -",
+    "intent": "int755",
+    "intent_prediction": {
+      "name": "int800",
+      "confidence": 0.08310731500387192
+    }
+  },
+  {
+    "text": "24/03 talão de posses -",
+    "intent": "int755",
+    "intent_prediction": {
+      "name": "int804",
+      "confidence": 0.035294994711875916
+    }
+  },
+  {
+    "text": "Processo – está tentando instruir-se e não está destacando no site .",
+    "intent": "int757",
+    "intent_prediction": {
+      "name": "int447",
+      "confidence": 0.03886382654309273
+    }
+  },
+  {
+    "text": "Eugenio comunicabilidade qual o total das recepcionistas",
+    "intent": "int759",
+    "intent_prediction": {
+      "name": "int789",
+      "confidence": 0.0451924167573452
+    }
+  },
+  {
+    "text": "Eugenio conversa qual o soma das recepcionistas",
+    "intent": "int759",
+    "intent_prediction": {
+      "name": "int460",
+      "confidence": 0.04986494407057762
+    }
+  },
+  {
+    "text": "Renata - usuária gostaria de falar com o gabinete de Sr Thompson .",
+    "intent": "int760",
+    "intent_prediction": {
+      "name": "int821",
+      "confidence": 0.15042948722839355
+    }
+  },
+  {
+    "text": "Isabela – inauguração qual o numero oferta ?",
+    "intent": "int761",
+    "intent_prediction": {
+      "name": "int888",
+      "confidence": 0.0505790077149868
+    }
+  },
+  {
+    "text": "cm cerro cora - Bob contador - Tramitação de técnica q termina no ofício",
+    "intent": "int764",
+    "intent_prediction": {
+      "name": "int909",
+      "confidence": 0.03310753032565117
+    }
+  },
+  {
+    "text": "cm cerro cora - Bob contador - Tramitação de metodologia q termina no ofício",
+    "intent": "int764",
+    "intent_prediction": {
+      "name": "int909",
+      "confidence": 0.029796438291668892
+    }
+  },
+  {
+    "text": "tato dap ?",
+    "intent": "int766",
+    "intent_prediction": {
+      "name": "int808",
+      "confidence": 0.05744772031903267
+    }
+  },
+  {
+    "text": "Telefone do gab do cons dr Renato",
+    "intent": "int767",
+    "intent_prediction": {
+      "name": "int473",
+      "confidence": 0.04552071541547775
+    }
+  },
+  {
+    "text": "contacto do gab do cons dr Renato",
+    "intent": "int767",
+    "intent_prediction": {
+      "name": "int775",
+      "confidence": 0.04788723960518837
+    }
+  },
+  {
+    "text": "15/09 Qual o fiada de jaci da alçada ?",
+    "intent": "int770",
+    "intent_prediction": {
+      "name": "int755",
+      "confidence": 0.12204056978225708
+    }
+  },
+  {
+    "text": "15/09 Maria da paz - Numero da instituto do comando -",
+    "intent": "int771",
+    "intent_prediction": {
+      "name": "int278",
+      "confidence": 0.04346493259072304
+    }
+  },
+  {
+    "text": "conhecimento sobre método -",
+    "intent": "int774",
+    "intent_prediction": {
+      "name": "int800",
+      "confidence": 0.10069866478443146
+    }
+  },
+  {
+    "text": "base sobre metodologia -",
+    "intent": "int774",
+    "intent_prediction": {
+      "name": "int683",
+      "confidence": 0.06866984069347382
+    }
+  },
+  {
+    "text": "Pm afonso bezerra – sessão . numero da DAM .",
+    "intent": "int775",
+    "intent_prediction": {
+      "name": "int313",
+      "confidence": 0.03309674561023712
+    }
+  },
+  {
+    "text": "Pm afonso bezerra – sessão . numero do protocolo",
+    "intent": "int776",
+    "intent_prediction": {
+      "name": "int800",
+      "confidence": 0.0776173323392868
+    }
+  },
+  {
+    "text": "convencional expediente como fazer",
+    "intent": "int779",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.14130261540412903
+    }
+  },
+  {
+    "text": "Numero setor de transportes",
+    "intent": "int782",
+    "intent_prediction": {
+      "name": "int68",
+      "confidence": 0.07659617811441422
+    }
+  },
+  {
+    "text": "Qual o enfiada da possibilidade -",
+    "intent": "int787",
+    "intent_prediction": {
+      "name": "int354",
+      "confidence": 0.10841899365186691
+    }
+  },
+  {
+    "text": "adoraria de dizer com Davi .",
+    "intent": "int791",
+    "intent_prediction": {
+      "name": "int809",
+      "confidence": 0.06757260113954544
+    }
+  },
+  {
+    "text": "apreciaria de proferir com Davi .",
+    "intent": "int791",
+    "intent_prediction": {
+      "name": "int650",
+      "confidence": 0.06227291375398636
+    }
+  },
+  {
+    "text": "16/11- Simone – usuária gostaria de falar com Ana Carolina da DAM .",
+    "intent": "int792",
+    "intent_prediction": {
+      "name": "int348",
+      "confidence": 0.06713259220123291
+    }
+  },
+  {
+    "text": "conhecimentos sobre o competição",
+    "intent": "int799",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.10041941702365875
+    }
+  },
+  {
+    "text": "ideias sobre o prova",
+    "intent": "int799",
+    "intent_prediction": {
+      "name": "int774",
+      "confidence": 0.0730045884847641
+    }
+  },
+  {
+    "text": "pesquisas sobre o certame",
+    "intent": "int799",
+    "intent_prediction": {
+      "name": "int477",
+      "confidence": 0.09430485218763351
+    }
+  },
+  {
+    "text": "bandeja – Aurélio – contato do cerimônia geral -",
+    "intent": "int800",
+    "intent_prediction": {
+      "name": "int503",
+      "confidence": 0.0676712915301323
+    }
+  },
+  {
+    "text": "recipiente – Aurélio – contato do código geral -",
+    "intent": "int800",
+    "intent_prediction": {
+      "name": "int761",
+      "confidence": 0.0575408935546875
+    }
+  },
+  {
+    "text": "Receita federal – lidava – resposta a oficio",
+    "intent": "int801",
+    "intent_prediction": {
+      "name": "int673",
+      "confidence": 0.043159160763025284
+    }
+  },
+  {
+    "text": "02/02-Lorena lagoa calejada – DAE tocadela -",
+    "intent": "int803",
+    "intent_prediction": {
+      "name": "int492",
+      "confidence": 0.1050739660859108
+    }
+  },
+  {
+    "text": "02-02-Francisco – atitudes – DAE tocadela",
+    "intent": "int804",
+    "intent_prediction": {
+      "name": "int914",
+      "confidence": 0.056576069444417953
+    }
+  },
+  {
+    "text": "Qual o contacto de Eduardo – dir de atos e feitos",
+    "intent": "int806",
+    "intent_prediction": {
+      "name": "int68",
+      "confidence": 0.14641785621643066
+    }
+  },
+  {
+    "text": "aparelho da dd -",
+    "intent": "int808",
+    "intent_prediction": {
+      "name": "int823",
+      "confidence": 0.04489869624376297
+    }
+  },
+  {
+    "text": "contacto da dd -",
+    "intent": "int808",
+    "intent_prediction": {
+      "name": "int787",
+      "confidence": 0.04683426022529602
+    }
+  },
+  {
+    "text": "dizer com ouvidoria",
+    "intent": "int809",
+    "intent_prediction": {
+      "name": "int799",
+      "confidence": 0.0831863060593605
+    }
+  },
+  {
+    "text": "contacto da por esse motivo .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int648",
+      "confidence": 0.03283372148871422
+    }
+  },
+  {
+    "text": "tato da então .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int802",
+      "confidence": 0.08231153339147568
+    }
+  },
+  {
+    "text": "tocamento da e depois .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int789",
+      "confidence": 0.040896207094192505
+    }
+  },
+  {
+    "text": "Contato do MP junto ao TCE",
+    "intent": "int823",
+    "intent_prediction": {
+      "name": "int25",
+      "confidence": 0.09697753190994263
+    }
+  },
+  {
+    "text": "tocamento do MP chegado ao TCE",
+    "intent": "int823",
+    "intent_prediction": {
+      "name": "int875",
+      "confidence": 0.06571193039417267
+    }
+  },
+  {
+    "text": "05/10 toque do setor de lance .",
+    "intent": "int824",
+    "intent_prediction": {
+      "name": "int781",
+      "confidence": 0.041137661784887314
+    }
+  },
+  {
+    "text": "Fábio – chegada de pesquisas do fundeb .",
+    "intent": "int830",
+    "intent_prediction": {
+      "name": "int368",
+      "confidence": 0.058774683624506
+    }
+  },
+  {
+    "text": "qual o horário de funcionamento do protocolo",
+    "intent": "int839",
+    "intent_prediction": {
+      "name": "int899",
+      "confidence": 0.08731120824813843
+    }
+  },
+  {
+    "text": "Lucas – pesquisa de locais sobre coleta de lixo pra reciclagem",
+    "intent": "int842",
+    "intent_prediction": {
+      "name": "int863",
+      "confidence": 0.03407309949398041
+    }
+  },
+  {
+    "text": "Lucas – busca de locais sobre coleta de lixo pra update",
+    "intent": "int842",
+    "intent_prediction": {
+      "name": "int157",
+      "confidence": 0.03991726040840149
+    }
+  },
+  {
+    "text": "PM santo Antonio - No portal do gestor , quebra-cabeças pra emoção de diploma em – 2019",
+    "intent": "int843",
+    "intent_prediction": {
+      "name": "int869",
+      "confidence": 0.09789259731769562
+    }
+  },
+  {
+    "text": "Usuário gostaria de enviar o uma defesa ?",
+    "intent": "int849",
+    "intent_prediction": {
+      "name": "int821",
+      "confidence": 0.07713732123374939
+    }
+  },
+  {
+    "text": "Usuária gostaria de saber se estava tendo seção no plenário .",
+    "intent": "int852",
+    "intent_prediction": {
+      "name": "int428",
+      "confidence": 0.06963250786066055
+    }
+  },
+  {
+    "text": "Usuária apreciaria de saber se estava tendo seção no conselho .",
+    "intent": "int852",
+    "intent_prediction": {
+      "name": "int428",
+      "confidence": 0.09087872505187988
+    }
+  },
+  {
+    "text": "Qual a hora da fracionamento do integral -",
+    "intent": "int853",
+    "intent_prediction": {
+      "name": "int354",
+      "confidence": 0.06584396213293076
+    }
+  },
+  {
+    "text": "O setor do código exerce até que horas ?",
+    "intent": "int859",
+    "intent_prediction": {
+      "name": "int30",
+      "confidence": 0.041888926178216934
+    }
+  },
+  {
+    "text": "08/12 - Romulo – o prazo processual é descrito em dias acossados ou úteis ?",
+    "intent": "int861",
+    "intent_prediction": {
+      "name": "int760",
+      "confidence": 0.06957235187292099
+    }
+  },
+  {
+    "text": "Cm sao miguel – gostaria de falar sobre um processo .",
+    "intent": "int863",
+    "intent_prediction": {
+      "name": "int368",
+      "confidence": 0.06218906119465828
+    }
+  },
+  {
+    "text": "Horário de atividade do formalidade ?",
+    "intent": "int865",
+    "intent_prediction": {
+      "name": "int783",
+      "confidence": 0.06474495679140091
+    }
+  },
+  {
+    "text": "Horário de ação do etiqueta ?",
+    "intent": "int865",
+    "intent_prediction": {
+      "name": "int783",
+      "confidence": 0.07297056168317795
+    }
+  },
+  {
+    "text": "Horário de trabalho do código ?",
+    "intent": "int865",
+    "intent_prediction": {
+      "name": "int830",
+      "confidence": 0.08571834117174149
+    }
+  },
+  {
+    "text": "Qual o horário de assistência ? para emissão de certidão de cumprimento .",
+    "intent": "int868",
+    "intent_prediction": {
+      "name": "int586",
+      "confidence": 0.09867143630981445
+    }
+  },
+  {
+    "text": "contato do Gab cons Adélia",
+    "intent": "int870",
+    "intent_prediction": {
+      "name": "int820",
+      "confidence": 0.08483690768480301
+    }
+  },
+  {
+    "text": "Envio de defesa – qual documentação necessária ?",
+    "intent": "int874",
+    "intent_prediction": {
+      "name": "int758",
+      "confidence": 0.0614364817738533
+    }
+  },
+  {
+    "text": "Envio de defesa – qual bibliografia imprescindível ?",
+    "intent": "int874",
+    "intent_prediction": {
+      "name": "int821",
+      "confidence": 0.03607061505317688
+    }
+  },
+  {
+    "text": "Envio de defesa – qual documento fundamental ?",
+    "intent": "int874",
+    "intent_prediction": {
+      "name": "int782",
+      "confidence": 0.03756452351808548
+    }
+  },
+  {
+    "text": "ESTOU COM ERRO DE FALHA DE PROCESSAMENTO DA PREFEITURA MUNICIPAL DE SÃO JOSÉ DE CAMPESTRE , REFERENTE AO MÊS DE MARÇO .",
+    "intent": "int883",
+    "intent_prediction": {
+      "name": "int593",
+      "confidence": 0.09589649736881256
+    }
+  },
+  {
+    "text": "Usuário queria saber se ao entregar um processo precisaria vir com duas vias .",
+    "intent": "int886",
+    "intent_prediction": {
+      "name": "int13",
+      "confidence": 0.06771722435951233
+    }
+  },
+  {
+    "text": "Renato – usuário gostaria do contato do protocolo .",
+    "intent": "int889",
+    "intent_prediction": {
+      "name": "int829",
+      "confidence": 0.08478308469057083
+    }
+  },
+  {
+    "text": "qual o cifra do aparelho da ouvidoria",
+    "intent": "int899",
+    "intent_prediction": {
+      "name": "int489",
+      "confidence": 0.07097594439983368
+    }
+  },
+  {
+    "text": "citação para pagar multa – ele e ex gestor e casaria de saber se pode parcelar -",
+    "intent": "int902",
+    "intent_prediction": {
+      "name": "int381",
+      "confidence": 0.06414098292589188
+    }
+  },
+  {
+    "text": "Maria celia – problemas impressão",
+    "intent": "int904",
+    "intent_prediction": {
+      "name": "int865",
+      "confidence": 0.0403401218354702
+    }
+  },
+  {
+    "text": "Maria celia – obstáculos produção",
+    "intent": "int904",
+    "intent_prediction": {
+      "name": "int865",
+      "confidence": 0.05377474054694176
+    }
+  },
+  {
+    "text": "hop dr cleodon - ar de 2017 com problema e pergunta se precisa reenviar -",
+    "intent": "int905",
+    "intent_prediction": {
+      "name": "int326",
+      "confidence": 0.06420084834098816
+    }
+  },
+  {
+    "text": "Senha de contra cheque do tce .",
+    "intent": "int912",
+    "intent_prediction": {
+      "name": "int685",
+      "confidence": 0.06370001286268234
+    }
+  },
+  {
+    "text": "Dúvida sobre acesso ao Portal do administrador - Pm afastado",
+    "intent": "int915",
+    "intent_prediction": {
+      "name": "int325",
+      "confidence": 0.08654001355171204
+    }
+  },
+  {
+    "text": "como tive informe de haveres",
+    "intent": "int0",
+    "intent_prediction": {
+      "name": "int53",
+      "confidence": 0.07874299585819244
+    }
+  },
+  {
+    "text": "7513/2016 - cuida sore maneira hospedaria",
+    "intent": "int5",
+    "intent_prediction": {
+      "name": "int130",
+      "confidence": 0.05330857262015343
+    }
+  },
+  {
+    "text": "como suplicar noções para o tribunal",
+    "intent": "int9",
+    "intent_prediction": {
+      "name": "int498",
+      "confidence": 0.06542880088090897
+    }
+  },
+  {
+    "text": "como instar ideias para o tribunal",
+    "intent": "int9",
+    "intent_prediction": {
+      "name": "int678",
+      "confidence": 0.033678434789180756
+    }
+  },
+  {
+    "text": "com instar ideia ao tce rn",
+    "intent": "int12",
+    "intent_prediction": {
+      "name": "int635",
+      "confidence": 0.05781583860516548
+    }
+  },
+  {
+    "text": "por onde instar ideia ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.13196106255054474
+    }
+  },
+  {
+    "text": "por onde rogar base ao tce",
+    "intent": "int14",
+    "intent_prediction": {
+      "name": "int912",
+      "confidence": 0.10258340835571289
+    }
+  },
+  {
+    "text": "por onde pedir conhecimentos ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int187",
+      "confidence": 0.03977816551923752
+    }
+  },
+  {
+    "text": "por onde suplicar noções ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int14",
+      "confidence": 0.08648265898227692
+    }
+  },
+  {
+    "text": "por onde rogar pesquisas ao tce",
+    "intent": "int16",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.1113189086318016
+    }
+  },
+  {
+    "text": "como lograr pesquisas do tce",
+    "intent": "int17",
+    "intent_prediction": {
+      "name": "int44",
+      "confidence": 0.10390742868185043
+    }
+  },
+  {
+    "text": "Dúvida para enviar um identidade ao TCE , procurando convênio .",
+    "intent": "int25",
+    "intent_prediction": {
+      "name": "int317",
+      "confidence": 0.050513144582509995
+    }
+  },
+  {
+    "text": "como enviar documentos para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int33",
+      "confidence": 0.06866863369941711
+    }
+  },
+  {
+    "text": "como endereçar cartas para o tce",
+    "intent": "int27",
+    "intent_prediction": {
+      "name": "int43",
+      "confidence": 0.1286165714263916
+    }
+  },
+  {
+    "text": "mikael - adv - como se cadastrar para envio de informações ?",
+    "intent": "int30",
+    "intent_prediction": {
+      "name": "int456",
+      "confidence": 0.04053724557161331
+    }
+  },
+  {
+    "text": "mikael - adv - como se registrar para envio de conhecimentos ?",
+    "intent": "int30",
+    "intent_prediction": {
+      "name": "int403",
+      "confidence": 0.04229099303483963
+    }
+  },
+  {
+    "text": "mikael - adv - como se catalogar para envio de noções ?",
+    "intent": "int30",
+    "intent_prediction": {
+      "name": "int370",
+      "confidence": 0.03564712405204773
+    }
+  },
+  {
+    "text": "15623360459 jose augusto de freitas rego . Falha ao acessar o e-tce .",
+    "intent": "int31",
+    "intent_prediction": {
+      "name": "int7",
+      "confidence": 0.07017125934362411
+    }
+  },
+  {
+    "text": "para remeter instâncias para o tce",
+    "intent": "int33",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.14357954263687134
+    }
+  },
+  {
+    "text": "para expedir recursos para o tce",
+    "intent": "int33",
+    "intent_prediction": {
+      "name": "int35",
+      "confidence": 0.12585920095443726
+    }
+  },
+  {
+    "text": "como remeter emprego para o tce",
+    "intent": "int35",
+    "intent_prediction": {
+      "name": "int27",
+      "confidence": 0.13486212491989136
+    }
+  },
+  {
+    "text": "PM queira - Encaminhou documento de consulta por e-mail",
+    "intent": "int39",
+    "intent_prediction": {
+      "name": "int915",
+      "confidence": 0.04234829545021057
+    }
+  },
+  {
+    "text": "PM queira - levou documentação de consulta por e-mail",
+    "intent": "int39",
+    "intent_prediction": {
+      "name": "int915",
+      "confidence": 0.08832304924726486
+    }
+  },
+  {
+    "text": "como enviar documentos para o tribunal",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.058453574776649475
+    }
+  },
+  {
+    "text": "como enviar papéis para o conselho",
+    "intent": "int42",
+    "intent_prediction": {
+      "name": "int403",
+      "confidence": 0.08105555176734924
+    }
+  },
+  {
+    "text": "com enviar informações para o tce",
+    "intent": "int44",
+    "intent_prediction": {
+      "name": "int33",
+      "confidence": 0.10909835249185562
+    }
+  },
+  {
+    "text": "com endereçar ideias para o tce",
+    "intent": "int44",
+    "intent_prediction": {
+      "name": "int33",
+      "confidence": 0.12431872636079788
+    }
+  },
+  {
+    "text": "como enviar notas para o tribunal de forma científica",
+    "intent": "int45",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.08282535523176193
+    }
+  },
+  {
+    "text": "como enviar cédulas para o tribunal de forma científica",
+    "intent": "int45",
+    "intent_prediction": {
+      "name": "int403",
+      "confidence": 0.06492720544338226
+    }
+  },
+  {
+    "text": "Andre - Protocolo digital – problemas ao responder um processo . fez cadastro de pessoas – e esta tentando acessar o protocolo digital – não consegue passar da primeira tela . 03501403402 team % top",
+    "intent": "int55",
+    "intent_prediction": {
+      "name": "int910",
+      "confidence": 0.04920355603098869
+    }
+  },
+  {
+    "text": "Como convencional uma salvaguarda ? de forma on line .",
+    "intent": "int57",
+    "intent_prediction": {
+      "name": "int457",
+      "confidence": 0.04124404117465019
+    }
+  },
+  {
+    "text": "Como padronizado uma auxílio ? de forma on line .",
+    "intent": "int57",
+    "intent_prediction": {
+      "name": "int68",
+      "confidence": 0.05703561753034592
+    }
+  },
+  {
+    "text": "Qual o escala máximo para standard defesa ?",
+    "intent": "int68",
+    "intent_prediction": {
+      "name": "int783",
+      "confidence": 0.08842537552118301
+    }
+  },
+  {
+    "text": "Qual o hora máximo para padronizado defesa ?",
+    "intent": "int68",
+    "intent_prediction": {
+      "name": "int79",
+      "confidence": 0.03163479268550873
+    }
+  },
+  {
+    "text": "Soraia - Deu entrada em processo e estimaria de saber se deu tudo certo ou se falta papel .",
+    "intent": "int70",
+    "intent_prediction": {
+      "name": "int752",
+      "confidence": 0.09634480625391006
+    }
+  },
+  {
+    "text": "repugnância sobre o enchimento do anexo 13",
+    "intent": "int95",
+    "intent_prediction": {
+      "name": "int744",
+      "confidence": 0.07130204141139984
+    }
+  },
+  {
+    "text": "dificuldades sobre o recheio do anexo 13",
+    "intent": "int95",
+    "intent_prediction": {
+      "name": "int187",
+      "confidence": 0.059835515916347504
+    }
+  },
+  {
+    "text": "21/05 Ana recruta – erro ao propelir obra no anexo 13 .",
+    "intent": "int101",
+    "intent_prediction": {
+      "name": "int130",
+      "confidence": 0.10600617527961731
+    }
+  },
+  {
+    "text": "Silmara – anexo 13 – 2 contratos em um único processo",
+    "intent": "int128",
+    "intent_prediction": {
+      "name": "int56",
+      "confidence": 0.04768959805369377
+    }
+  },
+  {
+    "text": "PM RN – sufoco de recibo - como lançar um aditivo de um convenção ?",
+    "intent": "int132",
+    "intent_prediction": {
+      "name": "int22",
+      "confidence": 0.03779584541916847
+    }
+  },
+  {
+    "text": "termo de cooperação onde o orgão pode lançar",
+    "intent": "int137",
+    "intent_prediction": {
+      "name": "int902",
+      "confidence": 0.08842223882675171
+    }
+  },
+  {
+    "text": "termo de auxílio onde o orgão pode propelir",
+    "intent": "int137",
+    "intent_prediction": {
+      "name": "int45",
+      "confidence": 0.10593146830797195
+    }
+  },
+  {
+    "text": "encontro LEGISLATIVA DO RN- imprecisão ANEXO 23",
+    "intent": "int164",
+    "intent_prediction": {
+      "name": "int609",
+      "confidence": 0.039123959839344025
+    }
+  },
+  {
+    "text": "Pm equador – sergio - Anexo 26 – conta desativada e usuário pergunta comoativar ?",
+    "intent": "int167",
+    "intent_prediction": {
+      "name": "int463",
+      "confidence": 0.05647817254066467
+    }
+  },
+  {
+    "text": "Pm goianinha – daniel – precursor – anexo 38- sempre q conclui aparece uma mensagem de q o indice está fora do ínterim",
+    "intent": "int190",
+    "intent_prediction": {
+      "name": "int210",
+      "confidence": 0.08308520168066025
+    }
+  },
+  {
+    "text": "incerteza sobre o envio da planilha dos integrantes",
+    "intent": "int193",
+    "intent_prediction": {
+      "name": "int429",
+      "confidence": 0.07785611599683762
+    }
+  },
+  {
+    "text": "confusão sobre o envio da planilha dos componentes",
+    "intent": "int193",
+    "intent_prediction": {
+      "name": "int351",
+      "confidence": 0.04517362639307976
+    }
+  },
+  {
+    "text": "imprecisão sobre o envio da planilha dos elementos",
+    "intent": "int193",
+    "intent_prediction": {
+      "name": "int732",
+      "confidence": 0.10158875584602356
+    }
+  },
+  {
+    "text": "onde banco os contratos",
+    "intent": "int195",
+    "intent_prediction": {
+      "name": "int460",
+      "confidence": 0.05687696114182472
+    }
+  },
+  {
+    "text": "onde escano os parcerias",
+    "intent": "int195",
+    "intent_prediction": {
+      "name": "int648",
+      "confidence": 0.06924405694007874
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo físico nº 005991/2016-02 , contrato nº 56/2016 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  81485 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , gratulamos . delicadamente ,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.14530442655086517
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo físico nº 005991/2016-02 , contrato nº 56/2016 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  81485 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , agraciamos . cortesmente ,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.14523163437843323
+    }
+  },
+  {
+    "text": "Somos da Secretaria Municipal de Educação de Natal , gostaríamos de solicitar suporte técnico deste TCE/RN , para a emissão do RECIBO sai - ANEXO 38 , referente ao processo físico nº 005991/2016-02 , contrato nº 56/2016 , uma vez que este setor necessita responder à Unidade Técnica de Controle Interno desta secretaria , fazendo a juntada do respectivo recibo . Ocorre que há nos autos apenas o recibo sai - anexo 13 , segue em anexo , e por este documento , é possível localizar o número do anexo 38 , qual seja  81485 . Ao realizar a consulta por este número , também não é possível localizar o recibo que desejamos . Assim , pedimos a orientação necessária para a emissão do anexo 38 do processo já mencionado , ressaltando a urgência em tal solicitação . Desde já , regraciamos . polidamente ,",
+    "intent": "int209",
+    "intent_prediction": {
+      "name": "int208",
+      "confidence": 0.1447392702102661
+    }
+  },
+  {
+    "text": "Cm cruzada – Israel – desavença sobre Unidade de Controle Interno como decidir ?",
+    "intent": "int236",
+    "intent_prediction": {
+      "name": "int324",
+      "confidence": 0.04869639128446579
+    }
+  },
+  {
+    "text": "16/11- Marcos – pm santa cruz – ao tentar arquivar o novo ordenador de despesa e titular o sistema informa já existir ordenador e titular para o período conhecedor .",
+    "intent": "int246",
+    "intent_prediction": {
+      "name": "int202",
+      "confidence": 0.048823386430740356
+    }
+  },
+  {
+    "text": "raiva pedido de nada consta , que valor tempo ?",
+    "intent": "int255",
+    "intent_prediction": {
+      "name": "int476",
+      "confidence": 0.06069236248731613
+    }
+  },
+  {
+    "text": "raiva rogo de nada consta , como tempo ?",
+    "intent": "int255",
+    "intent_prediction": {
+      "name": "int349",
+      "confidence": 0.03761855140328407
+    }
+  },
+  {
+    "text": "pedido certidão negação quanto tempo",
+    "intent": "int260",
+    "intent_prediction": {
+      "name": "int255",
+      "confidence": 0.07036332041025162
+    }
+  },
+  {
+    "text": "súplica certidão nega quanto tempo",
+    "intent": "int260",
+    "intent_prediction": {
+      "name": "int255",
+      "confidence": 0.1296040564775467
+    }
+  },
+  {
+    "text": "rogo certidão recusa quanto tempo",
+    "intent": "int260",
+    "intent_prediction": {
+      "name": "int255",
+      "confidence": 0.069431371986866
+    }
+  },
+  {
+    "text": "como dar uma permissão para um usuário",
+    "intent": "int296",
+    "intent_prediction": {
+      "name": "int328",
+      "confidence": 0.09446482360363007
+    }
+  },
+  {
+    "text": "como dar uma licença para um utente",
+    "intent": "int296",
+    "intent_prediction": {
+      "name": "int741",
+      "confidence": 0.06911850720643997
+    }
+  },
+  {
+    "text": "qual o conta do contacto da dae",
+    "intent": "int313",
+    "intent_prediction": {
+      "name": "int359",
+      "confidence": 0.08109042048454285
+    }
+  },
+  {
+    "text": "carne – pm natal- nutricional – como registrar usuário comum ?",
+    "intent": "int321",
+    "intent_prediction": {
+      "name": "int437",
+      "confidence": 0.05121559649705887
+    }
+  },
+  {
+    "text": "Mario pm lajes - imploração de gerenciador – e foi anexado a queda",
+    "intent": "int324",
+    "intent_prediction": {
+      "name": "int574",
+      "confidence": 0.04135104641318321
+    }
+  },
+  {
+    "text": "como alterar a senha do usuário gerenciador",
+    "intent": "int327",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.08671887218952179
+    }
+  },
+  {
+    "text": "como modificar a senha do utilizador gerenciador",
+    "intent": "int327",
+    "intent_prediction": {
+      "name": "int832",
+      "confidence": 0.08396581560373306
+    }
+  },
+  {
+    "text": "como mudar a senha do utente gerenciador",
+    "intent": "int327",
+    "intent_prediction": {
+      "name": "int331",
+      "confidence": 0.12263521552085876
+    }
+  },
+  {
+    "text": "estabelecimento direção das artes usuário comum",
+    "intent": "int328",
+    "intent_prediction": {
+      "name": "int313",
+      "confidence": 0.0695749968290329
+    }
+  },
+  {
+    "text": "como faz cadastro do usuário gerenciador",
+    "intent": "int331",
+    "intent_prediction": {
+      "name": "int9",
+      "confidence": 0.11012408882379532
+    }
+  },
+  {
+    "text": "PM Pedro velho - haxixe - Saber para arquivar o engenheiro ?",
+    "intent": "int337",
+    "intent_prediction": {
+      "name": "int425",
+      "confidence": 0.05669410154223442
+    }
+  },
+  {
+    "text": "03/11 Pm sao fernando - caio - está procurando cura de senha mas não tem mais acesso ao email .",
+    "intent": "int343",
+    "intent_prediction": {
+      "name": "int433",
+      "confidence": 0.10259951651096344
+    }
+  },
+  {
+    "text": "como agir para dar anuência ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.12502546608448029
+    }
+  },
+  {
+    "text": "como operar para dar aprovação ?",
+    "intent": "int352",
+    "intent_prediction": {
+      "name": "int374",
+      "confidence": 0.07219819724559784
+    }
+  },
+  {
+    "text": "arquivo de usuário comum , usuário relata q nao obteve a senha ?",
+    "intent": "int353",
+    "intent_prediction": {
+      "name": "int918",
+      "confidence": 0.04622215777635574
+    }
+  },
+  {
+    "text": "como suplicar o codigo de admissão do em",
+    "intent": "int358",
+    "intent_prediction": {
+      "name": "int12",
+      "confidence": 0.06649177521467209
+    }
+  },
+  {
+    "text": "Legis – Silmara – tiragem de norma como executar",
+    "intent": "int365",
+    "intent_prediction": {
+      "name": "int847",
+      "confidence": 0.042584728449583054
+    }
+  },
+  {
+    "text": "habilidades no legis , cmo afastar",
+    "intent": "int370",
+    "intent_prediction": {
+      "name": "int137",
+      "confidence": 0.06810025870800018
+    }
+  },
+  {
+    "text": "orientações no legis , cmo recolher",
+    "intent": "int370",
+    "intent_prediction": {
+      "name": "int648",
+      "confidence": 0.08220010250806808
+    }
+  },
+  {
+    "text": "PM SANTA CRUZ - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int320",
+      "confidence": 0.08552876114845276
+    }
+  },
+  {
+    "text": "PM altruísta madeiro - LEGIS",
+    "intent": "int372",
+    "intent_prediction": {
+      "name": "int320",
+      "confidence": 0.060754500329494476
+    }
+  },
+  {
+    "text": "como fazer para desaparecer um leis",
+    "intent": "int374",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.10315997898578644
+    }
+  },
+  {
+    "text": "PM monte do mel – Andre – legis – quais leis despachar ?",
+    "intent": "int376",
+    "intent_prediction": {
+      "name": "int830",
+      "confidence": 0.04455992951989174
+    }
+  },
+  {
+    "text": "adiar natalie – legis – arquivo de usuário gerenciador e não está ressaltando o arquivo .",
+    "intent": "int377",
+    "intent_prediction": {
+      "name": "int346",
+      "confidence": 0.10430978238582611
+    }
+  },
+  {
+    "text": "Auto do Rodrigues – Abel – legis – faltou base em uma lei enviada e gostaria de saber como obrar .",
+    "intent": "int381",
+    "intent_prediction": {
+      "name": "int54",
+      "confidence": 0.06406471878290176
+    }
+  },
+  {
+    "text": "imprecisão sobre o emissão das leis antigas",
+    "intent": "int383",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.07172854244709015
+    }
+  },
+  {
+    "text": "ambiguidade sobre o encaminhamento das leis antigas",
+    "intent": "int383",
+    "intent_prediction": {
+      "name": "int630",
+      "confidence": 0.05943451076745987
+    }
+  },
+  {
+    "text": "martelo – PM caiçara do rio do vento leis - Edição de legislação -",
+    "intent": "int390",
+    "intent_prediction": {
+      "name": "int207",
+      "confidence": 0.046490054577589035
+    }
+  },
+  {
+    "text": "martelo – PM cercado do rio do vento leis - Edição de jurisprudência -",
+    "intent": "int390",
+    "intent_prediction": {
+      "name": "int69",
+      "confidence": 0.031672123819589615
+    }
+  },
+  {
+    "text": "por no qual aceder",
+    "intent": "int393",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.052551135420799255
+    }
+  },
+  {
+    "text": "Adriano – com faz pra despachar a encômio ?",
+    "intent": "int402",
+    "intent_prediction": {
+      "name": "int763",
+      "confidence": 0.033629901707172394
+    }
+  },
+  {
+    "text": "arquivos junta com referências erradas",
+    "intent": "int403",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.05737396702170372
+    }
+  },
+  {
+    "text": "05/10Siai dp erro no RG do trabalhador após a inserção do X na numeração .",
+    "intent": "int410",
+    "intent_prediction": {
+      "name": "int411",
+      "confidence": 0.14638890326023102
+    }
+  },
+  {
+    "text": "Usuário enviou email com documentos de expedição do sai dp .",
+    "intent": "int420",
+    "intent_prediction": {
+      "name": "int16",
+      "confidence": 0.13610512018203735
+    }
+  },
+  {
+    "text": "Cintia – Baia formosa – emendar o sai dp de dezembro a parte de chancela .",
+    "intent": "int435",
+    "intent_prediction": {
+      "name": "int252",
+      "confidence": 0.0427602156996727
+    }
+  },
+  {
+    "text": "CM major SALES . Envio do parecer da Câmara sobre as contas da Prefeitura .",
+    "intent": "int449",
+    "intent_prediction": {
+      "name": "int47",
+      "confidence": 0.06381215155124664
+    }
+  },
+  {
+    "text": "alisado de ação do siafic – como deverá ser representante",
+    "intent": "int453",
+    "intent_prediction": {
+      "name": "int802",
+      "confidence": 0.04456869885325432
+    }
+  },
+  {
+    "text": "onde fica dado o interrogatório",
+    "intent": "int460",
+    "intent_prediction": {
+      "name": "int635",
+      "confidence": 0.05257352441549301
+    }
+  },
+  {
+    "text": "que título é a reteria de calculo",
+    "intent": "int476",
+    "intent_prediction": {
+      "name": "int255",
+      "confidence": 0.07954170554876328
+    }
+  },
+  {
+    "text": "PM tirar - incerteza sobre conflitos",
+    "intent": "int477",
+    "intent_prediction": {
+      "name": "int420",
+      "confidence": 0.049005284905433655
+    }
+  },
+  {
+    "text": "Saae sg amarante – jacksilene - migração do sai 23 para o obra – valor da obra esta errado . teve uma revogação e o valor nao foi cientificado .",
+    "intent": "int484",
+    "intent_prediction": {
+      "name": "int178",
+      "confidence": 0.05899692699313164
+    }
+  },
+  {
+    "text": "como separar uma mensuração",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int529",
+      "confidence": 0.05356800556182861
+    }
+  },
+  {
+    "text": "como apartar uma medida",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int296",
+      "confidence": 0.12389082461595535
+    }
+  },
+  {
+    "text": "como segregar uma aferição",
+    "intent": "int506",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.050675954669713974
+    }
+  },
+  {
+    "text": "como dar anuência no entonação obras",
+    "intent": "int507",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.13848794996738434
+    }
+  },
+  {
+    "text": "como lançar um aditivo",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int393",
+      "confidence": 0.06385929882526398
+    }
+  },
+  {
+    "text": "como atirar um adicional",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int374",
+      "confidence": 0.11067689955234528
+    }
+  },
+  {
+    "text": "como propelir um extra",
+    "intent": "int529",
+    "intent_prediction": {
+      "name": "int296",
+      "confidence": 0.09879642724990845
+    }
+  },
+  {
+    "text": "PM Parnamirim - Antonia– obra sai imposto – as seções enviam o sai imposto ?",
+    "intent": "int543",
+    "intent_prediction": {
+      "name": "int336",
+      "confidence": 0.05863560736179352
+    }
+  },
+  {
+    "text": "como excluir uma obra",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int506",
+      "confidence": 0.08531654626131058
+    }
+  },
+  {
+    "text": "como separar uma ação",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int296",
+      "confidence": 0.08181747049093246
+    }
+  },
+  {
+    "text": "como marginalizar uma atividade",
+    "intent": "int544",
+    "intent_prediction": {
+      "name": "int809",
+      "confidence": 0.05143091827630997
+    }
+  },
+  {
+    "text": "por onde remeter o sai aspectos",
+    "intent": "int579",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.05282723531126976
+    }
+  },
+  {
+    "text": "como dar visto na finalidade",
+    "intent": "int584",
+    "intent_prediction": {
+      "name": "int544",
+      "confidence": 0.04729988053441048
+    }
+  },
+  {
+    "text": "Raquel - PM natal – sai quadro – existe um arranjo para importação de cargo do sai luzes ?",
+    "intent": "int588",
+    "intent_prediction": {
+      "name": "int591",
+      "confidence": 0.05274583026766777
+    }
+  },
+  {
+    "text": "Cm sao joao saquei – sai quadro – erro de reiteração de cargos . cognominado aberto .",
+    "intent": "int597",
+    "intent_prediction": {
+      "name": "int103",
+      "confidence": 0.151165172457695
+    }
+  },
+  {
+    "text": "chefia - Erro de abarrotamento no Anexo 03 e 16 , dúvida sobre o Anexo 01 e 15",
+    "intent": "int610",
+    "intent_prediction": {
+      "name": "int479",
+      "confidence": 0.10702209919691086
+    }
+  },
+  {
+    "text": "mas NOVA CRUZ . críticas na geração do arquivo .",
+    "intent": "int620",
+    "intent_prediction": {
+      "name": "int54",
+      "confidence": 0.028554733842611313
+    }
+  },
+  {
+    "text": "PREFEITURA DE CEARÁ MIRIMTentamos importar o anexo 7 - demos . dos Restos a Pagar , a importação é realizada com sucesso , no entanto , os valores da linha da despesa INTRA-ORÇAMENTÁRIA , não está de acordo com os valores fatores no arquivo utilizado para importação , ( conforme cópia em anexo ) .Favor verificar o que há de errado , na importação do referido anexo , segue cópia do relatório impresso e do arquivo te , para validação das ideias .",
+    "intent": "int625",
+    "intent_prediction": {
+      "name": "int626",
+      "confidence": 0.14892686903476715
+    }
+  },
+  {
+    "text": "Secretario que entrou esse ano precisa enviar as informações ?",
+    "intent": "int630",
+    "intent_prediction": {
+      "name": "int446",
+      "confidence": 0.032014161348342896
+    }
+  },
+  {
+    "text": "serpentário que entrou esse ano precisa enviar as referências ?",
+    "intent": "int630",
+    "intent_prediction": {
+      "name": "int383",
+      "confidence": 0.06659755855798721
+    }
+  },
+  {
+    "text": "ministro que entrou esse ano precisa enviar as pesquisas ?",
+    "intent": "int630",
+    "intent_prediction": {
+      "name": "int21",
+      "confidence": 0.04502492770552635
+    }
+  },
+  {
+    "text": "buscado alteração de e-mail escrachado no SISPATRI .",
+    "intent": "int633",
+    "intent_prediction": {
+      "name": "int823",
+      "confidence": 0.05420698598027229
+    }
+  },
+  {
+    "text": "como readquirir a sinal",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int374",
+      "confidence": 0.10102412104606628
+    }
+  },
+  {
+    "text": "como reconquistar a ficha",
+    "intent": "int635",
+    "intent_prediction": {
+      "name": "int42",
+      "confidence": 0.08902617543935776
+    }
+  },
+  {
+    "text": "criação José grandioso- prazo sispatri",
+    "intent": "int636",
+    "intent_prediction": {
+      "name": "int637",
+      "confidence": 0.14076213538646698
+    }
+  },
+  {
+    "text": "TJ - metro – político de equidade . 88201388",
+    "intent": "int638",
+    "intent_prediction": {
+      "name": "int916",
+      "confidence": 0.06624849885702133
+    }
+  },
+  {
+    "text": "envio de informações",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int370",
+      "confidence": 0.05399858206510544
+    }
+  },
+  {
+    "text": "remessa de conhecimentos",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int799",
+      "confidence": 0.0848538801074028
+    }
+  },
+  {
+    "text": "emissão de ideias",
+    "intent": "int648",
+    "intent_prediction": {
+      "name": "int799",
+      "confidence": 0.029810836538672447
+    }
+  },
+  {
+    "text": "Dúvida sobre a data de obrigatoriedade de envio do sispatri",
+    "intent": "int649",
+    "intent_prediction": {
+      "name": "int631",
+      "confidence": 0.03732255473732948
+    }
+  },
+  {
+    "text": "PM forte propôs SISPATRI",
+    "intent": "int650",
+    "intent_prediction": {
+      "name": "int320",
+      "confidence": 0.12183937430381775
+    }
+  },
+  {
+    "text": "qual vinculo coloco na declaração do sispatri",
+    "intent": "int662",
+    "intent_prediction": {
+      "name": "int381",
+      "confidence": 0.03368007391691208
+    }
+  },
+  {
+    "text": "qual encadeamento coloco na alegação do sispatri",
+    "intent": "int662",
+    "intent_prediction": {
+      "name": "int684",
+      "confidence": 0.05709207430481911
+    }
+  },
+  {
+    "text": "qual conexão coloco na afirmação do sispatri",
+    "intent": "int662",
+    "intent_prediction": {
+      "name": "int684",
+      "confidence": 0.10508972406387329
+    }
+  },
+  {
+    "text": "Fundo de socorro social assador grande- primeiro acesso ao sistema",
+    "intent": "int674",
+    "intent_prediction": {
+      "name": "int715",
+      "confidence": 0.05510684847831726
+    }
+  },
+  {
+    "text": "Fundo de amparo social bandeja grande- primeiro acesso ao sistema",
+    "intent": "int674",
+    "intent_prediction": {
+      "name": "int446",
+      "confidence": 0.0697554275393486
+    }
+  },
+  {
+    "text": "com faço para alterar email do sispatri",
+    "intent": "int675",
+    "intent_prediction": {
+      "name": "int678",
+      "confidence": 0.11466390639543533
+    }
+  },
+  {
+    "text": "é possivel enviar declaração fora do prazo",
+    "intent": "int683",
+    "intent_prediction": {
+      "name": "int255",
+      "confidence": 0.06650460511445999
+    }
+  },
+  {
+    "text": "é realizável enviar assertiva fora do prazo",
+    "intent": "int683",
+    "intent_prediction": {
+      "name": "int684",
+      "confidence": 0.08136676996946335
+    }
+  },
+  {
+    "text": "qual cadastro posso trazer no sispatri",
+    "intent": "int684",
+    "intent_prediction": {
+      "name": "int673",
+      "confidence": 0.08627829700708389
+    }
+  },
+  {
+    "text": "25/06 Policia civil Ana Claudia - Sispatri- erro ao alterar a senha após remuneração de link de modificação .",
+    "intent": "int692",
+    "intent_prediction": {
+      "name": "int764",
+      "confidence": 0.1142963245511055
+    }
+  },
+  {
+    "text": "25/06 Pgj – Simone – sispatri , problemas ao acessar o sistema .",
+    "intent": "int698",
+    "intent_prediction": {
+      "name": "int551",
+      "confidence": 0.07528695464134216
+    }
+  },
+  {
+    "text": "25/06 Pgj – Simone – sispatri , dificuldades ao acessar o conjunto .",
+    "intent": "int698",
+    "intent_prediction": {
+      "name": "int517",
+      "confidence": 0.03338988125324249
+    }
+  },
+  {
+    "text": "25/06 Pgj – Simone – sispatri , quebra-cabeças ao acessar o complexo .",
+    "intent": "int698",
+    "intent_prediction": {
+      "name": "int101",
+      "confidence": 0.020009344443678856
+    }
+  },
+  {
+    "text": "como acontecer alegação de saida",
+    "intent": "int711",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.10793555527925491
+    }
+  },
+  {
+    "text": "como suceder afirmação de saida",
+    "intent": "int711",
+    "intent_prediction": {
+      "name": "int584",
+      "confidence": 0.1083139181137085
+    }
+  },
+  {
+    "text": "modificar email do sispatri",
+    "intent": "int713",
+    "intent_prediction": {
+      "name": "int675",
+      "confidence": 0.11517701297998428
+    }
+  },
+  {
+    "text": "MP RN – katiucia – exoneração . sispatri . Trocou email como mudar",
+    "intent": "int716",
+    "intent_prediction": {
+      "name": "int822",
+      "confidence": 0.042345039546489716
+    }
+  },
+  {
+    "text": "onde encontrar os layout de contas de governo",
+    "intent": "int729",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.08013658225536346
+    }
+  },
+  {
+    "text": "onde achar os layout de contas de regência",
+    "intent": "int729",
+    "intent_prediction": {
+      "name": "int264",
+      "confidence": 0.04080037400126457
+    }
+  },
+  {
+    "text": "qual algarismo do contato da dag",
+    "intent": "int730",
+    "intent_prediction": {
+      "name": "int313",
+      "confidence": 0.06871705502271652
+    }
+  },
+  {
+    "text": "23/03 - Onde está a tabela de receitas e despesas para o sai 2022",
+    "intent": "int731",
+    "intent_prediction": {
+      "name": "int280",
+      "confidence": 0.11523088067770004
+    }
+  },
+  {
+    "text": "Usuário solicitou o reparcelamento da dívida .",
+    "intent": "int732",
+    "intent_prediction": {
+      "name": "int477",
+      "confidence": 0.04955137148499489
+    }
+  },
+  {
+    "text": "utilizador buscou o reparcelamento da dívida .",
+    "intent": "int732",
+    "intent_prediction": {
+      "name": "int842",
+      "confidence": 0.04647134616971016
+    }
+  },
+  {
+    "text": "Daniel – quer fazer uma denunciação sobre os dispêndios com fundeb -",
+    "intent": "int740",
+    "intent_prediction": {
+      "name": "int830",
+      "confidence": 0.06981211155653
+    }
+  },
+  {
+    "text": "Daniel – quer fazer uma queixa sobre os utilizados com fundeb -",
+    "intent": "int740",
+    "intent_prediction": {
+      "name": "int904",
+      "confidence": 0.0496157631278038
+    }
+  },
+  {
+    "text": "como ver referências do sai inspetor -",
+    "intent": "int741",
+    "intent_prediction": {
+      "name": "int875",
+      "confidence": 0.0345272421836853
+    }
+  },
+  {
+    "text": "como ver noções do sai fiscalizador -",
+    "intent": "int741",
+    "intent_prediction": {
+      "name": "int507",
+      "confidence": 0.11438620090484619
+    }
+  },
+  {
+    "text": "Problema ao acessar informações de transparência de jurisdicionado",
+    "intent": "int742",
+    "intent_prediction": {
+      "name": "int874",
+      "confidence": 0.04099240154027939
+    }
+  },
+  {
+    "text": "confusão sobre o recheio do anexo",
+    "intent": "int744",
+    "intent_prediction": {
+      "name": "int33",
+      "confidence": 0.05557742714881897
+    }
+  },
+  {
+    "text": "ambiguidade sobre o complementação do anexo",
+    "intent": "int744",
+    "intent_prediction": {
+      "name": "int403",
+      "confidence": 0.10136302560567856
+    }
+  },
+  {
+    "text": "24/03 documento de haveres -",
+    "intent": "int755",
+    "intent_prediction": {
+      "name": "int811",
+      "confidence": 0.06372391432523727
+    }
+  },
+  {
+    "text": "24/03 comprovação de bens -",
+    "intent": "int755",
+    "intent_prediction": {
+      "name": "int243",
+      "confidence": 0.03555520996451378
+    }
+  },
+  {
+    "text": "Eugenio intercomunicação qual o algarismo das recepcionistas",
+    "intent": "int759",
+    "intent_prediction": {
+      "name": "int868",
+      "confidence": 0.03327888995409012
+    }
+  },
+  {
+    "text": "Contato dap ?",
+    "intent": "int766",
+    "intent_prediction": {
+      "name": "int492",
+      "confidence": 0.09216252714395523
+    }
+  },
+  {
+    "text": "15/09 Qual o ramo de jaci da comando ?",
+    "intent": "int770",
+    "intent_prediction": {
+      "name": "int824",
+      "confidence": 0.05971302464604378
+    }
+  },
+  {
+    "text": "Informação sobre processo -",
+    "intent": "int774",
+    "intent_prediction": {
+      "name": "int579",
+      "confidence": 0.0671558752655983
+    }
+  },
+  {
+    "text": "noção sobre técnica -",
+    "intent": "int774",
+    "intent_prediction": {
+      "name": "int393",
+      "confidence": 0.055682435631752014
+    }
+  },
+  {
+    "text": "ideia sobre maneira -",
+    "intent": "int774",
+    "intent_prediction": {
+      "name": "int904",
+      "confidence": 0.04954981803894043
+    }
+  },
+  {
+    "text": "Pm afonso vitela – sessão . numero do código",
+    "intent": "int776",
+    "intent_prediction": {
+      "name": "int342",
+      "confidence": 0.03456127271056175
+    }
+  },
+  {
+    "text": "Protocolar recurso como fazer",
+    "intent": "int779",
+    "intent_prediction": {
+      "name": "int393",
+      "confidence": 0.2219565510749817
+    }
+  },
+  {
+    "text": "cerimonioso artifício como fazer",
+    "intent": "int779",
+    "intent_prediction": {
+      "name": "int678",
+      "confidence": 0.08348477631807327
+    }
+  },
+  {
+    "text": "standard forma como fazer",
+    "intent": "int779",
+    "intent_prediction": {
+      "name": "int328",
+      "confidence": 0.10277963429689407
+    }
+  },
+  {
+    "text": "01/10 de que modo o total de Ricardo Henrique da DAG",
+    "intent": "int781",
+    "intent_prediction": {
+      "name": "int158",
+      "confidence": 0.06385543942451477
+    }
+  },
+  {
+    "text": "algarismo setor de mudanças",
+    "intent": "int782",
+    "intent_prediction": {
+      "name": "int802",
+      "confidence": 0.07373178005218506
+    }
+  },
+  {
+    "text": "soma setor de meios de transporte",
+    "intent": "int782",
+    "intent_prediction": {
+      "name": "int370",
+      "confidence": 0.035928405821323395
+    }
+  },
+  {
+    "text": "que o cifra do Gab Dra Luciana",
+    "intent": "int783",
+    "intent_prediction": {
+      "name": "int402",
+      "confidence": 0.09750500321388245
+    }
+  },
+  {
+    "text": "Qual o subdivisão da poder -",
+    "intent": "int787",
+    "intent_prediction": {
+      "name": "int865",
+      "confidence": 0.08172877877950668
+    }
+  },
+  {
+    "text": "estimaria de pronunciar com Davi .",
+    "intent": "int791",
+    "intent_prediction": {
+      "name": "int320",
+      "confidence": 0.052186787128448486
+    }
+  },
+  {
+    "text": "Alana – processo seletivo de pós graduação , resultado .",
+    "intent": "int795",
+    "intent_prediction": {
+      "name": "int818",
+      "confidence": 0.0599958561360836
+    }
+  },
+  {
+    "text": "Alana – processo seletivo de pós posição , efeito .",
+    "intent": "int795",
+    "intent_prediction": {
+      "name": "int907",
+      "confidence": 0.07630489766597748
+    }
+  },
+  {
+    "text": "Informações sobre o concurso",
+    "intent": "int799",
+    "intent_prediction": {
+      "name": "int630",
+      "confidence": 0.08534761518239975
+    }
+  },
+  {
+    "text": "referências sobre o disputa",
+    "intent": "int799",
+    "intent_prediction": {
+      "name": "int774",
+      "confidence": 0.03284717723727226
+    }
+  },
+  {
+    "text": "assadeira – Aurélio – contato do formalidade geral -",
+    "intent": "int800",
+    "intent_prediction": {
+      "name": "int870",
+      "confidence": 0.09841632843017578
+    }
+  },
+  {
+    "text": "assadeiro – Aurélio – contato do etiqueta geral -",
+    "intent": "int800",
+    "intent_prediction": {
+      "name": "int822",
+      "confidence": 0.05239102989435196
+    }
+  },
+  {
+    "text": "assador – Aurélio – contato do cerimonial geral -",
+    "intent": "int800",
+    "intent_prediction": {
+      "name": "int791",
+      "confidence": 0.03935438394546509
+    }
+  },
+  {
+    "text": "Qual o telefone da procuradoria ?",
+    "intent": "int802",
+    "intent_prediction": {
+      "name": "int787",
+      "confidence": 0.10045584291219711
+    }
+  },
+  {
+    "text": "quejando o contacto da procuradoria ?",
+    "intent": "int802",
+    "intent_prediction": {
+      "name": "int820",
+      "confidence": 0.10513408482074738
+    }
+  },
+  {
+    "text": "Qual o aparelho de Eduardo – dir de atos e ações",
+    "intent": "int806",
+    "intent_prediction": {
+      "name": "int134",
+      "confidence": 0.05703320354223251
+    }
+  },
+  {
+    "text": "Telefone da dd -",
+    "intent": "int808",
+    "intent_prediction": {
+      "name": "int787",
+      "confidence": 0.04123879596590996
+    }
+  },
+  {
+    "text": "contato da dd -",
+    "intent": "int808",
+    "intent_prediction": {
+      "name": "int648",
+      "confidence": 0.06446216255426407
+    }
+  },
+  {
+    "text": "Falar com ouvidoria",
+    "intent": "int809",
+    "intent_prediction": {
+      "name": "int865",
+      "confidence": 0.07983209192752838
+    }
+  },
+  {
+    "text": "pronunciar com ouvidoria",
+    "intent": "int809",
+    "intent_prediction": {
+      "name": "int393",
+      "confidence": 0.11104081571102142
+    }
+  },
+  {
+    "text": "Débora – adv – festa de troça -",
+    "intent": "int813",
+    "intent_prediction": {
+      "name": "int793",
+      "confidence": 0.05698172375559807
+    }
+  },
+  {
+    "text": "Contato da DAÍ .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int372",
+      "confidence": 0.048164285719394684
+    }
+  },
+  {
+    "text": "toque da por isso .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int329",
+      "confidence": 0.030783163383603096
+    }
+  },
+  {
+    "text": "tocadela da a seguir .",
+    "intent": "int820",
+    "intent_prediction": {
+      "name": "int352",
+      "confidence": 0.04496932402253151
+    }
+  },
+  {
+    "text": "toque do MP perto ao TCE",
+    "intent": "int823",
+    "intent_prediction": {
+      "name": "int329",
+      "confidence": 0.04843174293637276
+    }
+  },
+  {
+    "text": "tocadela do MP vizinho ao TCE",
+    "intent": "int823",
+    "intent_prediction": {
+      "name": "int56",
+      "confidence": 0.08383727818727493
+    }
+  },
+  {
+    "text": "Usuário entrou em contato pretendendo o núm do contato do Gab . Dra Adelia",
+    "intent": "int825",
+    "intent_prediction": {
+      "name": "int685",
+      "confidence": 0.14564894139766693
+    }
+  },
+  {
+    "text": "Usuário gostaria de saber se tem modelo pra petição de denuncia ?",
+    "intent": "int829",
+    "intent_prediction": {
+      "name": "int69",
+      "confidence": 0.04623828083276749
+    }
+  },
+  {
+    "text": "Fábio – introdução de ideias do fundeb .",
+    "intent": "int830",
+    "intent_prediction": {
+      "name": "int793",
+      "confidence": 0.04760906845331192
+    }
+  },
+  {
+    "text": "como destituir um usuário gerenciador",
+    "intent": "int832",
+    "intent_prediction": {
+      "name": "int374",
+      "confidence": 0.06592875719070435
+    }
+  },
+  {
+    "text": "qual o horário de atividade do formalidade",
+    "intent": "int839",
+    "intent_prediction": {
+      "name": "int799",
+      "confidence": 0.04314659535884857
+    }
+  },
+  {
+    "text": "qual o horário de trabalho do código",
+    "intent": "int839",
+    "intent_prediction": {
+      "name": "int779",
+      "confidence": 0.08474958688020706
+    }
+  },
+  {
+    "text": "Lucas – consulta de locais sobre coleta de lixo pra atualização",
+    "intent": "int842",
+    "intent_prediction": {
+      "name": "int351",
+      "confidence": 0.058149270713329315
+    }
+  },
+  {
+    "text": "Lucas – caça de locais sobre coleta de lixo pra modernização",
+    "intent": "int842",
+    "intent_prediction": {
+      "name": "int730",
+      "confidence": 0.03905948996543884
+    }
+  },
+  {
+    "text": "Usuária adoraria de saber se estava tendo seção no tribunal .",
+    "intent": "int852",
+    "intent_prediction": {
+      "name": "int788",
+      "confidence": 0.08715134114027023
+    }
+  },
+  {
+    "text": "Usuária casaria de saber se estava tendo seção no inteiro .",
+    "intent": "int852",
+    "intent_prediction": {
+      "name": "int893",
+      "confidence": 0.03833548352122307
+    }
+  },
+  {
+    "text": "Qual a hora da divisão do total -",
+    "intent": "int853",
+    "intent_prediction": {
+      "name": "int793",
+      "confidence": 0.06322381645441055
+    }
+  },
+  {
+    "text": "Qual a hora da secionamento do íntegro -",
+    "intent": "int853",
+    "intent_prediction": {
+      "name": "int874",
+      "confidence": 0.10639473050832748
+    }
+  },
+  {
+    "text": "O setor do etiqueta atua até que horas ?",
+    "intent": "int859",
+    "intent_prediction": {
+      "name": "int902",
+      "confidence": 0.05905331298708916
+    }
+  },
+  {
+    "text": "08/12 - Romulo – o prazo processual é narrado em dias expulsos ou úteis ?",
+    "intent": "int861",
+    "intent_prediction": {
+      "name": "int552",
+      "confidence": 0.06278658658266068
+    }
+  },
+  {
+    "text": "Qual o horário de apoio ? para emissão de certidão de preenchimento .",
+    "intent": "int868",
+    "intent_prediction": {
+      "name": "int807",
+      "confidence": 0.1002429947257042
+    }
+  },
+  {
+    "text": "telefone do Gab cons Adélia",
+    "intent": "int870",
+    "intent_prediction": {
+      "name": "int782",
+      "confidence": 0.06680486351251602
+    }
+  },
+  {
+    "text": "aparelho do Gab cons Adélia",
+    "intent": "int870",
+    "intent_prediction": {
+      "name": "int729",
+      "confidence": 0.03279192000627518
+    }
+  },
+  {
+    "text": "Como faz pra se pedir no TCE sendo servidor retirado .",
+    "intent": "int875",
+    "intent_prediction": {
+      "name": "int631",
+      "confidence": 0.048567626625299454
+    }
+  },
+  {
+    "text": "Daniel - Qual o email do caj",
+    "intent": "int888",
+    "intent_prediction": {
+      "name": "int911",
+      "confidence": 0.06932579725980759
+    }
+  },
+  {
+    "text": "acusação para pagar multa – ele e ex gestor e apreciaria de saber se pode parcelar -",
+    "intent": "int902",
+    "intent_prediction": {
+      "name": "int332",
+      "confidence": 0.06967506557703018
+    }
+  },
+  {
+    "text": "Maria celia – quebra-cabeças publicação",
+    "intent": "int904",
+    "intent_prediction": {
+      "name": "int56",
+      "confidence": 0.07598274201154709
+    }
+  },
+  {
+    "text": "hop dr cleodon - ar de 2017 com problema e inquisição se precisa repercutir -",
+    "intent": "int905",
+    "intent_prediction": {
+      "name": "int22",
+      "confidence": 0.05040157958865166
+    }
+  },
+  {
+    "text": "Senha de em combate a pré-datado do tce .",
+    "intent": "int912",
+    "intent_prediction": {
+      "name": "int324",
+      "confidence": 0.030367163941264153
+    }
+  },
+  {
+    "text": "24/03 PM Mossoró – siope – receita corrente – a do siope está inferior a do",
+    "intent": "int914",
+    "intent_prediction": {
+      "name": "int425",
+      "confidence": 0.1078815758228302
+    }
+  },
+  {
+    "text": "Cm são Miguel – Felipe - Numero do setor buraco ?",
+    "intent": "int916",
+    "intent_prediction": {
+      "name": "int54",
+      "confidence": 0.0498715341091156
+    }
+  },
+  {
+    "text": "Cm são Miguel – Felipe - algarismo do setor aberta ?",
+    "intent": "int916",
+    "intent_prediction": {
+      "name": "int503",
+      "confidence": 0.044750913977622986
+    }
+  },
+  {
+    "text": "PM monte alegre Cadastro Gerenciador09642086441 - Ruan Pablo Medeiros",
+    "intent": "int919",
+    "intent_prediction": {
+      "name": "int723",
+      "confidence": 0.04911079257726669
+    }
+  }
+]
