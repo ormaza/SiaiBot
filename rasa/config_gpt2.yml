@@ -6,6 +6,9 @@ pipeline:
 - name: WhitespaceTokenizer
 - name: LanguageModelFeaturizer
   model_name: "gpt2"
+  #model_weights: "gpt2-xl"
+  model_weights: "gpt2-large"
+  # model_weights: "gpt2-medium"
 - name: RegexFeaturizer
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
