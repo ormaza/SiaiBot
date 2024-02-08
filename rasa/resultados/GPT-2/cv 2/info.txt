@@ -1,9 +1,0 @@
-2023-09-15 11:06:40 INFO
-2023-09-16 02:13:09 INFO     rasa.model_testing  - CV evaluation (n=2)
-2023-09-16 02:13:09 INFO     rasa.model_testing  - Intent evaluation results
-2023-09-16 02:13:09 INFO     rasa.nlu.test  - train Accuracy: 0.854 (0.048)
-2023-09-16 02:13:09 INFO     rasa.nlu.test  - train F1-score: 0.828 (0.056)
-2023-09-16 02:13:09 INFO     rasa.nlu.test  - train Precision: 0.843 (0.050)
-2023-09-16 02:13:09 INFO     rasa.nlu.test  - test Accuracy: 0.782 (0.050)
-2023-09-16 02:13:09 INFO     rasa.nlu.test  - test F1-score: 0.749 (0.059)
-2023-09-16 02:13:09 INFO     rasa.nlu.test  - test Precision: 0.767 (0.058)
